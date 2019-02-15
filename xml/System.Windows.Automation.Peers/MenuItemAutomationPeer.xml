@@ -42,11 +42,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="owner" Type="System.Windows.Controls.MenuItem" />
       </Parameters>
@@ -214,82 +209,6 @@
   
  If `patternInterface` equals <xref:System.Windows.Automation.Peers.PatternInterface.SynchronizedInput?displayProperty=nameWithType>, this method returns an object that implements the <xref:System.Windows.Automation.Provider.ISynchronizedInputProvider> interface.  
   
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetPositionInSetCore">
-      <MemberSignature Language="C#" Value="protected override int GetPositionInSetCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance int32 GetPositionInSetCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.MenuItemAutomationPeer.GetPositionInSetCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetPositionInSetCore () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override int GetPositionInSetCore();" />
-      <MemberSignature Language="F#" Value="override this.GetPositionInSetCore : unit -&gt; int" Usage="menuItemAutomationPeer.GetPositionInSetCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Gets the position of a <see cref="T:System.Windows.Controls.MenuItem" /> contained in a set.</summary>
-        <returns>The value of the <see cref="F:System.Windows.Automation.AutomationProperties.PositionInSetProperty" /> if it has been set, or its position relative to the parent <see cref="T:System.Windows.Controls.ItemsControl" /> or <see cref="T:System.Windows.Controls.GroupItem" /> control.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetSizeOfSetCore">
-      <MemberSignature Language="C#" Value="protected override int GetSizeOfSetCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance int32 GetSizeOfSetCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.MenuItemAutomationPeer.GetSizeOfSetCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetSizeOfSetCore () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override int GetSizeOfSetCore();" />
-      <MemberSignature Language="F#" Value="override this.GetSizeOfSetCore : unit -&gt; int" Usage="menuItemAutomationPeer.GetSizeOfSetCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Gets the size of a set that contains this <see cref="T:System.Windows.Controls.MenuItem" />.</summary>
-        <returns>The value of <see cref="F:System.Windows.Automation.AutomationProperties.PositionInSetProperty" /> if it has been set, or its position relative to the parent <see cref="T:System.Windows.Controls.ItemsControl" /> or <see cref="T:System.Windows.Controls.GroupItem" /> control.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IsOffscreenCore">
-      <MemberSignature Language="C#" Value="protected override bool IsOffscreenCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool IsOffscreenCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.MenuItemAutomationPeer.IsOffscreenCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsOffscreenCore () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsOffscreenCore();" />
-      <MemberSignature Language="F#" Value="override this.IsOffscreenCore : unit -&gt; bool" Usage="menuItemAutomationPeer.IsOffscreenCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Gets a value that indicates whether the <see cref="T:System.Windows.Controls.MenuItem" /> control that is associated with this <see cref="T:System.Windows.Automation.Peers.MenuItemAutomationPeer" /> object is off the screen. This method is called by <see cref="M:System.Windows.Automation.Peers.AutomationPeer.IsOffscreen" />.</summary>
-        <returns>
-          <see langword="true" /> if the element is not on the screen; otherwise, <see langword="false" />.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
-
-This method does not indicate whether the element is visible.
-In some circumstances, the element can be on the screen but still not be visible (for example, an element that is obscured by other elements).
-
  ]]></format>
         </remarks>
       </Docs>

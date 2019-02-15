@@ -10,6 +10,7 @@
     <AssemblyVersion>1.4.1.0</AssemblyVersion>
     <AssemblyVersion>1.4.2.0</AssemblyVersion>
     <AssemblyVersion>1.4.3.0</AssemblyVersion>
+    <AssemblyVersion>1.4.4.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TType" />
@@ -38,6 +39,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TType</ReturnType>
@@ -67,6 +69,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TType</ReturnType>
@@ -76,33 +79,6 @@
       </Parameters>
       <Docs>
         <param name="elementType">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetGenericInstance">
-      <MemberSignature Language="C#" Value="public TType GetGenericInstance (TType genericType, System.Collections.Immutable.ImmutableArray&lt;TType&gt; typeArguments);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TType GetGenericInstance(!TType genericType, valuetype System.Collections.Immutable.ImmutableArray`1&lt;!TType&gt; typeArguments) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.IConstructedTypeProvider`1.GetGenericInstance(`0,System.Collections.Immutable.ImmutableArray{`0})" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetGenericInstance (genericType As TType, typeArguments As ImmutableArray(Of TType)) As TType" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; TType GetGenericInstance(TType genericType, System::Collections::Immutable::ImmutableArray&lt;TType&gt; typeArguments);" />
-      <MemberSignature Language="F#" Value="abstract member GetGenericInstance : 'ype * System.Collections.Immutable.ImmutableArray&lt;'ype&gt; -&gt; 'ype" Usage="iConstructedTypeProvider.GetGenericInstance (genericType, typeArguments)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Metadata</AssemblyName>
-        <AssemblyVersion>1.4.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>TType</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="genericType" Type="TType" />
-        <Parameter Name="typeArguments" Type="System.Collections.Immutable.ImmutableArray&lt;TType&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="genericType">To be added.</param>
-        <param name="typeArguments">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -120,6 +96,7 @@
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TType</ReturnType>
@@ -149,6 +126,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TType</ReturnType>

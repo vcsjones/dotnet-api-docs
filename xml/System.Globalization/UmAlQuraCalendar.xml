@@ -1,6 +1,6 @@
 ﻿<Type Name="UmAlQuraCalendar" FullName="System.Globalization.UmAlQuraCalendar">
   <TypeSignature Language="C#" Value="public class UmAlQuraCalendar : System.Globalization.Calendar" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit UmAlQuraCalendar extends System.Globalization.Calendar" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UmAlQuraCalendar extends System.Globalization.Calendar" />
   <TypeSignature Language="DocId" Value="T:System.Globalization.UmAlQuraCalendar" />
   <TypeSignature Language="VB.NET" Value="Public Class UmAlQuraCalendar&#xA;Inherits Calendar" />
   <TypeSignature Language="C++ CLI" Value="public ref class UmAlQuraCalendar : System::Globalization::Calendar" />
@@ -29,11 +29,6 @@
     <BaseTypeName>System.Globalization.Calendar</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents the Saudi Hijri (Um Al Qura) calendar.</summary>
     <remarks>

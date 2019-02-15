@@ -12,6 +12,7 @@
     <AssemblyVersion>4.6.1.0</AssemblyVersion>
     <AssemblyVersion>4.6.2.0</AssemblyVersion>
     <AssemblyVersion>4.6.3.0</AssemblyVersion>
+    <AssemblyVersion>4.6.4.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="T" />
@@ -42,14 +43,6 @@
       <InterfaceName>System.Threading.Tasks.Dataflow.ITargetBlock&lt;TInput&gt;</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{DebuggerDisplayContent,nq}")</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Threading.Tasks.Dataflow.BroadcastBlock`1/DebugView))</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <typeparam name="T">Specifies the type of the data buffered by this dataflow block.</typeparam>
     <summary>Provides a buffer for storing at most one element at time, overwriting each message with the next as it arrives.</summary>
@@ -81,6 +74,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="cloningFunction" Type="System.Func&lt;T,T&gt;" />
@@ -105,6 +99,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="cloningFunction" Type="System.Func&lt;T,T&gt;" />
@@ -136,6 +131,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -171,6 +167,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -206,6 +203,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IDisposable</ReturnType>
@@ -240,6 +238,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -275,6 +274,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -316,6 +316,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -363,6 +364,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -405,6 +407,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -452,6 +455,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Dataflow.DataflowMessageStatus</ReturnType>
@@ -496,6 +500,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -529,6 +534,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

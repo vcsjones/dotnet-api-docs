@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.ComboBoxAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class ComboBoxAutomationPeer&#xA;Inherits SelectorAutomationPeer&#xA;Implements IExpandCollapseProvider, IValueProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class ComboBoxAutomationPeer : System::Windows::Automation::Peers::SelectorAutomationPeer, System::Windows::Automation::Provider::IExpandCollapseProvider, System::Windows::Automation::Provider::IValueProvider" />
-  <TypeSignature Language="F#" Value="type ComboBoxAutomationPeer = class&#xA;    inherit SelectorAutomationPeer&#xA;    interface IValueProvider&#xA;    interface IExpandCollapseProvider" />
+  <TypeSignature Language="F#" Value="type ComboBoxAutomationPeer = class&#xA;    inherit SelectorAutomationPeer&#xA;    interface IExpandCollapseProvider&#xA;    interface IValueProvider" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -39,11 +39,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="owner" Type="System.Windows.Controls.ComboBox" />
       </Parameters>

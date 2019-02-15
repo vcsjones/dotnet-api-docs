@@ -318,11 +318,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="type" Type="System.Type" />
       </Parameters>
@@ -495,11 +490,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="type" Type="System.Type" />
         <Parameter Name="extraTypes" Type="System.Type[]" />
@@ -683,11 +673,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="type" Type="System.Type" />
         <Parameter Name="overrides" Type="System.Xml.Serialization.XmlAttributeOverrides" />
@@ -759,11 +744,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="type" Type="System.Type" />
         <Parameter Name="overrides" Type="System.Xml.Serialization.XmlAttributeOverrides" />
@@ -781,61 +761,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <param name="location">The location of the types.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Xml.Serialization.XmlSerializer" /> class that can serialize objects of type <see cref="T:System.Object" /> into XML document instances, and deserialize XML document instances into objects of type <see cref="T:System.Object" />. Each object to be serialized can itself contain instances of classes, which this overload overrides with other classes. This overload also specifies the default namespace for all the XML elements and the class to use as the XML root element.</summary>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public XmlSerializer (Type type, System.Xml.Serialization.XmlAttributeOverrides overrides, Type[] extraTypes, System.Xml.Serialization.XmlRootAttribute root, string defaultNamespace, string location, System.Security.Policy.Evidence evidence);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Type type, class System.Xml.Serialization.XmlAttributeOverrides overrides, class System.Type[] extraTypes, class System.Xml.Serialization.XmlRootAttribute root, string defaultNamespace, string location, class System.Security.Policy.Evidence evidence) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.#ctor(System.Type,System.Xml.Serialization.XmlAttributeOverrides,System.Type[],System.Xml.Serialization.XmlRootAttribute,System.String,System.String,System.Security.Policy.Evidence)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; XmlSerializer(Type ^ type, System::Xml::Serialization::XmlAttributeOverrides ^ overrides, cli::array &lt;Type ^&gt; ^ extraTypes, System::Xml::Serialization::XmlRootAttribute ^ root, System::String ^ defaultNamespace, System::String ^ location, System::Security::Policy::Evidence ^ evidence);" />
-      <MemberSignature Language="F#" Value="new System.Xml.Serialization.XmlSerializer : Type * System.Xml.Serialization.XmlAttributeOverrides * Type[] * System.Xml.Serialization.XmlRootAttribute * string * string * System.Security.Policy.Evidence -&gt; System.Xml.Serialization.XmlSerializer" Usage="new System.Xml.Serialization.XmlSerializer (type, overrides, extraTypes, root, defaultNamespace, location, evidence)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.Serialization</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use a XmlSerializer constructor overload which does not take an Evidence parameter. See http://go2.microsoft.com/fwlink/?LinkId=131738 for more information.")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <Parameters>
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="overrides" Type="System.Xml.Serialization.XmlAttributeOverrides" />
-        <Parameter Name="extraTypes" Type="System.Type[]" />
-        <Parameter Name="root" Type="System.Xml.Serialization.XmlRootAttribute" />
-        <Parameter Name="defaultNamespace" Type="System.String" />
-        <Parameter Name="location" Type="System.String" />
-        <Parameter Name="evidence" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="type">The type of the object that this <see cref="T:System.Xml.Serialization.XmlSerializer" /> can serialize.</param>
-        <param name="overrides">An <see cref="T:System.Xml.Serialization.XmlAttributeOverrides" /> that extends or overrides the behavior of the class specified in the <paramref name="type" /> parameter.</param>
-        <param name="extraTypes">A <see cref="T:System.Type" /> array of additional object types to serialize.</param>
-        <param name="root">An <see cref="T:System.Xml.Serialization.XmlRootAttribute" /> that defines the XML root element properties.</param>
-        <param name="defaultNamespace">The default namespace of all XML elements in the XML document.</param>
-        <param name="location">The location of the types.</param>
-        <param name="evidence">An instance of the <see cref="T:System.Security.Policy.Evidence" /> class that contains credentials required to access types.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Xml.Serialization.XmlSerializer" /> class that can serialize objects of the specified type into XML document instances, and deserialize XML document instances into objects of the specified type. This overload allows you to supply other types that can be encountered during a serialization or deserialization operation, as well as a default namespace for all XML elements, the class to use as the XML root element, its location, and credentials required for access.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- Allows more precise control over access to a temporary directory and prevents code injection and exploitation. To use this method, specify a location and give access only to specific users. Administrators can set up policies with evidence lists that match evidence to permissions.  
-  
- ]]></format>
-        </remarks>
       </Docs>
     </Member>
     <Member MemberName="CanDeserialize">
@@ -1202,11 +1127,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -1341,11 +1261,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -1454,11 +1369,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Xml.Serialization.XmlSerializer[]</ReturnType>
       </ReturnValue>
@@ -1469,48 +1379,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         <param name="mappings">An array of <see cref="T:System.Xml.Serialization.XmlTypeMapping" /> that maps one type to another.</param>
         <summary>Returns an array of <see cref="T:System.Xml.Serialization.XmlSerializer" /> objects created from an array of <see cref="T:System.Xml.Serialization.XmlTypeMapping" /> objects.</summary>
         <returns>An array of <see cref="T:System.Xml.Serialization.XmlSerializer" /> objects.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="FromMappings">
-      <MemberSignature Language="C#" Value="public static System.Xml.Serialization.XmlSerializer[] FromMappings (System.Xml.Serialization.XmlMapping[] mappings, System.Security.Policy.Evidence evidence);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Xml.Serialization.XmlSerializer[] FromMappings(class System.Xml.Serialization.XmlMapping[] mappings, class System.Security.Policy.Evidence evidence) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[],System.Security.Policy.Evidence)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Xml::Serialization::XmlSerializer ^&gt; ^ FromMappings(cli::array &lt;System::Xml::Serialization::XmlMapping ^&gt; ^ mappings, System::Security::Policy::Evidence ^ evidence);" />
-      <MemberSignature Language="F#" Value="static member FromMappings : System.Xml.Serialization.XmlMapping[] * System.Security.Policy.Evidence -&gt; System.Xml.Serialization.XmlSerializer[]" Usage="System.Xml.Serialization.XmlSerializer.FromMappings (mappings, evidence)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.Serialization</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use an overload of FromMappings which does not take an Evidence parameter. See http://go2.microsoft.com/fwlink/?LinkId=131738 for more information.")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Xml.Serialization.XmlSerializer[]</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="mappings" Type="System.Xml.Serialization.XmlMapping[]" />
-        <Parameter Name="evidence" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="mappings">An array of <see cref="T:System.Xml.Serialization.XmlMapping" /> objects used to map one type to another.</param>
-        <param name="evidence">An instance of the <see cref="T:System.Security.Policy.Evidence" /> class that contains host and assembly data presented to the common language runtime policy system.</param>
-        <summary>Returns an instance of the <see cref="T:System.Xml.Serialization.XmlSerializer" /> class created from mappings of one XML type to another.</summary>
-        <returns>An instance of the <see cref="T:System.Xml.Serialization.XmlSerializer" /> class.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1636,82 +1504,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
         </remarks>
       </Docs>
     </MemberGroup>
-    <Member MemberName="GenerateSerializer">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly GenerateSerializer (Type[] types, System.Xml.Serialization.XmlMapping[] mappings);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly GenerateSerializer(class System.Type[] types, class System.Xml.Serialization.XmlMapping[] mappings) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.GenerateSerializer(System.Type[],System.Xml.Serialization.XmlMapping[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateSerializer (types As Type(), mappings As XmlMapping()) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ GenerateSerializer(cli::array &lt;Type ^&gt; ^ types, cli::array &lt;System::Xml::Serialization::XmlMapping ^&gt; ^ mappings);" />
-      <MemberSignature Language="F#" Value="static member GenerateSerializer : Type[] * System.Xml.Serialization.XmlMapping[] -&gt; System.Reflection.Assembly" Usage="System.Xml.Serialization.XmlSerializer.GenerateSerializer (types, mappings)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.Serialization</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="types" Type="System.Type[]" />
-        <Parameter Name="mappings" Type="System.Xml.Serialization.XmlMapping[]" />
-      </Parameters>
-      <Docs>
-        <param name="types">A collection of types.</param>
-        <param name="mappings">A collection of <see cref="T:System.Xml.Serialization.XmlMapping" /> objects used to convert one type to another.</param>
-        <summary>Returns an assembly that contains custom-made serializers used to serialize or deserialize the specified type or types, using the specified mappings.</summary>
-        <returns>An <see cref="T:System.Reflection.Assembly" /> object that contains serializers for the supplied types and mappings.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GenerateSerializer">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly GenerateSerializer (Type[] types, System.Xml.Serialization.XmlMapping[] mappings, System.CodeDom.Compiler.CompilerParameters parameters);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly GenerateSerializer(class System.Type[] types, class System.Xml.Serialization.XmlMapping[] mappings, class System.CodeDom.Compiler.CompilerParameters parameters) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.XmlSerializer.GenerateSerializer(System.Type[],System.Xml.Serialization.XmlMapping[],System.CodeDom.Compiler.CompilerParameters)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateSerializer (types As Type(), mappings As XmlMapping(), parameters As CompilerParameters) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ GenerateSerializer(cli::array &lt;Type ^&gt; ^ types, cli::array &lt;System::Xml::Serialization::XmlMapping ^&gt; ^ mappings, System::CodeDom::Compiler::CompilerParameters ^ parameters);" />
-      <MemberSignature Language="F#" Value="static member GenerateSerializer : Type[] * System.Xml.Serialization.XmlMapping[] * System.CodeDom.Compiler.CompilerParameters -&gt; System.Reflection.Assembly" Usage="System.Xml.Serialization.XmlSerializer.GenerateSerializer (types, mappings, parameters)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.XmlSerializer</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.Serialization</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="types" Type="System.Type[]" />
-        <Parameter Name="mappings" Type="System.Xml.Serialization.XmlMapping[]" />
-        <Parameter Name="parameters" Type="System.CodeDom.Compiler.CompilerParameters" />
-      </Parameters>
-      <Docs>
-        <param name="types">An array of type <see cref="T:System.Type" /> that contains objects used to serialize and deserialize data.</param>
-        <param name="mappings">An array of type <see cref="T:System.Xml.Serialization.XmlMapping" /> that maps the XML data to the type data.</param>
-        <param name="parameters">An instance of the <see cref="T:System.CodeDom.Compiler.CompilerParameters" /> class that represents the parameters used to invoke a compiler.</param>
-        <summary>Returns an assembly that contains custom-made serializers used to serialize or deserialize the specified type or types, using the specified mappings and compiler settings and options.</summary>
-        <returns>An <see cref="T:System.Reflection.Assembly" /> that contains special versions of the <see cref="T:System.Xml.Serialization.XmlSerializer" />.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <MemberGroup MemberName="GetXmlSerializerAssemblyName">
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1757,11 +1549,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1870,11 +1657,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1956,11 +1738,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2078,11 +1855,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2314,11 +2086,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2390,11 +2157,6 @@ xmlSerializer mySerializer=new XmlSerializer(typeof(LargeNumbers));
       <AssemblyInfo>
         <AssemblyName>System.Xml.Serialization</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

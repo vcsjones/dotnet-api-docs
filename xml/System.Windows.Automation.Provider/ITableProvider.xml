@@ -15,17 +15,6 @@
       <InterfaceName>System.Windows.Automation.Provider.IGridProvider</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("9c860395-97b3-490a-b52a-858cc22af166")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Exposes methods and properties to support UI Automation client access to controls that act as containers for a collection of child elements. The children of this element must implement <see cref="T:System.Windows.Automation.Provider.ITableItemProvider" /> and be organized in a two-dimensional logical coordinate system that can be traversed (that is, a UI Automation client can move to adjacent controls) by using the keyboard.</summary>
     <remarks>

@@ -37,11 +37,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.DataGridColumn" /> class.</summary>
@@ -340,14 +335,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Data.BindingBase</ReturnType>
       </ReturnValue>
@@ -387,7 +374,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Windows.Controls.DataGridCellClipboardEventArgs&gt; CopyingCellClipboardContent;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Windows.Controls.DataGridCellClipboardEventArgs&gt; CopyingCellClipboardContent" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.DataGridColumn.CopyingCellClipboardContent" />
-      <MemberSignature Language="VB.NET" Value="Public Event CopyingCellClipboardContent As EventHandler(Of DataGridCellClipboardEventArgs) " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CopyingCellClipboardContent As EventHandler(Of DataGridCellClipboardEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Windows::Controls::DataGridCellClipboardEventArgs ^&gt; ^ CopyingCellClipboardContent;" />
       <MemberSignature Language="F#" Value="member this.CopyingCellClipboardContent : EventHandler&lt;System.Windows.Controls.DataGridCellClipboardEventArgs&gt; " Usage="member this.CopyingCellClipboardContent : System.EventHandler&lt;System.Windows.Controls.DataGridCellClipboardEventArgs&gt; " />
       <MemberType>Event</MemberType>
@@ -422,14 +409,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.DataGrid</ReturnType>
       </ReturnValue>
@@ -1311,7 +1290,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Windows.Controls.DataGridCellClipboardEventArgs&gt; PastingCellClipboardContent;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Windows.Controls.DataGridCellClipboardEventArgs&gt; PastingCellClipboardContent" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.DataGridColumn.PastingCellClipboardContent" />
-      <MemberSignature Language="VB.NET" Value="Public Event PastingCellClipboardContent As EventHandler(Of DataGridCellClipboardEventArgs) " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event PastingCellClipboardContent As EventHandler(Of DataGridCellClipboardEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Windows::Controls::DataGridCellClipboardEventArgs ^&gt; ^ PastingCellClipboardContent;" />
       <MemberSignature Language="F#" Value="member this.PastingCellClipboardContent : EventHandler&lt;System.Windows.Controls.DataGridCellClipboardEventArgs&gt; " Usage="member this.PastingCellClipboardContent : System.EventHandler&lt;System.Windows.Controls.DataGridCellClipboardEventArgs&gt; " />
       <MemberType>Event</MemberType>

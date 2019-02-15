@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Configuration.SettingsPropertyCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class SettingsPropertyCollection&#xA;Implements ICloneable, ICollection" />
   <TypeSignature Language="C++ CLI" Value="public ref class SettingsPropertyCollection : ICloneable, System::Collections::ICollection" />
-  <TypeSignature Language="F#" Value="type SettingsPropertyCollection = class&#xA;    interface ICloneable&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type SettingsPropertyCollection = class&#xA;    interface IEnumerable&#xA;    interface ICloneable&#xA;    interface ICollection" />
   <AssemblyInfo>
     <AssemblyName>System</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

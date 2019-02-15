@@ -12,11 +12,6 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("06A9C74B-5E32-4561-BE73-381B37869F4F")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Enables interaction with the user interface of the development environment object that is hosting the designer.</summary>
     <remarks>

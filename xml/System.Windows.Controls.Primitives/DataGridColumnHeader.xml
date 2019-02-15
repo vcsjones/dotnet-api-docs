@@ -1,6 +1,6 @@
 ﻿<Type Name="DataGridColumnHeader" FullName="System.Windows.Controls.Primitives.DataGridColumnHeader">
   <TypeSignature Language="C#" Value="public class DataGridColumnHeader : System.Windows.Controls.Primitives.ButtonBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi DataGridColumnHeader extends System.Windows.Controls.Primitives.ButtonBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataGridColumnHeader extends System.Windows.Controls.Primitives.ButtonBase" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Primitives.DataGridColumnHeader" />
   <TypeSignature Language="VB.NET" Value="Public Class DataGridColumnHeader&#xA;Inherits ButtonBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class DataGridColumnHeader : System::Windows::Controls::Primitives::ButtonBase" />
@@ -101,18 +101,10 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Controls::DataGridColumn ^ Column { System::Windows::Controls::DataGridColumn ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Column : System.Windows.Controls.DataGridColumn" Usage="System.Windows.Controls.Primitives.DataGridColumnHeader.Column" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Windows.Controls.IProvideDataGridColumn.Column</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.DataGridColumn</ReturnType>
       </ReturnValue>

@@ -1,6 +1,6 @@
 ﻿<Type Name="PresentationSource" FullName="System.Windows.PresentationSource">
   <TypeSignature Language="C#" Value="public abstract class PresentationSource : System.Windows.Threading.DispatcherObject" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract PresentationSource extends System.Windows.Threading.DispatcherObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit PresentationSource extends System.Windows.Threading.DispatcherObject" />
   <TypeSignature Language="DocId" Value="T:System.Windows.PresentationSource" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class PresentationSource&#xA;Inherits DispatcherObject" />
   <TypeSignature Language="C++ CLI" Value="public ref class PresentationSource abstract : System::Windows::Threading::DispatcherObject" />
@@ -33,11 +33,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Provides initialization for base class values when called by the constructor of a derived class.</summary>
@@ -86,11 +81,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -159,14 +149,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>get: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Media.CompositionTarget</ReturnType>
       </ReturnValue>
@@ -190,7 +172,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler ContentRendered;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ContentRendered" />
       <MemberSignature Language="DocId" Value="E:System.Windows.PresentationSource.ContentRendered" />
-      <MemberSignature Language="VB.NET" Value="Public Event ContentRendered As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ContentRendered As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ ContentRendered;" />
       <MemberSignature Language="F#" Value="member this.ContentRendered : EventHandler " Usage="member this.ContentRendered : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -220,11 +202,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>get: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerable</ReturnType>
       </ReturnValue>
@@ -256,11 +233,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.PresentationSource</ReturnType>
       </ReturnValue>
@@ -287,11 +259,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.PresentationSource</ReturnType>
       </ReturnValue>
@@ -436,14 +403,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Security.SecurityTreatAsSafe</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -484,11 +443,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>set: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Media.Visual</ReturnType>
       </ReturnValue>

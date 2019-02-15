@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Linq.Expressions.DynamicExpression" />
   <TypeSignature Language="VB.NET" Value="Public Class DynamicExpression&#xA;Inherits Expression&#xA;Implements IDynamicExpression" />
   <TypeSignature Language="C++ CLI" Value="public ref class DynamicExpression : System::Linq::Expressions::Expression, System::Linq::Expressions::IDynamicExpression" />
-  <TypeSignature Language="F#" Value="type DynamicExpression = class&#xA;    inherit Expression&#xA;    interface IDynamicExpression&#xA;    interface IArgumentProvider" />
+  <TypeSignature Language="F#" Value="type DynamicExpression = class&#xA;    inherit Expression&#xA;    interface IArgumentProvider&#xA;    interface IDynamicExpression" />
   <AssemblyInfo>
     <AssemblyName>System.Dynamic.Runtime</AssemblyName>
     <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -34,11 +34,6 @@
       <InterfaceName>System.Linq.Expressions.IDynamicExpression</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Linq.Expressions.Expression/DynamicExpressionProxy))</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a dynamic operation.</summary>
     <remarks>To be added.</remarks>
@@ -116,11 +111,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Linq.Expressions.Expression&gt;</ReturnType>
       </ReturnValue>
@@ -156,11 +146,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Runtime.CompilerServices.CallSiteBinder</ReturnType>
       </ReturnValue>
@@ -199,11 +184,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>

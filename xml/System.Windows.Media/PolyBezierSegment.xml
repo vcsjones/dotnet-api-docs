@@ -1,6 +1,6 @@
 ﻿<Type Name="PolyBezierSegment" FullName="System.Windows.Media.PolyBezierSegment">
   <TypeSignature Language="C#" Value="public sealed class PolyBezierSegment : System.Windows.Media.PathSegment" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PolyBezierSegment extends System.Windows.Media.PathSegment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PolyBezierSegment extends System.Windows.Media.PathSegment" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.PolyBezierSegment" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PolyBezierSegment&#xA;Inherits PathSegment" />
   <TypeSignature Language="C++ CLI" Value="public ref class PolyBezierSegment sealed : System::Windows::Media::PathSegment" />
@@ -62,11 +62,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.PolyBezierSegment" /> class.</summary>
@@ -167,7 +162,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.PolyBezierSegment.CreateInstanceCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateInstanceCore () As Freezable" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Freezable ^ CreateInstanceCore();" />
-      <MemberSignature Language="F#" Value="override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="polyBezierSegment.CreateInstanceCore " />
+      <MemberSignature Language="F#" Value="abstract member CreateInstanceCore : unit -&gt; System.Windows.Freezable&#xA;override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="polyBezierSegment.CreateInstanceCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

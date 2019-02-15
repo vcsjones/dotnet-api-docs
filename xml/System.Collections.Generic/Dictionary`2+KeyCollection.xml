@@ -1,10 +1,10 @@
 ﻿<Type Name="Dictionary&lt;TKey,TValue&gt;+KeyCollection" FullName="System.Collections.Generic.Dictionary&lt;TKey,TValue&gt;+KeyCollection">
   <TypeSignature Language="C#" Value="public sealed class Dictionary&lt;TKey,TValue&gt;.KeyCollection : System.Collections.Generic.ICollection&lt;TKey&gt;, System.Collections.Generic.IEnumerable&lt;TKey&gt;, System.Collections.Generic.IReadOnlyCollection&lt;TKey&gt;, System.Collections.ICollection" />
-  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable sealed beforefieldinit Dictionary`2/KeyCollection&lt;TKey, TValue&gt; extends System.Object implements class System.Collections.Generic.ICollection`1&lt;!TKey&gt;, class System.Collections.Generic.IEnumerable`1&lt;!TKey&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;!TKey&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit Dictionary`2/KeyCollection&lt;TKey, TValue&gt; extends System.Object implements class System.Collections.Generic.ICollection`1&lt;!TKey&gt;, class System.Collections.Generic.IEnumerable`1&lt;!TKey&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;!TKey&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:System.Collections.Generic.Dictionary`2.KeyCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Dictionary(Of TKey, TValue).KeyCollection&#xA;Implements ICollection, ICollection(Of TKey), IEnumerable(Of TKey), IReadOnlyCollection(Of TKey)" />
   <TypeSignature Language="C++ CLI" Value="public: ref class Dictionary&lt;TKey, TValue&gt;::KeyCollection sealed : System::Collections::Generic::ICollection&lt;TKey&gt;, System::Collections::Generic::IEnumerable&lt;TKey&gt;, System::Collections::Generic::IReadOnlyCollection&lt;TKey&gt;, System::Collections::ICollection" />
-  <TypeSignature Language="F#" Value="type Dictionary&lt;'Key, 'Value&gt;.KeyCollection = class&#xA;    interface ICollection&lt;'Key&gt;&#xA;    interface ICollection&#xA;    interface IReadOnlyCollection&lt;'Key&gt;&#xA;    interface seq&lt;'Key&gt;&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type Dictionary&lt;'Key, 'Value&gt;.KeyCollection = class&#xA;    interface ICollection&lt;'Key&gt;&#xA;    interface seq&lt;'Key&gt;&#xA;    interface IEnumerable&#xA;    interface IReadOnlyCollection&lt;'Key&gt;&#xA;    interface ICollection" />
   <AssemblyInfo>
     <AssemblyName>System.Collections</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -49,17 +49,6 @@
       <InterfaceName>System.Collections.IEnumerable</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Diagnostics.DebuggerDisplay("Count = {Count}")</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Generic.Mscorlib_DictionaryKeyCollectionDebugView`2))</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents the collection of keys in a <see cref="T:System.Collections.Generic.Dictionary`2" />. This class cannot be inherited.</summary>
     <remarks>
@@ -186,8 +175,8 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
-        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections</AssemblyName>

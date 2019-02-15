@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Documents.TextElementCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public Class TextElementCollection(Of TextElementType)&#xA;Implements ICollection(Of TextElementType), IEnumerable(Of TextElementType), IList" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename TextElementType&gt;&#xA; where TextElementType : TextElementpublic ref class TextElementCollection : System::Collections::Generic::ICollection&lt;TextElementType&gt;, System::Collections::Generic::IEnumerable&lt;TextElementType&gt;, System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type TextElementCollection&lt;'extElementType (requires 'extElementType :&gt; TextElement)&gt; = class&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface ICollection&lt;'extElementType (requires 'extElementType :&gt; TextElement)&gt;&#xA;    interface seq&lt;'extElementType (requires 'extElementType :&gt; TextElement)&gt;" />
+  <TypeSignature Language="F#" Value="type TextElementCollection&lt;'extElementType (requires 'extElementType :&gt; TextElement)&gt; = class&#xA;    interface ICollection&lt;'extElementType (requires 'extElementType :&gt; TextElement)&gt;&#xA;    interface seq&lt;'extElementType (requires 'extElementType :&gt; TextElement)&gt;&#xA;    interface IEnumerable&#xA;    interface ICollection&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -125,8 +125,8 @@
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="textElementCollection.Clear " />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
@@ -211,8 +211,8 @@
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Windows.Documents.TextElementCollection&lt;'extElementType (requires 'extElementType :&gt; System.Windows.Documents.TextElement)&gt;.Count" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
@@ -323,8 +323,8 @@
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="System.Windows.Documents.TextElementCollection&lt;'extElementType (requires 'extElementType :&gt; System.Windows.Documents.TextElement)&gt;.IsReadOnly" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember>P:System.Collections.IList.IsReadOnly</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
+        <InterfaceMember>P:System.Collections.IList.IsReadOnly</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
@@ -429,11 +429,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -485,11 +480,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -539,11 +529,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -572,11 +557,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -630,11 +610,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -719,11 +694,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>

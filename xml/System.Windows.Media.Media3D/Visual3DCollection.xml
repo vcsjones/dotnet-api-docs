@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.Visual3DCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Visual3DCollection&#xA;Implements ICollection(Of Visual3D), IEnumerable(Of Visual3D), IList, IList(Of Visual3D)" />
   <TypeSignature Language="C++ CLI" Value="public ref class Visual3DCollection sealed : System::Collections::Generic::ICollection&lt;System::Windows::Media::Media3D::Visual3D ^&gt;, System::Collections::Generic::IEnumerable&lt;System::Windows::Media::Media3D::Visual3D ^&gt;, System::Collections::Generic::IList&lt;System::Windows::Media::Media3D::Visual3D ^&gt;, System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type Visual3DCollection = class&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList&lt;Visual3D&gt;&#xA;    interface ICollection&lt;Visual3D&gt;&#xA;    interface seq&lt;Visual3D&gt;" />
+  <TypeSignature Language="F#" Value="type Visual3DCollection = class&#xA;    interface ICollection&lt;Visual3D&gt;&#xA;    interface seq&lt;Visual3D&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;Visual3D&gt;&#xA;    interface ICollection&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -81,8 +81,8 @@
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="visual3DCollection.Clear " />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -163,8 +163,8 @@
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Windows.Media.Media3D.Visual3DCollection.Count" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -330,8 +330,8 @@
       <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="visual3DCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -771,11 +771,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>

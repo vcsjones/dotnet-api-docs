@@ -33,11 +33,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="owner" Type="System.Windows.Controls.Primitives.StatusBarItem" />
       </Parameters>
@@ -94,38 +89,6 @@
         <returns>A string that contains "StatusBarItem".</returns>
         <remarks>To be added.</remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/65847654-9994-4a9e-b36d-2dd5d998770b">UI Automation Overview</related>
-      </Docs>
-    </Member>
-    <Member MemberName="IsOffscreenCore">
-      <MemberSignature Language="C#" Value="protected override bool IsOffscreenCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool IsOffscreenCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.StatusBarItemAutomationPeer.IsOffscreenCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsOffscreenCore () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsOffscreenCore();" />
-      <MemberSignature Language="F#" Value="override this.IsOffscreenCore : unit -&gt; bool" Usage="statusBarItemAutomationPeer.IsOffscreenCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Gets a value that indicates whether the <see cref="T:System.Windows.Controls.Primitives.StatusBarItem" /> control that is associated with this <see cref="T:System.Windows.Automation.Peers.StatusBarItemAutomationPeer" /> object is off the screen. This method is called by <see cref="M:System.Windows.Automation.Peers.AutomationPeer.IsOffscreen" />.</summary>
-        <returns>
-          <see langword="true" /> if the element is not on the screen; otherwise, <see langword="false" />.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
-
-This method does not indicate whether the element is visible.
-In some circumstances, the element can be on the screen but still not be visible (for example, an element that is obscured by other elements).
-
- ]]></format>
-        </remarks>
       </Docs>
     </Member>
   </Members>

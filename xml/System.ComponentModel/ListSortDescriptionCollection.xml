@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.ComponentModel.ListSortDescriptionCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class ListSortDescriptionCollection&#xA;Implements IList" />
   <TypeSignature Language="C++ CLI" Value="public ref class ListSortDescriptionCollection : System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type ListSortDescriptionCollection = class&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type ListSortDescriptionCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>System</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -700,11 +700,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>

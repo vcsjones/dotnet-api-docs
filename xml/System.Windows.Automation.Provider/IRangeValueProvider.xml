@@ -11,17 +11,6 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("36dc7aef-33e6-4691-afe1-2be7274b3d33")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Exposes methods and properties to support UI Automation client access to controls that can be set to a value within a range.</summary>
     <remarks>

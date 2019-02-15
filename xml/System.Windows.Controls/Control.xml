@@ -1,6 +1,6 @@
 ﻿<Type Name="Control" FullName="System.Windows.Controls.Control">
   <TypeSignature Language="C#" Value="public class Control : System.Windows.FrameworkElement" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi Control extends System.Windows.FrameworkElement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Control extends System.Windows.FrameworkElement" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Control" />
   <TypeSignature Language="VB.NET" Value="Public Class Control&#xA;Inherits FrameworkElement" />
   <TypeSignature Language="C++ CLI" Value="public ref class Control : System::Windows::FrameworkElement" />
@@ -1475,11 +1475,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.ControlTemplate</ReturnType>
       </ReturnValue>
@@ -1540,7 +1535,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.Control.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="control.ToString " />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="control.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>

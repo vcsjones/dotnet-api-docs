@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Linq.Lookup`2" />
   <TypeSignature Language="VB.NET" Value="Public Class Lookup(Of TKey, TElement)&#xA;Implements IEnumerable(Of IGrouping(Of TKey, TElement)), ILookup(Of TKey, TElement)" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename TKey, typename TElement&gt;&#xA;public ref class Lookup : System::Collections::Generic::IEnumerable&lt;System::Linq::IGrouping&lt;TKey, TElement&gt; ^&gt;, System::Linq::ILookup&lt;TKey, TElement&gt;" />
-  <TypeSignature Language="F#" Value="type Lookup&lt;'Key, 'Element&gt; = class&#xA;    interface seq&lt;IGrouping&lt;'Key, 'Element&gt;&gt;&#xA;    interface ILookup&lt;'Key, 'Element&gt;&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type Lookup&lt;'Key, 'Element&gt; = class&#xA;    interface seq&lt;IGrouping&lt;'Key, 'Element&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface ILookup&lt;'Key, 'Element&gt;" />
   <AssemblyInfo>
     <AssemblyName>System.Linq</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -92,14 +92,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Linq.Lookup`2/&lt;ApplyResultSelector&gt;d__1`1))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Linq.Lookup`2/&lt;ApplyResultSelector&gt;d__13`1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TResult&gt;</ReturnType>
       </ReturnValue>
@@ -197,11 +189,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -254,14 +241,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Linq.Lookup`2/&lt;GetEnumerator&gt;d__1))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Linq.Lookup`2/&lt;GetEnumerator&gt;d__12))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Linq.IGrouping&lt;TKey,TElement&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -365,11 +344,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
       </ReturnValue>

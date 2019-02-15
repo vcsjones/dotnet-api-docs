@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.LanguageSpecificStringDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class LanguageSpecificStringDictionary&#xA;Implements ICollection(Of KeyValuePair(Of XmlLanguage, String)), IDictionary, IDictionary(Of XmlLanguage, String), IEnumerable(Of KeyValuePair(Of XmlLanguage, String))" />
   <TypeSignature Language="C++ CLI" Value="public ref class LanguageSpecificStringDictionary sealed : System::Collections::Generic::ICollection&lt;System::Collections::Generic::KeyValuePair&lt;System::Windows::Markup::XmlLanguage ^, System::String ^&gt;&gt;, System::Collections::Generic::IDictionary&lt;System::Windows::Markup::XmlLanguage ^, System::String ^&gt;, System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;System::Windows::Markup::XmlLanguage ^, System::String ^&gt;&gt;, System::Collections::IDictionary" />
-  <TypeSignature Language="F#" Value="type LanguageSpecificStringDictionary = class&#xA;    interface IDictionary&lt;XmlLanguage, string&gt;&#xA;    interface ICollection&lt;KeyValuePair&lt;XmlLanguage, string&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;XmlLanguage, string&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IDictionary&#xA;    interface ICollection" />
+  <TypeSignature Language="F#" Value="type LanguageSpecificStringDictionary = class&#xA;    interface ICollection&lt;KeyValuePair&lt;XmlLanguage, string&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;XmlLanguage, string&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IDictionary&lt;XmlLanguage, string&gt;&#xA;    interface ICollection&#xA;    interface IDictionary" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -252,6 +252,7 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Collections.Specialized.IOrderedDictionary" />
   <TypeSignature Language="VB.NET" Value="Public Interface IOrderedDictionary&#xA;Implements IDictionary" />
   <TypeSignature Language="C++ CLI" Value="public interface class IOrderedDictionary : System::Collections::IDictionary" />
-  <TypeSignature Language="F#" Value="type IOrderedDictionary = interface&#xA;    interface IDictionary&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type IOrderedDictionary = interface&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IDictionary" />
   <AssemblyInfo>
     <AssemblyName>System.Collections.Specialized</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

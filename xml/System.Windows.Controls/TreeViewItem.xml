@@ -1,6 +1,6 @@
 ﻿<Type Name="TreeViewItem" FullName="System.Windows.Controls.TreeViewItem">
   <TypeSignature Language="C#" Value="public class TreeViewItem : System.Windows.Controls.HeaderedItemsControl, System.Windows.Controls.Primitives.IHierarchicalVirtualizationAndScrollInfo" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi TreeViewItem extends System.Windows.Controls.HeaderedItemsControl implements class System.Windows.Controls.Primitives.IHierarchicalVirtualizationAndScrollInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TreeViewItem extends System.Windows.Controls.HeaderedItemsControl implements class System.Windows.Controls.Primitives.IHierarchicalVirtualizationAndScrollInfo" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.TreeViewItem" />
   <TypeSignature Language="VB.NET" Value="Public Class TreeViewItem&#xA;Inherits HeaderedItemsControl&#xA;Implements IHierarchicalVirtualizationAndScrollInfo" />
   <TypeSignature Language="C++ CLI" Value="public ref class TreeViewItem : System::Windows::Controls::HeaderedItemsControl, System::Windows::Controls::Primitives::IHierarchicalVirtualizationAndScrollInfo" />
@@ -76,11 +76,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.TreeViewItem" /> class.</summary>
@@ -288,11 +283,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -606,32 +596,6 @@
   
  ]]></format>
         </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="MeasureOverride">
-      <MemberSignature Language="C#" Value="protected override System.Windows.Size MeasureOverride (System.Windows.Size constraint);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Windows.Size MeasureOverride(valuetype System.Windows.Size constraint) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Controls.TreeViewItem.MeasureOverride(System.Windows.Size)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function MeasureOverride (constraint As Size) As Size" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Size MeasureOverride(System::Windows::Size constraint);" />
-      <MemberSignature Language="F#" Value="override this.MeasureOverride : System.Windows.Size -&gt; System.Windows.Size" Usage="treeViewItem.MeasureOverride constraint" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Windows.Size</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="constraint" Type="System.Windows.Size" />
-      </Parameters>
-      <Docs>
-        <param name="constraint">The maximum size that this element can give to child elements. Infinity can be specified as a value to indicate that the element will size to whatever content is available</param>
-        <summary>Measures the size that is required to lay out child elements.</summary>
-        <returns>The size of the control, up to the maximum specified by <paramref name="constraint" />.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="OnCollapsed">
@@ -955,33 +919,6 @@
   
  ]]></format>
         </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="PrepareContainerForItemOverride">
-      <MemberSignature Language="C#" Value="protected override void PrepareContainerForItemOverride (System.Windows.DependencyObject element, object item);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void PrepareContainerForItemOverride(class System.Windows.DependencyObject element, object item) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Controls.TreeViewItem.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub PrepareContainerForItemOverride (element As DependencyObject, item As Object)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void PrepareContainerForItemOverride(System::Windows::DependencyObject ^ element, System::Object ^ item);" />
-      <MemberSignature Language="F#" Value="override this.PrepareContainerForItemOverride : System.Windows.DependencyObject * obj -&gt; unit" Usage="treeViewItem.PrepareContainerForItemOverride (element, item)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="element" Type="System.Windows.DependencyObject" />
-        <Parameter Name="item" Type="System.Object" />
-      </Parameters>
-      <Docs>
-        <param name="element">The element that displays the specified item.</param>
-        <param name="item">The item to display.</param>
-        <summary>Prepares the specified element to display the specified item.</summary>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Selected">

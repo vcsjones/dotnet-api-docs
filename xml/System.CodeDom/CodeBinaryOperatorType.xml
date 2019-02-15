@@ -1,6 +1,6 @@
 ﻿<Type Name="CodeBinaryOperatorType" FullName="System.CodeDom.CodeBinaryOperatorType">
   <TypeSignature Language="C#" Value="public enum CodeBinaryOperatorType" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed CodeBinaryOperatorType extends System.Enum" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CodeBinaryOperatorType extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.CodeDom.CodeBinaryOperatorType" />
   <TypeSignature Language="VB.NET" Value="Public Enum CodeBinaryOperatorType" />
   <TypeSignature Language="C++ CLI" Value="public enum class CodeBinaryOperatorType" />
@@ -19,14 +19,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Defines identifiers for supported binary operators.</summary>
     <remarks>

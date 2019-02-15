@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Data.CompositeCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class CompositeCollection&#xA;Implements ICollectionViewFactory, IList, INotifyCollectionChanged, IWeakEventListener" />
   <TypeSignature Language="C++ CLI" Value="public ref class CompositeCollection : System::Collections::IList, System::Collections::Specialized::INotifyCollectionChanged, System::ComponentModel::ICollectionViewFactory, System::Windows::IWeakEventListener" />
-  <TypeSignature Language="F#" Value="type CompositeCollection = class&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface INotifyCollectionChanged&#xA;    interface ICollectionViewFactory&#xA;    interface IWeakEventListener" />
+  <TypeSignature Language="F#" Value="type CompositeCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList&#xA;    interface INotifyCollectionChanged&#xA;    interface ICollectionViewFactory&#xA;    interface IWeakEventListener" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -165,7 +165,7 @@
       <MemberSignature Language="C#" Value="protected event System.Collections.Specialized.NotifyCollectionChangedEventHandler CollectionChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Collections.Specialized.NotifyCollectionChangedEventHandler CollectionChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Data.CompositeCollection.CollectionChanged" />
-      <MemberSignature Language="VB.NET" Value="Protected Event CollectionChanged As NotifyCollectionChangedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Protected Custom Event CollectionChanged As NotifyCollectionChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; event System::Collections::Specialized::NotifyCollectionChangedEventHandler ^ CollectionChanged;" />
       <MemberSignature Language="F#" Value="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " Usage="member this.CollectionChanged : System.Collections.Specialized.NotifyCollectionChangedEventHandler " />
       <MemberType>Event</MemberType>
@@ -374,9 +374,6 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual bool ReceiveWeakEvent(Type ^ managerType, System::Object ^ sender, EventArgs ^ e);" />
       <MemberSignature Language="F#" Value="abstract member ReceiveWeakEvent : Type * obj * EventArgs -&gt; bool&#xA;override this.ReceiveWeakEvent : Type * obj * EventArgs -&gt; bool" Usage="compositeCollection.ReceiveWeakEvent (managerType, sender, e)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Windows.IWeakEventListener.ReceiveWeakEvent(System.Type,System.Object,System.EventArgs)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -614,9 +611,6 @@
       <MemberSignature Language="VB.NET" Value="Function CreateView () As ICollectionView Implements ICollectionViewFactory.CreateView" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::ComponentModel::ICollectionView ^ System.ComponentModel.ICollectionViewFactory.CreateView() = System::ComponentModel::ICollectionViewFactory::CreateView;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.ComponentModel.ICollectionViewFactory.CreateView</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -639,19 +633,11 @@
       <MemberSignature Language="VB.NET" Value="Function ReceiveWeakEvent (managerType As Type, sender As Object, e As EventArgs) As Boolean Implements IWeakEventListener.ReceiveWeakEvent" />
       <MemberSignature Language="C++ CLI" Value=" virtual bool System.Windows.IWeakEventListener.ReceiveWeakEvent(Type ^ managerType, System::Object ^ sender, EventArgs ^ e) = System::Windows::IWeakEventListener::ReceiveWeakEvent;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Windows.IWeakEventListener.ReceiveWeakEvent(System.Type,System.Object,System.EventArgs)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>

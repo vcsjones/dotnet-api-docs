@@ -1,6 +1,6 @@
 ﻿<Type Name="DataGridComboBoxColumn" FullName="System.Windows.Controls.DataGridComboBoxColumn">
   <TypeSignature Language="C#" Value="public class DataGridComboBoxColumn : System.Windows.Controls.DataGridColumn" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi DataGridComboBoxColumn extends System.Windows.Controls.DataGridColumn" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataGridComboBoxColumn extends System.Windows.Controls.DataGridColumn" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.DataGridComboBoxColumn" />
   <TypeSignature Language="VB.NET" Value="Public Class DataGridComboBoxColumn&#xA;Inherits DataGridColumn" />
   <TypeSignature Language="C++ CLI" Value="public ref class DataGridComboBoxColumn : System::Windows::Controls::DataGridColumn" />
@@ -83,11 +83,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.DataGridComboBoxColumn" /> class.</summary>
@@ -179,11 +174,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Style</ReturnType>
       </ReturnValue>
@@ -648,11 +638,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Data.BindingBase</ReturnType>
       </ReturnValue>
@@ -682,11 +667,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Data.BindingBase</ReturnType>
       </ReturnValue>
@@ -764,11 +744,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Data.BindingBase</ReturnType>
       </ReturnValue>

@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Documents.DocumentStructures.StoryFragments" />
   <TypeSignature Language="VB.NET" Value="Public Class StoryFragments&#xA;Implements IAddChild, IEnumerable(Of StoryFragment)" />
   <TypeSignature Language="C++ CLI" Value="public ref class StoryFragments : System::Collections::Generic::IEnumerable&lt;System::Windows::Documents::DocumentStructures::StoryFragment ^&gt;, System::Windows::Markup::IAddChild" />
-  <TypeSignature Language="F#" Value="type StoryFragments = class&#xA;    interface IAddChild&#xA;    interface seq&lt;StoryFragment&gt;&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type StoryFragments = class&#xA;    interface seq&lt;StoryFragment&gt;&#xA;    interface IEnumerable&#xA;    interface IAddChild" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

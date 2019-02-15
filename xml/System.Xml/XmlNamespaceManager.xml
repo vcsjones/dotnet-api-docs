@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Xml.XmlNamespaceManager" />
   <TypeSignature Language="VB.NET" Value="Public Class XmlNamespaceManager&#xA;Implements IEnumerable, IXmlNamespaceResolver" />
   <TypeSignature Language="C++ CLI" Value="public ref class XmlNamespaceManager : System::Collections::IEnumerable, System::Xml::IXmlNamespaceResolver" />
-  <TypeSignature Language="F#" Value="type XmlNamespaceManager = class&#xA;    interface IXmlNamespaceResolver&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type XmlNamespaceManager = class&#xA;    interface IEnumerable&#xA;    interface IXmlNamespaceResolver" />
   <AssemblyInfo>
     <AssemblyName>System.Xml.ReaderWriter</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -677,11 +677,6 @@ writer.WriteEndElement()
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Xml.XmlNameTable</ReturnType>
       </ReturnValue>

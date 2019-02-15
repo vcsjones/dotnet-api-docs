@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Documents.InlineCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class InlineCollection&#xA;Inherits TextElementCollection(Of Inline)&#xA;Implements IList" />
   <TypeSignature Language="C++ CLI" Value="public ref class InlineCollection : System::Windows::Documents::TextElementCollection&lt;System::Windows::Documents::Inline ^&gt;, System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type InlineCollection = class&#xA;    inherit TextElementCollection&lt;Inline&gt;&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type InlineCollection = class&#xA;    inherit TextElementCollection&lt;Inline&gt;&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

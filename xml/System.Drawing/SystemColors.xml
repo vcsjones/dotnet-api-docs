@@ -1,9 +1,9 @@
 ﻿<Type Name="SystemColors" FullName="System.Drawing.SystemColors">
-  <TypeSignature Language="C#" Value="public sealed class SystemColors" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SystemColors extends System.Object" />
+  <TypeSignature Language="C#" Value="public static class SystemColors" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SystemColors extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Drawing.SystemColors" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SystemColors" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SystemColors sealed" />
+  <TypeSignature Language="VB.NET" Value="Public Class SystemColors" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SystemColors abstract sealed" />
   <TypeSignature Language="F#" Value="type SystemColors = class" />
   <AssemblyInfo>
     <AssemblyName>System.Drawing</AssemblyName>
@@ -274,11 +274,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Drawing.Color</ReturnType>
       </ReturnValue>

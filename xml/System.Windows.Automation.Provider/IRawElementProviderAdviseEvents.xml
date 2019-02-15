@@ -15,17 +15,6 @@
       <InterfaceName>System.Windows.Automation.Provider.IRawElementProviderSimple</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("a407b27b-0f6d-4427-9292-473c7bf93258")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Exposes methods that are called to notify the root element of a fragment when a UI Automation client application begins or ends listening for events.</summary>
     <remarks>To be added.</remarks>

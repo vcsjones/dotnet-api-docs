@@ -1,10 +1,10 @@
 ﻿<Type Name="Effect" FullName="System.Windows.Media.Effects.Effect">
   <TypeSignature Language="C#" Value="public abstract class Effect : System.Windows.Media.Animation.Animatable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract Effect extends System.Windows.Media.Animation.Animatable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Effect extends System.Windows.Media.Animation.Animatable" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Effects.Effect" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Effect&#xA;Inherits Animatable" />
   <TypeSignature Language="C++ CLI" Value="public ref class Effect abstract : System::Windows::Media::Animation::Animatable" />
-  <TypeSignature Language="F#" Value="type Effect = class&#xA;    inherit Animatable&#xA;    interface DUCE.IResource" />
+  <TypeSignature Language="F#" Value="type Effect = class&#xA;    inherit Animatable" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -41,11 +41,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.Effects.Effect" /> class.</summary>
@@ -90,7 +85,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Effects.Effect.CloneCurrentValue" />
       <MemberSignature Language="VB.NET" Value="Public Function CloneCurrentValue () As Effect" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Windows::Media::Effects::Effect ^ CloneCurrentValue();" />
-      <MemberSignature Language="F#" Value="override this.CloneCurrentValue : unit -&gt; System.Windows.Media.Effects.Effect" Usage="effect.CloneCurrentValue " />
+      <MemberSignature Language="F#" Value="member this.CloneCurrentValue : unit -&gt; System.Windows.Media.Effects.Effect" Usage="effect.CloneCurrentValue " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -172,9 +167,6 @@
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

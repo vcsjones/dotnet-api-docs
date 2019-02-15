@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("5F8A77B4-E685-48c1-94D0-8BB6AFA43DF9")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Contains values that specify the orientation of a control.</summary>
     <remarks>To be added.</remarks>

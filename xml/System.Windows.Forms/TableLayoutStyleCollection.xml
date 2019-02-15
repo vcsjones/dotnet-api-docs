@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.TableLayoutStyleCollection" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class TableLayoutStyleCollection&#xA;Implements IList" />
   <TypeSignature Language="C++ CLI" Value="public ref class TableLayoutStyleCollection abstract : System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type TableLayoutStyleCollection = class&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type TableLayoutStyleCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -24,14 +24,6 @@
       <InterfaceName>System.Collections.IList</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>System.ComponentModel.Editor("System.Windows.Forms.Design.StyleCollectionEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(System.Drawing.Design.UITypeEditor))</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
-      <AttributeName>System.ComponentModel.Editor("System.Windows.Forms.Design.StyleCollectionEditor, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(System.Drawing.Design.UITypeEditor))</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Implements the basic functionality for a collection of table layout styles.</summary>
     <remarks>

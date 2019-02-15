@@ -1,10 +1,10 @@
 ﻿<Type Name="FixedDocument" FullName="System.Windows.Documents.FixedDocument">
   <TypeSignature Language="C#" Value="public class FixedDocument : System.Windows.FrameworkContentElement, IServiceProvider, System.Windows.Documents.IDocumentPaginatorSource, System.Windows.Markup.IUriContext" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi FixedDocument extends System.Windows.FrameworkContentElement implements class System.IServiceProvider, class System.Windows.Documents.IDocumentPaginatorSource, class System.Windows.Markup.IAddChild, class System.Windows.Markup.IUriContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FixedDocument extends System.Windows.FrameworkContentElement implements class System.IServiceProvider, class System.Windows.Documents.IDocumentPaginatorSource, class System.Windows.Markup.IAddChild, class System.Windows.Markup.IUriContext" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Documents.FixedDocument" />
   <TypeSignature Language="VB.NET" Value="Public Class FixedDocument&#xA;Inherits FrameworkContentElement&#xA;Implements IDocumentPaginatorSource, IServiceProvider, IUriContext" />
   <TypeSignature Language="C++ CLI" Value="public ref class FixedDocument : System::Windows::FrameworkContentElement, IServiceProvider, System::Windows::Documents::IDocumentPaginatorSource, System::Windows::Markup::IUriContext" />
-  <TypeSignature Language="F#" Value="type FixedDocument = class&#xA;    inherit FrameworkContentElement&#xA;    interface IDocumentPaginatorSource&#xA;    interface IAddChild&#xA;    interface IServiceProvider&#xA;    interface IUriContext" />
+  <TypeSignature Language="F#" Value="type FixedDocument = class&#xA;    inherit FrameworkContentElement&#xA;    interface IServiceProvider&#xA;    interface IDocumentPaginatorSource&#xA;    interface IAddChild&#xA;    interface IUriContext" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -95,11 +95,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Documents.DocumentPaginator</ReturnType>
       </ReturnValue>
@@ -193,9 +188,6 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Content)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

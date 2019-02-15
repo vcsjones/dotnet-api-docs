@@ -12,6 +12,7 @@
     <AssemblyVersion>1.4.1.0</AssemblyVersion>
     <AssemblyVersion>1.4.2.0</AssemblyVersion>
     <AssemblyVersion>1.4.3.0</AssemblyVersion>
+    <AssemblyVersion>1.4.4.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,15 +38,8 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetEditAndContinueLogEntries&gt;d__10))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetEditAndContinueLogEntries&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry&gt;</ReturnType>
       </ReturnValue>
@@ -74,15 +68,8 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetEditAndContinueMapEntries&gt;d__11))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetEditAndContinueMapEntries&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.EntityHandle&gt;</ReturnType>
       </ReturnValue>
@@ -110,6 +97,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -140,6 +128,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -171,6 +160,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Reflection.Metadata.BlobHandle</ReturnType>
@@ -202,6 +192,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Reflection.Metadata.StringHandle</ReturnType>
@@ -233,6 +224,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Reflection.Metadata.UserStringHandle</ReturnType>
@@ -263,6 +255,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -293,6 +286,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -323,6 +317,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -354,15 +349,8 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetTypesWithEvents&gt;d__13))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetTypesWithEvents&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;</ReturnType>
       </ReturnValue>
@@ -391,15 +379,8 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetTypesWithProperties&gt;d__12))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Reflection.Metadata.Ecma335.MetadataReaderExtensions/&lt;GetTypesWithProperties&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt;</ReturnType>
       </ReturnValue>
@@ -426,6 +407,7 @@
         <AssemblyVersion>1.4.1.0</AssemblyVersion>
         <AssemblyVersion>1.4.2.0</AssemblyVersion>
         <AssemblyVersion>1.4.3.0</AssemblyVersion>
+        <AssemblyVersion>1.4.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Reflection.Metadata.SignatureTypeKind</ReturnType>

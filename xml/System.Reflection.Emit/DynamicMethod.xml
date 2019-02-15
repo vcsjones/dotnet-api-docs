@@ -1,6 +1,6 @@
 ﻿<Type Name="DynamicMethod" FullName="System.Reflection.Emit.DynamicMethod">
   <TypeSignature Language="C#" Value="public sealed class DynamicMethod : System.Reflection.MethodInfo" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit DynamicMethod extends System.Reflection.MethodInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DynamicMethod extends System.Reflection.MethodInfo" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.Emit.DynamicMethod" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DynamicMethod&#xA;Inherits MethodInfo" />
   <TypeSignature Language="C++ CLI" Value="public ref class DynamicMethod sealed : System::Reflection::MethodInfo" />
@@ -20,11 +20,6 @@
     <BaseTypeName>System.Reflection.MethodInfo</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Defines and represents a dynamic method that can be compiled, executed, and discarded. Discarded methods are available for garbage collection.</summary>
     <remarks>
@@ -128,11 +123,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="returnType" Type="System.Type" />
@@ -189,11 +179,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="returnType" Type="System.Type" />
@@ -266,11 +251,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="returnType" Type="System.Type" />
@@ -345,11 +325,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="returnType" Type="System.Type" />
@@ -437,11 +412,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="returnType" Type="System.Type" />
@@ -510,11 +480,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="returnType" Type="System.Type" />
@@ -583,11 +548,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="attributes" Type="System.Reflection.MethodAttributes" />
@@ -668,11 +628,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
         <Parameter Name="attributes" Type="System.Reflection.MethodAttributes" />
@@ -851,14 +806,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Delegate</ReturnType>
       </ReturnValue>
@@ -913,14 +860,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Delegate</ReturnType>
       </ReturnValue>
@@ -1038,6 +977,7 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
+        <AssemblyVersion>4.0.3.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Reflection.Emit.ParameterBuilder</ReturnType>
@@ -1218,47 +1158,6 @@
         <altmember cref="M:System.Reflection.Emit.DynamicMethod.IsDefined(System.Type,System.Boolean)" />
       </Docs>
     </Member>
-    <Member MemberName="GetDynamicILInfo">
-      <MemberSignature Language="C#" Value="public System.Reflection.Emit.DynamicILInfo GetDynamicILInfo ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Reflection.Emit.DynamicILInfo GetDynamicILInfo() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Emit.DynamicMethod.GetDynamicILInfo" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetDynamicILInfo () As DynamicILInfo" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Reflection::Emit::DynamicILInfo ^ GetDynamicILInfo();" />
-      <MemberSignature Language="F#" Value="member this.GetDynamicILInfo : unit -&gt; System.Reflection.Emit.DynamicILInfo" Usage="dynamicMethod.GetDynamicILInfo " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Emit.DynamicILInfo</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Returns a <see cref="T:System.Reflection.Emit.DynamicILInfo" /> object that can be used to generate a method body from metadata tokens, scopes, and Microsoft intermediate language (MSIL) streams.</summary>
-        <returns>A <see cref="T:System.Reflection.Emit.DynamicILInfo" /> object that can be used to generate a method body from metadata tokens, scopes, and MSIL streams.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.Reflection.Emit.DynamicILInfo> class is provided to support unmanaged code generation.  
-  
- ]]></format>
-        </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">to execute unmanaged code. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode" />.</permission>
-        <altmember cref="T:System.Reflection.Emit.DynamicILInfo" />
-      </Docs>
-    </Member>
     <MemberGroup MemberName="GetILGenerator">
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
@@ -1337,11 +1236,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Emit.ILGenerator</ReturnType>
       </ReturnValue>
@@ -1518,11 +1412,6 @@
         <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
         <AssemblyVersion>4.0.3.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -1635,231 +1524,6 @@
         <altmember cref="M:System.Reflection.Emit.DynamicMethod.GetCustomAttributes(System.Type,System.Boolean)" />
       </Docs>
     </Member>
-    <Member MemberName="IsSecurityCritical">
-      <MemberSignature Language="C#" Value="public override bool IsSecurityCritical { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool IsSecurityCritical" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.DynamicMethod.IsSecurityCritical" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsSecurityCritical As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsSecurityCritical { bool get(); };" />
-      <MemberSignature Language="F#" Value="member this.IsSecurityCritical : bool" Usage="System.Reflection.Emit.DynamicMethod.IsSecurityCritical" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a value that indicates whether the current dynamic method is security-critical or security-safe-critical, and therefore can perform critical operations.</summary>
-        <value>
-          <see langword="true" /> if the current dynamic method is security-critical or security-safe-critical; <see langword="false" /> if it is transparent.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.Reflection.Emit.DynamicMethod.IsSecurityCritical%2A>, <xref:System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical%2A>, and <xref:System.Reflection.Emit.DynamicMethod.IsSecurityTransparent%2A> properties report the transparency level of the dynamic method as determined by the common language runtime (CLR). The combinations of these properties are shown in the following table:  
-  
-|Security level|IsSecurityCritical|IsSecuritySafeCritical|IsSecurityTransparent|  
-|--------------------|------------------------|----------------------------|---------------------------|  
-|Critical|`true`|`false`|`false`|  
-|Safe critical|`true`|`true`|`false`|  
-|Transparent|`false`|`false`|`true`|  
-  
- Using these properties is much simpler than examining the security annotations of an assembly and its types, checking the current trust level, and attempting to duplicate the runtime's rules.  
-  
- The transparency of a dynamic method depends on the module it is associated with. If the dynamic method is associated with a type rather than a module, its transparency depends on the module that contains the type. Dynamic methods do not have security annotations, so they are assigned the default transparency for the associated module.  
-  
--   Anonymously hosted dynamic methods are always transparent, because the system-provided module that contains them is transparent.  
-  
--   The transparency of a dynamic method that is associated with a trusted assembly (that is, a strong-named assembly that is installed in the global assembly cache) is described in the following table.  
-  
-    |Assembly annotation|Level 1 transparency|Level 2 transparency|  
-    |-------------------------|--------------------------|--------------------------|  
-    |Fully transparent|Transparent|Transparent|  
-    |Fully critical|Critical|Critical|  
-    |Mixed transparency|Transparent|Transparent|  
-    |Security-agnostic|Safe-critical|Critical|  
-  
-     For example, if you associate a dynamic method with a type that is in mscorlib.dll, which has level 2 mixed transparency, the dynamic method is transparent and cannot execute critical code. For information about transparency levels, see [Security-Transparent Code, Level 1](~/docs/framework/misc/security-transparent-code-level-1.md) and [Security-Transparent Code, Level 2](~/docs/framework/misc/security-transparent-code-level-2.md).  
-  
-    > [!NOTE]
-    >  Associating a dynamic method with a module in a trusted level 1 assembly that is security-agnostic, such as System.dll, does not permit elevation of trust. If the grant set of the code that calls the dynamic method does not include the grant set of System.dll (that is, full trust), <xref:System.Security.SecurityException> is thrown when the dynamic method is called.  
-  
--   The transparency of a dynamic method that is associated with a partially trusted assembly depends on how the assembly is loaded. If the assembly is loaded with partial trust (for example, into a sandboxed application domain), the runtime ignores the security annotations of the assembly. The assembly and all its types and members, including dynamic methods, are treated as transparent. The runtime pays attention to security annotations only if the partial-trust assembly is loaded with full trust (for example, into the default application domain of a desktop application). In that case, the runtime assigns the dynamic method the default transparency for methods according to the assembly's annotations.  
-  
- For more information about reflection emit and transparency, see [Security Issues in Reflection Emit](~/docs/framework/reflection-and-codedom/security-issues-in-reflection-emit.md). For information about transparency, see [Security Changes](~/docs/framework/security/security-changes.md).  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.InvalidOperationException">The dynamic method doesn't have a method body.</exception>
-        <altmember cref="P:System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical" />
-        <altmember cref="P:System.Reflection.Emit.DynamicMethod.IsSecurityTransparent" />
-        <related type="Article" href="~/docs/framework/reflection-and-codedom/security-issues-in-reflection-emit.md">Security Issues in Reflection Emit</related>
-        <related type="Article" href="~/docs/framework/reflection-and-codedom/security-considerations-for-reflection.md">Security Considerations for Reflection</related>
-        <related type="Article" href="~/docs/framework/security/security-changes.md">Security Changes in the .NET Framework Version 4.0</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/5fd8f46d-3961-46a7-84af-2eb1f48e75cf">Security-Transparent Code, Level 1</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/4d05610a-0da6-4f08-acea-d54c9d6143c0">Security-Transparent Code, Level 2</related>
-      </Docs>
-    </Member>
-    <Member MemberName="IsSecuritySafeCritical">
-      <MemberSignature Language="C#" Value="public override bool IsSecuritySafeCritical { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool IsSecuritySafeCritical" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsSecuritySafeCritical As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsSecuritySafeCritical { bool get(); };" />
-      <MemberSignature Language="F#" Value="member this.IsSecuritySafeCritical : bool" Usage="System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a value that indicates whether the current dynamic method is security-safe-critical at the current trust level; that is, whether it can perform critical operations and can be accessed by transparent code.</summary>
-        <value>
-          <see langword="true" /> if the dynamic method is security-safe-critical at the current trust level; <see langword="false" /> if it is security-critical or transparent.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.Reflection.Emit.DynamicMethod.IsSecurityCritical%2A>, <xref:System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical%2A>, and <xref:System.Reflection.Emit.DynamicMethod.IsSecurityTransparent%2A> properties report the transparency level of the dynamic method as determined by the common language runtime (CLR). The combinations of these properties are shown in the following table:  
-  
-|Security level|IsSecurityCritical|IsSecuritySafeCritical|IsSecurityTransparent|  
-|--------------------|------------------------|----------------------------|---------------------------|  
-|Critical|`true`|`false`|`false`|  
-|Safe critical|`true`|`true`|`false`|  
-|Transparent|`false`|`false`|`true`|  
-  
- Using these properties is much simpler than examining the security annotations of an assembly and its types, checking the current trust level, and attempting to duplicate the runtime's rules.  
-  
- The transparency of a dynamic method depends on the module it is associated with. If the dynamic method is associated with a type rather than a module, its transparency depends on the module that contains the type. Dynamic methods do not have security annotations, so they are assigned the default transparency for the associated module.  
-  
--   Anonymously hosted dynamic methods are always transparent, because the system-provided module that contains them is transparent.  
-  
--   The transparency of a dynamic method that is associated with a trusted assembly (that is, a strong-named assembly that is installed in the global assembly cache) is described in the following table.  
-  
-    |Assembly annotation|Level 1 transparency|Level 2 transparency|  
-    |-------------------------|--------------------------|--------------------------|  
-    |Fully transparent|Transparent|Transparent|  
-    |Fully critical|Critical|Critical|  
-    |Mixed transparency|Transparent|Transparent|  
-    |Security-agnostic|Safe-critical|Critical|  
-  
-     For example, if you associate a dynamic method with a type that is in mscorlib.dll, which has level 2 mixed transparency, the dynamic method is transparent and cannot execute critical code. For information about transparency levels, see [Security-Transparent Code, Level 1](~/docs/framework/misc/security-transparent-code-level-1.md) and [Security-Transparent Code, Level 2](~/docs/framework/misc/security-transparent-code-level-2.md).  
-  
-    > [!NOTE]
-    >  Associating a dynamic method with a module in a trusted level 1 assembly that is security-agnostic, such as System.dll, does not permit elevation of trust. If the grant set of the code that calls the dynamic method does not include the grant set of System.dll (that is, full trust), <xref:System.Security.SecurityException> is thrown when the dynamic method is called.  
-  
--   The transparency of a dynamic method that is associated with a partially trusted assembly depends on how the assembly is loaded. If the assembly is loaded with partial trust (for example, into a sandboxed application domain), the runtime ignores the security annotations of the assembly. The assembly and all its types and members, including dynamic methods, are treated as transparent. The runtime pays attention to security annotations only if the partial-trust assembly is loaded with full trust (for example, into the default application domain of a desktop application). In that case, the runtime assigns the dynamic method the default transparency for methods according to the assembly's annotations.  
-  
- For more information about reflection emit and transparency, see [Security Issues in Reflection Emit](~/docs/framework/reflection-and-codedom/security-issues-in-reflection-emit.md). For information about transparency, see [Security Changes](~/docs/framework/security/security-changes.md).  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.InvalidOperationException">The dynamic method doesn't have a method body.</exception>
-        <altmember cref="P:System.Reflection.Emit.DynamicMethod.IsSecurityCritical" />
-        <altmember cref="P:System.Reflection.Emit.DynamicMethod.IsSecurityTransparent" />
-        <related type="Article" href="~/docs/framework/reflection-and-codedom/security-issues-in-reflection-emit.md">Security Issues in Reflection Emit</related>
-        <related type="Article" href="~/docs/framework/reflection-and-codedom/security-considerations-for-reflection.md">Security Considerations for Reflection</related>
-        <related type="Article" href="~/docs/framework/security/security-changes.md">Security Changes in the .NET Framework Version 4.0</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/5fd8f46d-3961-46a7-84af-2eb1f48e75cf">Security-Transparent Code, Level 1</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/4d05610a-0da6-4f08-acea-d54c9d6143c0">Security-Transparent Code, Level 2</related>
-      </Docs>
-    </Member>
-    <Member MemberName="IsSecurityTransparent">
-      <MemberSignature Language="C#" Value="public override bool IsSecurityTransparent { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool IsSecurityTransparent" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.DynamicMethod.IsSecurityTransparent" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsSecurityTransparent As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsSecurityTransparent { bool get(); };" />
-      <MemberSignature Language="F#" Value="member this.IsSecurityTransparent : bool" Usage="System.Reflection.Emit.DynamicMethod.IsSecurityTransparent" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a value that indicates whether the current dynamic method is transparent at the current trust level, and therefore cannot perform critical operations.</summary>
-        <value>
-          <see langword="true" /> if the dynamic method is security-transparent at the current trust level; otherwise, <see langword="false" />.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.Reflection.Emit.DynamicMethod.IsSecurityCritical%2A>, <xref:System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical%2A>, and <xref:System.Reflection.Emit.DynamicMethod.IsSecurityTransparent%2A> properties report the transparency level of the dynamic method as determined by the common language runtime (CLR). The combinations of these properties are shown in the following table:  
-  
-|Security level|IsSecurityCritical|IsSecuritySafeCritical|IsSecurityTransparent|  
-|--------------------|------------------------|----------------------------|---------------------------|  
-|Critical|`true`|`false`|`false`|  
-|Safe critical|`true`|`true`|`false`|  
-|Transparent|`false`|`false`|`true`|  
-  
- Using these properties is much simpler than examining the security annotations of an assembly and its types, checking the current trust level, and attempting to duplicate the runtime's rules.  
-  
- The transparency of a dynamic method depends on the module it is associated with. If the dynamic method is associated with a type rather than a module, its transparency depends on the module that contains the type. Dynamic methods do not have security annotations, so they are assigned the default transparency for the associated module.  
-  
--   Anonymously hosted dynamic methods are always transparent, because the system-provided module that contains them is transparent.  
-  
--   The transparency of a dynamic method that is associated with a trusted assembly (that is, a strong-named assembly that is installed in the global assembly cache) is described in the following table.  
-  
-    |Assembly annotation|Level 1 transparency|Level 2 transparency|  
-    |-------------------------|--------------------------|--------------------------|  
-    |Fully transparent|Transparent|Transparent|  
-    |Fully critical|Critical|Critical|  
-    |Mixed transparency|Transparent|Transparent|  
-    |Security-agnostic|Safe-critical|Critical|  
-  
-     For example, if you associate a dynamic method with a type that is in mscorlib.dll, which has level 2 mixed transparency, the dynamic method is transparent and cannot execute critical code. For information about transparency levels, see [Security-Transparent Code, Level 1](~/docs/framework/misc/security-transparent-code-level-1.md) and [Security-Transparent Code, Level 2](~/docs/framework/misc/security-transparent-code-level-2.md).  
-  
-    > [!NOTE]
-    >  Associating a dynamic method with a module in a trusted level 1 assembly that is security-agnostic, such as System.dll, does not permit elevation of trust. If the grant set of the code that calls the dynamic method does not include the grant set of System.dll (that is, full trust), <xref:System.Security.SecurityException> is thrown when the dynamic method is called.  
-  
--   The transparency of a dynamic method that is associated with a partially trusted assembly depends on how the assembly is loaded. If the assembly is loaded with partial trust (for example, into a sandboxed application domain), the runtime ignores the security annotations of the assembly. The assembly and all its types and members, including dynamic methods, are treated as transparent. The runtime pays attention to security annotations only if the partial-trust assembly is loaded with full trust (for example, into the default application domain of a desktop application). In that case, the runtime assigns the dynamic method the default transparency for methods according to the assembly's annotations.  
-  
- For more information about reflection emit and transparency, see [Security Issues in Reflection Emit](~/docs/framework/reflection-and-codedom/security-issues-in-reflection-emit.md). For information about transparency, see [Security Changes](~/docs/framework/security/security-changes.md).  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.InvalidOperationException">The dynamic method doesn't have a method body.</exception>
-        <altmember cref="P:System.Reflection.Emit.DynamicMethod.IsSecurityCritical" />
-        <altmember cref="P:System.Reflection.Emit.DynamicMethod.IsSecuritySafeCritical" />
-        <related type="Article" href="~/docs/framework/reflection-and-codedom/security-issues-in-reflection-emit.md">Security Issues in Reflection Emit</related>
-        <related type="Article" href="~/docs/framework/reflection-and-codedom/security-considerations-for-reflection.md">Security Considerations for Reflection</related>
-        <related type="Article" href="~/docs/framework/security/security-changes.md">Security Changes in the .NET Framework Version 4.0</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/5fd8f46d-3961-46a7-84af-2eb1f48e75cf">Security-Transparent Code, Level 1</related>
-        <related type="Article" href="https://msdn.microsoft.com/library/4d05610a-0da6-4f08-acea-d54c9d6143c0">Security-Transparent Code, Level 2</related>
-      </Docs>
-    </Member>
     <Member MemberName="MethodHandle">
       <MemberSignature Language="C#" Value="public override RuntimeMethodHandle MethodHandle { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.RuntimeMethodHandle MethodHandle" />
@@ -1886,72 +1550,6 @@
         <value>Not supported for dynamic methods.</value>
         <remarks>To be added.</remarks>
         <exception cref="T:System.InvalidOperationException">Not allowed for dynamic methods.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="MethodImplementationFlags">
-      <MemberSignature Language="C#" Value="public override System.Reflection.MethodImplAttributes MethodImplementationFlags { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Reflection.MethodImplAttributes MethodImplementationFlags" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.DynamicMethod.MethodImplementationFlags" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property MethodImplementationFlags As MethodImplAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Reflection::MethodImplAttributes MethodImplementationFlags { System::Reflection::MethodImplAttributes get(); };" />
-      <MemberSignature Language="F#" Value="member this.MethodImplementationFlags : System.Reflection.MethodImplAttributes" Usage="System.Reflection.Emit.DynamicMethod.MethodImplementationFlags" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Reflection.MethodImplAttributes</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Module">
-      <MemberSignature Language="C#" Value="public override System.Reflection.Module Module { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Reflection.Module Module" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.DynamicMethod.Module" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Module As Module" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Reflection::Module ^ Module { System::Reflection::Module ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.Module : System.Reflection.Module" Usage="System.Reflection.Emit.DynamicMethod.Module" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit.Lightweight</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Module</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets the module with which the dynamic method is logically associated.</summary>
-        <value>The <see cref="T:System.Reflection.Module" /> with which the current dynamic method is associated.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- If a module was specified when the dynamic method was created, this property returns that module. If a type was specified as the owner when the dynamic method was created, this property returns the module which contains that type.  
-  
-   
-  
-## Examples  
- The following code example displays the <xref:System.Reflection.Emit.DynamicMethod.Module%2A> property of a dynamic method. This code example is part of a larger example provided for the <xref:System.Reflection.Emit.DynamicMethod> class.  
-  
- [!code-cpp[Reflection.DynamicMethod.All#26](~/samples/snippets/cpp/VS_Snippets_CLR/Reflection.DynamicMethod.All/cpp/source.cpp#26)]
- [!code-csharp[Reflection.DynamicMethod.All#26](~/samples/snippets/csharp/VS_Snippets_CLR/Reflection.DynamicMethod.All/CS/source.cs#26)]
- [!code-vb[Reflection.DynamicMethod.All#26](~/samples/snippets/visualbasic/VS_Snippets_CLR/Reflection.DynamicMethod.All/VB/source.vb#26)]  
-  
- ]]></format>
-        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">

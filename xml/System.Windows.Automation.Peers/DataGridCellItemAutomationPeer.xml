@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.DataGridCellItemAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DataGridCellItemAutomationPeer&#xA;Inherits AutomationPeer&#xA;Implements IInvokeProvider, IScrollItemProvider, ISelectionItemProvider, ITableItemProvider, IValueProvider, IVirtualizedItemProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class DataGridCellItemAutomationPeer sealed : System::Windows::Automation::Peers::AutomationPeer, System::Windows::Automation::Provider::IInvokeProvider, System::Windows::Automation::Provider::IScrollItemProvider, System::Windows::Automation::Provider::ISelectionItemProvider, System::Windows::Automation::Provider::ITableItemProvider, System::Windows::Automation::Provider::IValueProvider, System::Windows::Automation::Provider::IVirtualizedItemProvider" />
-  <TypeSignature Language="F#" Value="type DataGridCellItemAutomationPeer = class&#xA;    inherit AutomationPeer&#xA;    interface IGridItemProvider&#xA;    interface ITableItemProvider&#xA;    interface IInvokeProvider&#xA;    interface IScrollItemProvider&#xA;    interface ISelectionItemProvider&#xA;    interface IValueProvider&#xA;    interface IVirtualizedItemProvider" />
+  <TypeSignature Language="F#" Value="type DataGridCellItemAutomationPeer = class&#xA;    inherit AutomationPeer&#xA;    interface IGridItemProvider&#xA;    interface IInvokeProvider&#xA;    interface IScrollItemProvider&#xA;    interface ISelectionItemProvider&#xA;    interface ITableItemProvider&#xA;    interface IValueProvider&#xA;    interface IVirtualizedItemProvider" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -457,50 +457,6 @@
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetPositionInSetCore">
-      <MemberSignature Language="C#" Value="protected override int GetPositionInSetCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance int32 GetPositionInSetCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.DataGridCellItemAutomationPeer.GetPositionInSetCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetPositionInSetCore () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override int GetPositionInSetCore();" />
-      <MemberSignature Language="F#" Value="override this.GetPositionInSetCore : unit -&gt; int" Usage="dataGridCellItemAutomationPeer.GetPositionInSetCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetSizeOfSetCore">
-      <MemberSignature Language="C#" Value="protected override int GetSizeOfSetCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance int32 GetSizeOfSetCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.DataGridCellItemAutomationPeer.GetSizeOfSetCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetSizeOfSetCore () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override int GetSizeOfSetCore();" />
-      <MemberSignature Language="F#" Value="override this.GetSizeOfSetCore : unit -&gt; int" Usage="dataGridCellItemAutomationPeer.GetSizeOfSetCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="HasKeyboardFocusCore">
       <MemberSignature Language="C#" Value="protected override bool HasKeyboardFocusCore ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool HasKeyboardFocusCore() cil managed" />
@@ -775,11 +731,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Automation.Provider.IRawElementProviderSimple</ReturnType>
       </ReturnValue>
@@ -1055,11 +1006,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Automation.Provider.IRawElementProviderSimple</ReturnType>
       </ReturnValue>

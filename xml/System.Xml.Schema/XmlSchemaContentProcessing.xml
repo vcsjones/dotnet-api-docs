@@ -185,7 +185,7 @@ The XML processor attempts to notify the client through a validation event handl
         
 If the processor cannot find a schema or if the items are not valid, the XML processor attempts to notify the client through a validation event handler with <see cref="P:System.Xml.Schema.ValidationEventArgs.Severity" /> = <see langword="XmlSeverityType.Warning" />. If a validation error occurs and a validation event handler is not provided, an exception is thrown.   
         </summary>
-       </Docs>
+      </Docs>
     </Member>
   </Members>
 </Type>

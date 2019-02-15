@@ -45,22 +45,11 @@
       <MemberSignature Language="F#" Value="DownArrow = 4" Usage="Microsoft.Windows.Themes.ScrollGlyph.DownArrow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero2</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>PresentationFramework.Luna</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Royale</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -68,7 +57,7 @@
       </ReturnValue>
       <MemberValue>4</MemberValue>
       <Docs>
-        <summary>An arrow glyph pointing down.</summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="HorizontalGripper">
@@ -119,22 +108,11 @@
       <MemberSignature Language="F#" Value="LeftArrow = 1" Usage="Microsoft.Windows.Themes.ScrollGlyph.LeftArrow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero2</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>PresentationFramework.Luna</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Royale</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -142,7 +120,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>An arrow glyph pointing to the left.</summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -193,22 +171,11 @@
       <MemberSignature Language="F#" Value="RightArrow = 2" Usage="Microsoft.Windows.Themes.ScrollGlyph.RightArrow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero2</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>PresentationFramework.Luna</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Royale</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -216,7 +183,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>An arrow glyph pointing to the right.</summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="UpArrow">
@@ -228,22 +195,11 @@
       <MemberSignature Language="F#" Value="UpArrow = 3" Usage="Microsoft.Windows.Themes.ScrollGlyph.UpArrow" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework.Aero2</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>PresentationFramework.Luna</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Royale</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -251,7 +207,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>An arrow glyph pointing up.</summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="VerticalGripper">

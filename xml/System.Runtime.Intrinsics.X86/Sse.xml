@@ -1,12 +1,16 @@
 ﻿<Type Name="Sse" FullName="System.Runtime.Intrinsics.X86.Sse">
-  <TypeSignature Language="C#" Value="public static class Sse" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Sse extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class Sse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Sse extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Runtime.Intrinsics.X86.Sse" />
-  <TypeSignature Language="VB.NET" Value="Public Class Sse" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Sse abstract sealed" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Sse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Sse abstract" />
   <TypeSignature Language="F#" Value="type Sse = class" />
   <AssemblyInfo>
     <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -28,6 +32,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -57,6 +65,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -82,6 +94,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -111,6 +127,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -136,6 +156,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -165,6 +189,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -190,6 +218,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -219,6 +251,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -244,6 +280,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -273,6 +313,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -298,6 +342,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -327,6 +375,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -352,6 +404,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -381,6 +437,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -406,6 +466,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -435,6 +499,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -460,6 +528,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -489,6 +561,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -514,6 +590,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -543,6 +623,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -568,6 +652,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -597,6 +685,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -622,6 +714,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -651,6 +747,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -676,6 +776,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -705,6 +809,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -730,6 +838,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -759,6 +871,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -784,6 +900,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -813,6 +933,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -838,6 +962,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -867,6 +995,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -892,6 +1024,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -921,6 +1057,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -946,6 +1086,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -975,6 +1119,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1000,6 +1148,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1029,6 +1181,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1054,6 +1210,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1083,6 +1243,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1110,31 +1274,8 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="upper" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" />
-        <Parameter Name="value" Type="System.Int32" />
-      </Parameters>
-      <Docs>
-        <param name="upper">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertScalarToVector128Single">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ConvertScalarToVector128Single (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, long value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ConvertScalarToVector128Single(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, int64 value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertScalarToVector128Single(System.Runtime.Intrinsics.Vector128{System.Single},System.Int64)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertScalarToVector128Single (upper As Vector128(Of Single), value As Long) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; ConvertScalarToVector128Single(System::Runtime::Intrinsics::Vector128&lt;float&gt; upper, long value);" />
-      <MemberSignature Language="F#" Value="static member ConvertScalarToVector128Single : System.Runtime.Intrinsics.Vector128&lt;single&gt; * int64 -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertScalarToVector128Single (upper, value)" />
-      <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1142,7 +1283,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="upper" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" />
-        <Parameter Name="value" Type="System.Int64" />
+        <Parameter Name="value" Type="System.Int32" />
       </Parameters>
       <Docs>
         <param name="upper">To be added.</param>
@@ -1162,6 +1303,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1189,83 +1334,12 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToInt64">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64 (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToInt64(System.Runtime.Intrinsics.Vector128{System.Single})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64 (value As Vector128(Of Single)) As Long" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static long ConvertToInt64(System::Runtime::Intrinsics::Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="F#" Value="static member ConvertToInt64 : System.Runtime.Intrinsics.Vector128&lt;single&gt; -&gt; int64" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertToInt64 value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int64</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToInt64WithTruncation">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64WithTruncation (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64WithTruncation(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToInt64WithTruncation(System.Runtime.Intrinsics.Vector128{System.Single})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64WithTruncation (value As Vector128(Of Single)) As Long" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static long ConvertToInt64WithTruncation(System::Runtime::Intrinsics::Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="F#" Value="static member ConvertToInt64WithTruncation : System.Runtime.Intrinsics.Vector128&lt;single&gt; -&gt; int64" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertToInt64WithTruncation value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int64</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConvertToSingle">
-      <MemberSignature Language="C#" Value="public static float ConvertToSingle (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 ConvertToSingle(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToSingle(System.Runtime.Intrinsics.Vector128{System.Single})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToSingle (value As Vector128(Of Single)) As Single" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static float ConvertToSingle(System::Runtime::Intrinsics::Vector128&lt;float&gt; value);" />
-      <MemberSignature Language="F#" Value="static member ConvertToSingle : System.Runtime.Intrinsics.Vector128&lt;single&gt; -&gt; single" Usage="System.Runtime.Intrinsics.X86.Sse.ConvertToSingle value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Single</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;" />
@@ -1287,6 +1361,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1316,6 +1394,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1343,6 +1425,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -1361,6 +1447,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1385,6 +1475,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1413,6 +1507,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1439,6 +1537,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1461,6 +1563,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1486,6 +1592,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1515,6 +1625,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1540,6 +1654,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1569,6 +1687,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1594,6 +1716,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1623,6 +1749,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1650,6 +1780,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -1673,6 +1807,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1702,6 +1840,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1727,6 +1869,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1756,6 +1902,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1782,6 +1932,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1803,6 +1957,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1828,6 +1986,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1849,6 +2011,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1873,6 +2039,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1900,6 +2070,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1923,6 +2097,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1952,6 +2130,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -1975,6 +2157,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2002,6 +2188,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -2017,109 +2207,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SetAllVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetAllVector128 (float value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetAllVector128(float32 value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetAllVector128(System.Single)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetAllVector128 (value As Single) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetAllVector128(float value);" />
-      <MemberSignature Language="F#" Value="static member SetAllVector128 : single -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetAllVector128 value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Single" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetScalarVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetScalarVector128 (float value);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetScalarVector128(float32 value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetScalarVector128(System.Single)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetScalarVector128 (value As Single) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetScalarVector128(float value);" />
-      <MemberSignature Language="F#" Value="static member SetScalarVector128 : single -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetScalarVector128 value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Single" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetVector128 (float e3, float e2, float e1, float e0);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetVector128(float32 e3, float32 e2, float32 e1, float32 e0) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetVector128(System.Single,System.Single,System.Single,System.Single)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetVector128 (e3 As Single, e2 As Single, e1 As Single, e0 As Single) As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetVector128(float e3, float e2, float e1, float e0);" />
-      <MemberSignature Language="F#" Value="static member SetVector128 : single * single * single * single -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetVector128 (e3, e2, e1, e0)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="e3" Type="System.Single" />
-        <Parameter Name="e2" Type="System.Single" />
-        <Parameter Name="e1" Type="System.Single" />
-        <Parameter Name="e0" Type="System.Single" />
-      </Parameters>
-      <Docs>
-        <param name="e3">To be added.</param>
-        <param name="e2">To be added.</param>
-        <param name="e1">To be added.</param>
-        <param name="e0">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetZeroVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SetZeroVector128 ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SetZeroVector128() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SetZeroVector128" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SetZeroVector128 () As Vector128(Of Single)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; SetZeroVector128();" />
-      <MemberSignature Language="F#" Value="static member SetZeroVector128 : unit -&gt; System.Runtime.Intrinsics.Vector128&lt;single&gt;" Usage="System.Runtime.Intrinsics.X86.Sse.SetZeroVector128 " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Shuffle">
       <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Shuffle (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right, byte control);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Shuffle(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right, unsigned int8 control) cil managed" />
@@ -2130,6 +2217,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2161,6 +2252,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -2184,6 +2279,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2211,6 +2310,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -2226,49 +2329,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="StaticCast&lt;T,U&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;U&gt; StaticCast&lt;T,U&gt; (System.Runtime.Intrinsics.Vector128&lt;T&gt; value) where T : struct where U : struct;" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;!!U&gt; StaticCast&lt;struct .ctor (class System.ValueType) T, struct .ctor (class System.ValueType) U&gt;(valuetype System.Runtime.Intrinsics.Vector128`1&lt;!!T&gt; value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.StaticCast``2(System.Runtime.Intrinsics.Vector128{``0})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function StaticCast(Of T As Structure, U As Structure) (value As Vector128(Of T)) As Vector128(Of U)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename U&gt;&#xA; where T : value class where U : value class static System::Runtime::Intrinsics::Vector128&lt;U&gt; StaticCast(System::Runtime::Intrinsics::Vector128&lt;T&gt; value);" />
-      <MemberSignature Language="F#" Value="static member StaticCast : System.Runtime.Intrinsics.Vector128&lt;'T (requires 'T : struct)&gt; -&gt; System.Runtime.Intrinsics.Vector128&lt;'U (requires 'U : struct)&gt; (requires 'T : struct and 'U : struct)" Usage="System.Runtime.Intrinsics.X86.Sse.StaticCast value" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Runtime.Intrinsics.Vector128&lt;U&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="T">
-          <Constraints>
-            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
-            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
-            <BaseTypeName>System.ValueType</BaseTypeName>
-          </Constraints>
-        </TypeParameter>
-        <TypeParameter Name="U">
-          <Constraints>
-            <ParameterAttribute>DefaultConstructorConstraint</ParameterAttribute>
-            <ParameterAttribute>NotNullableValueTypeConstraint</ParameterAttribute>
-            <BaseTypeName>System.ValueType</BaseTypeName>
-          </Constraints>
-        </TypeParameter>
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="value" Type="System.Runtime.Intrinsics.Vector128&lt;T&gt;" />
-      </Parameters>
-      <Docs>
-        <typeparam name="T">To be added.</typeparam>
-        <typeparam name="U">To be added.</typeparam>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Store">
       <MemberSignature Language="C#" Value="public static void Store (float* address, System.Runtime.Intrinsics.Vector128&lt;float&gt; source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Store(float32* address, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; source) cil managed" />
@@ -2278,6 +2338,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2305,6 +2369,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2328,6 +2396,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2356,6 +2428,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2374,6 +2450,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2401,6 +2481,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2424,6 +2508,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2450,6 +2538,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2479,6 +2571,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -2504,6 +2600,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2533,6 +2633,10 @@
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Runtime.Intrinsics.Vector128&lt;System.Single&gt;</ReturnType>
       </ReturnValue>
@@ -2558,6 +2662,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Intrinsics.Experimental</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime.Intrinsics</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

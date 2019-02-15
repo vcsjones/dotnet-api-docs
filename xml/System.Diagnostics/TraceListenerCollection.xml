@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Diagnostics.TraceListenerCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class TraceListenerCollection&#xA;Implements IList" />
   <TypeSignature Language="C++ CLI" Value="public ref class TraceListenerCollection : System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type TraceListenerCollection = class&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type TraceListenerCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

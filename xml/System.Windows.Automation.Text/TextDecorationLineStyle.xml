@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("909D8633-2941-428e-A549-C752E2FC078C")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Values for <see cref="F:System.Windows.Automation.TextPattern.UnderlineStyleAttribute" />.</summary>
     <remarks>To be added.</remarks>

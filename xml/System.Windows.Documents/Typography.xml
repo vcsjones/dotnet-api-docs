@@ -1,6 +1,6 @@
 ﻿<Type Name="Typography" FullName="System.Windows.Documents.Typography">
   <TypeSignature Language="C#" Value="public sealed class Typography" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Typography extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Typography extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Documents.Typography" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Typography" />
   <TypeSignature Language="C++ CLI" Value="public ref class Typography sealed" />

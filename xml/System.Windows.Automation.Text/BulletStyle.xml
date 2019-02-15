@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("814FAC6C-F8DE-4682-AF5F-37C4F720990C")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Values for <see cref="F:System.Windows.Automation.TextPattern.BulletStyleAttribute" />.</summary>
     <remarks>To be added.</remarks>

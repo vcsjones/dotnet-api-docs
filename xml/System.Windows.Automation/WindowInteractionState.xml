@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("65101cc7-7904-408e-87a7-8c6dbd83a18b")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Contains values that specify the current state of the window for purposes of user or programmatic interaction.</summary>
     <remarks>To be added.</remarks>

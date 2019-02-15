@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.DataGridViewComboBoxCell.ObjectCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class DataGridViewComboBoxCell.ObjectCollection&#xA;Implements IList" />
   <TypeSignature Language="C++ CLI" Value="public: ref class DataGridViewComboBoxCell::ObjectCollection : System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type DataGridViewComboBoxCell.ObjectCollection = class&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type DataGridViewComboBoxCell.ObjectCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -58,11 +58,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="owner" Type="System.Windows.Forms.DataGridViewComboBoxCell" />
       </Parameters>
@@ -709,11 +704,6 @@ The cell is in a shared row.</exception>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>

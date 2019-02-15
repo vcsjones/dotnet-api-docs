@@ -1,6 +1,6 @@
 ﻿<Type Name="SettingsAttributeDictionary" FullName="System.Configuration.SettingsAttributeDictionary">
   <TypeSignature Language="C#" Value="public class SettingsAttributeDictionary : System.Collections.Hashtable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SettingsAttributeDictionary extends System.Collections.Hashtable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SettingsAttributeDictionary extends System.Collections.Hashtable" />
   <TypeSignature Language="DocId" Value="T:System.Configuration.SettingsAttributeDictionary" />
   <TypeSignature Language="VB.NET" Value="Public Class SettingsAttributeDictionary&#xA;Inherits Hashtable" />
   <TypeSignature Language="C++ CLI" Value="public ref class SettingsAttributeDictionary : System::Collections::Hashtable" />
@@ -19,11 +19,6 @@
     <BaseTypeName>System.Collections.Hashtable</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a collection of key/value pairs used to describe a configuration object as well as a <see cref="T:System.Configuration.SettingsProperty" /> object.</summary>
     <remarks>
@@ -64,11 +59,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Configuration.SettingsAttributeDictionary" /> class.</summary>
@@ -93,11 +83,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="attributes" Type="System.Configuration.SettingsAttributeDictionary" />
       </Parameters>

@@ -42,11 +42,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="bitmapStream" Type="System.IO.Stream" />
         <Parameter Name="createOptions" Type="System.Windows.Media.Imaging.BitmapCreateOptions" />
@@ -91,11 +86,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="bitmapUri" Type="System.Uri" />
         <Parameter Name="createOptions" Type="System.Windows.Media.Imaging.BitmapCreateOptions" />

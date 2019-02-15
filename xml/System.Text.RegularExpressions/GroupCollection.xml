@@ -1,10 +1,10 @@
 ﻿<Type Name="GroupCollection" FullName="System.Text.RegularExpressions.GroupCollection">
-  <TypeSignature Language="C#" Value="public class GroupCollection : System.Collections.ICollection" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GroupCollection extends System.Object implements class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="C#" Value="public class GroupCollection : System.Collections.Generic.ICollection&lt;System.Text.RegularExpressions.Group&gt;, System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,System.Text.RegularExpressions.Group&gt;&gt;, System.Collections.Generic.IEnumerable&lt;System.Text.RegularExpressions.Group&gt;, System.Collections.Generic.IList&lt;System.Text.RegularExpressions.Group&gt;, System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,System.Text.RegularExpressions.Group&gt;&gt;, System.Collections.Generic.IReadOnlyCollection&lt;System.Text.RegularExpressions.Group&gt;, System.Collections.Generic.IReadOnlyDictionary&lt;string,System.Text.RegularExpressions.Group&gt;, System.Collections.Generic.IReadOnlyList&lt;System.Text.RegularExpressions.Group&gt;, System.Collections.IList" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GroupCollection extends System.Object implements class System.Collections.Generic.ICollection`1&lt;class System.Text.RegularExpressions.Group&gt;, class System.Collections.Generic.IEnumerable`1&lt;class System.Text.RegularExpressions.Group&gt;, class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class System.Text.RegularExpressions.Group&gt;&gt;, class System.Collections.Generic.IList`1&lt;class System.Text.RegularExpressions.Group&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.Text.RegularExpressions.Group&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class System.Text.RegularExpressions.Group&gt;&gt;, class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class System.Text.RegularExpressions.Group&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;class System.Text.RegularExpressions.Group&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable, class System.Collections.IList" />
   <TypeSignature Language="DocId" Value="T:System.Text.RegularExpressions.GroupCollection" />
-  <TypeSignature Language="VB.NET" Value="Public Class GroupCollection&#xA;Implements ICollection" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GroupCollection : System::Collections::ICollection" />
-  <TypeSignature Language="F#" Value="type GroupCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="VB.NET" Value="Public Class GroupCollection&#xA;Implements ICollection(Of Group), IEnumerable(Of Group), IEnumerable(Of KeyValuePair(Of String, Group)), IList, IList(Of Group), IReadOnlyCollection(Of Group), IReadOnlyCollection(Of KeyValuePair(Of String, Group)), IReadOnlyDictionary(Of String, Group), IReadOnlyList(Of Group)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupCollection : System::Collections::Generic::ICollection&lt;System::Text::RegularExpressions::Group ^&gt;, System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::Text::RegularExpressions::Group ^&gt;&gt;, System::Collections::Generic::IEnumerable&lt;System::Text::RegularExpressions::Group ^&gt;, System::Collections::Generic::IList&lt;System::Text::RegularExpressions::Group ^&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::Text::RegularExpressions::Group ^&gt;&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Text::RegularExpressions::Group ^&gt;, System::Collections::Generic::IReadOnlyDictionary&lt;System::String ^, System::Text::RegularExpressions::Group ^&gt;, System::Collections::Generic::IReadOnlyList&lt;System::Text::RegularExpressions::Group ^&gt;, System::Collections::IList" />
+  <TypeSignature Language="F#" Value="type GroupCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface ICollection&lt;Group&gt;&#xA;    interface seq&lt;Group&gt;&#xA;    interface IList&lt;Group&gt;&#xA;    interface IReadOnlyCollection&lt;Group&gt;&#xA;    interface IReadOnlyList&lt;Group&gt;&#xA;    interface IList&#xA;    interface IReadOnlyDictionary&lt;string, Group&gt;&#xA;    interface seq&lt;KeyValuePair&lt;string, Group&gt;&gt;&#xA;    interface IReadOnlyCollection&lt;KeyValuePair&lt;string, Group&gt;&gt;" />
   <AssemblyInfo>
     <AssemblyName>System.Text.RegularExpressions</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -30,17 +30,54 @@
   </Base>
   <Interfaces>
     <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Text.RegularExpressions.Group&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Text.RegularExpressions.Group&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Text.RegularExpressions.Group&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IList&lt;System.Text.RegularExpressions.Group&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Text.RegularExpressions.Group&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Text.RegularExpressions.Group&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Text.RegularExpressions.Group&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;System.Text.RegularExpressions.Group&gt;</InterfaceName>
+    </Interface>
+    <Interface>
       <InterfaceName>System.Collections.ICollection</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.IEnumerable</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IList</InterfaceName>
+    </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Returns the set of captured groups in a single match.</summary>
     <remarks>
@@ -74,6 +111,40 @@
     <altmember cref="T:System.Text.RegularExpressions.Group" />
   </Docs>
   <Members>
+    <Member MemberName="ContainsKey">
+      <MemberSignature Language="C#" Value="public bool ContainsKey (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ContainsKey(string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Text.RegularExpressions.GroupCollection.ContainsKey(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ContainsKey (key As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool ContainsKey(System::String ^ key);" />
+      <MemberSignature Language="F#" Value="abstract member ContainsKey : string -&gt; bool&#xA;override this.ContainsKey : string -&gt; bool" Usage="groupCollection.ContainsKey key" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
+        <AssemblyVersion>4.2.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CopyTo">
       <MemberSignature Language="C#" Value="public void CopyTo (Array array, int arrayIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CopyTo(class System.Array array, int32 arrayIndex) cil managed" />
@@ -191,6 +262,9 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Text.RegularExpressions</AssemblyName>
@@ -284,6 +358,10 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="System.Text.RegularExpressions.GroupCollection.IsReadOnly" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
+        <InterfaceMember>P:System.Collections.IList.IsReadOnly</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -378,6 +456,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::RegularExpressions::Group ^ default[int] { System::Text::RegularExpressions::Group ^ get(int groupnum); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : System.Text.RegularExpressions.Group" Usage="System.Text.RegularExpressions.GroupCollection.Item" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyList`1.Item(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Text.RegularExpressions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -398,11 +479,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Text.RegularExpressions.Group</ReturnType>
       </ReturnValue>
@@ -454,6 +530,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::RegularExpressions::Group ^ default[System::String ^] { System::Text::RegularExpressions::Group ^ get(System::String ^ groupname); };" />
       <MemberSignature Language="F#" Value="member this.Item(string) : System.Text.RegularExpressions.Group" Usage="System.Text.RegularExpressions.GroupCollection.Item" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyDictionary`2.Item(`0)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Text.RegularExpressions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -513,6 +592,36 @@
         <related type="Article" href="https://msdn.microsoft.com/library/0fc18634-f590-4062-8d5c-f0b71abe405b">Grouping Constructs</related>
       </Docs>
     </Member>
+    <Member MemberName="Keys">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; Keys { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; Keys" />
+      <MemberSignature Language="DocId" Value="P:System.Text.RegularExpressions.GroupCollection.Keys" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Keys As IEnumerable(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ Keys { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Keys : seq&lt;string&gt;" Usage="System.Text.RegularExpressions.GroupCollection.Keys" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyDictionary`2.Keys</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
+        <AssemblyVersion>4.2.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SyncRoot">
       <MemberSignature Language="C#" Value="public object SyncRoot { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object SyncRoot" />
@@ -540,11 +649,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -690,6 +794,36 @@
       </Parameters>
       <Docs>
         <param name="item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Text.RegularExpressions.Group&gt;&gt;.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;string,System.Text.RegularExpressions.Group&gt;&gt; IEnumerable&lt;KeyValuePair&lt;string,Group&gt;&gt;.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class System.Text.RegularExpressions.Group&gt;&gt; System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Text.RegularExpressions.Group&gt;&gt;.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Text.RegularExpressions.GroupCollection.System#Collections#Generic#IEnumerable&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Text#RegularExpressions#Group&gt;&gt;#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of KeyValuePair(Of String, Group)) Implements IEnumerable(Of KeyValuePair(Of String, Group)).GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IEnumerator&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::Text::RegularExpressions::Group ^&gt;&gt; ^ System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Text.RegularExpressions.Group&gt;&gt;.GetEnumerator() = System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::Text::RegularExpressions::Group ^&gt;&gt;::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
+        <AssemblyVersion>4.2.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Text.RegularExpressions.Group&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -860,112 +994,6 @@
       <Docs>
         <param name="index">To be added.</param>
         <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Collections.ICollection.CopyTo">
-      <MemberSignature Language="C#" Value="void ICollection.CopyTo (Array array, int arrayIndex);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Collections.ICollection.CopyTo(class System.Array array, int32 arrayIndex) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.RegularExpressions.GroupCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.ICollection.CopyTo(Array ^ array, int arrayIndex) = System::Collections::ICollection::CopyTo;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.ICollection.CopyTo(System.Array,System.Int32)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.10.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyVersion>4.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="array" Type="System.Array" />
-        <Parameter Name="arrayIndex" Type="System.Int32" />
-      </Parameters>
-      <Docs>
-        <param name="array">The one-dimensional array the collection is to be copied into.</param>
-        <param name="arrayIndex">The zero-based index in the destination array where copying is to begin.</param>
-        <summary>Copies all the elements of the collection to the specified array beginning at the specified index.</summary>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="array" /> is null.</exception>
-        <exception cref="T:System.IndexOutOfRangeException">
-          <paramref name="arrayIndex" /> is outside the bounds of <paramref name="array" />.-or-<paramref name="arrayIndex" /> plus <see cref="P:System.Text.RegularExpressions.GroupCollection.Count" /> is outside the bounds of <paramref name="array" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Collections.ICollection.IsSynchronized">
-      <MemberSignature Language="C#" Value="bool System.Collections.ICollection.IsSynchronized { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool System.Collections.ICollection.IsSynchronized" />
-      <MemberSignature Language="DocId" Value="P:System.Text.RegularExpressions.GroupCollection.System#Collections#ICollection#IsSynchronized" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsSynchronized As Boolean Implements ICollection.IsSynchronized" />
-      <MemberSignature Language="C++ CLI" Value="property bool System::Collections::ICollection::IsSynchronized { bool get(); };" />
-      <MemberSignature Language="F#" Usage="System.Collections.ICollection.IsSynchronized" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.IsSynchronized</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.10.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyVersion>4.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a value that indicates whether access to the collection is synchronized (thread-safe).</summary>
-        <value>false in all cases.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Collections.ICollection.SyncRoot">
-      <MemberSignature Language="C#" Value="object System.Collections.ICollection.SyncRoot { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance object System.Collections.ICollection.SyncRoot" />
-      <MemberSignature Language="DocId" Value="P:System.Text.RegularExpressions.GroupCollection.System#Collections#ICollection#SyncRoot" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property SyncRoot As Object Implements ICollection.SyncRoot" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ System::Collections::ICollection::SyncRoot { System::Object ^ get(); };" />
-      <MemberSignature Language="F#" Usage="System.Collections.ICollection.SyncRoot" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.SyncRoot</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.10.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyVersion>4.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets an object that can be used to synchronize access to the collection.</summary>
-        <value>An object that can be used to synchronize access to the collection.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1265,6 +1293,69 @@
       <Docs>
         <param name="index">To be added.</param>
         <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (string key, out System.Text.RegularExpressions.Group value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryGetValue(string key, [out] class System.Text.RegularExpressions.Group&amp; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Text.RegularExpressions.GroupCollection.TryGetValue(System.String,System.Text.RegularExpressions.Group@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As String, ByRef value As Group) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool TryGetValue(System::String ^ key, [Runtime::InteropServices::Out] System::Text::RegularExpressions::Group ^ % value);" />
+      <MemberSignature Language="F#" Value="abstract member TryGetValue : string *  -&gt; bool&#xA;override this.TryGetValue : string *  -&gt; bool" Usage="groupCollection.TryGetValue (key, value)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
+        <AssemblyVersion>4.2.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="value" Type="System.Text.RegularExpressions.Group" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">To be added.</param>
+        <param name="value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Text.RegularExpressions.Group&gt; Values { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class System.Text.RegularExpressions.Group&gt; Values" />
+      <MemberSignature Language="DocId" Value="P:System.Text.RegularExpressions.GroupCollection.Values" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Values As IEnumerable(Of Group)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::Text::RegularExpressions::Group ^&gt; ^ Values { System::Collections::Generic::IEnumerable&lt;System::Text::RegularExpressions::Group ^&gt; ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Values : seq&lt;System.Text.RegularExpressions.Group&gt;" Usage="System.Text.RegularExpressions.GroupCollection.Values" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyDictionary`2.Values</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
+        <AssemblyVersion>4.2.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Text.RegularExpressions.Group&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Linq.EnumerableQuery`1" />
   <TypeSignature Language="VB.NET" Value="Public Class EnumerableQuery(Of T)&#xA;Inherits EnumerableQuery&#xA;Implements IEnumerable(Of T), IOrderedQueryable(Of T), IQueryable(Of T), IQueryProvider" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public ref class EnumerableQuery : System::Linq::EnumerableQuery, System::Collections::Generic::IEnumerable&lt;T&gt;, System::Linq::IOrderedQueryable&lt;T&gt;, System::Linq::IQueryable&lt;T&gt;, System::Linq::IQueryProvider" />
-  <TypeSignature Language="F#" Value="type EnumerableQuery&lt;'T&gt; = class&#xA;    inherit EnumerableQuery&#xA;    interface IOrderedQueryable&lt;'T&gt;&#xA;    interface IQueryable&#xA;    interface IQueryProvider&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IQueryable&lt;'T&gt;&#xA;    interface IOrderedQueryable" />
+  <TypeSignature Language="F#" Value="type EnumerableQuery&lt;'T&gt; = class&#xA;    inherit EnumerableQuery&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface IOrderedQueryable&#xA;    interface IQueryable&#xA;    interface IOrderedQueryable&lt;'T&gt;&#xA;    interface IQueryable&lt;'T&gt;&#xA;    interface IQueryProvider" />
   <AssemblyInfo>
     <AssemblyName>System.Linq.Queryable</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -118,11 +118,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="expression" Type="System.Linq.Expressions.Expression" />
       </Parameters>
@@ -157,11 +152,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;T&gt;</ReturnType>
       </ReturnValue>
@@ -197,11 +187,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
       </ReturnValue>

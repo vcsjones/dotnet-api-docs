@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.ToolStripPanel.ToolStripPanelRowCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class ToolStripPanel.ToolStripPanelRowCollection&#xA;Inherits ArrangedElementCollection&#xA;Implements IList" />
   <TypeSignature Language="C++ CLI" Value="public: ref class ToolStripPanel::ToolStripPanelRowCollection : System::Windows::Forms::Layout::ArrangedElementCollection, System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type ToolStripPanel.ToolStripPanelRowCollection = class&#xA;    inherit ArrangedElementCollection&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type ToolStripPanel.ToolStripPanelRowCollection = class&#xA;    inherit ArrangedElementCollection&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -27,9 +27,6 @@
   <Attributes>
     <Attribute>
       <AttributeName>System.ComponentModel.ListBindable(false)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -59,11 +56,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="owner" Type="System.Windows.Forms.ToolStripPanel" />
       </Parameters>
@@ -451,11 +443,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -730,11 +717,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

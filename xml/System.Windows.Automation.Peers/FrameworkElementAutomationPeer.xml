@@ -32,11 +32,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="owner" Type="System.Windows.FrameworkElement" />
       </Parameters>
@@ -101,37 +96,6 @@
         <remarks>To be added.</remarks>
         <altmember cref="M:System.Windows.Automation.Peers.AutomationPeer.GetHelpTextCore" />
         <altmember cref="M:System.Windows.Automation.Peers.AutomationPeer.GetHelpText" />
-      </Docs>
-    </Member>
-    <Member MemberName="GetLabeledByCore">
-      <MemberSignature Language="C#" Value="protected override System.Windows.Automation.Peers.AutomationPeer GetLabeledByCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Windows.Automation.Peers.AutomationPeer GetLabeledByCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.FrameworkElementAutomationPeer.GetLabeledByCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetLabeledByCore () As AutomationPeer" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Automation::Peers::AutomationPeer ^ GetLabeledByCore();" />
-      <MemberSignature Language="F#" Value="override this.GetLabeledByCore : unit -&gt; System.Windows.Automation.Peers.AutomationPeer" Usage="frameworkElementAutomationPeer.GetLabeledByCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Windows.Automation.Peers.AutomationPeer</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Gets the <see cref="T:System.Windows.Automation.Peers.AutomationPeer" /> for the <see cref="T:System.Windows.Controls.Label" /> that is targeted to the <see cref="T:System.Windows.ContentElement" /> that is associated with this <see cref="T:System.Windows.Automation.Peers.ContentElementAutomationPeer" />. Called by <see cref="M:System.Windows.Automation.Peers.AutomationPeer.GetLabeledBy" />.</summary>
-        <returns>The <see cref="T:System.Windows.Automation.Peers.LabelAutomationPeer" /> for the element that is targeted by the <see cref="T:System.Windows.Controls.Label" />.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks  
-For example, if the element is a <xref:System.Windows.Controls.ComboBox> control, the <xref:System.Windows.Automation.Peers.AutomationPeer.GetLabeledBy> method could get the <xref:System.Windows.Automation.Peers.AutomationPeer> for the <xref:System.Windows.Controls.Label> that is associated with the <xref:System.Windows.Controls.ComboBox>.
-
-]]></format>
-        </remarks>
-        <altmember cref="M:System.Windows.Automation.Peers.AutomationPeer.GetLabeledBy" />
-        <altmember cref="M:System.Windows.Automation.Peers.AutomationPeer.GetLabeledByCore" />
       </Docs>
     </Member>
     <Member MemberName="GetNameCore">

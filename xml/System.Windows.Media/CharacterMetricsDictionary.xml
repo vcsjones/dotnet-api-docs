@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.CharacterMetricsDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CharacterMetricsDictionary&#xA;Implements ICollection(Of KeyValuePair(Of Integer, CharacterMetrics)), IDictionary, IDictionary(Of Integer, CharacterMetrics), IEnumerable(Of KeyValuePair(Of Integer, CharacterMetrics))" />
   <TypeSignature Language="C++ CLI" Value="public ref class CharacterMetricsDictionary sealed : System::Collections::Generic::ICollection&lt;System::Collections::Generic::KeyValuePair&lt;int, System::Windows::Media::CharacterMetrics ^&gt;&gt;, System::Collections::Generic::IDictionary&lt;int, System::Windows::Media::CharacterMetrics ^&gt;, System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;int, System::Windows::Media::CharacterMetrics ^&gt;&gt;, System::Collections::IDictionary" />
-  <TypeSignature Language="F#" Value="type CharacterMetricsDictionary = class&#xA;    interface IDictionary&lt;int, CharacterMetrics&gt;&#xA;    interface ICollection&lt;KeyValuePair&lt;int, CharacterMetrics&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;int, CharacterMetrics&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IDictionary&#xA;    interface ICollection" />
+  <TypeSignature Language="F#" Value="type CharacterMetricsDictionary = class&#xA;    interface ICollection&lt;KeyValuePair&lt;int, CharacterMetrics&gt;&gt;&#xA;    interface seq&lt;KeyValuePair&lt;int, CharacterMetrics&gt;&gt;&#xA;    interface IEnumerable&#xA;    interface IDictionary&lt;int, CharacterMetrics&gt;&#xA;    interface ICollection&#xA;    interface IDictionary" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -105,11 +105,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -257,6 +252,7 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -346,14 +342,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Media.CharacterMetrics</ReturnType>
       </ReturnValue>
@@ -386,9 +374,6 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.CLSCompliant(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -467,11 +452,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -778,11 +758,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ICollection</ReturnType>
       </ReturnValue>
@@ -851,11 +826,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ICollection</ReturnType>
       </ReturnValue>
@@ -961,9 +931,6 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.CLSCompliant(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

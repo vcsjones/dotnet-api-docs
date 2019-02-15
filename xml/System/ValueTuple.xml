@@ -1,10 +1,10 @@
 ﻿<Type Name="ValueTuple" FullName="System.ValueTuple">
-  <TypeSignature Language="C#" Value="public struct ValueTuple : IComparable, IComparable&lt;ValueTuple&gt;, IEquatable&lt;ValueTuple&gt;, System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ValueTuple extends System.ValueType implements class System.Collections.IStructuralComparable, class System.Collections.IStructuralEquatable, class System.IComparable, class System.IComparable`1&lt;valuetype System.ValueTuple&gt;, class System.IEquatable`1&lt;valuetype System.ValueTuple&gt;" />
+  <TypeSignature Language="C#" Value="public struct ValueTuple : IComparable, IComparable&lt;ValueTuple&gt;, IEquatable&lt;ValueTuple&gt;, System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.Runtime.CompilerServices.ITuple" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit ValueTuple extends System.ValueType implements class System.Collections.IStructuralComparable, class System.Collections.IStructuralEquatable, class System.IComparable, class System.IComparable`1&lt;valuetype System.ValueTuple&gt;, class System.IEquatable`1&lt;valuetype System.ValueTuple&gt;, class System.Runtime.CompilerServices.ITuple" />
   <TypeSignature Language="DocId" Value="T:System.ValueTuple" />
-  <TypeSignature Language="VB.NET" Value="Public Structure ValueTuple&#xA;Implements IComparable, IComparable(Of ValueTuple), IEquatable(Of ValueTuple), IStructuralComparable, IStructuralEquatable" />
-  <TypeSignature Language="C++ CLI" Value="public value class ValueTuple : IComparable, IComparable&lt;ValueTuple&gt;, IEquatable&lt;ValueTuple&gt;, System::Collections::IStructuralComparable, System::Collections::IStructuralEquatable" />
-  <TypeSignature Language="F#" Value="type ValueTuple = struct" />
+  <TypeSignature Language="VB.NET" Value="Public Structure ValueTuple&#xA;Implements IComparable, IComparable(Of ValueTuple), IEquatable(Of ValueTuple), IStructuralComparable, IStructuralEquatable, ITuple" />
+  <TypeSignature Language="C++ CLI" Value="public value class ValueTuple : IComparable, IComparable&lt;ValueTuple&gt;, IEquatable&lt;ValueTuple&gt;, System::Collections::IStructuralComparable, System::Collections::IStructuralEquatable, System::Runtime::CompilerServices::ITuple" />
+  <TypeSignature Language="F#" Value="type ValueTuple = struct&#xA;    interface ITuple" />
   <AssemblyInfo>
     <AssemblyName>System.ValueTuple</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -42,12 +42,10 @@
     <Interface>
       <InterfaceName>System.IEquatable&lt;System.ValueTuple&gt;</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>System.Runtime.CompilerServices.ITuple</InterfaceName>
+    </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Provides static methods for creating value tuples.</summary>
     <remarks>

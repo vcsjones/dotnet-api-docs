@@ -1,6 +1,6 @@
 ﻿<Type Name="GenericPrincipal" FullName="System.Security.Principal.GenericPrincipal">
   <TypeSignature Language="C#" Value="public class GenericPrincipal : System.Security.Claims.ClaimsPrincipal" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit GenericPrincipal extends System.Security.Claims.ClaimsPrincipal" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GenericPrincipal extends System.Security.Claims.ClaimsPrincipal" />
   <TypeSignature Language="DocId" Value="T:System.Security.Principal.GenericPrincipal" />
   <TypeSignature Language="VB.NET" Value="Public Class GenericPrincipal&#xA;Inherits ClaimsPrincipal" />
   <TypeSignature Language="C++ CLI" Value="public ref class GenericPrincipal : System::Security::Claims::ClaimsPrincipal" />
@@ -28,14 +28,6 @@
     <BaseTypeName FrameworkAlternate="netframework-1.1">System.Object</BaseTypeName>
   </Base>
   <Interfaces></Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a generic principal.</summary>
     <remarks>

@@ -90,11 +90,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -227,7 +222,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventHandler XpsSerializationPrintTicketRequired;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventHandler XpsSerializationPrintTicketRequired" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Xps.Serialization.XpsSerializationManager.XpsSerializationPrintTicketRequired" />
-      <MemberSignature Language="VB.NET" Value="Public Event XpsSerializationPrintTicketRequired As XpsSerializationPrintTicketRequiredEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event XpsSerializationPrintTicketRequired As XpsSerializationPrintTicketRequiredEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Xps::Serialization::XpsSerializationPrintTicketRequiredEventHandler ^ XpsSerializationPrintTicketRequired;" />
       <MemberSignature Language="F#" Value="member this.XpsSerializationPrintTicketRequired : System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventHandler " Usage="member this.XpsSerializationPrintTicketRequired : System.Windows.Xps.Serialization.XpsSerializationPrintTicketRequiredEventHandler " />
       <MemberType>Event</MemberType>
@@ -255,7 +250,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Xps.Serialization.XpsSerializationProgressChangedEventHandler XpsSerializationProgressChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Xps.Serialization.XpsSerializationProgressChangedEventHandler XpsSerializationProgressChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Xps.Serialization.XpsSerializationManager.XpsSerializationProgressChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event XpsSerializationProgressChanged As XpsSerializationProgressChangedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event XpsSerializationProgressChanged As XpsSerializationProgressChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Xps::Serialization::XpsSerializationProgressChangedEventHandler ^ XpsSerializationProgressChanged;" />
       <MemberSignature Language="F#" Value="member this.XpsSerializationProgressChanged : System.Windows.Xps.Serialization.XpsSerializationProgressChangedEventHandler " Usage="member this.XpsSerializationProgressChanged : System.Windows.Xps.Serialization.XpsSerializationProgressChangedEventHandler " />
       <MemberType>Event</MemberType>

@@ -15,17 +15,6 @@
       <InterfaceName>System.Windows.Automation.Provider.IRawElementProviderSimple</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("1d5df27c-8947-4425-b8d9-79787bb460b8")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Exposes a method that enables repositioning of window-based elements within the  UI Automation tree of the fragment.</summary>
     <remarks>To be added.</remarks>

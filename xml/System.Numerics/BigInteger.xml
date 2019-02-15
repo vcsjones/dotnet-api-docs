@@ -1,6 +1,6 @@
 ﻿<Type Name="BigInteger" FullName="System.Numerics.BigInteger">
   <TypeSignature Language="C#" Value="public struct BigInteger : IComparable, IComparable&lt;System.Numerics.BigInteger&gt;, IEquatable&lt;System.Numerics.BigInteger&gt;, IFormattable" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi serializable sealed beforefieldinit BigInteger extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype System.Numerics.BigInteger&gt;, class System.IEquatable`1&lt;valuetype System.Numerics.BigInteger&gt;, class System.IFormattable" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit BigInteger extends System.ValueType implements class System.IComparable, class System.IComparable`1&lt;valuetype System.Numerics.BigInteger&gt;, class System.IEquatable`1&lt;valuetype System.Numerics.BigInteger&gt;, class System.IFormattable" />
   <TypeSignature Language="DocId" Value="T:System.Numerics.BigInteger" />
   <TypeSignature Language="VB.NET" Value="Public Structure BigInteger&#xA;Implements IComparable, IComparable(Of BigInteger), IEquatable(Of BigInteger), IFormattable" />
   <TypeSignature Language="C++ CLI" Value="public value class BigInteger : IComparable, IComparable&lt;System::Numerics::BigInteger&gt;, IEquatable&lt;System::Numerics::BigInteger&gt;, IFormattable" />
@@ -40,9 +40,6 @@
   <Attributes>
     <Attribute FrameworkAlternate="netcore-2.1;netcore-2.2">
       <AttributeName>System.Runtime.CompilerServices.IsReadOnly</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -738,11 +735,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -1159,11 +1151,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -1825,11 +1812,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
@@ -1959,11 +1941,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
       </ReturnValue>
@@ -2128,11 +2105,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -2238,11 +2210,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -2302,11 +2269,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -2364,11 +2326,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -6740,11 +6697,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -6863,11 +6815,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>
@@ -6894,39 +6841,6 @@ value Mod 2 = 0
  ]]></format>
         </remarks>
         <altmember cref="M:System.Numerics.BigInteger.op_Subtraction(System.Numerics.BigInteger,System.Numerics.BigInteger)" />
-      </Docs>
-    </Member>
-    <Member MemberName="System.IComparable.CompareTo">
-      <MemberSignature Language="C#" Value="int IComparable.CompareTo (object obj);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance int32 System.IComparable.CompareTo(object obj) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Numerics.BigInteger.System#IComparable#CompareTo(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Function CompareTo (obj As Object) As Integer Implements IComparable.CompareTo" />
-      <MemberSignature Language="C++ CLI" Value=" virtual int System.IComparable.CompareTo(System::Object ^ obj) = IComparable::CompareTo;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IComparable.CompareTo(System.Object)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime.Numerics</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Numerics</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
-      </Parameters>
-      <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ToByteArray">
@@ -7704,11 +7618,6 @@ value Mod 2 = 0
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Numerics.BigInteger</ReturnType>
       </ReturnValue>

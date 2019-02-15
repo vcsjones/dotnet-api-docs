@@ -346,7 +346,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Diagnostics.Tracing.EventSourceCreatedEventArgs&gt; EventSourceCreated;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Diagnostics.Tracing.EventSourceCreatedEventArgs&gt; EventSourceCreated" />
       <MemberSignature Language="DocId" Value="E:System.Diagnostics.Tracing.EventListener.EventSourceCreated" />
-      <MemberSignature Language="VB.NET" Value="Public Custom Event EventSourceCreated As EventHandler(Of EventSourceCreatedEventArgs) " />
+      <MemberSignature Language="VB.NET" Value="Public Event EventSourceCreated As EventHandler(Of EventSourceCreatedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Diagnostics::Tracing::EventSourceCreatedEventArgs ^&gt; ^ EventSourceCreated;" />
       <MemberSignature Language="F#" Value="member this.EventSourceCreated : EventHandler&lt;System.Diagnostics.Tracing.EventSourceCreatedEventArgs&gt; " Usage="member this.EventSourceCreated : System.EventHandler&lt;System.Diagnostics.Tracing.EventSourceCreatedEventArgs&gt; " />
       <MemberType>Event</MemberType>
@@ -378,10 +378,10 @@
       </Docs>
     </Member>
     <Member MemberName="EventSourceIndex">
-      <MemberSignature Language="C#" Value="public static int EventSourceIndex (System.Diagnostics.Tracing.EventSource eventSource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 EventSourceIndex(class System.Diagnostics.Tracing.EventSource eventSource) cil managed" />
+      <MemberSignature Language="C#" Value="protected static int EventSourceIndex (System.Diagnostics.Tracing.EventSource eventSource);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig int32 EventSourceIndex(class System.Diagnostics.Tracing.EventSource eventSource) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Tracing.EventListener.EventSourceIndex(System.Diagnostics.Tracing.EventSource)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static int EventSourceIndex(System::Diagnostics::Tracing::EventSource ^ eventSource);" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; static int EventSourceIndex(System::Diagnostics::Tracing::EventSource ^ eventSource);" />
       <MemberSignature Language="F#" Value="static member EventSourceIndex : System.Diagnostics.Tracing.EventSource -&gt; int" Usage="System.Diagnostics.Tracing.EventListener.EventSourceIndex eventSource" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -497,12 +497,12 @@
       </Docs>
     </Member>
     <Member MemberName="OnEventWritten">
-      <MemberSignature Language="C#" Value="protected internal abstract void OnEventWritten (System.Diagnostics.Tracing.EventWrittenEventArgs eventData);" />
+      <MemberSignature Language="C#" Value="protected internal virtual void OnEventWritten (System.Diagnostics.Tracing.EventWrittenEventArgs eventData);" />
       <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig newslot virtual instance void OnEventWritten(class System.Diagnostics.Tracing.EventWrittenEventArgs eventData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Tracing.EventListener.OnEventWritten(System.Diagnostics.Tracing.EventWrittenEventArgs)" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend MustOverride Sub OnEventWritten (eventData As EventWrittenEventArgs)" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; abstract void OnEventWritten(System::Diagnostics::Tracing::EventWrittenEventArgs ^ eventData);" />
-      <MemberSignature Language="F#" Value="abstract member OnEventWritten : System.Diagnostics.Tracing.EventWrittenEventArgs -&gt; unit" Usage="eventListener.OnEventWritten eventData" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Overridable Sub OnEventWritten (eventData As EventWrittenEventArgs)" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual void OnEventWritten(System::Diagnostics::Tracing::EventWrittenEventArgs ^ eventData);" />
+      <MemberSignature Language="F#" Value="abstract member OnEventWritten : System.Diagnostics.Tracing.EventWrittenEventArgs -&gt; unit&#xA;override this.OnEventWritten : System.Diagnostics.Tracing.EventWrittenEventArgs -&gt; unit" Usage="eventListener.OnEventWritten eventData" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tracing</AssemblyName>

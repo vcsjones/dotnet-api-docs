@@ -288,11 +288,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
       </ReturnValue>
@@ -333,7 +328,7 @@
       <MemberSignature Language="C#" Value="protected System.Collections.Generic.IEnumerator&lt;System.Windows.Data.XmlNamespaceMapping&gt; ProtectedGetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance class System.Collections.Generic.IEnumerator`1&lt;class System.Windows.Data.XmlNamespaceMapping&gt; ProtectedGetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Data.XmlNamespaceMappingCollection.ProtectedGetEnumerator" />
-      <MemberSignature Language="VB.NET" Value="Protected Iterator Function ProtectedGetEnumerator () As IEnumerator(Of XmlNamespaceMapping)" />
+      <MemberSignature Language="VB.NET" Value="Protected Function ProtectedGetEnumerator () As IEnumerator(Of XmlNamespaceMapping)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; System::Collections::Generic::IEnumerator&lt;System::Windows::Data::XmlNamespaceMapping ^&gt; ^ ProtectedGetEnumerator();" />
       <MemberSignature Language="F#" Value="member this.ProtectedGetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;System.Windows.Data.XmlNamespaceMapping&gt;" Usage="xmlNamespaceMappingCollection.ProtectedGetEnumerator " />
       <MemberType>Method</MemberType>
@@ -342,14 +337,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Windows.Data.XmlNamespaceMappingCollection/&lt;ProtectedGetEnumerator&gt;d__16))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.6">
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Windows.Data.XmlNamespaceMappingCollection/&lt;ProtectedGetEnumerator&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Windows.Data.XmlNamespaceMapping&gt;</ReturnType>
       </ReturnValue>
@@ -415,11 +402,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Windows.Data.XmlNamespaceMapping&gt;</ReturnType>
       </ReturnValue>
@@ -452,11 +434,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -491,11 +468,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

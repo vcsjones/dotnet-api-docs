@@ -1,6 +1,6 @@
 ﻿<Type Name="RectAnimation" FullName="System.Windows.Media.Animation.RectAnimation">
   <TypeSignature Language="C#" Value="public class RectAnimation : System.Windows.Media.Animation.RectAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi RectAnimation extends System.Windows.Media.Animation.RectAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RectAnimation extends System.Windows.Media.Animation.RectAnimationBase" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.RectAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class RectAnimation&#xA;Inherits RectAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class RectAnimation : System::Windows::Media::Animation::RectAnimationBase" />
@@ -70,11 +70,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.Animation.RectAnimation" /> class.</summary>
@@ -314,7 +309,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.RectAnimation.CreateInstanceCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateInstanceCore () As Freezable" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Freezable ^ CreateInstanceCore();" />
-      <MemberSignature Language="F#" Value="override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="rectAnimation.CreateInstanceCore " />
+      <MemberSignature Language="F#" Value="abstract member CreateInstanceCore : unit -&gt; System.Windows.Freezable&#xA;override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="rectAnimation.CreateInstanceCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

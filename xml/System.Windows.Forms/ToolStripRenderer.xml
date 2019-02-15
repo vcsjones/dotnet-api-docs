@@ -61,11 +61,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Forms.ToolStripRenderer" /> class.</summary>
@@ -2424,36 +2419,6 @@
       <Docs>
         <summary>Applies the <see cref="F:System.Windows.Forms.ToolStripRenderer.Offset2X" /> and <see cref="F:System.Windows.Forms.ToolStripRenderer.Offset2Y" /> values to scaling the arrow icon, if scaling is required based on the DPI settings of the computer.</summary>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ScaleArrowOffsetsIfNeeded">
-      <MemberSignature Language="C#" Value="protected static void ScaleArrowOffsetsIfNeeded (int dpi);" />
-      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig void ScaleArrowOffsetsIfNeeded(int32 dpi) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.ToolStripRenderer.ScaleArrowOffsetsIfNeeded(System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Protected Shared Sub ScaleArrowOffsetsIfNeeded (dpi As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; static void ScaleArrowOffsetsIfNeeded(int dpi);" />
-      <MemberSignature Language="F#" Value="static member ScaleArrowOffsetsIfNeeded : int -&gt; unit" Usage="System.Windows.Forms.ToolStripRenderer.ScaleArrowOffsetsIfNeeded dpi" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Windows.Forms</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="dpi" Type="System.Int32" />
-      </Parameters>
-      <Docs>
-        <param name="dpi">The DPI value to use for scaling.</param>
-        <summary>Applies the <see cref="F:System.Windows.Forms.ToolStripRenderer.Offset2X" /> and <see cref="F:System.Windows.Forms.ToolStripRenderer.Offset2Y" /> values to scaling the arrow icon based on the specified DPI value.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-
-This overload of the `ScaleArrowOffsetsIfNeeded` method should be called in a derived class only when  when an application opts into [per-monitor version 2](~/docs/framework/whats-new/whats-new-in-accessibility.md#accessibility-switches), targets .NET Framework 4.7.1 or later, and has the `EnableDpiChangedMessageHandling` and `EnableDpiChangedHighDpiImprovements` configuration switches turned on. It informs the <xref:System.Windows.Forms.ToolStripRenderer> about the new DPI and allows the offsets for rendering arrows in the right dimensions to be calculated.    
-
-         ]]></format>
-        </remarks>
       </Docs>
     </Member>
   </Members>

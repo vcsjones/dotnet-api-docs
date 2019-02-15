@@ -12,14 +12,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("fdc8f176-aed2-477a-8c89-5604c66f278d")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Contains values that specify the type of synchronized input.</summary>
     <remarks>To be added.</remarks>

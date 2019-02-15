@@ -245,35 +245,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsVisualHostMaterial">
-      <MemberSignature Language="C#" Value="see GetIsVisualHostMaterial, and SetIsVisualHostMaterial" />
-      <MemberSignature Language="ILAsm" Value="see GetIsVisualHostMaterial, and SetIsVisualHostMaterial" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Media.Media3D.Viewport2DVisual3D.IsVisualHostMaterial" />
-      <MemberSignature Language="VB.NET" Value="see GetIsVisualHostMaterial, and SetIsVisualHostMaterial" />
-      <MemberSignature Language="F#" Value="see GetIsVisualHostMaterial, and SetIsVisualHostMaterial" Usage="see GetIsVisualHostMaterial, and SetIsVisualHostMaterial" />
-      <MemberType>AttachedProperty</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationCore</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Docs>
-        <summary>Gets or sets a value that specifies whether a material should be interactive.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks  
-You must set the `IsVisualHostMaterial` attached property on the material on which you wish to have the 2-D visual placed.
-
-## Examples  
-The following example shows how to specify the material where the 2-D visual (the button) should be placed by setting the <xref:System.Windows.Media.Media3D.Viewport2DVisual3D.Material> property and also setting the `IsVisualHostMaterial` attached property to `true`:
-
-[!code-xaml[Viewport2DVisual3DExample#Viewport3D](~/samples/snippets/csharp/VS_Snippets_Wpf/Viewport2DVisual3DExample/CS/window1.xaml#viewport3d)]
-
-]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="IsVisualHostMaterialProperty">
       <MemberSignature Language="C#" Value="public static readonly System.Windows.DependencyProperty IsVisualHostMaterialProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Windows.DependencyProperty IsVisualHostMaterialProperty" />

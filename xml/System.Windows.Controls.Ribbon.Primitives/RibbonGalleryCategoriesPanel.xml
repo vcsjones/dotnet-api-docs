@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Ribbon.Primitives.RibbonGalleryCategoriesPanel" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonGalleryCategoriesPanel&#xA;Inherits Panel&#xA;Implements IProvideStarLayoutInfoBase, IScrollInfo" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonGalleryCategoriesPanel : System::Windows::Controls::Panel, System::Windows::Controls::Primitives::IScrollInfo, System::Windows::Controls::Ribbon::Primitives::IProvideStarLayoutInfoBase" />
-  <TypeSignature Language="F#" Value="type RibbonGalleryCategoriesPanel = class&#xA;    inherit Panel&#xA;    interface IProvideStarLayoutInfoBase&#xA;    interface IScrollInfo" />
+  <TypeSignature Language="F#" Value="type RibbonGalleryCategoriesPanel = class&#xA;    inherit Panel&#xA;    interface IScrollInfo&#xA;    interface IProvideStarLayoutInfoBase" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

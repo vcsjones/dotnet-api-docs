@@ -1,6 +1,6 @@
 ﻿<Type Name="CustomContentState" FullName="System.Windows.Navigation.CustomContentState">
   <TypeSignature Language="C#" Value="public abstract class CustomContentState" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit CustomContentState extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CustomContentState extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Navigation.CustomContentState" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class CustomContentState" />
   <TypeSignature Language="C++ CLI" Value="public ref class CustomContentState abstract" />
@@ -14,11 +14,6 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
       <see cref="T:System.Windows.Navigation.CustomContentState" /> enables the ability to navigate through different states of a single piece of source content without reloading the source content for each subsequent navigation.</summary>
@@ -88,11 +83,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Navigation.CustomContentState" /> class.</summary>

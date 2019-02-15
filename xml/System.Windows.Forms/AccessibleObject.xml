@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.AccessibleObject" />
   <TypeSignature Language="VB.NET" Value="Public Class AccessibleObject&#xA;Inherits StandardOleMarshalObject&#xA;Implements IAccessible, IReflect" />
   <TypeSignature Language="C++ CLI" Value="public ref class AccessibleObject : System::Runtime::InteropServices::StandardOleMarshalObject, Accessibility::IAccessible, System::Reflection::IReflect" />
-  <TypeSignature Language="F#" Value="type AccessibleObject = class&#xA;    inherit StandardOleMarshalObject&#xA;    interface IReflect&#xA;    interface IAccessible" />
+  <TypeSignature Language="F#" Value="type AccessibleObject = class&#xA;    inherit StandardOleMarshalObject&#xA;    interface IAccessible&#xA;    interface IReflect" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -23,11 +23,6 @@
       <InterfaceName>System.Reflection.IReflect</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Provides information that accessibility applications use to adjust an application's user interface (UI) for users with impairments.</summary>
     <remarks>
@@ -618,11 +613,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -652,11 +642,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1573,6 +1558,27 @@ This method must be overridden in derived classes that support the UI automation
         <altmember cref="P:System.Windows.Forms.AccessibleObject.Parent" />
         <altmember cref="P:System.Windows.Forms.AccessibleObject.State" />
         <altmember cref="P:System.Windows.Forms.AccessibleObject.Value" />
+      </Docs>
+    </Member>
+    <Member MemberName="RuntimeIDFirstItem">
+      <MemberSignature Language="C#" Value="protected const int RuntimeIDFirstItem = 42;" />
+      <MemberSignature Language="ILAsm" Value=".field family static literal int32 RuntimeIDFirstItem = (42)" />
+      <MemberSignature Language="DocId" Value="F:System.Windows.Forms.AccessibleObject.RuntimeIDFirstItem" />
+      <MemberSignature Language="VB.NET" Value="Protected Const RuntimeIDFirstItem As Integer  = 42" />
+      <MemberSignature Language="C++ CLI" Value="protected: int RuntimeIDFirstItem = 42;" />
+      <MemberSignature Language="F#" Value="val mutable RuntimeIDFirstItem : int" Usage="System.Windows.Forms.AccessibleObject.RuntimeIDFirstItem" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Windows.Forms</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Select">

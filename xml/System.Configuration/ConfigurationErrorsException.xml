@@ -365,48 +365,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="BareMessage">
-      <MemberSignature Language="C#" Value="public override string BareMessage { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string BareMessage" />
-      <MemberSignature Language="DocId" Value="P:System.Configuration.ConfigurationErrorsException.BareMessage" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property BareMessage As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ BareMessage { System::String ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.BareMessage : string" Usage="System.Configuration.ConfigurationErrorsException.BareMessage" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Configuration</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Configuration.ConfigurationManager</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a description of why this configuration exception was thrown.</summary>
-        <value>A description of why this <see cref="T:System.Configuration.ConfigurationErrorsException" /> was thrown.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.Configuration.ConfigurationErrorsException.BareMessage%2A> property does not contain the name of the configuration file or the line number at which this <xref:System.Configuration.ConfigurationErrorsException> exception occurred. If you want a message that contains the name of the configuration file and the line number, along with the message, use the <xref:System.Configuration.ConfigurationErrorsException.Message%2A> property.  
-  
-   
-  
-## Examples  
- The following code example shows how to get the <xref:System.Configuration.ConfigurationErrorsException.BareMessage%2A> property value.  
-  
- [!code-csharp[System.Configuration.ConfigurationErrorsException#6](~/samples/snippets/csharp/VS_Snippets_WebNet/System.Configuration.ConfigurationErrorsException/CS/ConfigurationErrorsException.cs#6)]
- [!code-vb[System.Configuration.ConfigurationErrorsException#6](~/samples/snippets/visualbasic/VS_Snippets_WebNet/System.Configuration.ConfigurationErrorsException/VB/ConfigurationErrorsException.vb#6)]  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Errors">
       <MemberSignature Language="C#" Value="public System.Collections.ICollection Errors { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ICollection Errors" />

@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("e4cfef41-071d-472c-a65c-c14f59ea81eb")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Contains values that specify changes in the structure of the Microsoft UI Automation element tree.</summary>
     <remarks>To be added.</remarks>

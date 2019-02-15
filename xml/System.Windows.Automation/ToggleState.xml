@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("ad7db4af-7166-4478-a402-ad5b77eab2fa")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Contains values that specify the <see cref="T:System.Windows.Automation.ToggleState" /> of a UI Automation element.</summary>
     <remarks>

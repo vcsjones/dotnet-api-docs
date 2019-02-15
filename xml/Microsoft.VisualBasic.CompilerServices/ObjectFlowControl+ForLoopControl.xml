@@ -1,6 +1,6 @@
 ﻿<Type Name="ObjectFlowControl+ForLoopControl" FullName="Microsoft.VisualBasic.CompilerServices.ObjectFlowControl+ForLoopControl">
   <TypeSignature Language="C#" Value="public sealed class ObjectFlowControl.ForLoopControl" />
-  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed ObjectFlowControl/ForLoopControl extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit ObjectFlowControl/ForLoopControl extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ObjectFlowControl.ForLoopControl" />
   <TypeSignature Language="C++ CLI" Value="public: ref class ObjectFlowControl::ForLoopControl sealed" />
@@ -10,14 +10,15 @@
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>10.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+    <AssemblyVersion>10.0.4.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-      <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-    </Attribute>
     <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-uwp-10.0">
       <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
     </Attribute>
@@ -38,7 +39,7 @@
   <Members>
     <Member MemberName="ForLoopInitObj">
       <MemberSignature Language="C#" Value="public static bool ForLoopInitObj (object Counter, object Start, object Limit, object StepValue, ref object LoopForResult, ref object CounterResult);" />
-      <MemberSignature Language="ILAsm" Value=".method public static bool ForLoopInitObj(object Counter, object Start, object Limit, object StepValue, object&amp; LoopForResult, object&amp; CounterResult) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForLoopInitObj(object Counter, object Start, object Limit, object StepValue, object&amp; LoopForResult, object&amp; CounterResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ForLoopInitObj(System.Object,System.Object,System.Object,System.Object,System.Object@,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ForLoopInitObj (Counter As Object, Start As Object, Limit As Object, StepValue As Object, ByRef LoopForResult As Object, ByRef CounterResult As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool ForLoopInitObj(System::Object ^ Counter, System::Object ^ Start, System::Object ^ Limit, System::Object ^ StepValue, System::Object ^ % LoopForResult, System::Object ^ % CounterResult);" />
@@ -48,6 +49,10 @@
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -84,7 +89,7 @@
     </Member>
     <Member MemberName="ForNextCheckDec">
       <MemberSignature Language="C#" Value="public static bool ForNextCheckDec (decimal count, decimal limit, decimal StepValue);" />
-      <MemberSignature Language="ILAsm" Value=".method public static bool ForNextCheckDec(valuetype System.Decimal count, valuetype System.Decimal limit, valuetype System.Decimal StepValue) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForNextCheckDec(valuetype System.Decimal count, valuetype System.Decimal limit, valuetype System.Decimal StepValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ForNextCheckDec(System.Decimal,System.Decimal,System.Decimal)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ForNextCheckDec (count As Decimal, limit As Decimal, StepValue As Decimal) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool ForNextCheckDec(System::Decimal count, System::Decimal limit, System::Decimal StepValue);" />
@@ -94,6 +99,10 @@
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -124,7 +133,7 @@
     </Member>
     <Member MemberName="ForNextCheckObj">
       <MemberSignature Language="C#" Value="public static bool ForNextCheckObj (object Counter, object LoopObj, ref object CounterResult);" />
-      <MemberSignature Language="ILAsm" Value=".method public static bool ForNextCheckObj(object Counter, object LoopObj, object&amp; CounterResult) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForNextCheckObj(object Counter, object LoopObj, object&amp; CounterResult) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ForNextCheckObj(System.Object,System.Object,System.Object@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ForNextCheckObj (Counter As Object, LoopObj As Object, ByRef CounterResult As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool ForNextCheckObj(System::Object ^ Counter, System::Object ^ LoopObj, System::Object ^ % CounterResult);" />
@@ -134,6 +143,10 @@
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -164,7 +177,7 @@
     </Member>
     <Member MemberName="ForNextCheckR4">
       <MemberSignature Language="C#" Value="public static bool ForNextCheckR4 (float count, float limit, float StepValue);" />
-      <MemberSignature Language="ILAsm" Value=".method public static bool ForNextCheckR4(float32 count, float32 limit, float32 StepValue) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForNextCheckR4(float32 count, float32 limit, float32 StepValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ForNextCheckR4(System.Single,System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ForNextCheckR4 (count As Single, limit As Single, StepValue As Single) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool ForNextCheckR4(float count, float limit, float StepValue);" />
@@ -174,6 +187,10 @@
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -204,7 +221,7 @@
     </Member>
     <Member MemberName="ForNextCheckR8">
       <MemberSignature Language="C#" Value="public static bool ForNextCheckR8 (double count, double limit, double StepValue);" />
-      <MemberSignature Language="ILAsm" Value=".method public static bool ForNextCheckR8(float64 count, float64 limit, float64 StepValue) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForNextCheckR8(float64 count, float64 limit, float64 StepValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectFlowControl.ForLoopControl.ForNextCheckR8(System.Double,System.Double,System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ForNextCheckR8 (count As Double, limit As Double, StepValue As Double) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool ForNextCheckR8(double count, double limit, double StepValue);" />
@@ -214,6 +231,10 @@
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

@@ -1,9 +1,9 @@
 ﻿<Type Name="Brushes" FullName="System.Drawing.Brushes">
-  <TypeSignature Language="C#" Value="public sealed class Brushes" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Brushes extends System.Object" />
+  <TypeSignature Language="C#" Value="public static class Brushes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Brushes extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Drawing.Brushes" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Brushes" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Brushes sealed" />
+  <TypeSignature Language="VB.NET" Value="Public Class Brushes" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Brushes abstract sealed" />
   <TypeSignature Language="F#" Value="type Brushes = class" />
   <AssemblyInfo>
     <AssemblyName>System.Drawing</AssemblyName>

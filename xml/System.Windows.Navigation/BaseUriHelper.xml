@@ -1,6 +1,6 @@
 ﻿<Type Name="BaseUriHelper" FullName="System.Windows.Navigation.BaseUriHelper">
   <TypeSignature Language="C#" Value="public static class BaseUriHelper" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed BaseUriHelper extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit BaseUriHelper extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Navigation.BaseUriHelper" />
   <TypeSignature Language="VB.NET" Value="Public Class BaseUriHelper" />
   <TypeSignature Language="C++ CLI" Value="public ref class BaseUriHelper abstract sealed" />
@@ -54,11 +54,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
       </ReturnValue>

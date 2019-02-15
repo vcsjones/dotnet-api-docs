@@ -1,10 +1,10 @@
 ﻿<Type Name="RibbonGallery" FullName="System.Windows.Controls.Ribbon.RibbonGallery">
   <TypeSignature Language="C#" Value="public class RibbonGallery : System.Windows.Controls.ItemsControl, Microsoft.Windows.Input.IPreviewCommandSource, System.Windows.Input.ICommandSource, System.Windows.IWeakEventListener" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi RibbonGallery extends System.Windows.Controls.ItemsControl implements class Microsoft.Windows.Input.IPreviewCommandSource, class System.Windows.Input.ICommandSource, class System.Windows.IWeakEventListener" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RibbonGallery extends System.Windows.Controls.ItemsControl implements class Microsoft.Windows.Input.IPreviewCommandSource, class System.Windows.Input.ICommandSource, class System.Windows.IWeakEventListener" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Ribbon.RibbonGallery" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonGallery&#xA;Inherits ItemsControl&#xA;Implements ICommandSource, IPreviewCommandSource, IWeakEventListener" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonGallery : System::Windows::Controls::ItemsControl, Microsoft::Windows::Input::IPreviewCommandSource, System::Windows::Input::ICommandSource, System::Windows::IWeakEventListener" />
-  <TypeSignature Language="F#" Value="type RibbonGallery = class&#xA;    inherit ItemsControl&#xA;    interface IWeakEventListener&#xA;    interface IPreviewCommandSource&#xA;    interface ICommandSource" />
+  <TypeSignature Language="F#" Value="type RibbonGallery = class&#xA;    inherit ItemsControl&#xA;    interface IPreviewCommandSource&#xA;    interface ICommandSource&#xA;    interface IWeakEventListener" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2375,9 +2375,6 @@ Ribbon gallery in a combo box
       <MemberSignature Language="VB.NET" Value="Function ReceiveWeakEvent (managerType As Type, sender As Object, e As EventArgs) As Boolean Implements IWeakEventListener.ReceiveWeakEvent" />
       <MemberSignature Language="C++ CLI" Value=" virtual bool System.Windows.IWeakEventListener.ReceiveWeakEvent(Type ^ managerType, System::Object ^ sender, EventArgs ^ e) = System::Windows::IWeakEventListener::ReceiveWeakEvent;" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Windows.IWeakEventListener.ReceiveWeakEvent(System.Type,System.Object,System.EventArgs)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

@@ -1,6 +1,6 @@
 ﻿<Type Name="EventSourceException" FullName="System.Diagnostics.Tracing.EventSourceException">
   <TypeSignature Language="C#" Value="public class EventSourceException : Exception" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit EventSourceException extends System.Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventSourceException extends System.Exception" />
   <TypeSignature Language="DocId" Value="T:System.Diagnostics.Tracing.EventSourceException" />
   <TypeSignature Language="VB.NET" Value="Public Class EventSourceException&#xA;Inherits Exception" />
   <TypeSignature Language="C++ CLI" Value="public ref class EventSourceException : Exception" />
@@ -27,11 +27,6 @@
     <BaseTypeName>System.Exception</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>The exception that is thrown when an error occurs during event tracing for Windows (ETW).</summary>
     <remarks>To be added.</remarks>

@@ -25,11 +25,6 @@
     <BaseTypeName FrameworkAlternate="netframework-4.5">Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>System.Security.SecurityCritical(System.Security.SecurityCriticalScope.Everything)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Provides a safe handle that represents a memory-mapped file for sequential access.</summary>
     <remarks>
@@ -45,36 +40,6 @@
     </remarks>
   </Docs>
   <Members>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SafeMemoryMappedFileHandle (IntPtr preexistingHandle, bool ownsHandle);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(native int preexistingHandle, bool ownsHandle) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle.#ctor(System.IntPtr,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (preexistingHandle As IntPtr, ownsHandle As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SafeMemoryMappedFileHandle(IntPtr preexistingHandle, bool ownsHandle);" />
-      <MemberSignature Language="F#" Value="new Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle : nativeint * bool -&gt; Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle" Usage="new Microsoft.Win32.SafeHandles.SafeMemoryMappedFileHandle (preexistingHandle, ownsHandle)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Core</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="preexistingHandle" Type="System.IntPtr" />
-        <Parameter Name="ownsHandle" Type="System.Boolean" />
-      </Parameters>
-      <Docs>
-        <param name="preexistingHandle">To be added.</param>
-        <param name="ownsHandle">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="IsInvalid">
       <MemberSignature Language="C#" Value="public override bool IsInvalid { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsInvalid" />

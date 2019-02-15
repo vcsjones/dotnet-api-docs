@@ -72,11 +72,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="isContainer" Type="System.Boolean" />
         <Parameter Name="resourceType" Type="System.Security.AccessControl.ResourceType" />
@@ -108,11 +103,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="isContainer" Type="System.Boolean" />
         <Parameter Name="resourceType" Type="System.Security.AccessControl.ResourceType" />
@@ -148,11 +138,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="isContainer" Type="System.Boolean" />
         <Parameter Name="resourceType" Type="System.Security.AccessControl.ResourceType" />
@@ -188,11 +173,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="isContainer" Type="System.Boolean" />
         <Parameter Name="resourceType" Type="System.Security.AccessControl.ResourceType" />
@@ -232,11 +212,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="isContainer" Type="System.Boolean" />
         <Parameter Name="resourceType" Type="System.Security.AccessControl.ResourceType" />
@@ -505,11 +480,11 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="Persist">
-      <MemberSignature Language="C#" Value="protected void Persist (System.Runtime.InteropServices.SafeHandle handle);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void Persist(class System.Runtime.InteropServices.SafeHandle handle) cil managed" />
+      <MemberSignature Language="C#" Value="protected internal void Persist (System.Runtime.InteropServices.SafeHandle handle);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance void Persist(class System.Runtime.InteropServices.SafeHandle handle) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.AccessControl.ObjectSecurity`1.Persist(System.Runtime.InteropServices.SafeHandle)" />
-      <MemberSignature Language="VB.NET" Value="Protected Sub Persist (handle As SafeHandle)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void Persist(System::Runtime::InteropServices::SafeHandle ^ handle);" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub Persist (handle As SafeHandle)" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; void Persist(System::Runtime::InteropServices::SafeHandle ^ handle);" />
       <MemberSignature Language="F#" Value="override this.Persist : System.Runtime.InteropServices.SafeHandle -&gt; unit" Usage="objectSecurity.Persist handle" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -524,11 +499,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -542,11 +512,11 @@
       </Docs>
     </Member>
     <Member MemberName="Persist">
-      <MemberSignature Language="C#" Value="protected void Persist (string name);" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void Persist(string name) cil managed" />
+      <MemberSignature Language="C#" Value="protected internal void Persist (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig instance void Persist(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.AccessControl.ObjectSecurity`1.Persist(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Protected Sub Persist (name As String)" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; void Persist(System::String ^ name);" />
+      <MemberSignature Language="VB.NET" Value="Protected Friend Sub Persist (name As String)" />
+      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; void Persist(System::String ^ name);" />
       <MemberSignature Language="F#" Value="override this.Persist : string -&gt; unit" Usage="objectSecurity.Persist name" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -561,11 +531,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

@@ -1,6 +1,6 @@
 ﻿<Type Name="DrawingGroup" FullName="System.Windows.Media.DrawingGroup">
   <TypeSignature Language="C#" Value="public sealed class DrawingGroup : System.Windows.Media.Drawing" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DrawingGroup extends System.Windows.Media.Drawing" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DrawingGroup extends System.Windows.Media.Drawing" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.DrawingGroup" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DrawingGroup&#xA;Inherits Drawing" />
   <TypeSignature Language="C++ CLI" Value="public ref class DrawingGroup sealed : System::Windows::Media::Drawing" />
@@ -455,7 +455,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.DrawingGroup.CreateInstanceCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateInstanceCore () As Freezable" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Freezable ^ CreateInstanceCore();" />
-      <MemberSignature Language="F#" Value="override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="drawingGroup.CreateInstanceCore " />
+      <MemberSignature Language="F#" Value="abstract member CreateInstanceCore : unit -&gt; System.Windows.Freezable&#xA;override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="drawingGroup.CreateInstanceCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

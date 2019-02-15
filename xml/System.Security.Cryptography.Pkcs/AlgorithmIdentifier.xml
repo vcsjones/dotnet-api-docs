@@ -217,33 +217,5 @@
         <altmember cref="P:System.Security.Cryptography.Pkcs.AlgorithmIdentifier.Parameters" />
       </Docs>
     </Member>
-    <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public byte[] Parameters { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Parameters" />
-      <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.Pkcs.AlgorithmIdentifier.Parameters" />
-      <MemberSignature Language="VB.NET" Value="Public Property Parameters As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ Parameters { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
-      <MemberSignature Language="F#" Value="member this.Parameters : byte[] with get, set" Usage="System.Security.Cryptography.Pkcs.AlgorithmIdentifier.Parameters" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>The <see cref="P:System.Security.Cryptography.Pkcs.AlgorithmIdentifier.Parameters" /> property sets or retrieves any parameters required by the algorithm.</summary>
-        <value>An array of byte values that specifies any parameters required by the algorithm.</value>
-        <remarks>To be added.</remarks>
-        <altmember cref="P:System.Security.Cryptography.Pkcs.AlgorithmIdentifier.KeyLength" />
-        <altmember cref="P:System.Security.Cryptography.Pkcs.AlgorithmIdentifier.Oid" />
-      </Docs>
-    </Member>
   </Members>
 </Type>

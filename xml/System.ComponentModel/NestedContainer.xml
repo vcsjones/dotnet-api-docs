@@ -1,10 +1,10 @@
 ﻿<Type Name="NestedContainer" FullName="System.ComponentModel.NestedContainer">
-  <TypeSignature Language="C#" Value="public class NestedContainer : System.ComponentModel.Container, IDisposable, System.ComponentModel.INestedContainer" />
+  <TypeSignature Language="C#" Value="public class NestedContainer : System.ComponentModel.Container, IDisposable, System.ComponentModel.IContainer, System.ComponentModel.INestedContainer" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NestedContainer extends System.ComponentModel.Container implements class System.ComponentModel.IContainer, class System.ComponentModel.INestedContainer, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:System.ComponentModel.NestedContainer" />
-  <TypeSignature Language="VB.NET" Value="Public Class NestedContainer&#xA;Inherits Container&#xA;Implements IDisposable, INestedContainer" />
-  <TypeSignature Language="C++ CLI" Value="public ref class NestedContainer : System::ComponentModel::Container, IDisposable, System::ComponentModel::INestedContainer" />
-  <TypeSignature Language="F#" Value="type NestedContainer = class&#xA;    inherit Container&#xA;    interface INestedContainer&#xA;    interface IContainer&#xA;    interface IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public Class NestedContainer&#xA;Inherits Container&#xA;Implements IContainer, IDisposable, INestedContainer" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NestedContainer : System::ComponentModel::Container, IDisposable, System::ComponentModel::IContainer, System::ComponentModel::INestedContainer" />
+  <TypeSignature Language="F#" Value="type NestedContainer = class&#xA;    inherit Container&#xA;    interface IContainer&#xA;    interface IDisposable&#xA;    interface INestedContainer" />
   <AssemblyInfo>
     <AssemblyName>System</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -275,11 +275,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.ComponentModel.IComponent</ReturnType>
       </ReturnValue>

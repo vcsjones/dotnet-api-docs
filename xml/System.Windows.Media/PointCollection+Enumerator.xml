@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.PointCollection.Enumerator" />
   <TypeSignature Language="VB.NET" Value="Public Structure PointCollection.Enumerator&#xA;Implements IEnumerator(Of Point)" />
   <TypeSignature Language="C++ CLI" Value="public: value class PointCollection::Enumerator : System::Collections::Generic::IEnumerator&lt;System::Windows::Point&gt;" />
-  <TypeSignature Language="F#" Value="type PointCollection.Enumerator = struct&#xA;    interface IEnumerator&#xA;    interface IEnumerator&lt;Point&gt;&#xA;    interface IDisposable" />
+  <TypeSignature Language="F#" Value="type PointCollection.Enumerator = struct&#xA;    interface IEnumerator&lt;Point&gt;&#xA;    interface IEnumerator&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

@@ -1,10 +1,10 @@
 ﻿<Type Name="Tuple&lt;T1,T2&gt;" FullName="System.Tuple&lt;T1,T2&gt;">
-  <TypeSignature Language="C#" Value="public class Tuple&lt;T1,T2&gt; : IComparable, System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit Tuple`2&lt;T1, T2&gt; extends System.Object implements class System.Collections.IStructuralComparable, class System.Collections.IStructuralEquatable, class System.IComparable" />
+  <TypeSignature Language="C#" Value="public class Tuple&lt;T1,T2&gt; : IComparable, System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.Runtime.CompilerServices.ITuple" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Tuple`2&lt;T1, T2&gt; extends System.Object implements class System.Collections.IStructuralComparable, class System.Collections.IStructuralEquatable, class System.IComparable, class System.Runtime.CompilerServices.ITuple" />
   <TypeSignature Language="DocId" Value="T:System.Tuple`2" />
-  <TypeSignature Language="VB.NET" Value="Public Class Tuple(Of T1, T2)&#xA;Implements IComparable, IStructuralComparable, IStructuralEquatable" />
-  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T1, typename T2&gt;&#xA;public ref class Tuple : IComparable, System::Collections::IStructuralComparable, System::Collections::IStructuralEquatable" />
-  <TypeSignature Language="F#" Value="type Tuple&lt;'T1, 'T2&gt; = class&#xA;    interface IStructuralEquatable&#xA;    interface IStructuralComparable&#xA;    interface IComparable" />
+  <TypeSignature Language="VB.NET" Value="Public Class Tuple(Of T1, T2)&#xA;Implements IComparable, IStructuralComparable, IStructuralEquatable, ITuple" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename T1, typename T2&gt;&#xA;public ref class Tuple : IComparable, System::Collections::IStructuralComparable, System::Collections::IStructuralEquatable, System::Runtime::CompilerServices::ITuple" />
+  <TypeSignature Language="F#" Value="type Tuple&lt;'T1, 'T2&gt; = class&#xA;    interface IStructuralComparable&#xA;    interface IStructuralEquatable&#xA;    interface IComparable&#xA;    interface ITuple" />
   <AssemblyInfo>
     <AssemblyName>System.Runtime</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -40,12 +40,10 @@
     <Interface>
       <InterfaceName>System.IComparable</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>System.Runtime.CompilerServices.ITuple</InterfaceName>
+    </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <typeparam name="T1">The type of the tuple's first component.</typeparam>
     <typeparam name="T2">The type of the tuple's second component.</typeparam>

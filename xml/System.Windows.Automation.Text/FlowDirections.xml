@@ -17,12 +17,6 @@
     <Attribute>
       <AttributeName>System.Flags</AttributeName>
     </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("2E22CC6B-7C34-4002-91AA-E103A09D1027")</AttributeName>
-    </Attribute>
   </Attributes>
   <Docs>
     <summary>Values for <see cref="F:System.Windows.Automation.TextPattern.TextFlowDirectionsAttribute" />.</summary>

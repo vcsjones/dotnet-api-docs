@@ -50,11 +50,11 @@
       </Docs>
     </MemberGroup>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected internal NameValueHeaderValue (System.Net.Http.Headers.NameValueHeaderValue source);" />
-      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig specialname rtspecialname instance void .ctor(class System.Net.Http.Headers.NameValueHeaderValue source) cil managed" />
+      <MemberSignature Language="C#" Value="protected NameValueHeaderValue (System.Net.Http.Headers.NameValueHeaderValue source);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.Net.Http.Headers.NameValueHeaderValue source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Headers.NameValueHeaderValue.#ctor(System.Net.Http.Headers.NameValueHeaderValue)" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend Sub New (source As NameValueHeaderValue)" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; NameValueHeaderValue(System::Net::Http::Headers::NameValueHeaderValue ^ source);" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (source As NameValueHeaderValue)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; NameValueHeaderValue(System::Net::Http::Headers::NameValueHeaderValue ^ source);" />
       <MemberSignature Language="F#" Value="new System.Net.Http.Headers.NameValueHeaderValue : System.Net.Http.Headers.NameValueHeaderValue -&gt; System.Net.Http.Headers.NameValueHeaderValue" Usage="new System.Net.Http.Headers.NameValueHeaderValue source" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>

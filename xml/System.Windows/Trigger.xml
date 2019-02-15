@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Trigger" />
   <TypeSignature Language="VB.NET" Value="Public Class Trigger&#xA;Inherits TriggerBase&#xA;Implements IAddChild, ISupportInitialize" />
   <TypeSignature Language="C++ CLI" Value="public ref class Trigger : System::Windows::TriggerBase, System::ComponentModel::ISupportInitialize, System::Windows::Markup::IAddChild" />
-  <TypeSignature Language="F#" Value="type Trigger = class&#xA;    inherit TriggerBase&#xA;    interface IAddChild&#xA;    interface ISupportInitialize" />
+  <TypeSignature Language="F#" Value="type Trigger = class&#xA;    inherit TriggerBase&#xA;    interface ISupportInitialize&#xA;    interface IAddChild" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.Point3DCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Point3DCollection&#xA;Inherits Freezable&#xA;Implements ICollection(Of Point3D), IEnumerable(Of Point3D), IFormattable, IList, IList(Of Point3D)" />
   <TypeSignature Language="C++ CLI" Value="public ref class Point3DCollection sealed : System::Windows::Freezable, IFormattable, System::Collections::Generic::ICollection&lt;System::Windows::Media::Media3D::Point3D&gt;, System::Collections::Generic::IEnumerable&lt;System::Windows::Media::Media3D::Point3D&gt;, System::Collections::Generic::IList&lt;System::Windows::Media::Media3D::Point3D&gt;, System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type Point3DCollection = class&#xA;    inherit Freezable&#xA;    interface IFormattable&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList&lt;Point3D&gt;&#xA;    interface ICollection&lt;Point3D&gt;&#xA;    interface seq&lt;Point3D&gt;" />
+  <TypeSignature Language="F#" Value="type Point3DCollection = class&#xA;    inherit Freezable&#xA;    interface ICollection&lt;Point3D&gt;&#xA;    interface seq&lt;Point3D&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;Point3D&gt;&#xA;    interface ICollection&#xA;    interface IList&#xA;    interface IFormattable" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -206,8 +206,8 @@
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="point3DCollection.Clear " />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -229,7 +229,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.Clone" />
       <MemberSignature Language="VB.NET" Value="Public Function Clone () As Point3DCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Windows::Media::Media3D::Point3DCollection ^ Clone();" />
-      <MemberSignature Language="F#" Value="override this.Clone : unit -&gt; System.Windows.Media.Media3D.Point3DCollection" Usage="point3DCollection.Clone " />
+      <MemberSignature Language="F#" Value="member this.Clone : unit -&gt; System.Windows.Media.Media3D.Point3DCollection" Usage="point3DCollection.Clone " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -261,7 +261,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.CloneCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CloneCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void CloneCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.CloneCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.CloneCore source" />
+      <MemberSignature Language="F#" Value="abstract member CloneCore : System.Windows.Freezable -&gt; unit&#xA;override this.CloneCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.CloneCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -286,7 +286,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.CloneCurrentValue" />
       <MemberSignature Language="VB.NET" Value="Public Function CloneCurrentValue () As Point3DCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Windows::Media::Media3D::Point3DCollection ^ CloneCurrentValue();" />
-      <MemberSignature Language="F#" Value="override this.CloneCurrentValue : unit -&gt; System.Windows.Media.Media3D.Point3DCollection" Usage="point3DCollection.CloneCurrentValue " />
+      <MemberSignature Language="F#" Value="member this.CloneCurrentValue : unit -&gt; System.Windows.Media.Media3D.Point3DCollection" Usage="point3DCollection.CloneCurrentValue " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -318,7 +318,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.CloneCurrentValueCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CloneCurrentValueCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void CloneCurrentValueCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.CloneCurrentValueCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.CloneCurrentValueCore source" />
+      <MemberSignature Language="F#" Value="abstract member CloneCurrentValueCore : System.Windows.Freezable -&gt; unit&#xA;override this.CloneCurrentValueCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.CloneCurrentValueCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -403,8 +403,8 @@
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Windows.Media.Media3D.Point3DCollection.Count" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -426,7 +426,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.CreateInstanceCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateInstanceCore () As Freezable" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Freezable ^ CreateInstanceCore();" />
-      <MemberSignature Language="F#" Value="override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="point3DCollection.CreateInstanceCore " />
+      <MemberSignature Language="F#" Value="abstract member CreateInstanceCore : unit -&gt; System.Windows.Freezable&#xA;override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="point3DCollection.CreateInstanceCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -449,7 +449,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.GetAsFrozenCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub GetAsFrozenCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void GetAsFrozenCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.GetAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.GetAsFrozenCore source" />
+      <MemberSignature Language="F#" Value="abstract member GetAsFrozenCore : System.Windows.Freezable -&gt; unit&#xA;override this.GetAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.GetAsFrozenCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -474,7 +474,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.GetCurrentValueAsFrozenCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub GetCurrentValueAsFrozenCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void GetCurrentValueAsFrozenCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.GetCurrentValueAsFrozenCore source" />
+      <MemberSignature Language="F#" Value="abstract member GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit&#xA;override this.GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="point3DCollection.GetCurrentValueAsFrozenCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -686,8 +686,8 @@
       <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="point3DCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -1244,7 +1244,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="point3DCollection.ToString " />
+      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="point3DCollection.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -1267,7 +1267,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Point3DCollection.ToString(System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (provider As IFormatProvider) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(IFormatProvider ^ provider);" />
-      <MemberSignature Language="F#" Value="override this.ToString : IFormatProvider -&gt; string" Usage="point3DCollection.ToString provider" />
+      <MemberSignature Language="F#" Value="member this.ToString : IFormatProvider -&gt; string" Usage="point3DCollection.ToString provider" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

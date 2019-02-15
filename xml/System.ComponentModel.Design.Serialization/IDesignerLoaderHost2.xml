@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.ComponentModel.Design.Serialization.IDesignerLoaderHost2" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDesignerLoaderHost2&#xA;Implements IDesignerLoaderHost, IServiceProvider" />
   <TypeSignature Language="C++ CLI" Value="public interface class IDesignerLoaderHost2 : IServiceProvider, System::ComponentModel::Design::Serialization::IDesignerLoaderHost" />
-  <TypeSignature Language="F#" Value="type IDesignerLoaderHost2 = interface&#xA;    interface IDesignerLoaderHost&#xA;    interface IDesignerHost&#xA;    interface IServiceContainer&#xA;    interface IServiceProvider" />
+  <TypeSignature Language="F#" Value="type IDesignerLoaderHost2 = interface&#xA;    interface IDesignerHost&#xA;    interface IServiceContainer&#xA;    interface IServiceProvider&#xA;    interface IDesignerLoaderHost" />
   <AssemblyInfo>
     <AssemblyName>System</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

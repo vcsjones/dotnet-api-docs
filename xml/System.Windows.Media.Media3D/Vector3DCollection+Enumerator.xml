@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.Vector3DCollection.Enumerator" />
   <TypeSignature Language="VB.NET" Value="Public Structure Vector3DCollection.Enumerator&#xA;Implements IEnumerator(Of Vector3D)" />
   <TypeSignature Language="C++ CLI" Value="public: value class Vector3DCollection::Enumerator : System::Collections::Generic::IEnumerator&lt;System::Windows::Media::Media3D::Vector3D&gt;" />
-  <TypeSignature Language="F#" Value="type Vector3DCollection.Enumerator = struct&#xA;    interface IEnumerator&#xA;    interface IEnumerator&lt;Vector3D&gt;&#xA;    interface IDisposable" />
+  <TypeSignature Language="F#" Value="type Vector3DCollection.Enumerator = struct&#xA;    interface IEnumerator&lt;Vector3D&gt;&#xA;    interface IEnumerator&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

@@ -1,6 +1,6 @@
 ﻿<Type Name="Binder" FullName="System.Reflection.Binder">
   <TypeSignature Language="C#" Value="public abstract class Binder" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit Binder extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Binder extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.Binder" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Binder" />
   <TypeSignature Language="C++ CLI" Value="public ref class Binder abstract" />
@@ -25,17 +25,6 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.AutoDual)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Selects a member from a list of candidates, and performs type conversion from actual argument type to formal argument type.</summary>
     <remarks>
@@ -224,40 +213,6 @@
         <exception cref="T:System.MissingMethodException">For the default binder, <paramref name="match" /> contains no methods that can accept the arguments supplied in <paramref name="args" />.</exception>
         <exception cref="T:System.ArgumentException">For the default binder, <paramref name="match" /> is <see langword="null" /> or an empty array.</exception>
         <altmember cref="T:System.Reflection.MethodBase" />
-      </Docs>
-    </Member>
-    <Member MemberName="CanChangeType">
-      <MemberSignature Language="C#" Value="public virtual bool CanChangeType (object value, Type type, System.Globalization.CultureInfo culture);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CanChangeType(object value, class System.Type type, class System.Globalization.CultureInfo culture) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Binder.CanChangeType(System.Object,System.Type,System.Globalization.CultureInfo)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool CanChangeType(System::Object ^ value, Type ^ type, System::Globalization::CultureInfo ^ culture);" />
-      <MemberSignature Language="F#" Value="abstract member CanChangeType : obj * Type * System.Globalization.CultureInfo -&gt; bool&#xA;override this.CanChangeType : obj * Type * System.Globalization.CultureInfo -&gt; bool" Usage="binder.CanChangeType (value, type, culture)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="value" Type="System.Object" />
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
-      </Parameters>
-      <Docs>
-        <param name="value">To be added.</param>
-        <param name="type">To be added.</param>
-        <param name="culture">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ChangeType">

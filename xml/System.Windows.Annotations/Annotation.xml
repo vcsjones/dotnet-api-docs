@@ -18,11 +18,6 @@
       <InterfaceName>System.Xml.Serialization.IXmlSerializable</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Xml.Serialization.XmlRoot(ElementName="Annotation", Namespace="http://schemas.microsoft.com/windows/annotations/2003/11/core")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a user annotation in the Microsoft Annotations Framework.</summary>
     <remarks>
@@ -147,7 +142,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Annotations.AnnotationResourceChangedEventHandler AnchorChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Annotations.AnnotationResourceChangedEventHandler AnchorChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Annotations.Annotation.AnchorChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event AnchorChanged As AnnotationResourceChangedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event AnchorChanged As AnnotationResourceChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Annotations::AnnotationResourceChangedEventHandler ^ AnchorChanged;" />
       <MemberSignature Language="F#" Value="member this.AnchorChanged : System.Windows.Annotations.AnnotationResourceChangedEventHandler " Usage="member this.AnchorChanged : System.Windows.Annotations.AnnotationResourceChangedEventHandler " />
       <MemberType>Event</MemberType>
@@ -184,11 +179,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.Collection&lt;System.Windows.Annotations.AnnotationResource&gt;</ReturnType>
       </ReturnValue>
@@ -220,11 +210,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Xml.XmlQualifiedName</ReturnType>
       </ReturnValue>
@@ -248,7 +233,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Annotations.AnnotationAuthorChangedEventHandler AuthorChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Annotations.AnnotationAuthorChangedEventHandler AuthorChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Annotations.Annotation.AuthorChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event AuthorChanged As AnnotationAuthorChangedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event AuthorChanged As AnnotationAuthorChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Annotations::AnnotationAuthorChangedEventHandler ^ AuthorChanged;" />
       <MemberSignature Language="F#" Value="member this.AuthorChanged : System.Windows.Annotations.AnnotationAuthorChangedEventHandler " Usage="member this.AuthorChanged : System.Windows.Annotations.AnnotationAuthorChangedEventHandler " />
       <MemberType>Event</MemberType>
@@ -278,11 +263,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.Collection&lt;System.String&gt;</ReturnType>
       </ReturnValue>
@@ -305,7 +285,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Annotations.AnnotationResourceChangedEventHandler CargoChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Annotations.AnnotationResourceChangedEventHandler CargoChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Annotations.Annotation.CargoChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event CargoChanged As AnnotationResourceChangedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CargoChanged As AnnotationResourceChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Annotations::AnnotationResourceChangedEventHandler ^ CargoChanged;" />
       <MemberSignature Language="F#" Value="member this.CargoChanged : System.Windows.Annotations.AnnotationResourceChangedEventHandler " Usage="member this.CargoChanged : System.Windows.Annotations.AnnotationResourceChangedEventHandler " />
       <MemberType>Event</MemberType>
@@ -342,11 +322,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.Collection&lt;System.Windows.Annotations.AnnotationResource&gt;</ReturnType>
       </ReturnValue>
@@ -378,11 +353,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
@@ -441,11 +411,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
@@ -477,11 +442,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>

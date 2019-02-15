@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.CalendarAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarAutomationPeer&#xA;Inherits FrameworkElementAutomationPeer&#xA;Implements IItemContainerProvider, IMultipleViewProvider, ISelectionProvider, ITableProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class CalendarAutomationPeer sealed : System::Windows::Automation::Peers::FrameworkElementAutomationPeer, System::Windows::Automation::Provider::IItemContainerProvider, System::Windows::Automation::Provider::IMultipleViewProvider, System::Windows::Automation::Provider::ISelectionProvider, System::Windows::Automation::Provider::ITableProvider" />
-  <TypeSignature Language="F#" Value="type CalendarAutomationPeer = class&#xA;    inherit FrameworkElementAutomationPeer&#xA;    interface IGridProvider&#xA;    interface IMultipleViewProvider&#xA;    interface ISelectionProvider&#xA;    interface ITableProvider&#xA;    interface IItemContainerProvider" />
+  <TypeSignature Language="F#" Value="type CalendarAutomationPeer = class&#xA;    inherit FrameworkElementAutomationPeer&#xA;    interface IGridProvider&#xA;    interface IItemContainerProvider&#xA;    interface IMultipleViewProvider&#xA;    interface ISelectionProvider&#xA;    interface ITableProvider" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

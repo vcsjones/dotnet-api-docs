@@ -1,10 +1,10 @@
 ﻿<Type Name="SafeRegistryHandle" FullName="Microsoft.Win32.SafeHandles.SafeRegistryHandle">
-  <TypeSignature Language="C#" Value="public sealed class SafeRegistryHandle : Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SafeRegistryHandle extends Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid" />
+  <TypeSignature Language="C#" Value="public sealed class SafeRegistryHandle : System.Runtime.InteropServices.SafeHandle" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SafeRegistryHandle extends System.Runtime.InteropServices.SafeHandle" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Win32.SafeHandles.SafeRegistryHandle" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SafeRegistryHandle&#xA;Inherits SafeHandleZeroOrMinusOneIsInvalid" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SafeRegistryHandle sealed : Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid" />
-  <TypeSignature Language="F#" Value="type SafeRegistryHandle = class&#xA;    inherit SafeHandleZeroOrMinusOneIsInvalid" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SafeRegistryHandle&#xA;Inherits SafeHandle" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SafeRegistryHandle sealed : System::Runtime::InteropServices::SafeHandle" />
+  <TypeSignature Language="F#" Value="type SafeRegistryHandle = class&#xA;    inherit SafeHandle" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -22,11 +22,6 @@
     <BaseTypeName FrameworkAlternate="netframework-4.5">Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Security.SecurityCritical</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a safe handle to the Windows registry.</summary>
     <remarks>
@@ -63,14 +58,9 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="preexistingHandle" Type="System.IntPtr" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="ownsHandle" Type="System.Boolean" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="preexistingHandle" Type="System.IntPtr" />
+        <Parameter Name="ownsHandle" Type="System.Boolean" />
       </Parameters>
       <Docs>
         <param name="preexistingHandle">An object that represents the pre-existing handle to use.</param>
@@ -106,11 +96,6 @@
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName>get: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -140,11 +125,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>

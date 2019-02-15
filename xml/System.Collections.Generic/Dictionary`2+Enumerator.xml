@@ -1,10 +1,10 @@
 ﻿<Type Name="Dictionary&lt;TKey,TValue&gt;+Enumerator" FullName="System.Collections.Generic.Dictionary&lt;TKey,TValue&gt;+Enumerator">
   <TypeSignature Language="C#" Value="public struct Dictionary&lt;TKey,TValue&gt;.Enumerator : System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;, System.Collections.IDictionaryEnumerator" />
-  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi serializable sealed beforefieldinit Dictionary`2/Enumerator&lt;TKey, TValue&gt; extends System.ValueType implements class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;, class System.Collections.IDictionaryEnumerator, class System.Collections.IEnumerator, class System.IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class nested public sequential ansi sealed beforefieldinit Dictionary`2/Enumerator&lt;TKey, TValue&gt; extends System.ValueType implements class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;, class System.Collections.IDictionaryEnumerator, class System.Collections.IEnumerator, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:System.Collections.Generic.Dictionary`2.Enumerator" />
   <TypeSignature Language="VB.NET" Value="Public Structure Dictionary(Of TKey, TValue).Enumerator&#xA;Implements IDictionaryEnumerator, IEnumerator(Of KeyValuePair(Of TKey, TValue))" />
   <TypeSignature Language="C++ CLI" Value="public: value class Dictionary&lt;TKey, TValue&gt;::Enumerator : System::Collections::Generic::IEnumerator&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;, System::Collections::IDictionaryEnumerator" />
-  <TypeSignature Language="F#" Value="type Dictionary&lt;'Key, 'Value&gt;.Enumerator = struct&#xA;    interface IEnumerator&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IDictionaryEnumerator&#xA;    interface IDisposable&#xA;    interface IEnumerator" />
+  <TypeSignature Language="F#" Value="type Dictionary&lt;'Key, 'Value&gt;.Enumerator = struct&#xA;    interface IEnumerator&lt;KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;    interface IEnumerator&#xA;    interface IDisposable&#xA;    interface IDictionaryEnumerator" />
   <AssemblyInfo>
     <AssemblyName>System.Collections</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -43,11 +43,6 @@
       <InterfaceName>System.IDisposable</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Enumerates the elements of a <see cref="T:System.Collections.Generic.Dictionary`2" />.</summary>
     <remarks>

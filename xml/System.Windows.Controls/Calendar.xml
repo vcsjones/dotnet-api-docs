@@ -1,6 +1,6 @@
 ﻿<Type Name="Calendar" FullName="System.Windows.Controls.Calendar">
   <TypeSignature Language="C#" Value="public class Calendar : System.Windows.Controls.Control" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi Calendar extends System.Windows.Controls.Control" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Calendar extends System.Windows.Controls.Control" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Calendar" />
   <TypeSignature Language="VB.NET" Value="Public Class Calendar&#xA;Inherits Control" />
   <TypeSignature Language="C++ CLI" Value="public ref class Calendar : System::Windows::Controls::Control" />
@@ -121,11 +121,6 @@ Calendar controls
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.CalendarBlackoutDatesCollection</ReturnType>
       </ReturnValue>
@@ -456,7 +451,7 @@ Calendar with dates that cannot be selected
       <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Windows.Controls.CalendarDateChangedEventArgs&gt; DisplayDateChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Windows.Controls.CalendarDateChangedEventArgs&gt; DisplayDateChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.Calendar.DisplayDateChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event DisplayDateChanged As EventHandler(Of CalendarDateChangedEventArgs) " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DisplayDateChanged As EventHandler(Of CalendarDateChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Windows::Controls::CalendarDateChangedEventArgs ^&gt; ^ DisplayDateChanged;" />
       <MemberSignature Language="F#" Value="member this.DisplayDateChanged : EventHandler&lt;System.Windows.Controls.CalendarDateChangedEventArgs&gt; " Usage="member this.DisplayDateChanged : System.EventHandler&lt;System.Windows.Controls.CalendarDateChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
@@ -727,7 +722,7 @@ Calendar with dates that cannot be selected
       <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Windows.Controls.CalendarModeChangedEventArgs&gt; DisplayModeChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Windows.Controls.CalendarModeChangedEventArgs&gt; DisplayModeChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.Calendar.DisplayModeChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event DisplayModeChanged As EventHandler(Of CalendarModeChangedEventArgs) " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DisplayModeChanged As EventHandler(Of CalendarModeChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Windows::Controls::CalendarModeChangedEventArgs ^&gt; ^ DisplayModeChanged;" />
       <MemberSignature Language="F#" Value="member this.DisplayModeChanged : EventHandler&lt;System.Windows.Controls.CalendarModeChangedEventArgs&gt; " Usage="member this.DisplayModeChanged : System.EventHandler&lt;System.Windows.Controls.CalendarModeChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
@@ -1262,11 +1257,6 @@ Calendar with dates that cannot be selected
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.SelectedDatesCollection</ReturnType>
       </ReturnValue>
@@ -1425,7 +1415,7 @@ Calendar with dates that cannot be selected
       <MemberSignature Language="C#" Value="public event EventHandler&lt;EventArgs&gt; SelectionModeChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.EventArgs&gt; SelectionModeChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.Calendar.SelectionModeChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event SelectionModeChanged As EventHandler(Of EventArgs) " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event SelectionModeChanged As EventHandler(Of EventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;EventArgs ^&gt; ^ SelectionModeChanged;" />
       <MemberSignature Language="F#" Value="member this.SelectionModeChanged : EventHandler&lt;EventArgs&gt; " Usage="member this.SelectionModeChanged : System.EventHandler&lt;System.EventArgs&gt; " />
       <MemberType>Event</MemberType>

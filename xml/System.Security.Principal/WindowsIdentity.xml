@@ -1,10 +1,10 @@
 ﻿<Type Name="WindowsIdentity" FullName="System.Security.Principal.WindowsIdentity">
   <TypeSignature Language="C#" Value="public class WindowsIdentity : System.Security.Claims.ClaimsIdentity, IDisposable, System.Runtime.Serialization.IDeserializationCallback, System.Runtime.Serialization.ISerializable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit WindowsIdentity extends System.Security.Claims.ClaimsIdentity implements class System.IDisposable, class System.Runtime.Serialization.IDeserializationCallback, class System.Runtime.Serialization.ISerializable, class System.Security.Principal.IIdentity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WindowsIdentity extends System.Security.Claims.ClaimsIdentity implements class System.IDisposable, class System.Runtime.Serialization.IDeserializationCallback, class System.Runtime.Serialization.ISerializable" />
   <TypeSignature Language="DocId" Value="T:System.Security.Principal.WindowsIdentity" />
   <TypeSignature Language="VB.NET" Value="Public Class WindowsIdentity&#xA;Inherits ClaimsIdentity&#xA;Implements IDeserializationCallback, IDisposable, ISerializable" />
   <TypeSignature Language="C++ CLI" Value="public ref class WindowsIdentity : System::Security::Claims::ClaimsIdentity, IDisposable, System::Runtime::Serialization::IDeserializationCallback, System::Runtime::Serialization::ISerializable" />
-  <TypeSignature Language="F#" Value="type WindowsIdentity = class&#xA;    inherit ClaimsIdentity&#xA;    interface IIdentity&#xA;    interface IDeserializationCallback&#xA;    interface ISerializable&#xA;    interface IDisposable" />
+  <TypeSignature Language="F#" Value="type WindowsIdentity = class&#xA;    inherit ClaimsIdentity&#xA;    interface IDisposable&#xA;    interface ISerializable&#xA;    interface IDeserializationCallback" />
   <AssemblyInfo>
     <AssemblyName>System.Security.Principal.Windows</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -32,18 +32,7 @@
     <Interface>
       <InterfaceName>System.Runtime.Serialization.ISerializable</InterfaceName>
     </Interface>
-    <Interface>
-      <InterfaceName>System.Security.Principal.IIdentity</InterfaceName>
-    </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a Windows user.</summary>
     <remarks>
@@ -99,11 +88,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="userToken" Type="System.IntPtr" />
       </Parameters>
@@ -158,13 +142,8 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="identity" Type="System.Security.Principal.WindowsIdentity" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <Parameter Name="identity" Type="System.Security.Principal.WindowsIdentity" />
       </Parameters>
       <Docs>
         <param name="identity">The object from which to construct the new instance of <see cref="T:System.Security.Principal.WindowsIdentity" />.</param>
@@ -193,11 +172,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="sUserPrincipalName" Type="System.String" />
       </Parameters>
@@ -254,11 +228,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="userToken" Type="System.IntPtr" />
         <Parameter Name="type" Type="System.String" />
@@ -328,14 +297,9 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
       </Parameters>
       <Docs>
         <param name="info">The object containing the account information for the user.</param>
@@ -359,210 +323,6 @@
         <permission cref="T:System.Security.Permissions.SecurityPermission">for ability to manipulate the principal object. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlPrincipal" />.</permission>
       </Docs>
     </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public WindowsIdentity (string sUserPrincipalName, string type);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string sUserPrincipalName, string type) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Principal.WindowsIdentity.#ctor(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (sUserPrincipalName As String, type As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; WindowsIdentity(System::String ^ sUserPrincipalName, System::String ^ type);" />
-      <MemberSignature Language="F#" Value="new System.Security.Principal.WindowsIdentity : string * string -&gt; System.Security.Principal.WindowsIdentity" Usage="new System.Security.Principal.WindowsIdentity (sUserPrincipalName, type)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Principal.Windows</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <Parameters>
-        <Parameter Name="sUserPrincipalName" Type="System.String" />
-        <Parameter Name="type" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="sUserPrincipalName">The UPN for the user on whose behalf the code is running.</param>
-        <param name="type">(Informational use only.) The type of authentication used to identify the user.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Security.Principal.WindowsIdentity" /> class for the user represented by the specified User Principal Name (UPN) and the specified authentication type.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the `type` parameter is used to set the <xref:System.Security.Principal.WindowsIdentity.AuthenticationType%2A> parameter. If `type` is `null`, the security system sets <xref:System.Security.Principal.WindowsIdentity.AuthenticationType%2A> to `Negotiate` on Windows Vista and later versions of the Windows operating system, and to `Kerberos` on earlier versions of the Windows operating system. The security system does not use this value; it is for informational use only.  
-  
- The UPN identified in `sUserPrincipalName` is used to retrieve a token for that user through the Win32 API `LsaLogonUser` function. In turn that token is used to identify the user. An exception might be returned due to the inability to log on using the supplied UPN.  
-  
-> [!NOTE]
->  This constructor is intended for use only on computers joined to Windows Server 2003 or later domains. An exception is thrown for earlier domain types. This restriction is due to the fact that this constructor uses the [KERB_S4U_LOGON structure](https://go.microsoft.com/fwlink/?LinkId=143533), which was first introduced in Windows Server 2003.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.UnauthorizedAccessException">Windows returned the Windows NT status code STATUS_ACCESS_DENIED.</exception>
-        <exception cref="T:System.OutOfMemoryException">There is insufficient memory available.</exception>
-        <exception cref="T:System.Security.SecurityException">The caller does not have the correct permissions.  
-  
- -or-  
-  
- The computer is not attached to a Windows 2003 or later domain.  
-  
- -or-  
-  
- The computer is not running Windows 2003 or later.  
-  
- -or-  
-  
- The user is not a member of the domain the computer is attached to.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to access unmanaged code. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode" />.</permission>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public WindowsIdentity (IntPtr userToken, string type, System.Security.Principal.WindowsAccountType acctType);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(native int userToken, string type, valuetype System.Security.Principal.WindowsAccountType acctType) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Principal.WindowsIdentity.#ctor(System.IntPtr,System.String,System.Security.Principal.WindowsAccountType)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (userToken As IntPtr, type As String, acctType As WindowsAccountType)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; WindowsIdentity(IntPtr userToken, System::String ^ type, System::Security::Principal::WindowsAccountType acctType);" />
-      <MemberSignature Language="F#" Value="new System.Security.Principal.WindowsIdentity : nativeint * string * System.Security.Principal.WindowsAccountType -&gt; System.Security.Principal.WindowsIdentity" Usage="new System.Security.Principal.WindowsIdentity (userToken, type, acctType)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Principal.Windows</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <Parameters>
-        <Parameter Name="userToken" Type="System.IntPtr" />
-        <Parameter Name="type" Type="System.String" />
-        <Parameter Name="acctType" Type="System.Security.Principal.WindowsAccountType" />
-      </Parameters>
-      <Docs>
-        <param name="userToken">The account token for the user on whose behalf the code is running.</param>
-        <param name="type">(Informational use only.) The type of authentication used to identify the user.</param>
-        <param name="acctType">One of the enumeration values.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Security.Principal.WindowsIdentity" /> class for the user represented by the specified Windows account token, the specified authentication type, and the specified Windows account type.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The following table shows initial property values for an instance of <xref:System.Security.Principal.WindowsIdentity>.  
-  
-|Property|Initial Value|  
-|--------------|-------------------|  
-|<xref:System.Security.Principal.WindowsIdentity.IsAuthenticated%2A>|`false`|  
-  
- The value of the `type` parameter is used to set the <xref:System.Security.Principal.WindowsIdentity.AuthenticationType%2A> parameter. If `type` is `null`, the security system sets <xref:System.Security.Principal.WindowsIdentity.AuthenticationType%2A> to `Negotiate` on Windows Vista and later versions of the Windows operating system, and to `Kerberos` on earlier versions of the Windows operating system. The security system does not use this value; it is for informational use only.  
-  
-> [!NOTE]
->  You can retrieve the token represented by `userToken` by calling unmanaged code such as the Win32 API `LogonUser` function. Always release `userToken` by calling the Win32 API `CloseHandle` function. For more information on calling unmanaged code, see [Consuming Unmanaged DLL Functions](~/docs/framework/interop/consuming-unmanaged-dll-functions.md).  
-  
-   
-  
-## Examples  
- The following code shows the use of the <xref:System.Security.Principal.WindowsIdentity.%23ctor%2A> constructor to create a new instance of the <xref:System.Security.Principal.WindowsIdentity> class for the user represented by the specified Windows account token, the specified authentication type, and the specified Windows account type. This code example is part of a larger example provided for the <xref:System.Security.Principal.WindowsIdentity> class.  
-  
- [!code-cpp[System.Security.Principal.WindowsIdentity_AllMembers#7](~/samples/snippets/cpp/VS_Snippets_CLR_System/system.Security.Principal.WindowsIdentity_AllMembers/CPP/windowsidentitymembers.cpp#7)]
- [!code-csharp[System.Security.Principal.WindowsIdentity_AllMembers#7](~/samples/snippets/csharp/VS_Snippets_CLR_System/system.Security.Principal.WindowsIdentity_AllMembers/CS/windowsidentitymembers.cs#7)]
- [!code-vb[System.Security.Principal.WindowsIdentity_AllMembers#7](~/samples/snippets/visualbasic/VS_Snippets_CLR_System/system.Security.Principal.WindowsIdentity_AllMembers/VB/Form1.vb#7)]  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="userToken" /> is 0.  
-  
- -or-  
-  
- <paramref name="userToken" /> is duplicated and invalid for impersonation.</exception>
-        <exception cref="T:System.Security.SecurityException">The caller does not have the correct permissions.  
-  
- -or-  
-  
- A Win32 error occurred.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to access unmanaged code. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode" />.</permission>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public WindowsIdentity (IntPtr userToken, string type, System.Security.Principal.WindowsAccountType acctType, bool isAuthenticated);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(native int userToken, string type, valuetype System.Security.Principal.WindowsAccountType acctType, bool isAuthenticated) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Principal.WindowsIdentity.#ctor(System.IntPtr,System.String,System.Security.Principal.WindowsAccountType,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (userToken As IntPtr, type As String, acctType As WindowsAccountType, isAuthenticated As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; WindowsIdentity(IntPtr userToken, System::String ^ type, System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);" />
-      <MemberSignature Language="F#" Value="new System.Security.Principal.WindowsIdentity : nativeint * string * System.Security.Principal.WindowsAccountType * bool -&gt; System.Security.Principal.WindowsIdentity" Usage="new System.Security.Principal.WindowsIdentity (userToken, type, acctType, isAuthenticated)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Principal.Windows</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <Parameters>
-        <Parameter Name="userToken" Type="System.IntPtr" />
-        <Parameter Name="type" Type="System.String" />
-        <Parameter Name="acctType" Type="System.Security.Principal.WindowsAccountType" />
-        <Parameter Name="isAuthenticated" Type="System.Boolean" />
-      </Parameters>
-      <Docs>
-        <param name="userToken">The account token for the user on whose behalf the code is running.</param>
-        <param name="type">(Informational use only.) The type of authentication used to identify the user.</param>
-        <param name="acctType">One of the enumeration values.</param>
-        <param name="isAuthenticated">
-          <see langword="true" /> to indicate that the user is authenticated; otherwise, <see langword="false" />.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Security.Principal.WindowsIdentity" /> class for the user represented by the specified Windows account token, the specified authentication type, the specified Windows account type, and the specified authentication status.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the `type` parameter is used to set the <xref:System.Security.Principal.WindowsIdentity.AuthenticationType%2A> parameter. If `type` is `null`, the security system sets <xref:System.Security.Principal.WindowsIdentity.AuthenticationType%2A> to `Negotiate` on Windows Vista and later versions of the Windows operating system, and to `Kerberos` on earlier versions of the Windows operating system. The security system does not use this value; it is for informational use only.  
-  
- You can retrieve the token represented by `userToken` by calling unmanaged code such as the Win32 API `LogonUser` function. Always release `userToken` by calling the Win32 API `CloseHandle` function. For more information on calling unmanaged code, see [Consuming Unmanaged DLL Functions](~/docs/framework/interop/consuming-unmanaged-dll-functions.md).  
-  
-   
-  
-## Examples  
- The following code shows the use of the <xref:System.Security.Principal.WindowsIdentity.%23ctor%2A> constructor to create a new instance of the <xref:System.Security.Principal.WindowsIdentity> class for the user represented by the specified Windows account token, the specified authentication type, the specified Windows account type, and the specified authentication status. This code example is part of a larger example provided for the <xref:System.Security.Principal.WindowsIdentity> class.  
-  
- [!code-cpp[System.Security.Principal.WindowsIdentity_AllMembers#17](~/samples/snippets/cpp/VS_Snippets_CLR_System/system.Security.Principal.WindowsIdentity_AllMembers/CPP/windowsidentitymembers.cpp#17)]
- [!code-csharp[System.Security.Principal.WindowsIdentity_AllMembers#17](~/samples/snippets/csharp/VS_Snippets_CLR_System/system.Security.Principal.WindowsIdentity_AllMembers/CS/windowsidentitymembers.cs#17)]
- [!code-vb[System.Security.Principal.WindowsIdentity_AllMembers#17](~/samples/snippets/visualbasic/VS_Snippets_CLR_System/system.Security.Principal.WindowsIdentity_AllMembers/VB/Form1.vb#17)]  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="userToken" /> is 0.  
-  
- -or-  
-  
- <paramref name="userToken" /> is duplicated and invalid for impersonation.</exception>
-        <exception cref="T:System.Security.SecurityException">The caller does not have the correct permissions.  
-  
- -or-  
-  
- A Win32 error occurred.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to access unmanaged code. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode" />.</permission>
-      </Docs>
-    </Member>
     <Member MemberName="AccessToken">
       <MemberSignature Language="C#" Value="public Microsoft.Win32.SafeHandles.SafeAccessTokenHandle AccessToken { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Win32.SafeHandles.SafeAccessTokenHandle AccessToken" />
@@ -582,11 +342,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.Win32.SafeHandles.SafeAccessTokenHandle</ReturnType>
       </ReturnValue>
@@ -604,9 +359,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AuthenticationType { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AuthenticationType : string" Usage="System.Security.Principal.WindowsIdentity.AuthenticationType" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Security.Principal.IIdentity.AuthenticationType</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Security.Principal.Windows</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -620,11 +372,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -675,12 +422,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Security.Principal.WindowsIdentity/&lt;get_Claims&gt;d__95))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.6">
-          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Security.Principal.WindowsIdentity/&lt;get_Claims&gt;d__1))</AttributeName>
-        </Attribute>
         <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2">
           <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Security.Principal.WindowsIdentity/&lt;get_Claims&gt;d__79))</AttributeName>
         </Attribute>
@@ -808,14 +549,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -855,19 +588,11 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="disposing" Type="System.Boolean" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="disposing" Type="System.Boolean" />
       </Parameters>
       <Docs>
         <param name="disposing">
@@ -891,42 +616,6 @@
         </block>
       </Docs>
     </Member>
-    <Member MemberName="Finalize">
-      <MemberSignature Language="C#" Value="~WindowsIdentity ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Principal.WindowsIdentity.Finalize" />
-      <MemberSignature Language="VB.NET" Value="Finalize ()" />
-      <MemberSignature Language="C++ CLI" Value="!WindowsIdentity ()" />
-      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="windowsIdentity.Finalize " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Principal.Windows</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Releases the resources held by the current instance.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks  
-
-> [!NOTE]
-> This member is removed in the .NET Framework version 2.0 and subsequent versions.
-
-
-Application code does not call this method; it is automatically invoked during garbage collection, unless finalization by the garbage collector has been disabled. For more information, see <xref:System.GC.SuppressFinalize%2A?displayProperty=nameWithType> and <xref:System.Object.Finalize>. This method overrides <xref:System.Object.Finalize>.
-
-]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetAnonymous">
       <MemberSignature Language="C#" Value="public static System.Security.Principal.WindowsIdentity GetAnonymous ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Principal.WindowsIdentity GetAnonymous() cil managed" />
@@ -948,11 +637,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.WindowsIdentity</ReturnType>
       </ReturnValue>
@@ -1012,11 +696,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.WindowsIdentity</ReturnType>
       </ReturnValue>
@@ -1060,16 +739,11 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.WindowsIdentity</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="ifImpersonating" Type="System.Boolean" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="ifImpersonating" Type="System.Boolean" />
       </Parameters>
       <Docs>
         <param name="ifImpersonating">
@@ -1107,16 +781,11 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.WindowsIdentity</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="desiredAccess" Type="System.Security.Principal.TokenAccessLevels" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="desiredAccess" Type="System.Security.Principal.TokenAccessLevels" />
       </Parameters>
       <Docs>
         <param name="desiredAccess">A bitwise combination of the enumeration values.</param>
@@ -1153,11 +822,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.IdentityReferenceCollection</ReturnType>
       </ReturnValue>
@@ -1187,129 +851,6 @@ Application code does not call this method; it is automatically invoked during g
         <summary>Allows code to impersonate a different Windows user.</summary>
       </Docs>
     </MemberGroup>
-    <Member MemberName="Impersonate">
-      <MemberSignature Language="C#" Value="public virtual System.Security.Principal.WindowsImpersonationContext Impersonate ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Security.Principal.WindowsImpersonationContext Impersonate() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Principal.WindowsIdentity.Impersonate" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Impersonate () As WindowsImpersonationContext" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Security::Principal::WindowsImpersonationContext ^ Impersonate();" />
-      <MemberSignature Language="F#" Value="abstract member Impersonate : unit -&gt; System.Security.Principal.WindowsImpersonationContext&#xA;override this.Impersonate : unit -&gt; System.Security.Principal.WindowsImpersonationContext" Usage="windowsIdentity.Impersonate " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Principal.Windows</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Security.Principal.WindowsImpersonationContext</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Impersonates the user represented by the <see cref="T:System.Security.Principal.WindowsIdentity" /> object.</summary>
-        <returns>An object that represents the Windows user prior to impersonation; this can be used to revert to the original user's context.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- On Windows NT platforms, the current user must have sufficient rights to allow impersonation.  
-  
-   
-  
-## Examples  
- The following example demonstrates how to obtain a Windows account token by calling the unmanaged Win32 `LogonUser` function, and how to use that token to impersonate another user and then revert to the original identity.  
-  
- [!code-cpp[WindowsIdentity Impersonation#1](~/samples/snippets/cpp/VS_Snippets_CLR/WindowsIdentity Impersonation/CPP/source.cpp#1)]
- [!code-csharp[WindowsIdentity Impersonation#1](~/samples/snippets/csharp/VS_Snippets_CLR/WindowsIdentity Impersonation/CS/source.cs#1)]
- [!code-vb[WindowsIdentity Impersonation#1](~/samples/snippets/visualbasic/VS_Snippets_CLR/WindowsIdentity Impersonation/VB/source.vb#1)]  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.InvalidOperationException">An anonymous identity attempted to perform an impersonation.</exception>
-        <exception cref="T:System.Security.SecurityException">A Win32 error occurred.</exception>
-        <block subset="none" type="overrides">
-          <para>Because Microsoft Windows 98 and Windows Millennium Edition (Windows Me) platforms do not have user tokens, impersonation cannot take place on those platforms.</para>
-        </block>
-        <block subset="none" type="usage">
-          <para>After using <see cref="M:System.Security.Principal.WindowsIdentity.Impersonate" />, it is important to call the <see cref="M:System.Security.Principal.WindowsImpersonationContext.Undo" /> method to end the impersonation.</para>
-        </block>
-      </Docs>
-    </Member>
-    <Member MemberName="Impersonate">
-      <MemberSignature Language="C#" Value="public static System.Security.Principal.WindowsImpersonationContext Impersonate (IntPtr userToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Principal.WindowsImpersonationContext Impersonate(native int userToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Principal.WindowsIdentity.Impersonate(System.IntPtr)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Impersonate (userToken As IntPtr) As WindowsImpersonationContext" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Security::Principal::WindowsImpersonationContext ^ Impersonate(IntPtr userToken);" />
-      <MemberSignature Language="F#" Value="static member Impersonate : nativeint -&gt; System.Security.Principal.WindowsImpersonationContext" Usage="System.Security.Principal.WindowsIdentity.Impersonate userToken" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Principal.Windows</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Security.Principal.WindowsImpersonationContext</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="userToken" Type="System.IntPtr" />
-      </Parameters>
-      <Docs>
-        <param name="userToken">The handle of a Windows account token. This token is usually retrieved through a call to unmanaged code, such as a call to the Win32 API <see langword="LogonUser" /> function.</param>
-        <summary>Impersonates the user represented by the specified user token.</summary>
-        <returns>An object that represents the Windows user prior to impersonation; this object can be used to revert to the original user's context.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- On Windows NT platforms, the current user must have sufficient rights to allow impersonation.  
-  
-> [!NOTE]
->  Calling the <xref:System.Security.Principal.WindowsIdentity.Impersonate%28System.IntPtr%29> method with a `userToken` value of <xref:System.IntPtr.Zero> is equivalent to calling the Win32 `RevertToSelf` function. If another user is currently being impersonated, control reverts to the original user.  
-  
- For more information about calls to unmanaged code, see [Consuming Unmanaged DLL Functions](~/docs/framework/interop/consuming-unmanaged-dll-functions.md).  
-  
-   
-  
-## Examples  
- The following example demonstrates how to obtain a Windows account token by calling the unmanaged Win32 `LogonUser` function, and how to use that token to impersonate another user and then revert to the original identity.  
-  
- [!code-csharp[WindowsIdentity Impersonation2#1](~/samples/snippets/csharp/VS_Snippets_CLR/windowsidentity impersonation2/cs/source.cs#1)]
- [!code-vb[WindowsIdentity Impersonation2#1](~/samples/snippets/visualbasic/VS_Snippets_CLR/windowsidentity impersonation2/vb/source.vb#1)]  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.UnauthorizedAccessException">Windows returned the Windows NT status code STATUS_ACCESS_DENIED.</exception>
-        <exception cref="T:System.OutOfMemoryException">There is insufficient memory available.</exception>
-        <exception cref="T:System.Security.SecurityException">The caller does not have the correct permissions.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to manipulate the principal object and access unmanaged code. Associated enumerations: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlPrincipal" /> and <see cref="F:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode" /></permission>
-        <block subset="none" type="overrides">
-          <para>Because Microsoft Windows 98 and Windows Millennium Edition (Windows Me) platforms do not have user tokens, impersonation cannot take place on those platforms.</para>
-        </block>
-        <block subset="none" type="usage">
-          <para>After using <see cref="M:System.Security.Principal.WindowsIdentity.Impersonate(System.IntPtr)" />, it is important to call the <see cref="M:System.Security.Principal.WindowsImpersonationContext.Undo" /> method to end the impersonation.</para>
-        </block>
-      </Docs>
-    </Member>
     <Member MemberName="ImpersonationLevel">
       <MemberSignature Language="C#" Value="public System.Security.Principal.TokenImpersonationLevel ImpersonationLevel { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Security.Principal.TokenImpersonationLevel ImpersonationLevel" />
@@ -1330,14 +871,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.TokenImpersonationLevel</ReturnType>
       </ReturnValue>
@@ -1383,11 +916,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -1424,9 +952,6 @@ Application code does not call this method; it is automatically invoked during g
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsAuthenticated { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsAuthenticated : bool" Usage="System.Security.Principal.WindowsIdentity.IsAuthenticated" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Security.Principal.IIdentity.IsAuthenticated</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Security.Principal.Windows</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1471,11 +996,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -1518,11 +1038,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -1552,9 +1067,6 @@ Application code does not call this method; it is automatically invoked during g
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Name { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Name : string" Usage="System.Security.Principal.WindowsIdentity.Name" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Security.Principal.IIdentity.Name</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Security.Principal.Windows</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1568,11 +1080,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1618,14 +1125,6 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.SecurityIdentifier</ReturnType>
       </ReturnValue>
@@ -1668,17 +1167,12 @@ Application code does not call this method; it is automatically invoked during g
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="safeAccessTokenHandle" Type="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="action" Type="System.Action" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="safeAccessTokenHandle" Type="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" />
+        <Parameter Name="action" Type="System.Action" />
       </Parameters>
       <Docs>
         <param name="safeAccessTokenHandle">The SafeAccessTokenHandle of the impersonated Windows identity.</param>
@@ -1787,11 +1281,6 @@ public class ImpersonationDemo
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>T</ReturnType>
       </ReturnValue>
@@ -1799,8 +1288,8 @@ public class ImpersonationDemo
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="safeAccessTokenHandle" Type="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="func" Type="System.Func&lt;T&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="safeAccessTokenHandle" Type="Microsoft.Win32.SafeHandles.SafeAccessTokenHandle" />
+        <Parameter Name="func" Type="System.Func&lt;T&gt;" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of object used by and returned by the function.</typeparam>
@@ -1919,7 +1408,7 @@ public class ImpersonationDemo
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sender" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="sender" Type="System.Object" />
       </Parameters>
       <Docs>
         <param name="sender">The source of the deserialization event.</param>
@@ -1949,17 +1438,12 @@ public class ImpersonationDemo
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
       </Parameters>
       <Docs>
         <param name="info">An object containing the information required to serialize the <see cref="T:System.Collections.Hashtable" />.</param>
@@ -1998,11 +1482,6 @@ public class ImpersonationDemo
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.IntPtr</ReturnType>
       </ReturnValue>
@@ -2052,14 +1531,6 @@ public class ImpersonationDemo
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.SecurityIdentifier</ReturnType>
       </ReturnValue>

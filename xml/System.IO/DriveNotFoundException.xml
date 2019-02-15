@@ -1,6 +1,6 @@
 ﻿<Type Name="DriveNotFoundException" FullName="System.IO.DriveNotFoundException">
   <TypeSignature Language="C#" Value="public class DriveNotFoundException : System.IO.IOException" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DriveNotFoundException extends System.IO.IOException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DriveNotFoundException extends System.IO.IOException" />
   <TypeSignature Language="DocId" Value="T:System.IO.DriveNotFoundException" />
   <TypeSignature Language="VB.NET" Value="Public Class DriveNotFoundException&#xA;Inherits IOException" />
   <TypeSignature Language="C++ CLI" Value="public ref class DriveNotFoundException : System::IO::IOException" />
@@ -25,14 +25,6 @@
     <BaseTypeName>System.IO.IOException</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>The exception that is thrown when trying to access a drive or share that is not available.</summary>
     <remarks>
@@ -178,11 +170,6 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
         <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />

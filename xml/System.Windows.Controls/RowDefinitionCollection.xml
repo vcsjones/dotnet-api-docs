@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.RowDefinitionCollection" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RowDefinitionCollection&#xA;Implements ICollection(Of RowDefinition), IEnumerable(Of RowDefinition), IList, IList(Of RowDefinition)" />
   <TypeSignature Language="C++ CLI" Value="public ref class RowDefinitionCollection sealed : System::Collections::Generic::ICollection&lt;System::Windows::Controls::RowDefinition ^&gt;, System::Collections::Generic::IEnumerable&lt;System::Windows::Controls::RowDefinition ^&gt;, System::Collections::Generic::IList&lt;System::Windows::Controls::RowDefinition ^&gt;, System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type RowDefinitionCollection = class&#xA;    interface IList&lt;RowDefinition&gt;&#xA;    interface ICollection&lt;RowDefinition&gt;&#xA;    interface seq&lt;RowDefinition&gt;&#xA;    interface IEnumerable&#xA;    interface IList&#xA;    interface ICollection" />
+  <TypeSignature Language="F#" Value="type RowDefinitionCollection = class&#xA;    interface ICollection&lt;RowDefinition&gt;&#xA;    interface seq&lt;RowDefinition&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;RowDefinition&gt;&#xA;    interface ICollection&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -223,17 +223,13 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>

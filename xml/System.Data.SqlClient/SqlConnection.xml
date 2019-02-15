@@ -1,10 +1,10 @@
 ﻿<Type Name="SqlConnection" FullName="System.Data.SqlClient.SqlConnection">
-  <TypeSignature Language="C#" Value="public sealed class SqlConnection : System.Data.Common.DbConnection, ICloneable, IDisposable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SqlConnection extends System.Data.Common.DbConnection implements class System.Data.IDbConnection, class System.ICloneable, class System.IDisposable" />
+  <TypeSignature Language="C#" Value="public sealed class SqlConnection : System.Data.Common.DbConnection, ICloneable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SqlConnection extends System.Data.Common.DbConnection implements class System.ICloneable" />
   <TypeSignature Language="DocId" Value="T:System.Data.SqlClient.SqlConnection" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SqlConnection&#xA;Inherits DbConnection&#xA;Implements ICloneable, IDisposable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SqlConnection sealed : System::Data::Common::DbConnection, ICloneable, IDisposable" />
-  <TypeSignature Language="F#" Value="type SqlConnection = class&#xA;    inherit DbConnection&#xA;    interface IDbConnection&#xA;    interface ICloneable&#xA;    interface IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SqlConnection&#xA;Inherits DbConnection&#xA;Implements ICloneable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SqlConnection sealed : System::Data::Common::DbConnection, ICloneable" />
+  <TypeSignature Language="F#" Value="type SqlConnection = class&#xA;    inherit DbConnection&#xA;    interface ICloneable" />
   <AssemblyInfo>
     <AssemblyName>System.Data.SqlClient</AssemblyName>
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -29,20 +29,9 @@
   </Base>
   <Interfaces>
     <Interface>
-      <InterfaceName>System.Data.IDbConnection</InterfaceName>
-    </Interface>
-    <Interface>
       <InterfaceName>System.ICloneable</InterfaceName>
     </Interface>
-    <Interface>
-      <InterfaceName>System.IDisposable</InterfaceName>
-    </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.ComponentModel.DefaultEvent("InfoMessage")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a connection to a SQL Server database. This class cannot be inherited.</summary>
     <remarks>
@@ -237,16 +226,16 @@ using (SqlConnection connection = new SqlConnection(connectionString))
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SqlConnection (string connectionString, System.Data.SqlClient.SqlCredential credential);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString, class System.Data.SqlClient.SqlCredential credential) cil managed" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.#ctor(System.String,System.Data.SqlClient.SqlCredential)" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As String, credential As SqlCredential)" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SqlConnection(System::String ^ connectionString, System::Data::SqlClient::SqlCredential ^ credential);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2" />
+      <MemberSignature Language="C#" Value="public SqlConnection (string connectionString, System.Data.SqlClient.SqlCredential credential);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2;netcore-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString, class System.Data.SqlClient.SqlCredential credential) cil managed" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2;netcore-3.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.#ctor(System.String,System.Data.SqlClient.SqlCredential)" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As String, credential As SqlCredential)" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2;netcore-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SqlConnection(System::String ^ connectionString, System::Data::SqlClient::SqlCredential ^ credential);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;dotnet-plat-ext-2.2;netcore-3.0" />
       <MemberSignature Language="C#" Value="public SqlConnection (string connectionString, System.Data.SqlClient.SqlCredential cred);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string connectionString, class System.Data.SqlClient.SqlCredential cred) cil managed" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (connectionString As String, cred As SqlCredential)" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; SqlConnection(System::String ^ connectionString, System::Data::SqlClient::SqlCredential ^ cred);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="F#" Value="new System.Data.SqlClient.SqlConnection : string * System.Data.SqlClient.SqlCredential -&gt; System.Data.SqlClient.SqlConnection" Usage="new System.Data.SqlClient.SqlConnection (connectionString, credential)" FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="new System.Data.SqlClient.SqlConnection : string * System.Data.SqlClient.SqlCredential -&gt; System.Data.SqlClient.SqlConnection" Usage="new System.Data.SqlClient.SqlConnection (connectionString, credential)" FrameworkAlternate="netcore-1.0;netcore-1.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinios-10.8;xamarinmac-3.0;netcore-3.0" />
       <MemberSignature Language="F#" Value="new System.Data.SqlClient.SqlConnection : string * System.Data.SqlClient.SqlCredential -&gt; System.Data.SqlClient.SqlConnection" Usage="new System.Data.SqlClient.SqlConnection (connectionString, cred)" FrameworkAlternate="xamarinandroid-7.1" />
       <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.#ctor(System.String,System.Data.SqlClient.SqlCredential)" FrameworkAlternate="xamarinandroid-7.1;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Constructor</MemberType>
@@ -261,14 +250,12 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="connectionString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="credential" Type="System.Data.SqlClient.SqlCredential" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-        <Parameter Name="cred" Type="System.Data.SqlClient.SqlCredential" Index="1" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="credential" Type="System.Data.SqlClient.SqlCredential" />
       </Parameters>
       <Docs>
         <param name="connectionString">A connection string that does not use any of the following connection string keywords: <see langword="Integrated Security = true" />, <see langword="UserId" />, or <see langword="Password" />; or that does not use <see langword="ContextConnection = true" />.</param>
         <param name="credential">A <see cref="T:System.Data.SqlClient.SqlCredential" /> object. If <paramref name="credential" /> is null, <see cref="M:System.Data.SqlClient.SqlConnection.#ctor(System.String,System.Data.SqlClient.SqlCredential)" /> is functionally equivalent to <see cref="M:System.Data.SqlClient.SqlConnection.#ctor(System.String)" />.</param>
-        <param name="cred">To be added.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Data.SqlClient.SqlConnection" /> class given a connection string, that does not use <see langword="Integrated Security = true" /> and a <see cref="T:System.Data.SqlClient.SqlCredential" /> object that contains the user ID and password.</summary>
         <remarks>To be added.</remarks>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
@@ -290,14 +277,6 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -335,7 +314,7 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         <ReturnType>System.Data.Common.DbTransaction</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="isolationLevel" Type="System.Data.IsolationLevel" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="isolationLevel" Type="System.Data.IsolationLevel" />
       </Parameters>
       <Docs>
         <param name="isolationLevel">To be added.</param>
@@ -648,9 +627,6 @@ using (SqlConnection connection = new SqlConnection(connectionString))
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ChangeDatabase(System::String ^ database);" />
       <MemberSignature Language="F#" Value="override this.ChangeDatabase : string -&gt; unit" Usage="sqlConnection.ChangeDatabase database" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDbConnection.ChangeDatabase(System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -736,8 +712,8 @@ using (SqlConnection connection = new SqlConnection(connectionString))
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="connectionString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="newPassword" Type="System.String" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="newPassword" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="connectionString">The connection string that contains enough information to connect to the server that you want. The connection string must contain the user ID and the current password.</param>
@@ -804,14 +780,14 @@ End Module
     <Member MemberName="ChangePassword">
       <MemberSignature Language="C#" Value="public static void ChangePassword (string connectionString, System.Data.SqlClient.SqlCredential credential, System.Security.SecureString newPassword);" FrameworkAlternate="dotnet-plat-ext-2.1;netcore-1.0;netcore-1.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;dotnet-plat-ext-2.2" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ChangePassword(string connectionString, class System.Data.SqlClient.SqlCredential credential, class System.Security.SecureString newPassword) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;netcore-1.0;netcore-1.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.ChangePassword(System.String,System.Data.SqlClient.SqlCredential,System.Security.SecureString)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.ChangePassword(System.String,System.Data.SqlClient.SqlCredential,System.Security.SecureString)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ChangePassword (connectionString As String, credential As SqlCredential, newPassword As SecureString)" FrameworkAlternate="dotnet-plat-ext-2.1;netcore-1.0;netcore-1.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;dotnet-plat-ext-2.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ChangePassword(System::String ^ connectionString, System::Data::SqlClient::SqlCredential ^ credential, System::Security::SecureString ^ newPassword);" FrameworkAlternate="dotnet-plat-ext-2.1;netcore-1.0;netcore-1.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="F#" Value="static member ChangePassword : string * System.Data.SqlClient.SqlCredential * System.Security.SecureString -&gt; unit" Usage="System.Data.SqlClient.SqlConnection.ChangePassword (connectionString, credential, newPassword)" FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="C#" Value="public static void ChangePassword (string connectionString, System.Data.SqlClient.SqlCredential credential, System.Security.SecureString newSecurePassword);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ChangePassword(string connectionString, class System.Data.SqlClient.SqlCredential credential, class System.Security.SecureString newSecurePassword) cil managed" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub ChangePassword (connectionString As String, credential As SqlCredential, newSecurePassword As SecureString)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ChangePassword(System::String ^ connectionString, System::Data::SqlClient::SqlCredential ^ credential, System::Security::SecureString ^ newSecurePassword);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="F#" Value="static member ChangePassword : string * System.Data.SqlClient.SqlCredential * System.Security.SecureString -&gt; unit" Usage="System.Data.SqlClient.SqlConnection.ChangePassword (connectionString, credential, newPassword)" FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
+      <MemberSignature Language="C#" Value="public static void ChangePassword (string connectionString, System.Data.SqlClient.SqlCredential credential, System.Security.SecureString newSecurePassword);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ChangePassword(string connectionString, class System.Data.SqlClient.SqlCredential credential, class System.Security.SecureString newSecurePassword) cil managed" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ChangePassword (connectionString As String, credential As SqlCredential, newSecurePassword As SecureString)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ChangePassword(System::String ^ connectionString, System::Data::SqlClient::SqlCredential ^ credential, System::Security::SecureString ^ newSecurePassword);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
       <MemberSignature Language="F#" Value="static member ChangePassword : string * System.Data.SqlClient.SqlCredential * System.Security.SecureString -&gt; unit" Usage="System.Data.SqlClient.SqlConnection.ChangePassword (connectionString, credential, newSecurePassword)" FrameworkAlternate="netcore-2.0" />
       <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.ChangePassword(System.String,System.Data.SqlClient.SqlCredential,System.Security.SecureString)" FrameworkAlternate="netcore-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
       <MemberType>Method</MemberType>
@@ -828,15 +804,13 @@ End Module
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="connectionString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-        <Parameter Name="credential" Type="System.Data.SqlClient.SqlCredential" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-        <Parameter Name="newPassword" Type="System.Security.SecureString" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-        <Parameter Name="newSecurePassword" Type="System.Security.SecureString" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="credential" Type="System.Data.SqlClient.SqlCredential" />
+        <Parameter Name="newSecurePassword" Type="System.Security.SecureString" />
       </Parameters>
       <Docs>
         <param name="connectionString">The connection string that contains enough information to connect to a server. The connection string should not use any of the following connection string keywords: <see langword="Integrated Security = true" />, <see langword="UserId" />, or <see langword="Password" />; or <see langword="ContextConnection = true" />.</param>
         <param name="credential">A <see cref="T:System.Data.SqlClient.SqlCredential" /> object.</param>
-        <param name="newPassword">The new password.<paramref name="newPassword" /> must be read only. The password must also comply with any password security policy set on the server (for example, minimum length and requirements for specific characters).</param>
         <param name="newSecurePassword">To be added.</param>
         <summary>Changes the SQL Server password for the user indicated in the <see cref="T:System.Data.SqlClient.SqlCredential" /> object.</summary>
         <remarks>To be added.</remarks>
@@ -934,7 +908,7 @@ The connection string contains <see langword="Context Connection=true" />.
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="connection" Type="System.Data.SqlClient.SqlConnection" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="connection" Type="System.Data.SqlClient.SqlConnection" />
       </Parameters>
       <Docs>
         <param name="connection">The <see cref="T:System.Data.SqlClient.SqlConnection" /> to be cleared from the pool.</param>
@@ -975,11 +949,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
@@ -1007,9 +976,6 @@ The connection string contains <see langword="Context Connection=true" />.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Close();" />
       <MemberSignature Language="F#" Value="override this.Close : unit -&gt; unit" Usage="sqlConnection.Close " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDbConnection.Close</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -1070,102 +1036,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
     </Member>
-    <Member MemberName="ColumnEncryptionKeyCacheTtl">
-      <MemberSignature Language="C#" Value="public static TimeSpan ColumnEncryptionKeyCacheTtl { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype System.TimeSpan ColumnEncryptionKeyCacheTtl" />
-      <MemberSignature Language="DocId" Value="P:System.Data.SqlClient.SqlConnection.ColumnEncryptionKeyCacheTtl" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Property ColumnEncryptionKeyCacheTtl As TimeSpan" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property TimeSpan ColumnEncryptionKeyCacheTtl { TimeSpan get(); void set(TimeSpan value); };" />
-      <MemberSignature Language="F#" Value="member this.ColumnEncryptionKeyCacheTtl : TimeSpan with get, set" Usage="System.Data.SqlClient.SqlConnection.ColumnEncryptionKeyCacheTtl" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.TimeSpan</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the time-to-live for column encryption key entries in the column encryption key cache for the <see href="https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine">Always Encrypted</see> feature. The default value is 2 hours. 0 means no caching at all.</summary>
-        <value>The time interval.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ColumnEncryptionQueryMetadataCacheEnabled">
-      <MemberSignature Language="C#" Value="public static bool ColumnEncryptionQueryMetadataCacheEnabled { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property bool ColumnEncryptionQueryMetadataCacheEnabled" />
-      <MemberSignature Language="DocId" Value="P:System.Data.SqlClient.SqlConnection.ColumnEncryptionQueryMetadataCacheEnabled" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Property ColumnEncryptionQueryMetadataCacheEnabled As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property bool ColumnEncryptionQueryMetadataCacheEnabled { bool get(); void set(bool value); };" />
-      <MemberSignature Language="F#" Value="member this.ColumnEncryptionQueryMetadataCacheEnabled : bool with get, set" Usage="System.Data.SqlClient.SqlConnection.ColumnEncryptionQueryMetadataCacheEnabled" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets a value that indicates whether query metadata caching is enabled (true) or not (false) for parameterized queries running against <see href="https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine">Always Encrypted</see> enabled databases. The default value is true.</summary>
-        <value>Returns true if query metadata caching is enabled; otherwise false. true is the default.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- For parameterized queries, SqlClient makes a roundtrip to SQL Server for parameter metadata, to see which parameter it needs to encrypt and how (which keys and algorithms should be used). If the application calls the same query multiple times, an extra roundtrip is made to the server each time, which degrades application performance.  
-  
- With **ColumnEncryptionQueryMetadataCacheEnabled** set to true, if the same query is called multiple times, the roundtrip to the server will be made only once. The cache has a non-configurable Max size parameter that is set to 2000 queries.  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ColumnEncryptionTrustedMasterKeyPaths">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;string,System.Collections.Generic.IList&lt;string&gt;&gt; ColumnEncryptionTrustedMasterKeyPaths { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IDictionary`2&lt;string, class System.Collections.Generic.IList`1&lt;string&gt;&gt; ColumnEncryptionTrustedMasterKeyPaths" />
-      <MemberSignature Language="DocId" Value="P:System.Data.SqlClient.SqlConnection.ColumnEncryptionTrustedMasterKeyPaths" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ColumnEncryptionTrustedMasterKeyPaths As IDictionary(Of String, IList(Of String))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Collections::Generic::IDictionary&lt;System::String ^, System::Collections::Generic::IList&lt;System::String ^&gt; ^&gt; ^ ColumnEncryptionTrustedMasterKeyPaths { System::Collections::Generic::IDictionary&lt;System::String ^, System::Collections::Generic::IList&lt;System::String ^&gt; ^&gt; ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.ColumnEncryptionTrustedMasterKeyPaths : System.Collections.Generic.IDictionary&lt;string, System.Collections.Generic.IList&lt;string&gt;&gt;" Usage="System.Data.SqlClient.SqlConnection.ColumnEncryptionTrustedMasterKeyPaths" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Collections.Generic.IList&lt;System.String&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Allows you to set a list of trusted key paths for a database server. If while processing an application query the driver receives a key path that is not on the list, the query will fail. This property provides additional protection against security attacks that involve a compromised SQL Server providing fake key paths, which may lead to leaking key store credentials.</summary>
-        <value>The list of trusted master key paths for the column encryption.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ConnectionString">
       <MemberSignature Language="C#" Value="public override string ConnectionString { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ConnectionString" />
@@ -1174,9 +1044,6 @@ The connection string contains <see langword="Context Connection=true" />.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ ConnectionString { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.ConnectionString : string with get, set" Usage="System.Data.SqlClient.SqlConnection.ConnectionString" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Data.IDbConnection.ConnectionString</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -1195,38 +1062,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.Editor("Microsoft.VSDesigner.Data.SQL.Design.SqlConnectionStringEditor, Microsoft.VSDesigner, Version=0.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.RecommendedAsConfigurable(true)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.ComponentModel.Editor("Microsoft.VSDesigner.Data.SQL.Design.SqlConnectionStringEditor, Microsoft.VSDesigner, Version=7.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(System.Drawing.Design.UITypeEditor))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("SqlConnection_ConnectionString")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
-          <AttributeName>System.ComponentModel.Editor("Microsoft.VSDesigner.Data.SQL.Design.SqlConnectionStringEditor, Microsoft.VSDesigner, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.Editor("Microsoft.VSDesigner.Data.SQL.Design.SqlConnectionStringEditor, Microsoft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.SettingsBindable(true)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8">
-          <AttributeName>System.ComponentModel.Editor("Microsoft.VSDesigner.Data.SQL.Design.SqlConnectionStringEditor, Microsoft.VSDesigner, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=2.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1357,9 +1192,6 @@ The connection string contains <see langword="Context Connection=true" />.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int ConnectionTimeout { int get(); };" />
       <MemberSignature Language="F#" Value="member this.ConnectionTimeout : int" Usage="System.Data.SqlClient.SqlConnection.ConnectionTimeout" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Data.IDbConnection.ConnectionTimeout</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -1378,14 +1210,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("SqlConnection_ConnectionTimeout")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -1512,14 +1336,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <AssemblyVersion>4.4.0.0</AssemblyVersion>
         <AssemblyVersion>4.5.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Data.SqlClient.SqlCredential</ReturnType>
       </ReturnValue>
@@ -1551,31 +1367,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
     </Member>
-    <Member MemberName="Credentials">
-      <MemberSignature Language="C#" Value="public System.Data.SqlClient.SqlCredential Credentials { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Data.SqlClient.SqlCredential Credentials" />
-      <MemberSignature Language="DocId" Value="P:System.Data.SqlClient.SqlConnection.Credentials" />
-      <MemberSignature Language="VB.NET" Value="Public Property Credentials As SqlCredential" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Data::SqlClient::SqlCredential ^ Credentials { System::Data::SqlClient::SqlCredential ^ get(); void set(System::Data::SqlClient::SqlCredential ^ value); };" />
-      <MemberSignature Language="F#" Value="member this.Credentials : System.Data.SqlClient.SqlCredential with get, set" Usage="System.Data.SqlClient.SqlConnection.Credentials" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Data.SqlClient.SqlCredential</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Database">
       <MemberSignature Language="C#" Value="public override string Database { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Database" />
@@ -1584,9 +1375,6 @@ The connection string contains <see langword="Context Connection=true" />.
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Database { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Database : string" Usage="System.Data.SqlClient.SqlConnection.Database" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Data.IDbConnection.Database</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -1605,14 +1393,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("SqlConnection_Database")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1666,17 +1446,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.Browsable(true)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("SqlConnection_DataSource")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1768,48 +1537,6 @@ The connection string contains <see langword="Context Connection=true" />.
         <param name="disposing">To be added.</param>
         <summary>To be added.</summary>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="EnlistDistributedTransaction">
-      <MemberSignature Language="C#" Value="public void EnlistDistributedTransaction (System.EnterpriseServices.ITransaction transaction);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EnlistDistributedTransaction(class System.EnterpriseServices.ITransaction transaction) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.EnlistDistributedTransaction(System.EnterpriseServices.ITransaction)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub EnlistDistributedTransaction (transaction As ITransaction)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EnlistDistributedTransaction(System::EnterpriseServices::ITransaction ^ transaction);" />
-      <MemberSignature Language="F#" Value="member this.EnlistDistributedTransaction : System.EnterpriseServices.ITransaction -&gt; unit" Usage="sqlConnection.EnlistDistributedTransaction transaction" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="transaction" Type="System.EnterpriseServices.ITransaction" />
-      </Parameters>
-      <Docs>
-        <param name="transaction">A reference to an existing <see cref="T:System.EnterpriseServices.ITransaction" /> in which to enlist.</param>
-        <summary>Enlists in the specified transaction as a distributed transaction.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- You can use the <xref:System.Data.SqlClient.SqlConnection.EnlistTransaction%2A> method to enlist in a distributed transaction. Because it enlists a connection in a <xref:System.Transactions.Transaction> instance, **EnlistTransaction** takes advantage of functionality available in the <xref:System.Transactions> namespace for managing distributed transactions, making it preferable to **EnlistDistributedTransaction** for this purpose. For more information, see [Distributed Transactions](~/docs/framework/data/adonet/distributed-transactions.md).  
-  
- You can continue to enlist in an existing distributed transaction using the **EnlistDistributedTransaction** method if auto-enlistment is disabled. Enlisting in an existing distributed transaction makes sure that, if the transaction is committed or rolled back, modifications made by the code at the data source are also committed or rolled back.  
-  
- `EnlistDistributedTransaction` returns an exception if the <xref:System.Data.SqlClient.SqlConnection> has already started a transaction using <xref:System.Data.SqlClient.SqlConnection.BeginTransaction%2A>. However, if the transaction is a local transaction started at the data source (for example, by explicitly executing the BEGIN TRANSACTION statement using an <xref:System.Data.SqlClient.SqlCommand> object), **EnlistDistributedTransaction** rolls back the local transaction and enlists in the existing distributed transaction as requested. You do not receive notice that the local transaction was rolled back, and are responsible for managing any local transactions not started using <xref:System.Data.SqlClient.SqlConnection.BeginTransaction%2A>.  
-  
- ]]></format>
-        </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/f46570de-9e50-4fe6-8710-a8c31fa8569b">Transactions (ADO.NET)</related>
-        <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
     </Member>
     <Member MemberName="EnlistTransaction">
@@ -1973,7 +1700,7 @@ The connection string contains <see langword="Context Connection=true" />.
         <ReturnType>System.Data.DataTable</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collectionName" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="collectionName" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="collectionName">Specifies the name of the schema to return.</param>
@@ -2251,8 +1978,8 @@ class Program {
         <ReturnType>System.Data.DataTable</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="collectionName" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="restrictionValues" Type="System.String[]" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="collectionName" Type="System.String" />
+        <Parameter Name="restrictionValues" Type="System.String[]" />
       </Parameters>
       <Docs>
         <param name="collectionName">Specifies the name of the schema to return.</param>
@@ -2282,7 +2009,7 @@ class Program {
       <MemberSignature Language="C#" Value="public event System.Data.SqlClient.SqlInfoMessageEventHandler InfoMessage;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Data.SqlClient.SqlInfoMessageEventHandler InfoMessage" />
       <MemberSignature Language="DocId" Value="E:System.Data.SqlClient.SqlConnection.InfoMessage" />
-      <MemberSignature Language="VB.NET" Value="Public Custom Event InfoMessage As SqlInfoMessageEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Event InfoMessage As SqlInfoMessageEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Data::SqlClient::SqlInfoMessageEventHandler ^ InfoMessage;" />
       <MemberSignature Language="F#" Value="member this.InfoMessage : System.Data.SqlClient.SqlInfoMessageEventHandler " Usage="member this.InfoMessage : System.Data.SqlClient.SqlInfoMessageEventHandler " />
       <MemberType>Event</MemberType>
@@ -2304,11 +2031,6 @@ class Program {
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("DbConnection_InfoMessage")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Data.SqlClient.SqlInfoMessageEventHandler</ReturnType>
       </ReturnValue>
@@ -2365,9 +2087,6 @@ class Program {
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Open();" />
       <MemberSignature Language="F#" Value="override this.Open : unit -&gt; unit" Usage="sqlConnection.Open " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDbConnection.Open</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -2458,7 +2177,7 @@ class Program {
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">The cancellation instruction.</param>
@@ -2511,14 +2230,6 @@ class Program {
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("SqlConnection_PacketSize")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -2547,33 +2258,6 @@ class Program {
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/9abc3f92-1be3-4e1a-b360-762dc689650e">Connecting to a Data Source in ADO.NET</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
-    <Member MemberName="RegisterColumnEncryptionKeyStoreProviders">
-      <MemberSignature Language="C#" Value="public static void RegisterColumnEncryptionKeyStoreProviders (System.Collections.Generic.IDictionary&lt;string,System.Data.SqlClient.SqlColumnEncryptionKeyStoreProvider&gt; customProviders);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterColumnEncryptionKeyStoreProviders(class System.Collections.Generic.IDictionary`2&lt;string, class System.Data.SqlClient.SqlColumnEncryptionKeyStoreProvider&gt; customProviders) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.RegisterColumnEncryptionKeyStoreProviders(System.Collections.Generic.IDictionary{System.String,System.Data.SqlClient.SqlColumnEncryptionKeyStoreProvider})" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterColumnEncryptionKeyStoreProviders (customProviders As IDictionary(Of String, SqlColumnEncryptionKeyStoreProvider))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterColumnEncryptionKeyStoreProviders(System::Collections::Generic::IDictionary&lt;System::String ^, System::Data::SqlClient::SqlColumnEncryptionKeyStoreProvider ^&gt; ^ customProviders);" />
-      <MemberSignature Language="F#" Value="static member RegisterColumnEncryptionKeyStoreProviders : System.Collections.Generic.IDictionary&lt;string, System.Data.SqlClient.SqlColumnEncryptionKeyStoreProvider&gt; -&gt; unit" Usage="System.Data.SqlClient.SqlConnection.RegisterColumnEncryptionKeyStoreProviders customProviders" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="customProviders" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Data.SqlClient.SqlColumnEncryptionKeyStoreProvider&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="customProviders">The custom providers</param>
-        <summary>Registers the column encryption key store providers.</summary>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ResetStatistics">
@@ -2689,17 +2373,6 @@ class Program {
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("SqlConnection_ServerVersion")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -2739,9 +2412,6 @@ class Program {
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Data::ConnectionState State { System::Data::ConnectionState get(); };" />
       <MemberSignature Language="F#" Value="member this.State : System.Data.ConnectionState" Usage="System.Data.SqlClient.SqlConnection.State" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Data.IDbConnection.State</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.SqlClient</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -2760,17 +2430,6 @@ class Program {
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.Browsable(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("DbConnection_State")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Data.ConnectionState</ReturnType>
       </ReturnValue>
@@ -2787,34 +2446,6 @@ class Program {
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/9abc3f92-1be3-4e1a-b360-762dc689650e">Connecting to a Data Source (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
-    <Member MemberName="StateChange">
-      <MemberSignature Language="C#" Value="public event System.Data.StateChangeEventHandler StateChange;" />
-      <MemberSignature Language="ILAsm" Value=".event class System.Data.StateChangeEventHandler StateChange" />
-      <MemberSignature Language="DocId" Value="E:System.Data.SqlClient.SqlConnection.StateChange" />
-      <MemberSignature Language="VB.NET" Value="Public Custom Event StateChange As StateChangeEventHandler " />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Data::StateChangeEventHandler ^ StateChange;" />
-      <MemberSignature Language="F#" Value="member this.StateChange : System.Data.StateChangeEventHandler " Usage="member this.StateChange : System.Data.StateChangeEventHandler " />
-      <MemberType>Event</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("DbConnection_StateChange")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Data.StateChangeEventHandler</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="StatisticsEnabled">
@@ -2842,11 +2473,6 @@ class Program {
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.DefaultValue(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -2863,104 +2489,6 @@ class Program {
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/429c9d09-92ac-46ec-829a-fbff0a9575a2">Provider Statistics for SQL Server (ADO.NET)</related>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Data.IDbConnection.BeginTransaction">
-      <MemberSignature Language="C#" Value="System.Data.IDbTransaction IDbConnection.BeginTransaction ();" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Data.IDbTransaction System.Data.IDbConnection.BeginTransaction() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.System#Data#IDbConnection#BeginTransaction" />
-      <MemberSignature Language="VB.NET" Value="Function BeginTransaction () As IDbTransaction Implements IDbConnection.BeginTransaction" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Data::IDbTransaction ^ System.Data.IDbConnection.BeginTransaction() = System::Data::IDbConnection::BeginTransaction;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDbConnection.BeginTransaction</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Data.IDbTransaction</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Begins a database transaction.</summary>
-        <returns>An object that represents the new transaction.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks  
-Once the transaction has completed, you must explicitly commit or roll back the transaction by using the <xref:System.Data.IDbTransaction.Commit> or <xref:System.Data.IDbTransaction.Rollback> method.
-
-]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Data.IDbConnection.BeginTransaction">
-      <MemberSignature Language="C#" Value="System.Data.IDbTransaction IDbConnection.BeginTransaction (System.Data.IsolationLevel iso);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Data.IDbTransaction System.Data.IDbConnection.BeginTransaction(valuetype System.Data.IsolationLevel iso) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.System#Data#IDbConnection#BeginTransaction(System.Data.IsolationLevel)" />
-      <MemberSignature Language="VB.NET" Value="Function BeginTransaction (iso As IsolationLevel) As IDbTransaction Implements IDbConnection.BeginTransaction" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Data::IDbTransaction ^ System.Data.IDbConnection.BeginTransaction(System::Data::IsolationLevel iso) = System::Data::IDbConnection::BeginTransaction;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDbConnection.BeginTransaction(System.Data.IsolationLevel)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Data.IDbTransaction</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="iso" Type="System.Data.IsolationLevel" />
-      </Parameters>
-      <Docs>
-        <param name="iso">One of the <see cref="T:System.Data.IsolationLevel" /> values.</param>
-        <summary>Begins a database transaction with the specified <see cref="T:System.Data.IsolationLevel" /> value.</summary>
-        <returns>An object that represents the new transaction.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks  
-Once the transaction has completed, you must explicitly commit or roll back the transaction by using the <xref:System.Data.IDbTransaction.Commit> or <xref:System.Data.IDbTransaction.Rollback> method.
-
-]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Data.IDbConnection.CreateCommand">
-      <MemberSignature Language="C#" Value="System.Data.IDbCommand IDbConnection.CreateCommand ();" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Data.IDbCommand System.Data.IDbConnection.CreateCommand() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlConnection.System#Data#IDbConnection#CreateCommand" />
-      <MemberSignature Language="VB.NET" Value="Function CreateCommand () As IDbCommand Implements IDbConnection.CreateCommand" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Data::IDbCommand ^ System.Data.IDbConnection.CreateCommand() = System::Data::IDbConnection::CreateCommand;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDbConnection.CreateCommand</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Data.IDbCommand</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Creates and returns a Command object that is associated with the connection.</summary>
-        <returns>A Command object that is associated with the connection.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="System.ICloneable.Clone">
@@ -3032,14 +2560,6 @@ Once the transaction has completed, you must explicitly commit or roll back the 
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;xamarinandroid-7.1;xamarinios-10.8;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-          <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName>System.Data.DataSysDescription("SqlConnection_WorkstationId")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>

@@ -1,6 +1,6 @@
 ﻿<Type Name="MetafileHeader" FullName="System.Drawing.Imaging.MetafileHeader">
   <TypeSignature Language="C#" Value="public sealed class MetafileHeader" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit MetafileHeader extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MetafileHeader extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Drawing.Imaging.MetafileHeader" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MetafileHeader" />
   <TypeSignature Language="C++ CLI" Value="public ref class MetafileHeader sealed" />

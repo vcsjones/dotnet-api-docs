@@ -1,6 +1,6 @@
 ﻿<Type Name="EncoderParameter" FullName="System.Drawing.Imaging.EncoderParameter">
   <TypeSignature Language="C#" Value="public sealed class EncoderParameter : IDisposable" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit EncoderParameter extends System.Object implements class System.IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EncoderParameter extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:System.Drawing.Imaging.EncoderParameter" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EncoderParameter&#xA;Implements IDisposable" />
   <TypeSignature Language="C++ CLI" Value="public ref class EncoderParameter sealed : IDisposable" />
@@ -334,6 +334,42 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EncoderParameter (System.Drawing.Imaging.Encoder encoder, int numerator, int demoninator);" FrameworkAlternate="netframework-1.1;netframework-4.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Imaging.Encoder encoder, int32 numerator, int32 demoninator) cil managed" FrameworkAlternate="netframework-1.1;netframework-4.0" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameter.#ctor(System.Drawing.Imaging.Encoder,System.Int32,System.Int32)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EncoderParameter(System::Drawing::Imaging::Encoder ^ encoder, int numerator, int demoninator);" FrameworkAlternate="netframework-1.1;netframework-4.0" />
+      <MemberSignature Language="F#" Value="new System.Drawing.Imaging.EncoderParameter : System.Drawing.Imaging.Encoder * int * int -&gt; System.Drawing.Imaging.EncoderParameter" Usage="new System.Drawing.Imaging.EncoderParameter (encoder, numerator, demoninator)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netcore-3.0" />
+      <MemberSignature Language="C#" Value="public EncoderParameter (System.Drawing.Imaging.Encoder encoder, int numerator, int denominator);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netcore-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Imaging.Encoder encoder, int32 numerator, int32 denominator) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netcore-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EncoderParameter(System::Drawing::Imaging::Encoder ^ encoder, int numerator, int denominator);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2;netcore-3.0" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameter.#ctor(System.Drawing.Imaging.Encoder,System.Int32,System.Int32)" FrameworkAlternate="netframework-1.1;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2" />
+      <MemberSignature Language="F#" Value="new System.Drawing.Imaging.EncoderParameter : System.Drawing.Imaging.Encoder * int * int -&gt; System.Drawing.Imaging.EncoderParameter" Usage="new System.Drawing.Imaging.EncoderParameter (encoder, numerator, demoninator)" FrameworkAlternate="netframework-1.1;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Drawing.Common</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.1</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="encoder" Type="System.Drawing.Imaging.Encoder" />
+        <Parameter Name="numerator" Type="System.Int32" />
+        <Parameter Name="denominator" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="encoder">An <see cref="T:System.Drawing.Imaging.Encoder" /> object that encapsulates the globally unique identifier of the parameter category.</param>
+        <param name="numerator">A 32-bit integer that represents the numerator of a fraction. Must be nonnegative.</param>
+        <param name="denominator">A 32-bit integer that represents the denominator of a fraction. Must be nonnegative.</param>
+        <summary>Initializes a new instance of the <see cref="T:System.Drawing.Imaging.EncoderParameter" /> class with the specified <see cref="T:System.Drawing.Imaging.Encoder" /> object and a pair of 32-bit integers. The pair of integers represents a fraction, the first integer being the numerator, and the second integer being the denominator. Sets the <see cref="P:System.Drawing.Imaging.EncoderParameter.ValueType" /> property to <see cref="F:System.Drawing.Imaging.EncoderParameterValueType.ValueTypeRational" />, and sets the <see cref="P:System.Drawing.Imaging.EncoderParameter.NumberOfValues" /> property to 1.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public EncoderParameter (System.Drawing.Imaging.Encoder encoder, int[] numerator, int[] denominator);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Imaging.Encoder encoder, int32[] numerator, int32[] denominator) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameter.#ctor(System.Drawing.Imaging.Encoder,System.Int32[],System.Int32[])" />
@@ -443,10 +479,10 @@
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="encoder" Type="System.Drawing.Imaging.Encoder" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-        <Parameter Name="numberValues" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-        <Parameter Name="type" Type="System.Drawing.Imaging.EncoderParameterValueType" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-        <Parameter Name="value" Type="System.IntPtr" Index="3" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+        <Parameter Name="encoder" Type="System.Drawing.Imaging.Encoder" />
+        <Parameter Name="numberValues" Type="System.Int32" />
+        <Parameter Name="type" Type="System.Drawing.Imaging.EncoderParameterValueType" />
+        <Parameter Name="value" Type="System.IntPtr" />
       </Parameters>
       <Docs>
         <param name="encoder">An <see cref="T:System.Drawing.Imaging.Encoder" /> object that encapsulates the globally unique identifier of the parameter category.</param>
@@ -494,44 +530,6 @@
         <summary>Initializes a new instance of the <see cref="T:System.Drawing.Imaging.EncoderParameter" /> class with the specified <see cref="T:System.Drawing.Imaging.Encoder" /> object and three integers that specify the number of values, the data type of the values, and a pointer to the values stored in the <see cref="T:System.Drawing.Imaging.EncoderParameter" /> object.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.InvalidOperationException">Type is not a valid <see cref="T:System.Drawing.Imaging.EncoderParameterValueType" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public EncoderParameter (System.Drawing.Imaging.Encoder encoder, int numerator, int demoninator);" FrameworkAlternate="netframework-1.1;netframework-4.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Imaging.Encoder encoder, int32 numerator, int32 demoninator) cil managed" FrameworkAlternate="netframework-1.1;netframework-4.0" />
-      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameter.#ctor(System.Drawing.Imaging.Encoder,System.Int32,System.Int32)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; EncoderParameter(System::Drawing::Imaging::Encoder ^ encoder, int numerator, int demoninator);" FrameworkAlternate="netframework-1.1;netframework-4.0" />
-      <MemberSignature Language="F#" Value="new System.Drawing.Imaging.EncoderParameter : System.Drawing.Imaging.Encoder * int * int -&gt; System.Drawing.Imaging.EncoderParameter" Usage="new System.Drawing.Imaging.EncoderParameter (encoder, numerator, demoninator)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="C#" Value="public EncoderParameter (System.Drawing.Imaging.Encoder encoder, int numerator, int denominator);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Imaging.Encoder encoder, int32 numerator, int32 denominator) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; EncoderParameter(System::Drawing::Imaging::Encoder ^ encoder, int numerator, int denominator);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netcore-2.1;netframework-4.8;dotnet-plat-ext-2.1;netcore-2.2;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameter.#ctor(System.Drawing.Imaging.Encoder,System.Int32,System.Int32)" FrameworkAlternate="netframework-1.1;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2" />
-      <MemberSignature Language="F#" Value="new System.Drawing.Imaging.EncoderParameter : System.Drawing.Imaging.Encoder * int * int -&gt; System.Drawing.Imaging.EncoderParameter" Usage="new System.Drawing.Imaging.EncoderParameter (encoder, numerator, demoninator)" FrameworkAlternate="netframework-1.1;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Drawing</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Drawing.Common</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.1</AssemblyVersion>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="encoder" Type="System.Drawing.Imaging.Encoder" Index="0" />
-        <Parameter Name="numerator" Type="System.Int32" Index="1" />
-        <Parameter Name="denominator" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-        <Parameter Name="demoninator" Type="System.Int32" Index="2" FrameworkAlternate="netframework-1.1;netframework-4.0" />
-      </Parameters>
-      <Docs>
-        <param name="encoder">An <see cref="T:System.Drawing.Imaging.Encoder" /> object that encapsulates the globally unique identifier of the parameter category.</param>
-        <param name="numerator">A 32-bit integer that represents the numerator of a fraction. Must be nonnegative.</param>
-        <param name="denominator">A 32-bit integer that represents the denominator of a fraction. Must be nonnegative.</param>
-        <param name="demoninator">A 32-bit integer that represents the denominator of a fraction. Must be nonnegative.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Drawing.Imaging.EncoderParameter" /> class with the specified <see cref="T:System.Drawing.Imaging.Encoder" /> object and a pair of 32-bit integers. The pair of integers represents a fraction, the first integer being the numerator, and the second integer being the denominator. Sets the <see cref="P:System.Drawing.Imaging.EncoderParameter.ValueType" /> property to <see cref="F:System.Drawing.Imaging.EncoderParameterValueType.ValueTypeRational" />, and sets the <see cref="P:System.Drawing.Imaging.EncoderParameter.NumberOfValues" /> property to 1.</summary>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -677,34 +675,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Finalize">
-      <MemberSignature Language="C#" Value="~EncoderParameter ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void Finalize() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Drawing.Imaging.EncoderParameter.Finalize" />
-      <MemberSignature Language="VB.NET" Value="Finalize ()" />
-      <MemberSignature Language="C++ CLI" Value="!EncoderParameter ()" />
-      <MemberSignature Language="F#" Value="override this.Finalize : unit -&gt; unit" Usage="encoderParameter.Finalize " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Drawing</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Drawing.Common</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.1</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Allows an <see cref="T:System.Drawing.Imaging.EncoderParameter" /> object to attempt to free resources and perform other cleanup operations before the <see cref="T:System.Drawing.Imaging.EncoderParameter" /> object is reclaimed by garbage collection.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="NumberOfValues">
       <MemberSignature Language="C#" Value="public int NumberOfValues { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfValues" />
@@ -724,11 +694,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -757,11 +722,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
       </ReturnValue>
@@ -790,11 +750,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Drawing.Imaging.EncoderParameterValueType</ReturnType>
       </ReturnValue>

@@ -1,6 +1,6 @@
 ﻿<Type Name="ResourcePermissionBaseEntry" FullName="System.Security.Permissions.ResourcePermissionBaseEntry">
   <TypeSignature Language="C#" Value="public class ResourcePermissionBaseEntry" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ResourcePermissionBaseEntry extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourcePermissionBaseEntry extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Security.Permissions.ResourcePermissionBaseEntry" />
   <TypeSignature Language="VB.NET" Value="Public Class ResourcePermissionBaseEntry" />
   <TypeSignature Language="C++ CLI" Value="public ref class ResourcePermissionBaseEntry" />
@@ -20,11 +20,6 @@
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Defines the smallest unit of a code access security permission set.</summary>
     <remarks>
@@ -131,11 +126,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -164,11 +154,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String[]</ReturnType>
       </ReturnValue>

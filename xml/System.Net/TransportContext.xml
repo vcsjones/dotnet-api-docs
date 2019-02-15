@@ -71,11 +71,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Creates a new instance of the <see cref="T:System.Net.TransportContext" /> class</summary>
@@ -131,35 +126,6 @@
         <altmember cref="P:System.Net.Security.SslStream.TransportContext" />
         <altmember cref="N:System.Security.Authentication.ExtendedProtection" />
         <altmember cref="T:System.Security.Authentication.ExtendedProtection.ChannelBinding" />
-      </Docs>
-    </Member>
-    <Member MemberName="GetTlsTokenBindings">
-      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.IEnumerable&lt;System.Security.Authentication.ExtendedProtection.TokenBinding&gt; GetTlsTokenBindings ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;class System.Security.Authentication.ExtendedProtection.TokenBinding&gt; GetTlsTokenBindings() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.TransportContext.GetTlsTokenBindings" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTlsTokenBindings () As IEnumerable(Of TokenBinding)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerable&lt;System::Security::Authentication::ExtendedProtection::TokenBinding ^&gt; ^ GetTlsTokenBindings();" />
-      <MemberSignature Language="F#" Value="abstract member GetTlsTokenBindings : unit -&gt; seq&lt;System.Security.Authentication.ExtendedProtection.TokenBinding&gt;&#xA;override this.GetTlsTokenBindings : unit -&gt; seq&lt;System.Security.Authentication.ExtendedProtection.TokenBinding&gt;" Usage="transportContext.GetTlsTokenBindings " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Primitives</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Security.Authentication.ExtendedProtection.TokenBinding&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Gets the transport security layer token bindings.</summary>
-        <returns>The transport security layer token bindings.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

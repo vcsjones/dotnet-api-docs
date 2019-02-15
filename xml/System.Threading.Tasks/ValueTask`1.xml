@@ -196,41 +196,6 @@ As such, the default choice for any asynchronous method should be to return a <x
         <remarks></remarks>
       </Docs>
     </Member>
-    <Member MemberName="CreateAsyncMethodBuilder">
-      <MemberSignature Language="C#" Value="public static System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder&lt;TResult&gt; CreateAsyncMethodBuilder ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1&lt;!TResult&gt; CreateAsyncMethodBuilder() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Threading.Tasks.ValueTask`1.CreateAsyncMethodBuilder" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateAsyncMethodBuilder () As AsyncValueTaskMethodBuilder(Of TResult)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder&lt;TResult&gt; CreateAsyncMethodBuilder();" />
-      <MemberSignature Language="F#" Value="static member CreateAsyncMethodBuilder : unit -&gt; System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder&lt;'Result&gt;" Usage="System.Threading.Tasks.ValueTask&lt;'Result&gt;.CreateAsyncMethodBuilder " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Threading.Tasks.Extensions</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyVersion>4.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-        <AssemblyVersion>4.2.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-1.1">
-          <AttributeName>System.ComponentModel.EditorBrowsable</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder&lt;TResult&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Creates a method builder for use with an async method.</summary>
-        <returns>The created builder.</returns>
-        <remarks></remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Equals">
       <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />

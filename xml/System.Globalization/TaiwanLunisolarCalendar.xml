@@ -1,6 +1,6 @@
 ﻿<Type Name="TaiwanLunisolarCalendar" FullName="System.Globalization.TaiwanLunisolarCalendar">
   <TypeSignature Language="C#" Value="public class TaiwanLunisolarCalendar : System.Globalization.EastAsianLunisolarCalendar" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TaiwanLunisolarCalendar extends System.Globalization.EastAsianLunisolarCalendar" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TaiwanLunisolarCalendar extends System.Globalization.EastAsianLunisolarCalendar" />
   <TypeSignature Language="DocId" Value="T:System.Globalization.TaiwanLunisolarCalendar" />
   <TypeSignature Language="VB.NET" Value="Public Class TaiwanLunisolarCalendar&#xA;Inherits EastAsianLunisolarCalendar" />
   <TypeSignature Language="C++ CLI" Value="public ref class TaiwanLunisolarCalendar : System::Globalization::EastAsianLunisolarCalendar" />
@@ -29,11 +29,6 @@
     <BaseTypeName>System.Globalization.EastAsianLunisolarCalendar</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents the Taiwan lunisolar calendar. As for the Taiwan calendar, years are calculated using the Gregorian calendar, while days and months are calculated using the lunisolar calendar.</summary>
     <remarks>

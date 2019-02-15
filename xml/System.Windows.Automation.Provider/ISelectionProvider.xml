@@ -11,17 +11,6 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("fb8b03af-3bdf-48d4-bd36-1a65793be168")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Exposes methods and properties to support UI Automation client access to controls that act as containers for a collection of individual, selectable child items. The children of this control must implement <see cref="T:System.Windows.Automation.Provider.ISelectionItemProvider" />.</summary>
     <remarks>

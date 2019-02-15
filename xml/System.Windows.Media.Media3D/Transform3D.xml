@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.Transform3D" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Transform3D&#xA;Inherits GeneralTransform3D" />
   <TypeSignature Language="C++ CLI" Value="public ref class Transform3D abstract : System::Windows::Media::Media3D::GeneralTransform3D" />
-  <TypeSignature Language="F#" Value="type Transform3D = class&#xA;    inherit GeneralTransform3D&#xA;    interface DUCE.IResource" />
+  <TypeSignature Language="F#" Value="type Transform3D = class&#xA;    inherit GeneralTransform3D" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

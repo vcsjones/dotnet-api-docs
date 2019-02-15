@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("670c3006-bf4c-428b-8534-e1848f645122")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Contains values used to specify the direction of navigation within the UI Automation tree.</summary>
     <remarks>To be added.</remarks>

@@ -100,9 +100,6 @@
         <Attribute>
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Content)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Documents.FixedPage</ReturnType>
@@ -258,7 +255,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Documents.GetPageRootCompletedEventHandler GetPageRootCompleted;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Documents.GetPageRootCompletedEventHandler GetPageRootCompleted" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Documents.PageContent.GetPageRootCompleted" />
-      <MemberSignature Language="VB.NET" Value="Public Event GetPageRootCompleted As GetPageRootCompletedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event GetPageRootCompleted As GetPageRootCompletedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Documents::GetPageRootCompletedEventHandler ^ GetPageRootCompleted;" />
       <MemberSignature Language="F#" Value="member this.GetPageRootCompleted : System.Windows.Documents.GetPageRootCompletedEventHandler " Usage="member this.GetPageRootCompleted : System.Windows.Documents.GetPageRootCompletedEventHandler " />
       <MemberType>Event</MemberType>

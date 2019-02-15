@@ -1,6 +1,6 @@
 ﻿<Type Name="RibbonGroup" FullName="System.Windows.Controls.Ribbon.RibbonGroup">
   <TypeSignature Language="C#" Value="public class RibbonGroup : System.Windows.Controls.HeaderedItemsControl" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi RibbonGroup extends System.Windows.Controls.HeaderedItemsControl" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RibbonGroup extends System.Windows.Controls.HeaderedItemsControl" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Ribbon.RibbonGroup" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonGroup&#xA;Inherits HeaderedItemsControl" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonGroup : System::Windows::Controls::HeaderedItemsControl" />
@@ -935,11 +935,11 @@
       </Docs>
     </Member>
     <Member MemberName="OnRenderSizeChanged">
-      <MemberSignature Language="C#" Value="protected internal override void OnRenderSizeChanged (System.Windows.SizeChangedInfo info);" />
-      <MemberSignature Language="ILAsm" Value=".method familyorassemblyhidebysig virtual instance void OnRenderSizeChanged(class System.Windows.SizeChangedInfo info) cil managed" />
+      <MemberSignature Language="C#" Value="protected override void OnRenderSizeChanged (System.Windows.SizeChangedInfo info);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnRenderSizeChanged(class System.Windows.SizeChangedInfo info) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.Ribbon.RibbonGroup.OnRenderSizeChanged(System.Windows.SizeChangedInfo)" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Sub OnRenderSizeChanged (info As SizeChangedInfo)" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override void OnRenderSizeChanged(System::Windows::SizeChangedInfo ^ info);" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnRenderSizeChanged (info As SizeChangedInfo)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnRenderSizeChanged(System::Windows::SizeChangedInfo ^ info);" />
       <MemberSignature Language="F#" Value="override this.OnRenderSizeChanged : System.Windows.SizeChangedInfo -&gt; unit" Usage="ribbonGroup.OnRenderSizeChanged info" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

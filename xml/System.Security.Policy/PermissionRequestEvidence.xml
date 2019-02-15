@@ -1,6 +1,6 @@
 ﻿<Type Name="PermissionRequestEvidence" FullName="System.Security.Policy.PermissionRequestEvidence">
   <TypeSignature Language="C#" Value="public sealed class PermissionRequestEvidence : System.Security.Policy.EvidenceBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit PermissionRequestEvidence extends System.Security.Policy.EvidenceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PermissionRequestEvidence extends System.Security.Policy.EvidenceBase" />
   <TypeSignature Language="DocId" Value="T:System.Security.Policy.PermissionRequestEvidence" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PermissionRequestEvidence&#xA;Inherits EvidenceBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class PermissionRequestEvidence sealed : System::Security::Policy::EvidenceBase" />
@@ -23,17 +23,8 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>System.Obsolete("Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-    </Attribute>
     <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;netcore-2.1;netcore-2.2;netcore-2.0;dotnet-plat-ext-2.2">
       <AttributeName>System.Obsolete("This type is obsolete. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -86,31 +77,6 @@
   
  ]]></format>
         </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Clone">
-      <MemberSignature Language="C#" Value="public override System.Security.Policy.EvidenceBase Clone ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Security.Policy.EvidenceBase Clone() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Policy.PermissionRequestEvidence.Clone" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function Clone () As EvidenceBase" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Security::Policy::EvidenceBase ^ Clone();" />
-      <MemberSignature Language="F#" Value="override this.Clone : unit -&gt; System.Security.Policy.EvidenceBase" Usage="permissionRequestEvidence.Clone " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Permissions</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Security.Policy.EvidenceBase</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Creates a new object that is a copy of the current instance.</summary>
-        <returns>A new object that is a copy of this instance.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Copy">
@@ -250,11 +216,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>

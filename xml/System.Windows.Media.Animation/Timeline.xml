@@ -86,11 +86,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.Animation.Timeline" /> class.</summary>
@@ -512,7 +507,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.CloneCurrentValue" />
       <MemberSignature Language="VB.NET" Value="Public Function CloneCurrentValue () As Timeline" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Windows::Media::Animation::Timeline ^ CloneCurrentValue();" />
-      <MemberSignature Language="F#" Value="override this.CloneCurrentValue : unit -&gt; System.Windows.Media.Animation.Timeline" Usage="timeline.CloneCurrentValue " />
+      <MemberSignature Language="F#" Value="member this.CloneCurrentValue : unit -&gt; System.Windows.Media.Animation.Timeline" Usage="timeline.CloneCurrentValue " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -605,11 +600,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Media.Animation.Clock</ReturnType>
       </ReturnValue>
@@ -855,42 +845,6 @@
       <Docs>
         <summary>Identifies for the <see cref="P:System.Windows.Media.Animation.Timeline.DecelerationRatio" /> dependency property.</summary>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="DesiredFrameRate">
-      <MemberSignature Language="C#" Value="see GetDesiredFrameRate, and SetDesiredFrameRate" />
-      <MemberSignature Language="ILAsm" Value="see GetDesiredFrameRate, and SetDesiredFrameRate" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Media.Animation.Timeline.DesiredFrameRate" />
-      <MemberSignature Language="VB.NET" Value="see GetDesiredFrameRate, and SetDesiredFrameRate" />
-      <MemberSignature Language="F#" Value="see GetDesiredFrameRate, and SetDesiredFrameRate" Usage="see GetDesiredFrameRate, and SetDesiredFrameRate" />
-      <MemberType>AttachedProperty</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationCore</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Docs>
-        <summary>Gets or sets the desired frame rate for this timeline and its child timelines.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks  
-Use this property to define a specific frame rate at which animations should run.  This is a guideline only, and is not a guaranteed value. This property has two primary uses:
-
-- Limiting the amount of processing resources for slow-moving, background type animations that do not require a high degree of fidelity. This can be achieved by setting a small frame rate value on the timeline.
-
-- Reducing the visual impact of tearing on fast-moving horizontal animations. This can be achieved by setting a high frame rate value on the timeline.
-
-This property may only be set on a root timeline.
-
-## Examples  
-The following example uses the DesiredFrameRate property to limit several animations to 10 frames per second.
-
-[!code-xaml[timingbehaviors_snip#GraphicsMMDesiredFrameRateExample](~/samples/snippets/csharp/VS_Snippets_Wpf/timingbehaviors_snip/CSharp/DesiredFrameRateExample.xaml#GraphicsMMDesiredFrameRateExample)]
-
-]]></format>
-        </remarks>
-        <related type="Article" href="~/docs/framework/wpf/graphics-multimedia/animation-overview.md">Animation Overview</related>
       </Docs>
     </Member>
     <Member MemberName="DesiredFrameRateProperty">
@@ -1148,7 +1102,7 @@ The following example uses the DesiredFrameRate property to limit several animat
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.GetAsFrozenCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub GetAsFrozenCore (sourceFreezable As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void GetAsFrozenCore(System::Windows::Freezable ^ sourceFreezable);" />
-      <MemberSignature Language="F#" Value="override this.GetAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="timeline.GetAsFrozenCore sourceFreezable" />
+      <MemberSignature Language="F#" Value="abstract member GetAsFrozenCore : System.Windows.Freezable -&gt; unit&#xA;override this.GetAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="timeline.GetAsFrozenCore sourceFreezable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -1184,7 +1138,7 @@ The following example uses the DesiredFrameRate property to limit several animat
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.Timeline.GetCurrentValueAsFrozenCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub GetCurrentValueAsFrozenCore (sourceFreezable As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void GetCurrentValueAsFrozenCore(System::Windows::Freezable ^ sourceFreezable);" />
-      <MemberSignature Language="F#" Value="override this.GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="timeline.GetCurrentValueAsFrozenCore sourceFreezable" />
+      <MemberSignature Language="F#" Value="abstract member GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit&#xA;override this.GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="timeline.GetCurrentValueAsFrozenCore sourceFreezable" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -1257,11 +1211,6 @@ The following example uses the DesiredFrameRate property to limit several animat
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Duration</ReturnType>
       </ReturnValue>

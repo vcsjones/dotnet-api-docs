@@ -1,10 +1,10 @@
 ﻿<Type Name="BindingSource" FullName="System.Windows.Forms.BindingSource">
-  <TypeSignature Language="C#" Value="public class BindingSource : System.ComponentModel.Component, System.Collections.IList, System.ComponentModel.IBindingListView, System.ComponentModel.ICancelAddNew, System.ComponentModel.ISupportInitializeNotification, System.ComponentModel.ITypedList, System.Windows.Forms.ICurrencyManagerProvider" />
+  <TypeSignature Language="C#" Value="public class BindingSource : System.ComponentModel.Component, System.Collections.IList, System.ComponentModel.IBindingListView, System.ComponentModel.ICancelAddNew, System.ComponentModel.ISupportInitialize, System.ComponentModel.ISupportInitializeNotification, System.ComponentModel.ITypedList, System.Windows.Forms.ICurrencyManagerProvider" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BindingSource extends System.ComponentModel.Component implements class System.Collections.ICollection, class System.Collections.IEnumerable, class System.Collections.IList, class System.ComponentModel.IBindingList, class System.ComponentModel.IBindingListView, class System.ComponentModel.ICancelAddNew, class System.ComponentModel.ISupportInitialize, class System.ComponentModel.ISupportInitializeNotification, class System.ComponentModel.ITypedList, class System.Windows.Forms.ICurrencyManagerProvider" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.BindingSource" />
-  <TypeSignature Language="VB.NET" Value="Public Class BindingSource&#xA;Inherits Component&#xA;Implements IBindingListView, ICancelAddNew, ICurrencyManagerProvider, IList, ISupportInitializeNotification, ITypedList" />
-  <TypeSignature Language="C++ CLI" Value="public ref class BindingSource : System::ComponentModel::Component, System::Collections::IList, System::ComponentModel::IBindingListView, System::ComponentModel::ICancelAddNew, System::ComponentModel::ISupportInitializeNotification, System::ComponentModel::ITypedList, System::Windows::Forms::ICurrencyManagerProvider" />
-  <TypeSignature Language="F#" Value="type BindingSource = class&#xA;    inherit Component&#xA;    interface IBindingListView&#xA;    interface IBindingList&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface ITypedList&#xA;    interface ICancelAddNew&#xA;    interface ISupportInitializeNotification&#xA;    interface ISupportInitialize&#xA;    interface ICurrencyManagerProvider" />
+  <TypeSignature Language="VB.NET" Value="Public Class BindingSource&#xA;Inherits Component&#xA;Implements IBindingListView, ICancelAddNew, ICurrencyManagerProvider, IList, ISupportInitialize, ISupportInitializeNotification, ITypedList" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BindingSource : System::ComponentModel::Component, System::Collections::IList, System::ComponentModel::IBindingListView, System::ComponentModel::ICancelAddNew, System::ComponentModel::ISupportInitialize, System::ComponentModel::ISupportInitializeNotification, System::ComponentModel::ITypedList, System::Windows::Forms::ICurrencyManagerProvider" />
+  <TypeSignature Language="F#" Value="type BindingSource = class&#xA;    inherit Component&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList&#xA;    interface IBindingList&#xA;    interface IBindingListView&#xA;    interface ICancelAddNew&#xA;    interface ISupportInitialize&#xA;    interface ISupportInitializeNotification&#xA;    interface ITypedList&#xA;    interface ICurrencyManagerProvider" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -54,12 +54,6 @@
     </Attribute>
     <Attribute>
       <AttributeName>System.ComponentModel.DefaultProperty("DataSource")</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>System.ComponentModel.Designer("System.Windows.Forms.Design.BindingSourceDesigner, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
-      <AttributeName>System.ComponentModel.Designer("System.Windows.Forms.Design.BindingSourceDesigner, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -421,11 +415,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -1069,17 +1058,8 @@
         <Attribute>
           <AttributeName>System.ComponentModel.DefaultValue("")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.ComponentModel.Editor("System.Windows.Forms.Design.DataMemberListEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(System.Drawing.Design.UITypeEditor))</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
-          <AttributeName>System.ComponentModel.Editor("System.Windows.Forms.Design.DataMemberListEditor, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(System.Drawing.Design.UITypeEditor))</AttributeName>
-        </Attribute>
         <Attribute>
           <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.Repaint)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1158,9 +1138,6 @@
         </Attribute>
         <Attribute>
           <AttributeName>System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.Repaint)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1339,9 +1316,6 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2050,11 +2024,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2669,9 +2638,6 @@
         <Attribute>
           <AttributeName>System.ComponentModel.DefaultValue(true)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -3122,9 +3088,6 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

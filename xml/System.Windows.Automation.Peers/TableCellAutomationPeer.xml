@@ -38,11 +38,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="owner" Type="System.Windows.Documents.TableCell" />
       </Parameters>
@@ -152,30 +147,6 @@
         <remarks>To be added.</remarks>
         <related type="Article" href="~/docs/framework/ui-automation/ui-automation-control-patterns.md">UI Automation Control Patterns</related>
         <related type="Article" href="~/docs/framework/ui-automation/ui-automation-text-pattern.md">UI Automation Text Pattern</related>
-      </Docs>
-    </Member>
-    <Member MemberName="IsContentElementCore">
-      <MemberSignature Language="C#" Value="protected override bool IsContentElementCore ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool IsContentElementCore() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Automation.Peers.TableCellAutomationPeer.IsContentElementCore" />
-      <MemberSignature Language="VB.NET" Value="Protected Overrides Function IsContentElementCore () As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool IsContentElementCore();" />
-      <MemberSignature Language="F#" Value="override this.IsContentElementCore : unit -&gt; bool" Usage="tableCellAutomationPeer.IsContentElementCore " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>PresentationFramework</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Gets a value that indicates whether the <see cref="T:System.Windows.Documents.TableCell" /> for this <see cref="T:System.Windows.Automation.Peers.TableCellAutomationPeer" /> is an element that contains data that is presented to the user. This method is called by <see cref="M:System.Windows.Automation.Peers.AutomationPeer.IsContentElement" />.</summary>
-        <returns>
-          <see langword="true" />.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="IsControlElementCore">

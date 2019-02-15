@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Data.IDataParameterCollection" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDataParameterCollection&#xA;Implements IList" />
   <TypeSignature Language="C++ CLI" Value="public interface class IDataParameterCollection : System::Collections::IList" />
-  <TypeSignature Language="F#" Value="type IDataParameterCollection = interface&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type IDataParameterCollection = interface&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>System.Data.Common</AssemblyName>
     <AssemblyVersion>4.1.0.0</AssemblyVersion>

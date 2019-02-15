@@ -309,7 +309,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler Changed;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Changed" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Input.StylusPointCollection.Changed" />
-      <MemberSignature Language="VB.NET" Value="Public Event Changed As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Changed As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Changed;" />
       <MemberSignature Language="F#" Value="member this.Changed : EventHandler " Usage="member this.Changed : System.EventHandler " />
       <MemberType>Event</MemberType>

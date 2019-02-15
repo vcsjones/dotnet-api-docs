@@ -1,6 +1,6 @@
 ﻿<Type Name="ByteAnimation" FullName="System.Windows.Media.Animation.ByteAnimation">
   <TypeSignature Language="C#" Value="public class ByteAnimation : System.Windows.Media.Animation.ByteAnimationBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi ByteAnimation extends System.Windows.Media.Animation.ByteAnimationBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ByteAnimation extends System.Windows.Media.Animation.ByteAnimationBase" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Animation.ByteAnimation" />
   <TypeSignature Language="VB.NET" Value="Public Class ByteAnimation&#xA;Inherits ByteAnimationBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ByteAnimation : System::Windows::Media::Animation::ByteAnimationBase" />
@@ -70,11 +70,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Media.Animation.ByteAnimation" /> class.</summary>
@@ -319,7 +314,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Animation.ByteAnimation.CreateInstanceCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateInstanceCore () As Freezable" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Freezable ^ CreateInstanceCore();" />
-      <MemberSignature Language="F#" Value="override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="byteAnimation.CreateInstanceCore " />
+      <MemberSignature Language="F#" Value="abstract member CreateInstanceCore : unit -&gt; System.Windows.Freezable&#xA;override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="byteAnimation.CreateInstanceCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

@@ -1,6 +1,6 @@
 ﻿<Type Name="XmlAttributeProperties" FullName="System.Windows.Markup.XmlAttributeProperties">
   <TypeSignature Language="C#" Value="public sealed class XmlAttributeProperties" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XmlAttributeProperties extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit XmlAttributeProperties extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Markup.XmlAttributeProperties" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class XmlAttributeProperties" />
   <TypeSignature Language="C++ CLI" Value="public ref class XmlAttributeProperties sealed" />
@@ -83,7 +83,7 @@
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Windows.Markup.DesignerSerializationOptions(System.Windows.Markup.DesignerSerializationOptions.SerializeAsAttribute)</AttributeName>
+          <AttributeName>System.Windows.Markup.DesignerSerializationOptions</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -153,7 +153,7 @@
           <AttributeName>System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Windows.Markup.DesignerSerializationOptions(System.Windows.Markup.DesignerSerializationOptions.SerializeAsAttribute)</AttributeName>
+          <AttributeName>System.Windows.Markup.DesignerSerializationOptions</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

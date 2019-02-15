@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Data.Common.DbParameter" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbParameter&#xA;Inherits MarshalByRefObject&#xA;Implements IDbDataParameter" />
   <TypeSignature Language="C++ CLI" Value="public ref class DbParameter abstract : MarshalByRefObject, System::Data::IDbDataParameter" />
-  <TypeSignature Language="F#" Value="type DbParameter = class&#xA;    inherit MarshalByRefObject&#xA;    interface IDbDataParameter&#xA;    interface IDataParameter" />
+  <TypeSignature Language="F#" Value="type DbParameter = class&#xA;    inherit MarshalByRefObject&#xA;    interface IDataParameter&#xA;    interface IDbDataParameter" />
   <AssemblyInfo>
     <AssemblyName>System.Data.Common</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -615,36 +615,6 @@ FieldName = @OriginalFieldName
         </remarks>
         <exception cref="T:System.ArgumentException">The property is not set to one of the <see cref="T:System.Data.DataRowVersion" /> values.</exception>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Data.IDataParameter.SourceVersion">
-      <MemberSignature Language="C#" Value="System.Data.DataRowVersion System.Data.IDataParameter.SourceVersion { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Data.DataRowVersion System.Data.IDataParameter.SourceVersion" />
-      <MemberSignature Language="DocId" Value="P:System.Data.Common.DbParameter.System#Data#IDataParameter#SourceVersion" />
-      <MemberSignature Language="VB.NET" Value=" Property SourceVersion As DataRowVersion Implements IDataParameter.SourceVersion" />
-      <MemberSignature Language="C++ CLI" Value="property System::Data::DataRowVersion System::Data::IDataParameter::SourceVersion { System::Data::DataRowVersion get(); void set(System::Data::DataRowVersion value); };" />
-      <MemberSignature Language="F#" Usage="System.Data.IDataParameter.SourceVersion" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Data.IDataParameter.SourceVersion</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.Common</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Data.DataRowVersion</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Data.IDbDataParameter.Precision">

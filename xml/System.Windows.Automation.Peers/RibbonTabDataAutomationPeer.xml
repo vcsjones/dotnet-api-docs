@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.RibbonTabDataAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonTabDataAutomationPeer&#xA;Inherits SelectorItemAutomationPeer&#xA;Implements IExpandCollapseProvider, IScrollItemProvider, ISelectionItemProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonTabDataAutomationPeer : System::Windows::Automation::Peers::SelectorItemAutomationPeer, System::Windows::Automation::Provider::IExpandCollapseProvider, System::Windows::Automation::Provider::IScrollItemProvider, System::Windows::Automation::Provider::ISelectionItemProvider" />
-  <TypeSignature Language="F#" Value="type RibbonTabDataAutomationPeer = class&#xA;    inherit SelectorItemAutomationPeer&#xA;    interface ISelectionItemProvider&#xA;    interface IExpandCollapseProvider&#xA;    interface IScrollItemProvider" />
+  <TypeSignature Language="F#" Value="type RibbonTabDataAutomationPeer = class&#xA;    inherit SelectorItemAutomationPeer&#xA;    interface IExpandCollapseProvider&#xA;    interface IScrollItemProvider&#xA;    interface ISelectionItemProvider" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

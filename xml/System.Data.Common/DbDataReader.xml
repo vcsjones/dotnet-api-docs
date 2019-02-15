@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Data.Common.DbDataReader" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class DbDataReader&#xA;Inherits MarshalByRefObject&#xA;Implements IDataReader, IDisposable, IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public ref class DbDataReader abstract : MarshalByRefObject, IDisposable, System::Collections::IEnumerable, System::Data::IDataReader" />
-  <TypeSignature Language="F#" Value="type DbDataReader = class&#xA;    inherit MarshalByRefObject&#xA;    interface IDataReader&#xA;    interface IEnumerable&#xA;    interface IDisposable&#xA;    interface IDataRecord" />
+  <TypeSignature Language="F#" Value="type DbDataReader = class&#xA;    inherit MarshalByRefObject&#xA;    interface IEnumerable&#xA;    interface IDataReader&#xA;    interface IDataRecord&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>System.Data.Common</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2644,65 +2644,6 @@ private static void GetCredits(String connectiongString) {
           <para>This property and <see cref="P:System.Data.Common.DbDataReader.IsClosed" /> should be implemented to return a value when the reader is closed.</para>
         </block>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Data.IDataReader.Close">
-      <MemberSignature Language="C#" Value="void IDataReader.Close ();" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Data.IDataReader.Close() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.Common.DbDataReader.System#Data#IDataReader#Close" />
-      <MemberSignature Language="VB.NET" Value="Sub Close () Implements IDataReader.Close" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void System.Data.IDataReader.Close() = System::Data::IDataReader::Close;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDataReader.Close</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.Common</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Data.IDataReader.GetSchemaTable">
-      <MemberSignature Language="C#" Value="System.Data.DataTable IDataReader.GetSchemaTable ();" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Data.DataTable System.Data.IDataReader.GetSchemaTable() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.Common.DbDataReader.System#Data#IDataReader#GetSchemaTable" />
-      <MemberSignature Language="VB.NET" Value="Function GetSchemaTable () As DataTable Implements IDataReader.GetSchemaTable" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Data::DataTable ^ System.Data.IDataReader.GetSchemaTable() = System::Data::IDataReader::GetSchemaTable;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Data.IDataReader.GetSchemaTable</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.Common</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Data.DataTable</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Data.IDataRecord.GetData">

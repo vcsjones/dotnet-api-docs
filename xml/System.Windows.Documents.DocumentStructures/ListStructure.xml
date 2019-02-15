@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Documents.DocumentStructures.ListStructure" />
   <TypeSignature Language="VB.NET" Value="Public Class ListStructure&#xA;Inherits SemanticBasicElement&#xA;Implements IAddChild, IEnumerable(Of ListItemStructure)" />
   <TypeSignature Language="C++ CLI" Value="public ref class ListStructure : System::Windows::Documents::DocumentStructures::SemanticBasicElement, System::Collections::Generic::IEnumerable&lt;System::Windows::Documents::DocumentStructures::ListItemStructure ^&gt;, System::Windows::Markup::IAddChild" />
-  <TypeSignature Language="F#" Value="type ListStructure = class&#xA;    inherit SemanticBasicElement&#xA;    interface IAddChild&#xA;    interface seq&lt;ListItemStructure&gt;&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type ListStructure = class&#xA;    inherit SemanticBasicElement&#xA;    interface seq&lt;ListItemStructure&gt;&#xA;    interface IEnumerable&#xA;    interface IAddChild" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

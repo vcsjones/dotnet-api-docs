@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Data.IDataReader" />
   <TypeSignature Language="VB.NET" Value="Public Interface IDataReader&#xA;Implements IDataRecord, IDisposable" />
   <TypeSignature Language="C++ CLI" Value="public interface class IDataReader : IDisposable, System::Data::IDataRecord" />
-  <TypeSignature Language="F#" Value="type IDataReader = interface&#xA;    interface IDisposable&#xA;    interface IDataRecord" />
+  <TypeSignature Language="F#" Value="type IDataReader = interface&#xA;    interface IDataRecord&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>System.Data.Common</AssemblyName>
     <AssemblyVersion>4.1.0.0</AssemblyVersion>

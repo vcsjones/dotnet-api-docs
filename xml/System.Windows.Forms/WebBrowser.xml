@@ -21,20 +21,8 @@
     <Attribute>
       <AttributeName>System.ComponentModel.DefaultProperty("Url")</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName>System.ComponentModel.Designer("System.Windows.Forms.Design.WebBrowserDesigner, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
     <Attribute>
       <AttributeName>System.Windows.Forms.Docking(System.Windows.Forms.DockingBehavior.AutoDock)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5">
-      <AttributeName>System.ComponentModel.Designer("System.Windows.Forms.Design.WebBrowserDesigner, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.AutoDispatch)</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -274,9 +262,6 @@
         <Attribute>
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -315,7 +300,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler CanGoBackChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler CanGoBackChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.CanGoBackChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event CanGoBackChanged As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CanGoBackChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ CanGoBackChanged;" />
       <MemberSignature Language="F#" Value="member this.CanGoBackChanged : EventHandler " Usage="member this.CanGoBackChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -382,9 +367,6 @@
         <Attribute>
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -425,7 +407,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler CanGoForwardChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler CanGoForwardChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.CanGoForwardChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event CanGoForwardChanged As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event CanGoForwardChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ CanGoForwardChanged;" />
       <MemberSignature Language="F#" Value="member this.CanGoForwardChanged : EventHandler " Usage="member this.CanGoForwardChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -734,7 +716,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Forms.WebBrowserDocumentCompletedEventHandler DocumentCompleted;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Forms.WebBrowserDocumentCompletedEventHandler DocumentCompleted" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.DocumentCompleted" />
-      <MemberSignature Language="VB.NET" Value="Public Event DocumentCompleted As WebBrowserDocumentCompletedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DocumentCompleted As WebBrowserDocumentCompletedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Forms::WebBrowserDocumentCompletedEventHandler ^ DocumentCompleted;" />
       <MemberSignature Language="F#" Value="member this.DocumentCompleted : System.Windows.Forms.WebBrowserDocumentCompletedEventHandler " Usage="member this.DocumentCompleted : System.Windows.Forms.WebBrowserDocumentCompletedEventHandler " />
       <MemberType>Event</MemberType>
@@ -969,7 +951,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler DocumentTitleChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DocumentTitleChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.DocumentTitleChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event DocumentTitleChanged As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DocumentTitleChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DocumentTitleChanged;" />
       <MemberSignature Language="F#" Value="member this.DocumentTitleChanged : EventHandler " Usage="member this.DocumentTitleChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -1105,7 +1087,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler EncryptionLevelChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler EncryptionLevelChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.EncryptionLevelChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event EncryptionLevelChanged As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event EncryptionLevelChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ EncryptionLevelChanged;" />
       <MemberSignature Language="F#" Value="member this.EncryptionLevelChanged : EventHandler " Usage="member this.EncryptionLevelChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -1154,7 +1136,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler FileDownload;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler FileDownload" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.FileDownload" />
-      <MemberSignature Language="VB.NET" Value="Public Event FileDownload As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event FileDownload As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ FileDownload;" />
       <MemberSignature Language="F#" Value="member this.FileDownload : EventHandler " Usage="member this.FileDownload : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -1628,11 +1610,6 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1967,7 +1944,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Forms.WebBrowserNavigatedEventHandler Navigated;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Forms.WebBrowserNavigatedEventHandler Navigated" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.Navigated" />
-      <MemberSignature Language="VB.NET" Value="Public Event Navigated As WebBrowserNavigatedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Navigated As WebBrowserNavigatedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Forms::WebBrowserNavigatedEventHandler ^ Navigated;" />
       <MemberSignature Language="F#" Value="member this.Navigated : System.Windows.Forms.WebBrowserNavigatedEventHandler " Usage="member this.Navigated : System.Windows.Forms.WebBrowserNavigatedEventHandler " />
       <MemberType>Event</MemberType>
@@ -2041,7 +2018,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Forms.WebBrowserNavigatingEventHandler Navigating;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Forms.WebBrowserNavigatingEventHandler Navigating" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.Navigating" />
-      <MemberSignature Language="VB.NET" Value="Public Event Navigating As WebBrowserNavigatingEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Navigating As WebBrowserNavigatingEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Forms::WebBrowserNavigatingEventHandler ^ Navigating;" />
       <MemberSignature Language="F#" Value="member this.Navigating : System.Windows.Forms.WebBrowserNavigatingEventHandler " Usage="member this.Navigating : System.Windows.Forms.WebBrowserNavigatingEventHandler " />
       <MemberType>Event</MemberType>
@@ -2116,7 +2093,7 @@
       <MemberSignature Language="C#" Value="public event System.ComponentModel.CancelEventHandler NewWindow;" />
       <MemberSignature Language="ILAsm" Value=".event class System.ComponentModel.CancelEventHandler NewWindow" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.NewWindow" />
-      <MemberSignature Language="VB.NET" Value="Public Event NewWindow As CancelEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event NewWindow As CancelEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::ComponentModel::CancelEventHandler ^ NewWindow;" />
       <MemberSignature Language="F#" Value="member this.NewWindow : System.ComponentModel.CancelEventHandler " Usage="member this.NewWindow : System.ComponentModel.CancelEventHandler " />
       <MemberType>Event</MemberType>
@@ -2178,9 +2155,6 @@
         </Attribute>
         <Attribute>
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2785,7 +2759,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Forms.WebBrowserProgressChangedEventHandler ProgressChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Forms.WebBrowserProgressChangedEventHandler ProgressChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.ProgressChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event ProgressChanged As WebBrowserProgressChangedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ProgressChanged As WebBrowserProgressChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Forms::WebBrowserProgressChangedEventHandler ^ ProgressChanged;" />
       <MemberSignature Language="F#" Value="member this.ProgressChanged : System.Windows.Forms.WebBrowserProgressChangedEventHandler " Usage="member this.ProgressChanged : System.Windows.Forms.WebBrowserProgressChangedEventHandler " />
       <MemberType>Event</MemberType>
@@ -3325,7 +3299,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler StatusTextChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler StatusTextChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.WebBrowser.StatusTextChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event StatusTextChanged As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event StatusTextChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ StatusTextChanged;" />
       <MemberSignature Language="F#" Value="member this.StatusTextChanged : EventHandler " Usage="member this.StatusTextChanged : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -3436,9 +3410,6 @@
         </Attribute>
         <Attribute>
           <AttributeName>System.ComponentModel.DefaultValue(null)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.ComponentModel.TypeConverter(typeof(System.Windows.Forms.WebBrowserUriTypeConverter))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

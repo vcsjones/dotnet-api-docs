@@ -1,6 +1,6 @@
 ﻿<Type Name="NetworkAvailableEventArgs" FullName="Microsoft.VisualBasic.Devices.NetworkAvailableEventArgs">
   <TypeSignature Language="C#" Value="public class NetworkAvailableEventArgs : EventArgs" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi NetworkAvailableEventArgs extends System.EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NetworkAvailableEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.Devices.NetworkAvailableEventArgs" />
   <TypeSignature Language="VB.NET" Value="Public Class NetworkAvailableEventArgs&#xA;Inherits EventArgs" />
   <TypeSignature Language="C++ CLI" Value="public ref class NetworkAvailableEventArgs : EventArgs" />
@@ -9,6 +9,10 @@
     <AssemblyName>Microsoft.VisualBasic</AssemblyName>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>10.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+    <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.EventArgs</BaseTypeName>
@@ -31,7 +35,7 @@
   <Members>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public NetworkAvailableEventArgs (bool networkAvailable);" />
-      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor(bool networkAvailable) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool networkAvailable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Devices.NetworkAvailableEventArgs.#ctor(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (networkAvailable As Boolean)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; NetworkAvailableEventArgs(bool networkAvailable);" />
@@ -42,11 +46,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters>
         <Parameter Name="networkAvailable" Type="System.Boolean" />
       </Parameters>
@@ -79,11 +82,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>

@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Collections.Concurrent.IProducerConsumerCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public Interface IProducerConsumerCollection(Of T)&#xA;Implements ICollection, IEnumerable(Of T)" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA;public interface class IProducerConsumerCollection : System::Collections::Generic::IEnumerable&lt;T&gt;, System::Collections::ICollection" />
-  <TypeSignature Language="F#" Value="type IProducerConsumerCollection&lt;'T&gt; = interface&#xA;    interface seq&lt;'T&gt;&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type IProducerConsumerCollection&lt;'T&gt; = interface&#xA;    interface seq&lt;'T&gt;&#xA;    interface IEnumerable&#xA;    interface ICollection" />
   <AssemblyInfo>
     <AssemblyName>System.Collections.Concurrent</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

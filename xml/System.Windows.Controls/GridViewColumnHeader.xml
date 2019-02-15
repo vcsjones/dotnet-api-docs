@@ -1,6 +1,6 @@
 ﻿<Type Name="GridViewColumnHeader" FullName="System.Windows.Controls.GridViewColumnHeader">
   <TypeSignature Language="C#" Value="public class GridViewColumnHeader : System.Windows.Controls.Primitives.ButtonBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi GridViewColumnHeader extends System.Windows.Controls.Primitives.ButtonBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GridViewColumnHeader extends System.Windows.Controls.Primitives.ButtonBase" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.GridViewColumnHeader" />
   <TypeSignature Language="VB.NET" Value="Public Class GridViewColumnHeader&#xA;Inherits ButtonBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class GridViewColumnHeader : System::Windows::Controls::Primitives::ButtonBase" />
@@ -63,11 +63,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.GridViewColumnHeader" /> class.</summary>
@@ -544,7 +539,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.GridViewColumnHeader.ShouldSerializeProperty(System.Windows.DependencyProperty)" />
       <MemberSignature Language="VB.NET" Value="Protected Friend Overrides Function ShouldSerializeProperty (dp As DependencyProperty) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; override bool ShouldSerializeProperty(System::Windows::DependencyProperty ^ dp);" />
-      <MemberSignature Language="F#" Value="override this.ShouldSerializeProperty : System.Windows.DependencyProperty -&gt; bool" Usage="gridViewColumnHeader.ShouldSerializeProperty dp" />
+      <MemberSignature Language="F#" Value="abstract member ShouldSerializeProperty : System.Windows.DependencyProperty -&gt; bool&#xA;override this.ShouldSerializeProperty : System.Windows.DependencyProperty -&gt; bool" Usage="gridViewColumnHeader.ShouldSerializeProperty dp" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>

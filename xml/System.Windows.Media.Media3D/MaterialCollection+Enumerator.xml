@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.MaterialCollection.Enumerator" />
   <TypeSignature Language="VB.NET" Value="Public Structure MaterialCollection.Enumerator&#xA;Implements IEnumerator(Of Material)" />
   <TypeSignature Language="C++ CLI" Value="public: value class MaterialCollection::Enumerator : System::Collections::Generic::IEnumerator&lt;System::Windows::Media::Media3D::Material ^&gt;" />
-  <TypeSignature Language="F#" Value="type MaterialCollection.Enumerator = struct&#xA;    interface IEnumerator&#xA;    interface IEnumerator&lt;Material&gt;&#xA;    interface IDisposable" />
+  <TypeSignature Language="F#" Value="type MaterialCollection.Enumerator = struct&#xA;    interface IEnumerator&lt;Material&gt;&#xA;    interface IEnumerator&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -129,11 +129,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>

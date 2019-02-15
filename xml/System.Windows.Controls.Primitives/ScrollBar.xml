@@ -1,6 +1,6 @@
 ﻿<Type Name="ScrollBar" FullName="System.Windows.Controls.Primitives.ScrollBar">
   <TypeSignature Language="C#" Value="public class ScrollBar : System.Windows.Controls.Primitives.RangeBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi ScrollBar extends System.Windows.Controls.Primitives.RangeBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ScrollBar extends System.Windows.Controls.Primitives.RangeBase" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Primitives.ScrollBar" />
   <TypeSignature Language="VB.NET" Value="Public Class ScrollBar&#xA;Inherits RangeBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ScrollBar : System::Windows::Controls::Primitives::RangeBase" />
@@ -1187,11 +1187,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Controls.Primitives.Track</ReturnType>
       </ReturnValue>

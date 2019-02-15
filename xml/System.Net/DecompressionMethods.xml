@@ -35,6 +35,58 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Net.DecompressionMethods All = int32(-1)" />
+      <MemberSignature Language="DocId" Value="F:System.Net.DecompressionMethods.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberSignature Language="F#" Value="All = -1" Usage="System.Net.DecompressionMethods.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Net.Primitives</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.DecompressionMethods</ReturnType>
+      </ReturnValue>
+      <MemberValue>-1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Brotli">
+      <MemberSignature Language="C#" Value="Brotli" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Net.DecompressionMethods Brotli = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:System.Net.DecompressionMethods.Brotli" />
+      <MemberSignature Language="VB.NET" Value="Brotli" />
+      <MemberSignature Language="C++ CLI" Value="Brotli" />
+      <MemberSignature Language="F#" Value="Brotli = 4" Usage="System.Net.DecompressionMethods.Brotli" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Net.Primitives</AssemblyName>
+        <AssemblyVersion>4.1.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Net.DecompressionMethods</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="Deflate">
       <MemberSignature Language="C#" Value="Deflate" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Net.DecompressionMethods Deflate = int32(2)" />

@@ -1,6 +1,6 @@
 ﻿<Type Name="ApplicationDirectory" FullName="System.Security.Policy.ApplicationDirectory">
   <TypeSignature Language="C#" Value="public sealed class ApplicationDirectory : System.Security.Policy.EvidenceBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit ApplicationDirectory extends System.Security.Policy.EvidenceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ApplicationDirectory extends System.Security.Policy.EvidenceBase" />
   <TypeSignature Language="DocId" Value="T:System.Security.Policy.ApplicationDirectory" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ApplicationDirectory&#xA;Inherits EvidenceBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class ApplicationDirectory sealed : System::Security::Policy::EvidenceBase" />
@@ -22,14 +22,6 @@
     <BaseTypeName FrameworkAlternate="netframework-1.1">System.Object</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Provides the application directory as evidence for policy evaluation. This class cannot be inherited.</summary>
     <remarks>
@@ -77,31 +69,6 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">The <paramref name="name" /> parameter is <see langword="null" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="Clone">
-      <MemberSignature Language="C#" Value="public override System.Security.Policy.EvidenceBase Clone ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Security.Policy.EvidenceBase Clone() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Policy.ApplicationDirectory.Clone" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function Clone () As EvidenceBase" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Security::Policy::EvidenceBase ^ Clone();" />
-      <MemberSignature Language="F#" Value="override this.Clone : unit -&gt; System.Security.Policy.EvidenceBase" Usage="applicationDirectory.Clone " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Permissions</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Security.Policy.EvidenceBase</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Creates a new object that is a copy of the current instance.</summary>
-        <returns>A new object that is a copy of this instance.</returns>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Copy">

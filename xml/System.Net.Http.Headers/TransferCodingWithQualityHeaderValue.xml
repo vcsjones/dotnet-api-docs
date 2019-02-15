@@ -1,10 +1,10 @@
 ﻿<Type Name="TransferCodingWithQualityHeaderValue" FullName="System.Net.Http.Headers.TransferCodingWithQualityHeaderValue">
-  <TypeSignature Language="C#" Value="public sealed class TransferCodingWithQualityHeaderValue : System.Net.Http.Headers.TransferCodingHeaderValue" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TransferCodingWithQualityHeaderValue extends System.Net.Http.Headers.TransferCodingHeaderValue" />
+  <TypeSignature Language="C#" Value="public sealed class TransferCodingWithQualityHeaderValue : System.Net.Http.Headers.TransferCodingHeaderValue, ICloneable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TransferCodingWithQualityHeaderValue extends System.Net.Http.Headers.TransferCodingHeaderValue implements class System.ICloneable" />
   <TypeSignature Language="DocId" Value="T:System.Net.Http.Headers.TransferCodingWithQualityHeaderValue" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TransferCodingWithQualityHeaderValue&#xA;Inherits TransferCodingHeaderValue" />
-  <TypeSignature Language="C++ CLI" Value="public ref class TransferCodingWithQualityHeaderValue sealed : System::Net::Http::Headers::TransferCodingHeaderValue" />
-  <TypeSignature Language="F#" Value="type TransferCodingWithQualityHeaderValue = class&#xA;    inherit TransferCodingHeaderValue" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TransferCodingWithQualityHeaderValue&#xA;Inherits TransferCodingHeaderValue&#xA;Implements ICloneable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TransferCodingWithQualityHeaderValue sealed : System::Net::Http::Headers::TransferCodingHeaderValue, ICloneable" />
+  <TypeSignature Language="F#" Value="type TransferCodingWithQualityHeaderValue = class&#xA;    inherit TransferCodingHeaderValue&#xA;    interface ICloneable" />
   <AssemblyInfo>
     <AssemblyName>System.Net.Http</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -20,7 +20,11 @@
   <Base>
     <BaseTypeName>System.Net.Http.Headers.TransferCodingHeaderValue</BaseTypeName>
   </Base>
-  <Interfaces></Interfaces>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.ICloneable</InterfaceName>
+    </Interface>
+  </Interfaces>
   <Docs>
     <summary>Represents an Accept-Encoding header value.with optional quality factor.</summary>
     <remarks>

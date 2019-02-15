@@ -1,6 +1,6 @@
 ﻿<Type Name="OuterGlowBitmapEffect" FullName="System.Windows.Media.Effects.OuterGlowBitmapEffect">
   <TypeSignature Language="C#" Value="public sealed class OuterGlowBitmapEffect : System.Windows.Media.Effects.BitmapEffect" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OuterGlowBitmapEffect extends System.Windows.Media.Effects.BitmapEffect" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OuterGlowBitmapEffect extends System.Windows.Media.Effects.BitmapEffect" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Effects.OuterGlowBitmapEffect" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OuterGlowBitmapEffect&#xA;Inherits BitmapEffect" />
   <TypeSignature Language="C++ CLI" Value="public ref class OuterGlowBitmapEffect sealed : System::Windows::Media::Effects::BitmapEffect" />
@@ -73,11 +73,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>**Note: This API is now obsolete.** The non-obsolete alternative is <see cref="T:System.Windows.Media.Effects.BlurEffect" />. Initializes a new instance of the <see cref="T:System.Windows.Media.Effects.OuterGlowBitmapEffect" /> class.</summary>
@@ -154,7 +149,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Effects.OuterGlowBitmapEffect.CreateInstanceCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateInstanceCore () As Freezable" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Freezable ^ CreateInstanceCore();" />
-      <MemberSignature Language="F#" Value="override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="outerGlowBitmapEffect.CreateInstanceCore " />
+      <MemberSignature Language="F#" Value="abstract member CreateInstanceCore : unit -&gt; System.Windows.Freezable&#xA;override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="outerGlowBitmapEffect.CreateInstanceCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -187,9 +182,6 @@
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Obsolete("BitmapEffects are deprecated and no longer function.  Consider using Effects where appropriate instead.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -457,12 +449,6 @@
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Obsolete("BitmapEffects are deprecated and no longer function.  Consider using Effects where appropriate instead.")</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Security.SecurityTreatAsSafe</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

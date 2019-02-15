@@ -1,10 +1,10 @@
 ﻿<Type Name="Assembly" FullName="System.Reflection.Assembly">
-  <TypeSignature Language="C#" Value="public abstract class Assembly : System.Reflection.ICustomAttributeProvider, System.Runtime.InteropServices._Assembly, System.Runtime.Serialization.ISerializable, System.Security.IEvidenceFactory" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi abstract serializable beforefieldinit Assembly extends System.Object implements class System.Reflection.ICustomAttributeProvider, class System.Runtime.InteropServices._Assembly, class System.Runtime.Serialization.ISerializable, class System.Security.IEvidenceFactory" />
+  <TypeSignature Language="C#" Value="public abstract class Assembly : System.Reflection.ICustomAttributeProvider, System.Runtime.Serialization.ISerializable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Assembly extends System.Object implements class System.Reflection.ICustomAttributeProvider, class System.Runtime.Serialization.ISerializable" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.Assembly" />
-  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Assembly&#xA;Implements _Assembly, ICustomAttributeProvider, IEvidenceFactory, ISerializable" />
-  <TypeSignature Language="C++ CLI" Value="public ref class Assembly abstract : System::Reflection::ICustomAttributeProvider, System::Runtime::InteropServices::_Assembly, System::Runtime::Serialization::ISerializable, System::Security::IEvidenceFactory" />
-  <TypeSignature Language="F#" Value="type Assembly = class&#xA;    interface ICustomAttributeProvider&#xA;    interface _Assembly&#xA;    interface IEvidenceFactory&#xA;    interface ISerializable" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Assembly&#xA;Implements ICustomAttributeProvider, ISerializable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Assembly abstract : System::Reflection::ICustomAttributeProvider, System::Runtime::Serialization::ISerializable" />
+  <TypeSignature Language="F#" Value="type Assembly = class&#xA;    interface ICustomAttributeProvider&#xA;    interface ISerializable" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -35,29 +35,9 @@
       <InterfaceName>System.Reflection.ICustomAttributeProvider</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Runtime.InteropServices._Assembly</InterfaceName>
-    </Interface>
-    <Interface>
       <InterfaceName>System.Runtime.Serialization.ISerializable</InterfaceName>
     </Interface>
-    <Interface>
-      <InterfaceName>System.Security.IEvidenceFactory</InterfaceName>
-    </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComDefaultInterface(typeof(System.Runtime.InteropServices._Assembly))</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents an assembly, which is a reusable, versionable, and self-describing building block of a common language runtime application.</summary>
     <remarks>
@@ -157,9 +137,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ CodeBase { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.CodeBase : string" Usage="System.Reflection.Assembly.CodeBase" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Runtime.InteropServices._Assembly.CodeBase</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -219,15 +196,12 @@
     </MemberGroup>
     <Member MemberName="CreateInstance">
       <MemberSignature Language="C#" Value="public object CreateInstance (string typeName);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object CreateInstance(string typeName) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstance(string typeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.CreateInstance(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstance (typeName As String) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ CreateInstance(System::String ^ typeName);" />
-      <MemberSignature Language="F#" Value="abstract member CreateInstance : string -&gt; obj&#xA;override this.CreateInstance : string -&gt; obj" Usage="assembly.CreateInstance typeName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateInstance(System::String ^ typeName);" />
+      <MemberSignature Language="F#" Value="member this.CreateInstance : string -&gt; obj" Usage="assembly.CreateInstance typeName" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.CreateInstance(System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -308,15 +282,12 @@
     </Member>
     <Member MemberName="CreateInstance">
       <MemberSignature Language="C#" Value="public object CreateInstance (string typeName, bool ignoreCase);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object CreateInstance(string typeName, bool ignoreCase) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstance(string typeName, bool ignoreCase) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.CreateInstance(System.String,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstance (typeName As String, ignoreCase As Boolean) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ CreateInstance(System::String ^ typeName, bool ignoreCase);" />
-      <MemberSignature Language="F#" Value="abstract member CreateInstance : string * bool -&gt; obj&#xA;override this.CreateInstance : string * bool -&gt; obj" Usage="assembly.CreateInstance (typeName, ignoreCase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateInstance(System::String ^ typeName, bool ignoreCase);" />
+      <MemberSignature Language="F#" Value="member this.CreateInstance : string * bool -&gt; obj" Usage="assembly.CreateInstance (typeName, ignoreCase)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.CreateInstance(System.String,System.Boolean)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -403,9 +374,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ CreateInstance(System::String ^ typeName, bool ignoreCase, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, cli::array &lt;System::Object ^&gt; ^ args, System::Globalization::CultureInfo ^ culture, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" />
       <MemberSignature Language="F#" Value="abstract member CreateInstance : string * bool * System.Reflection.BindingFlags * System.Reflection.Binder * obj[] * System.Globalization.CultureInfo * obj[] -&gt; obj&#xA;override this.CreateInstance : string * bool * System.Reflection.BindingFlags * System.Reflection.Binder * obj[] * System.Globalization.CultureInfo * obj[] -&gt; obj" Usage="assembly.CreateInstance (typeName, ignoreCase, bindingAttr, binder, args, culture, activationAttributes)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.CreateInstance(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -625,9 +593,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Reflection::MethodInfo ^ EntryPoint { System::Reflection::MethodInfo ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EntryPoint : System.Reflection.MethodInfo" Usage="System.Reflection.Assembly.EntryPoint" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Runtime.InteropServices._Assembly.EntryPoint</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -665,9 +630,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ o);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="assembly.Equals o" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.Equals(System.Object)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -718,9 +680,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ EscapedCodeBase { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EscapedCodeBase : string" Usage="System.Reflection.Assembly.EscapedCodeBase" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Runtime.InteropServices._Assembly.EscapedCodeBase</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -740,11 +699,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -753,52 +707,6 @@
         <value>A URI with escape characters.</value>
         <remarks>To be added.</remarks>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for access to the path. Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.PathDiscovery" /></permission>
-      </Docs>
-    </Member>
-    <Member MemberName="Evidence">
-      <MemberSignature Language="C#" Value="public virtual System.Security.Policy.Evidence Evidence { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Policy.Evidence Evidence" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Assembly.Evidence" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Evidence As Evidence" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Security::Policy::Evidence ^ Evidence { System::Security::Policy::Evidence ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.Evidence : System.Security.Policy.Evidence" Usage="System.Reflection.Assembly.Evidence" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Runtime.InteropServices._Assembly.Evidence</InterfaceMember>
-        <InterfaceMember>P:System.Security.IEvidenceFactory.Evidence</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Security.Policy.Evidence</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets the evidence for this assembly.</summary>
-        <value>The evidence for this assembly.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- Evidence is the set of information that constitutes input to security policy decisions, such as what permissions can be granted to code.  
-  
- ]]></format>
-        </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
-        <altmember cref="T:System.Security.Policy.Evidence" />
       </Docs>
     </Member>
     <Member MemberName="ExportedTypes">
@@ -846,9 +754,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ FullName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.FullName : string" Usage="System.Reflection.Assembly.FullName" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Runtime.InteropServices._Assembly.FullName</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -989,11 +894,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -1050,7 +950,6 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Reflection.ICustomAttributeProvider.GetCustomAttributes(System.Boolean)</InterfaceMember>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetCustomAttributes(System.Boolean)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1122,7 +1021,6 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Reflection.ICustomAttributeProvider.GetCustomAttributes(System.Type,System.Boolean)</InterfaceMember>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetCustomAttributes(System.Type,System.Boolean)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1260,11 +1158,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -1309,11 +1202,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -1353,9 +1241,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;Type ^&gt; ^ GetExportedTypes();" />
       <MemberSignature Language="F#" Value="abstract member GetExportedTypes : unit -&gt; Type[]&#xA;override this.GetExportedTypes : unit -&gt; Type[]" Usage="assembly.GetExportedTypes " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetExportedTypes</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -1412,9 +1297,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::IO::FileStream ^ GetFile(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetFile : string -&gt; System.IO.FileStream&#xA;override this.GetFile : string -&gt; System.IO.FileStream" Usage="assembly.GetFile name" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetFile(System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1482,9 +1364,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::IO::FileStream ^&gt; ^ GetFiles();" />
       <MemberSignature Language="F#" Value="abstract member GetFiles : unit -&gt; System.IO.FileStream[]&#xA;override this.GetFiles : unit -&gt; System.IO.FileStream[]" Usage="assembly.GetFiles " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetFiles</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1534,9 +1413,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::IO::FileStream ^&gt; ^ GetFiles(bool getResourceModules);" />
       <MemberSignature Language="F#" Value="abstract member GetFiles : bool -&gt; System.IO.FileStream[]&#xA;override this.GetFiles : bool -&gt; System.IO.FileStream[]" Usage="assembly.GetFiles getResourceModules" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetFiles(System.Boolean)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1619,9 +1495,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
       <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="assembly.GetHashCode " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetHashCode</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1665,15 +1538,12 @@
     </MemberGroup>
     <Member MemberName="GetLoadedModules">
       <MemberSignature Language="C#" Value="public System.Reflection.Module[] GetLoadedModules ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.Module[] GetLoadedModules() cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Reflection.Module[] GetLoadedModules() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.GetLoadedModules" />
       <MemberSignature Language="VB.NET" Value="Public Function GetLoadedModules () As Module()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::Reflection::Module ^&gt; ^ GetLoadedModules();" />
-      <MemberSignature Language="F#" Value="abstract member GetLoadedModules : unit -&gt; System.Reflection.Module[]&#xA;override this.GetLoadedModules : unit -&gt; System.Reflection.Module[]" Usage="assembly.GetLoadedModules " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::Reflection::Module ^&gt; ^ GetLoadedModules();" />
+      <MemberSignature Language="F#" Value="member this.GetLoadedModules : unit -&gt; System.Reflection.Module[]" Usage="assembly.GetLoadedModules " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetLoadedModules</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1711,9 +1581,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::Reflection::Module ^&gt; ^ GetLoadedModules(bool getResourceModules);" />
       <MemberSignature Language="F#" Value="abstract member GetLoadedModules : bool -&gt; System.Reflection.Module[]&#xA;override this.GetLoadedModules : bool -&gt; System.Reflection.Module[]" Usage="assembly.GetLoadedModules getResourceModules" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetLoadedModules(System.Boolean)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1755,9 +1622,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::ManifestResourceInfo ^ GetManifestResourceInfo(System::String ^ resourceName);" />
       <MemberSignature Language="F#" Value="abstract member GetManifestResourceInfo : string -&gt; System.Reflection.ManifestResourceInfo&#xA;override this.GetManifestResourceInfo : string -&gt; System.Reflection.ManifestResourceInfo" Usage="assembly.GetManifestResourceInfo resourceName" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetManifestResourceInfo(System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1813,9 +1677,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::String ^&gt; ^ GetManifestResourceNames();" />
       <MemberSignature Language="F#" Value="abstract member GetManifestResourceNames : unit -&gt; string[]&#xA;override this.GetManifestResourceNames : unit -&gt; string[]" Usage="assembly.GetManifestResourceNames " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetManifestResourceNames</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1886,9 +1747,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::IO::Stream ^ GetManifestResourceStream(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetManifestResourceStream : string -&gt; System.IO.Stream&#xA;override this.GetManifestResourceStream : string -&gt; System.IO.Stream" Usage="assembly.GetManifestResourceStream name" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetManifestResourceStream(System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -1964,9 +1822,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::IO::Stream ^ GetManifestResourceStream(Type ^ type, System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetManifestResourceStream : Type * string -&gt; System.IO.Stream&#xA;override this.GetManifestResourceStream : Type * string -&gt; System.IO.Stream" Usage="assembly.GetManifestResourceStream (type, name)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetManifestResourceStream(System.Type,System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2036,9 +1891,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::Module ^ GetModule(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetModule : string -&gt; System.Reflection.Module&#xA;override this.GetModule : string -&gt; System.Reflection.Module" Usage="assembly.GetModule name" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetModule(System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2101,15 +1953,12 @@
     </MemberGroup>
     <Member MemberName="GetModules">
       <MemberSignature Language="C#" Value="public System.Reflection.Module[] GetModules ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.Module[] GetModules() cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Reflection.Module[] GetModules() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.GetModules" />
       <MemberSignature Language="VB.NET" Value="Public Function GetModules () As Module()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::Reflection::Module ^&gt; ^ GetModules();" />
-      <MemberSignature Language="F#" Value="abstract member GetModules : unit -&gt; System.Reflection.Module[]&#xA;override this.GetModules : unit -&gt; System.Reflection.Module[]" Usage="assembly.GetModules " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::Reflection::Module ^&gt; ^ GetModules();" />
+      <MemberSignature Language="F#" Value="member this.GetModules : unit -&gt; System.Reflection.Module[]" Usage="assembly.GetModules " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetModules</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2167,9 +2016,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::Reflection::Module ^&gt; ^ GetModules(bool getResourceModules);" />
       <MemberSignature Language="F#" Value="abstract member GetModules : bool -&gt; System.Reflection.Module[]&#xA;override this.GetModules : bool -&gt; System.Reflection.Module[]" Usage="assembly.GetModules getResourceModules" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetModules(System.Boolean)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2232,9 +2078,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::AssemblyName ^ GetName();" />
       <MemberSignature Language="F#" Value="abstract member GetName : unit -&gt; System.Reflection.AssemblyName&#xA;override this.GetName : unit -&gt; System.Reflection.AssemblyName" Usage="assembly.GetName " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetName</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2276,9 +2119,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::AssemblyName ^ GetName(bool copiedName);" />
       <MemberSignature Language="F#" Value="abstract member GetName : bool -&gt; System.Reflection.AssemblyName&#xA;override this.GetName : bool -&gt; System.Reflection.AssemblyName" Usage="assembly.GetName copiedName" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetName(System.Boolean)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2322,7 +2162,6 @@
       <MemberSignature Language="F#" Value="abstract member GetObjectData : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; unit&#xA;override this.GetObjectData : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; unit" Usage="assembly.GetObjectData (info, context)" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</InterfaceMember>
         <InterfaceMember>M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
@@ -2344,11 +2183,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2374,9 +2208,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::Reflection::AssemblyName ^&gt; ^ GetReferencedAssemblies();" />
       <MemberSignature Language="F#" Value="abstract member GetReferencedAssemblies : unit -&gt; System.Reflection.AssemblyName[]&#xA;override this.GetReferencedAssemblies : unit -&gt; System.Reflection.AssemblyName[]" Usage="assembly.GetReferencedAssemblies " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetReferencedAssemblies</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -2443,9 +2274,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::Assembly ^ GetSatelliteAssembly(System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="abstract member GetSatelliteAssembly : System.Globalization.CultureInfo -&gt; System.Reflection.Assembly&#xA;override this.GetSatelliteAssembly : System.Globalization.CultureInfo -&gt; System.Reflection.Assembly" Usage="assembly.GetSatelliteAssembly culture" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2499,9 +2327,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::Assembly ^ GetSatelliteAssembly(System::Globalization::CultureInfo ^ culture, Version ^ version);" />
       <MemberSignature Language="F#" Value="abstract member GetSatelliteAssembly : System.Globalization.CultureInfo * Version -&gt; System.Reflection.Assembly&#xA;override this.GetSatelliteAssembly : System.Globalization.CultureInfo * Version -&gt; System.Reflection.Assembly" Usage="assembly.GetSatelliteAssembly (culture, version)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2564,40 +2389,6 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="GetType">
-      <MemberSignature Language="C#" Value="public Type GetType ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Type GetType() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.GetType" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetType () As Type" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Type ^ GetType();" />
-      <MemberSignature Language="F#" Value="override this.GetType : unit -&gt; Type" Usage="assembly.GetType " />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetType</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Type</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetType">
       <MemberSignature Language="C#" Value="public virtual Type GetType (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Type GetType(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.GetType(System.String)" />
@@ -2605,9 +2396,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Type ^ GetType(System::String ^ name);" />
       <MemberSignature Language="F#" Value="override this.GetType : string -&gt; Type" Usage="assembly.GetType name" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetType(System.String)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -2693,9 +2481,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Type ^ GetType(System::String ^ name, bool throwOnError);" />
       <MemberSignature Language="F#" Value="override this.GetType : string * bool -&gt; Type" Usage="assembly.GetType (name, throwOnError)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetType(System.String,System.Boolean)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -2776,9 +2561,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Type ^ GetType(System::String ^ name, bool throwOnError, bool ignoreCase);" />
       <MemberSignature Language="F#" Value="override this.GetType : string * bool * bool -&gt; Type" Usage="assembly.GetType (name, throwOnError, ignoreCase)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetType(System.String,System.Boolean,System.Boolean)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -2863,9 +2645,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;Type ^&gt; ^ GetTypes();" />
       <MemberSignature Language="F#" Value="abstract member GetTypes : unit -&gt; Type[]&#xA;override this.GetTypes : unit -&gt; Type[]" Usage="assembly.GetTypes " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetTypes</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -2928,9 +2707,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool GlobalAssemblyCache { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.GlobalAssemblyCache : bool" Usage="System.Reflection.Assembly.GlobalAssemblyCache" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Runtime.InteropServices._Assembly.GlobalAssemblyCache</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -2986,11 +2762,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
       </ReturnValue>
@@ -3028,11 +2799,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -3051,6 +2817,36 @@
         </remarks>
       </Docs>
     </Member>
+    <Member MemberName="IsCollectible">
+      <MemberSignature Language="C#" Value="public virtual bool IsCollectible { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCollectible" />
+      <MemberSignature Language="DocId" Value="P:System.Reflection.Assembly.IsCollectible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsCollectible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsCollectible { bool get(); };" />
+      <MemberSignature Language="F#" Value="member this.IsCollectible : bool" Usage="System.Reflection.Assembly.IsCollectible" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime</AssemblyName>
+        <AssemblyVersion>4.2.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Reflection</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="IsDefined">
       <MemberSignature Language="C#" Value="public virtual bool IsDefined (Type attributeType, bool inherit);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDefined(class System.Type attributeType, bool inherit) cil managed" />
@@ -3061,7 +2857,6 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Reflection.ICustomAttributeProvider.IsDefined(System.Type,System.Boolean)</InterfaceMember>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.IsDefined(System.Type,System.Boolean)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -3184,11 +2979,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -3236,11 +3026,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -3303,11 +3088,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -3410,11 +3190,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -3510,11 +3285,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -3547,349 +3317,6 @@
  -or-  
   
  Version 2.0 or later of the common language runtime is currently loaded and <paramref name="rawAssembly" /> was compiled with a later version.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="Load">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly Load (System.Reflection.AssemblyName assemblyRef, System.Security.Policy.Evidence assemblySecurity);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly Load(class System.Reflection.AssemblyName assemblyRef, class System.Security.Policy.Evidence assemblySecurity) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Load (assemblyRef As AssemblyName, assemblySecurity As Evidence) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ Load(System::Reflection::AssemblyName ^ assemblyRef, System::Security::Policy::Evidence ^ assemblySecurity);" />
-      <MemberSignature Language="F#" Value="static member Load : System.Reflection.AssemblyName * System.Security.Policy.Evidence -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.Load (assemblyRef, assemblySecurity)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use an overload of Load which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="assemblyRef" Type="System.Reflection.AssemblyName" />
-        <Parameter Name="assemblySecurity" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="assemblyRef">The object that describes the assembly to be loaded.</param>
-        <param name="assemblySecurity">Evidence for loading the assembly.</param>
-        <summary>Loads an assembly given its <see cref="T:System.Reflection.AssemblyName" />. The assembly is loaded into the domain of the caller using the supplied evidence.</summary>
-        <returns>The loaded assembly.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- <xref:System.IO.FileLoadException> is thrown if `assemblyRef` specifies the full assembly name, and the first assembly that matches the simple name has a different version, culture, or public key token. The loader does not continue probing for other assemblies that match the simple name.  Starting with .NET Framework 4, because execution of code in remote assemblies is disabled by default, a <xref:System.IO.FileLoadException> is also thrown if `assemblyRef` specifies a remote assembly. To enable execution of code loaded from remote locations, you can use the [`<loadFromRemoteSources>`](~/docs/framework/configure-apps/file-schema/runtime/loadfromremotesources-element.md) configuration element.   
-  
-> [!NOTE]
->  Do not use an <xref:System.Reflection.AssemblyName> with only the <xref:System.Reflection.AssemblyName.CodeBase%2A> property set. The <xref:System.Reflection.AssemblyName.CodeBase%2A> property does not supply any elements of the assembly identity (such as name or version), so loading does not occur according to load-by-identity rules, as you would expect from the <xref:System.Reflection.Assembly.Load%2A> method. Instead, the assembly is loaded using load-from rules. For information about the disadvantages of using the load-from context, see the <xref:System.Reflection.Assembly.LoadFrom%2A?displayProperty=nameWithType> method overload or [Best Practices for Assembly Loading](~/docs/framework/deployment/best-practices-for-assembly-loading.md).  
-  
- Whether certain permissions are granted or not granted to an assembly is based on evidence. The rules for assembly and security evidence merging are as follows:  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with no <xref:System.Security.Policy.Evidence> parameter, the assembly is loaded with the evidence that the loader supplies.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with an <xref:System.Security.Policy.Evidence> parameter, pieces of evidence are merged. Pieces of evidence supplied as an argument to the <xref:System.Reflection.Assembly.Load%2A> method supersede pieces of evidence supplied by the loader.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method overload with a `Byte[]` parameter to load a common object file format (COFF) image, evidence is inherited from the calling assembly. This applies to the .NET Framework version 1.1 Service Pack 1 (SP1) and subsequent releases.  
-  
-    > [!NOTE]
-    >  In the .NET Framework version 1.0 and in version 1.1 without SP1, when you use a <xref:System.Reflection.Assembly.Load%2A> method overload with a `Byte[]` parameter to load a COFF image, evidence is combined. `Zone`, `Url` and `Site` are inherited from the calling assembly, and `Hash` and `StrongName` are taken from the COFF assembly.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with a `Byte[]` parameter and <xref:System.Security.Policy.Evidence> to load a COFF image, only the supplied evidence is used. Evidence of the calling assembly and evidence of the COFF image is ignored.  
-  
- Reflecting on C++ executable files might throw a <xref:System.BadImageFormatException>. This is most likely caused by the C++ compiler stripping the relocation addresses or the `.reloc` section from your executable file. To preserve the `.reloc` address for your C++ executable file, specify `/fixed:no` when you are linking.  
-  
-> [!NOTE]
->  If both the <xref:System.Reflection.AssemblyName.Name%2A?displayProperty=nameWithType> property and the <xref:System.Reflection.AssemblyName.CodeBase%2A?displayProperty=nameWithType> property are set, the first attempt to load the assembly uses the display name (including version, culture, and so on, as returned by the <xref:System.Reflection.Assembly.FullName%2A?displayProperty=nameWithType> property). If the file is not found, <xref:System.Reflection.AssemblyName.CodeBase%2A> is used to search for the assembly. If the assembly is found using <xref:System.Reflection.AssemblyName.CodeBase%2A>, the display name is matched against the assembly. If the match fails, a <xref:System.IO.FileLoadException> is thrown.  
-  
- If you call the <xref:System.Reflection.Assembly.Load%2A> method more than once on the same assembly but with a different evidence specified, the common language runtime does not throw a <xref:System.IO.FileLoadException> because the equality and integrity of the different evidence specifications cannot be determined. The evidence that first succeeds is the evidence that is used.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="assemblyRef" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.IO.FileNotFoundException">
-          <paramref name="assemblyRef" /> is not found.</exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="assemblyRef" /> is not a valid assembly.  
-  
- -or-  
-  
- Version 2.0 or later of the common language runtime is currently loaded and <paramref name="assemblyRef" /> was compiled with a later version.</exception>
-        <exception cref="T:System.IO.FileLoadException">An assembly or module was loaded twice with two different evidences.
-
--or-
-
-<paramref name="assemblyRef" /> specifies a remote assembly, but the ability to execute code in remote assemblies is disabled. See <see href="https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/loadfromremotesources-element">&lt;loadFromRemoteSources&gt;</see>. </exception>
-        <permission cref="T:System.Security.Permissions.FileIOPermission">for access to read from a file or directory, and for access to the information in the path itself. Associated enumerations: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Read" />, <see cref="F:System.Security.Permissions.FileIOPermissionAccess.PathDiscovery" /></permission>
-        <permission cref="T:System.Net.WebPermission">for reading a URI that does not begin with "file://".</permission>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
-        <altmember cref="T:System.Security.Policy.Evidence" />
-        <related type="Article" href="~/docs/framework/deployment/how-the-runtime-locates-assemblies.md">How the Runtime Locates Assemblies</related>
-      </Docs>
-    </Member>
-    <Member MemberName="Load">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly Load (string assemblyString, System.Security.Policy.Evidence assemblySecurity);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly Load(string assemblyString, class System.Security.Policy.Evidence assemblySecurity) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.Load(System.String,System.Security.Policy.Evidence)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Load (assemblyString As String, assemblySecurity As Evidence) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ Load(System::String ^ assemblyString, System::Security::Policy::Evidence ^ assemblySecurity);" />
-      <MemberSignature Language="F#" Value="static member Load : string * System.Security.Policy.Evidence -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.Load (assemblyString, assemblySecurity)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use an overload of Load which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="assemblyString" Type="System.String" />
-        <Parameter Name="assemblySecurity" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="assemblyString">The display name of the assembly.</param>
-        <param name="assemblySecurity">Evidence for loading the assembly.</param>
-        <summary>Loads an assembly given its display name, loading the assembly into the domain of the caller using the supplied evidence.</summary>
-        <returns>The loaded assembly.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- <xref:System.IO.FileLoadException> is thrown if `assemblyString` specifies the full assembly name, and the first assembly that matches the simple name has a different version, culture, or public key token. The loader does not continue probing for other assemblies that match the simple name.  
-  
- Whether certain permissions are granted or not granted to an assembly is based on evidence. The rules for assembly and security evidence merging are as follows:  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with no <xref:System.Security.Policy.Evidence> parameter, the assembly is loaded with the evidence that the loader supplies.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with an <xref:System.Security.Policy.Evidence> parameter, pieces of evidence are merged. Pieces of evidence supplied as an argument to the <xref:System.Reflection.Assembly.Load%2A> method supersede pieces of evidence supplied by the loader.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method overload with a `Byte[]` parameter to load a common object file format (COFF) image, evidence is inherited from the calling assembly. This applies to the .NET Framework version 1.1 Service Pack 1 (SP1) and subsequent releases.  
-  
-    > [!NOTE]
-    >  In the .NET Framework version 1.0 and in version 1.1 without SP1, when you use a <xref:System.Reflection.Assembly.Load%2A> method overload with a `Byte[]` parameter to load a COFF image, evidence is combined. `Zone`, `Url` and `Site` are inherited from the calling assembly, and `Hash` and `StrongName` are taken from the COFF assembly.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with a `Byte[]` parameter and <xref:System.Security.Policy.Evidence> to load a COFF image, only the supplied evidence is used. Evidence of the calling assembly and evidence of the COFF image is ignored.  
-  
- Reflecting on C++ executable files might throw a <xref:System.BadImageFormatException>. This is most likely caused by the C++ compiler stripping the relocation addresses or the `.reloc` section from your executable file. To preserve the `.reloc` address for your C++ executable file, specify `/fixed:no` when you are linking.  
-  
- If you call this method more than once on the same assembly but with a different evidence specified, the common language runtime does not throw a <xref:System.IO.FileLoadException> because the equality and integrity of the different evidence specifications cannot be determined. The evidence that first succeeds is the evidence that is used.  
-  
- In the .NET Framework version 2.0, processor architecture is added to assembly identity, and can be specified as part of assembly name strings. For example, "ProcessorArchitecture=msil". However, the recommended way to specify an assembly name is to create an <xref:System.Reflection.AssemblyName> object and pass it to an appropriate overload of the <xref:System.Reflection.Assembly.Load%2A> method. See <xref:System.Reflection.AssemblyName.ProcessorArchitecture%2A?displayProperty=nameWithType>.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="assemblyString" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.IO.FileNotFoundException">
-          <paramref name="assemblyString" /> is not found.</exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="assemblyString" /> is not a valid assembly.  
-  
- -or-  
-  
- Version 2.0 or later of the common language runtime is currently loaded and <paramref name="assemblyString" /> was compiled with a later version.</exception>
-        <exception cref="T:System.IO.FileLoadException">A file that was found could not be loaded.  
-  
- -or-  
-  
- An assembly or module was loaded twice with two different evidences.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
-        <altmember cref="T:System.Security.Policy.Evidence" />
-        <related type="Article" href="~/docs/framework/deployment/how-the-runtime-locates-assemblies.md">How the Runtime Locates Assemblies</related>
-      </Docs>
-    </Member>
-    <Member MemberName="Load">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly Load (byte[] rawAssembly, byte[] rawSymbolStore, System.Security.Policy.Evidence securityEvidence);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly Load(unsigned int8[] rawAssembly, unsigned int8[] rawSymbolStore, class System.Security.Policy.Evidence securityEvidence) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.Load(System.Byte[],System.Byte[],System.Security.Policy.Evidence)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Load (rawAssembly As Byte(), rawSymbolStore As Byte(), securityEvidence As Evidence) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ Load(cli::array &lt;System::Byte&gt; ^ rawAssembly, cli::array &lt;System::Byte&gt; ^ rawSymbolStore, System::Security::Policy::Evidence ^ securityEvidence);" />
-      <MemberSignature Language="F#" Value="static member Load : byte[] * byte[] * System.Security.Policy.Evidence -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.Load (rawAssembly, rawSymbolStore, securityEvidence)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use an overload of Load which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="rawAssembly" Type="System.Byte[]" />
-        <Parameter Name="rawSymbolStore" Type="System.Byte[]" />
-        <Parameter Name="securityEvidence" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="rawAssembly">A byte array that is a COFF-based image containing an emitted assembly.</param>
-        <param name="rawSymbolStore">A byte array that contains the raw bytes representing the symbols for the assembly.</param>
-        <param name="securityEvidence">Evidence for loading the assembly.</param>
-        <summary>Loads the assembly with a common object file format (COFF)-based image containing an emitted assembly, optionally including symbols and evidence for the assembly. The assembly is loaded into the application domain of the caller.</summary>
-        <returns>The loaded assembly.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The assembly is loaded into the domain of the caller using the supplied evidence. The raw bytes representing the symbols for the assembly are also loaded.  
-  
- Whether certain permissions are granted or not granted to an assembly is based on evidence. The rules for assembly and security evidence merging are as follows:  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with no <xref:System.Security.Policy.Evidence> parameter, the assembly is loaded with the evidence that the loader supplies.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with an <xref:System.Security.Policy.Evidence> parameter, pieces of evidence are merged. Pieces of evidence supplied as an argument to the <xref:System.Reflection.Assembly.Load%2A> method supersede pieces of evidence supplied by the loader.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method overload with a `Byte[]` parameter to load a COFF image, evidence is inherited from the calling assembly. This applies to the .NET Framework version 1.1 Service Pack 1 (SP1) and subsequent releases.  
-  
-    > [!NOTE]
-    >  In the .NET Framework version 1.0 and in version 1.1 without SP1, when you use a <xref:System.Reflection.Assembly.Load%2A> method overload with a `Byte[]` parameter to load a COFF image, evidence is combined. `Zone`, `Url` and `Site` are inherited from the calling assembly, and `Hash` and `StrongName` are taken from the COFF assembly.  
-  
--   When you use a <xref:System.Reflection.Assembly.Load%2A> method with a `Byte[]` parameter and <xref:System.Security.Policy.Evidence> to load a COFF image, only the supplied evidence is used. Evidence of the calling assembly and evidence of the COFF image are ignored.  
-  
- Reflecting on C++ executable files might throw a <xref:System.BadImageFormatException>. This is most likely caused by the C++ compiler stripping the relocation addresses or the `.reloc` section from your executable file. To preserve the `.reloc` address for your C++ executable file, specify `/fixed:no` when you are linking.  
-  
- If you call the [\], Byte\<xref:System.Reflection.Assembly.Load%2A> method more than once on the same assembly but with a different evidence specified, the common language runtime does not throw a <xref:System.IO.FileLoadException> because the equality and integrity of the different evidence specifications cannot be determined. The evidence that first succeeds is the evidence that is used.  
-  
- Note that this method overload always creates a new <xref:System.Reflection.Assembly> object with its own mapping.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="rawAssembly" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="rawAssembly" /> is not a valid assembly.  
-  
- -or-  
-  
- Version 2.0 or later of the common language runtime is currently loaded and <paramref name="rawAssembly" /> was compiled with a later version.</exception>
-        <exception cref="T:System.IO.FileLoadException">An assembly or module was loaded twice with two different evidences.</exception>
-        <exception cref="T:System.NotSupportedException">
-          <paramref name="securityEvidence" /> is not <see langword="null" />.  By default, legacy CAS policy is not enabled in the [!INCLUDE[net_v40_long](~/includes/net-v40-long-md.md)]; when it is not enabled, <paramref name="securityEvidence" /> must be <see langword="null" />.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to supply evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" />. Security action: <see cref="F:System.Security.Permissions.SecurityAction.Demand" />.</permission>
-      </Docs>
-    </Member>
-    <Member MemberName="Load">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly Load (byte[] rawAssembly, byte[] rawSymbolStore, System.Security.SecurityContextSource securityContextSource);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly Load(unsigned int8[] rawAssembly, unsigned int8[] rawSymbolStore, valuetype System.Security.SecurityContextSource securityContextSource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.Load(System.Byte[],System.Byte[],System.Security.SecurityContextSource)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ Load(cli::array &lt;System::Byte&gt; ^ rawAssembly, cli::array &lt;System::Byte&gt; ^ rawSymbolStore, System::Security::SecurityContextSource securityContextSource);" />
-      <MemberSignature Language="F#" Value="static member Load : byte[] * byte[] * System.Security.SecurityContextSource -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.Load (rawAssembly, rawSymbolStore, securityContextSource)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="rawAssembly" Type="System.Byte[]" />
-        <Parameter Name="rawSymbolStore" Type="System.Byte[]" />
-        <Parameter Name="securityContextSource" Type="System.Security.SecurityContextSource" />
-      </Parameters>
-      <Docs>
-        <param name="rawAssembly">A byte array that is a COFF-based image containing an emitted assembly.</param>
-        <param name="rawSymbolStore">A byte array that contains the raw bytes representing the symbols for the assembly.</param>
-        <param name="securityContextSource">The source of the security context.</param>
-        <summary>Loads the assembly with a common object file format (COFF)-based image containing an emitted assembly, optionally including symbols and specifying the source for the security context. The assembly is loaded into the application domain of the caller.</summary>
-        <returns>The loaded assembly.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The assembly is loaded into the application domain of the caller using the specified source for the security context. If `rawSymbolStore` was specified, the raw bytes that represent the symbols for the assembly are also loaded.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="rawAssembly" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="rawAssembly" /> is not a valid assembly.  
-  
- -or-  
-  
- <paramref name="rawAssembly" /> was compiled with a later version of the common language runtime than the version that is currently loaded.</exception>
-        <exception cref="T:System.ArgumentOutOfRangeException">The value of <paramref name="securityContextSource" /> is not one of the enumeration values.</exception>
       </Docs>
     </Member>
     <MemberGroup MemberName="LoadFile">
@@ -3929,11 +3356,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -3968,83 +3390,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
  -or-  
   
  Version 2.0 or later of the common language runtime is currently loaded and <paramref name="path" /> was compiled with a later version.</exception>
-        <permission cref="T:System.Security.Permissions.FileIOPermission">for access to read from a file or directory, and for access to the information in the path itself. Associated enumerations: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Read" />, <see cref="F:System.Security.Permissions.FileIOPermissionAccess.PathDiscovery" /></permission>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
-      </Docs>
-    </Member>
-    <Member MemberName="LoadFile">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly LoadFile (string path, System.Security.Policy.Evidence securityEvidence);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly LoadFile(string path, class System.Security.Policy.Evidence securityEvidence) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.LoadFile(System.String,System.Security.Policy.Evidence)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadFile (path As String, securityEvidence As Evidence) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ LoadFile(System::String ^ path, System::Security::Policy::Evidence ^ securityEvidence);" />
-      <MemberSignature Language="F#" Value="static member LoadFile : string * System.Security.Policy.Evidence -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.LoadFile (path, securityEvidence)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use an overload of LoadFile which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="securityEvidence" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="path">The fully qualified path of the assembly file.</param>
-        <param name="securityEvidence">Evidence for loading the assembly.</param>
-        <summary>Loads an assembly given its path, loading the assembly into the domain of the caller using the supplied evidence.</summary>
-        <returns>The loaded assembly.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- Use the <xref:System.Reflection.Assembly.LoadFile%2A> method to load and examine assemblies that have the same identity, but are located in different paths. <xref:System.Reflection.Assembly.LoadFile%2A> does not load files into the <xref:System.Reflection.Assembly.LoadFrom%2A> context, and does not resolve dependencies using the load path, as the <xref:System.Reflection.Assembly.LoadFrom%2A> method does. <xref:System.Reflection.Assembly.LoadFile%2A> is useful in this limited scenario because <xref:System.Reflection.Assembly.LoadFrom%2A> cannot be used to load assemblies that have the same identities but different paths; it will load only the first such assembly.  
-
-Starting with .NET Framework 4, if `path` specifies an assembly in a remote location, assembly loading is disabled by default, and the `LoadFile` method throws a <xref:System.IO.FileLoadException>. To enable execution of code loaded from remote locations, you can use the [`<loadFromRemoteSources>`](~/docs/framework/configure-apps/file-schema/runtime/loadfromremotesources-element.md) configuration element.    
-
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentException">The <paramref name="path" /> argument is not an absolute path.</exception>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="path" /> parameter is <see langword="null" />.</exception>
-        <exception cref="T:System.IO.FileNotFoundException">The <paramref name="path" /> parameter is an empty string ("") or does not exist.</exception>
-        <exception cref="T:System.IO.FileLoadException">A file that was found could not be loaded.
-
--or-
-
-The ability to execute code in remote assemblies is disabled. See <see href="https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/loadfromremotesources-element">&lt;loadFromRemoteSources&gt;</see>. </exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="path" /> is not a valid assembly.  
-  
- -or-  
-  
- Version 2.0 or later of the common language runtime is currently loaded and <paramref name="path" /> was compiled with a later version.</exception>
-        <exception cref="T:System.NotSupportedException">
-          <paramref name="securityEvidence" /> is not <see langword="null" />. By default, legacy CAS policy is not enabled in the [!INCLUDE[net_v40_long](~/includes/net-v40-long-md.md)]; when it is not enabled, <paramref name="securityEvidence" /> must be <see langword="null" />.</exception>
         <permission cref="T:System.Security.Permissions.FileIOPermission">for access to read from a file or directory, and for access to the information in the path itself. Associated enumerations: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Read" />, <see cref="F:System.Security.Permissions.FileIOPermissionAccess.PathDiscovery" /></permission>
         <permission cref="T:System.Security.Permissions.SecurityPermission">to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
       </Docs>
@@ -4099,11 +3444,6 @@ Starting with .NET Framework 4, the ability to execute code in assemblies loaded
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -4187,134 +3527,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       </Docs>
     </Member>
     <Member MemberName="LoadFrom">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly LoadFrom (string assemblyFile, System.Security.Policy.Evidence securityEvidence);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly LoadFrom(string assemblyFile, class System.Security.Policy.Evidence securityEvidence) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadFrom (assemblyFile As String, securityEvidence As Evidence) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ LoadFrom(System::String ^ assemblyFile, System::Security::Policy::Evidence ^ securityEvidence);" />
-      <MemberSignature Language="F#" Value="static member LoadFrom : string * System.Security.Policy.Evidence -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.LoadFrom (assemblyFile, securityEvidence)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use an overload of LoadFrom which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="assemblyFile" Type="System.String" />
-        <Parameter Name="securityEvidence" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="assemblyFile">The name or path of the file that contains the manifest of the assembly.</param>
-        <param name="securityEvidence">Evidence for loading the assembly.</param>
-        <summary>Loads an assembly given its file name or path and supplying security evidence.</summary>
-        <returns>The loaded assembly.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The `assemblyFile` parameter must refer to a URI without escape characters. This method supplies escape characters for all invalid characters in the URI.  
-  
-> [!NOTE]
->  File transfer protocol (FTP) is not supported. If the URI supplied for `assemblyFile` is an FTP address, the assembly is not loaded. No exception is thrown.  
-  
- `assemblyFile` may be absolute or  relative to the current directory, and the assembly is loaded into the domain of the caller.  
-  
- Assemblies can be loaded into one of three contexts, or can be loaded without context:  
-  
--   The load context contains assemblies found by probing: in the GAC, in a host assembly store if the runtime is hosted, or in the <xref:System.AppDomainSetup.ApplicationBase%2A> and <xref:System.AppDomainSetup.PrivateBinPath%2A> of the application domain. Most overloads of the <xref:System.Reflection.Assembly.Load%2A> method load assemblies into this context.  
-  
--   The load-from context contains assemblies for which the user provided a path not included in the directories searched by probing. <xref:System.Reflection.Assembly.LoadFrom%2A>, <xref:System.AppDomain.CreateInstanceFrom%2A>, and <xref:System.AppDomain.ExecuteAssembly%2A> are examples of methods that load by path.
-
-    Starting with .NET Framework 4, if the URI of `assemblyFile` specifies a remote location, assembly loading is disabled by default, and the `LoadFrom` method throws a <xref:System.IO.FileLoadException>. To enable execution of code loaded from remote locations, you can use the [`<loadFromRemoteSources>`](~/docs/framework/configure-apps/file-schema/runtime/loadfromremotesources-element.md) configuration element.    
-  
--   The reflection-only context contains assemblies loaded with the <xref:System.Reflection.Assembly.ReflectionOnlyLoad%2A> and <xref:System.Reflection.Assembly.ReflectionOnlyLoadFrom%2A> methods; code in these contexts cannot be executed.  
-  
--   If the user generated or found the assembly, it is not in any context. This applies to assemblies loaded using overloads of the <xref:System.Reflection.Assembly.Load%2A> method that specify a byte array containing an assembly, and to transient dynamic assemblies created with reflection emit and not saved to disk.  
-  
- The load-from context allows an assembly to be loaded from a path not included in probing, and yet allows dependencies on that path to be found and loaded because the path information is maintained by the context.  
-  
- The <xref:System.Reflection.Assembly.LoadFrom%2A> method has the following disadvantages. Consider using <xref:System.Reflection.Assembly.Load%2A> instead.  
-  
--   If an assembly with the same identity is already loaded, <xref:System.Reflection.Assembly.LoadFrom%2A> returns the loaded assembly even if a different path was specified.  
-  
--   If an assembly is loaded with <xref:System.Reflection.Assembly.LoadFrom%2A>, and later an assembly in the load context attempts to load the same assembly by display name, the load attempt fails. This can occur when an assembly is deserialized.  
-  
--   If an assembly is loaded with <xref:System.Reflection.Assembly.LoadFrom%2A>, and the probing path includes an assembly with the same identity but a different location, an <xref:System.InvalidCastException>, <xref:System.MissingMethodException>, or other unexpected behavior can occur.  
-  
--   <xref:System.Reflection.Assembly.LoadFrom%2A> demands <xref:System.Security.Permissions.FileIOPermissionAccess.Read?displayProperty=nameWithType> and <xref:System.Security.Permissions.FileIOPermissionAccess.PathDiscovery?displayProperty=nameWithType>, or <xref:System.Net.WebPermission>, on the specified path.  
-  
--   If a native image exists for `assemblyFile`, it is not used. The assembly cannot be loaded as domain neutral.  
-  
--   In the .NET Framework version 1.0 and 1.1, policy is not applied.  
-  
- Whether certain permissions are granted or not granted to an assembly is based on evidence. The rules for assembly and security evidence merging are as follows:  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with no <xref:System.Security.Policy.Evidence> parameter, the assembly is loaded with the evidence that the loader supplies.  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with an <xref:System.Security.Policy.Evidence> parameter, pieces of evidence are merged. Pieces of evidence supplied as an argument to the <xref:System.Reflection.Assembly.LoadFrom%2A> method supersede pieces of evidence supplied by the loader.  
-  
--   If you call this method more than once on the same assembly but with a different evidence specified, the common language runtime does not throw a <xref:System.IO.FileLoadException> because the equality and integrity of the different evidence specifications cannot be determined. The evidence that first succeeds is the evidence that is used.  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with a `Byte[]` parameter to load a common object file format (COFF) image, evidence is combined. `Zone`, `Url` and `Site` are inherited from the calling assembly, and `Hash` and `StrongName` are taken from the COFF assembly.  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with a `Byte[]` parameter and <xref:System.Security.Policy.Evidence> to load a COFF image, only the supplied evidence is used. Evidence of the calling assembly and evidence of the COFF image is ignored.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="assemblyFile" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.IO.FileNotFoundException">
-          <paramref name="assemblyFile" /> is not found, or the module you are trying to load does not specify a filename extension.</exception>
-        <exception cref="T:System.IO.FileLoadException">A file that was found could not be loaded.  
-  
- -or-  
-  
- The <paramref name="securityEvidence" /> is not ambiguous and is determined to be invalid.
-
--or-
-
-The ability to execute code in remote assemblies is disabled. See <see href="https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/loadfromremotesources-element">&lt;loadFromRemoteSources&gt;</see>. </exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="assemblyFile" /> is not a valid assembly; for example, a 32-bit assembly in a 64-bit process. See the exception topic for more information.  
-  
- -or-  
-  
- Version 2.0 or later of the common language runtime is currently loaded and <paramref name="assemblyFile" /> was compiled with a later version.</exception>
-        <exception cref="T:System.Security.SecurityException">A codebase that does not start with "file://" was specified without the required <see cref="T:System.Net.WebPermission" />.</exception>
-        <exception cref="T:System.ArgumentException">The <paramref name="assemblyFile" /> parameter is an empty string ("").</exception>
-        <exception cref="T:System.IO.PathTooLongException">The assembly name exceeds the system-defined maximum length.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
-        <permission cref="T:System.Security.Permissions.FileIOPermission">for reading a URI that begins with "file://". Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Read" /></permission>
-        <permission cref="T:System.Net.WebPermission">for reading a URI that does not begin with "file://".</permission>
-        <altmember cref="T:System.Security.Policy.Evidence" />
-      </Docs>
-    </Member>
-    <Member MemberName="LoadFrom">
       <MemberSignature Language="C#" Value="public static System.Reflection.Assembly LoadFrom (string assemblyFile, byte[] hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly LoadFrom(string assemblyFile, unsigned int8[] hashValue, valuetype System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)" />
@@ -4339,11 +3551,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -4422,137 +3629,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
         <permission cref="T:System.Net.WebPermission">for reading a URI that does not begin with "file://".</permission>
       </Docs>
     </Member>
-    <Member MemberName="LoadFrom">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly LoadFrom (string assemblyFile, System.Security.Policy.Evidence securityEvidence, byte[] hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly LoadFrom(string assemblyFile, class System.Security.Policy.Evidence securityEvidence, unsigned int8[] hashValue, valuetype System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadFrom (assemblyFile As String, securityEvidence As Evidence, hashValue As Byte(), hashAlgorithm As AssemblyHashAlgorithm) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ LoadFrom(System::String ^ assemblyFile, System::Security::Policy::Evidence ^ securityEvidence, cli::array &lt;System::Byte&gt; ^ hashValue, System::Configuration::Assemblies::AssemblyHashAlgorithm hashAlgorithm);" />
-      <MemberSignature Language="F#" Value="static member LoadFrom : string * System.Security.Policy.Evidence * byte[] * System.Configuration.Assemblies.AssemblyHashAlgorithm -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.LoadFrom (assemblyFile, securityEvidence, hashValue, hashAlgorithm)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("This method is obsolete and will be removed in a future release of the .NET Framework. Please use an overload of LoadFrom which does not take an Evidence parameter. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="assemblyFile" Type="System.String" />
-        <Parameter Name="securityEvidence" Type="System.Security.Policy.Evidence" />
-        <Parameter Name="hashValue" Type="System.Byte[]" />
-        <Parameter Name="hashAlgorithm" Type="System.Configuration.Assemblies.AssemblyHashAlgorithm" />
-      </Parameters>
-      <Docs>
-        <param name="assemblyFile">The name or path of the file that contains the manifest of the assembly.</param>
-        <param name="securityEvidence">Evidence for loading the assembly.</param>
-        <param name="hashValue">The value of the computed hash code.</param>
-        <param name="hashAlgorithm">The hash algorithm used for hashing files and for generating the strong name.</param>
-        <summary>Loads an assembly given its file name or path, security evidence, hash value, and hash algorithm.</summary>
-        <returns>The loaded assembly.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The `assemblyFile` parameter must refer to a URI without escape characters. This method supplies escape characters for all invalid characters in the URI.  
-  
-> [!NOTE]
->  File transfer protocol (FTP) is not supported. If the URI supplied for `assemblyFile` is an FTP address, the assembly is not loaded. No exception is thrown.  
-  
- `assemblyFile` may be absolute or relative to the current directory, and the assembly is loaded into the domain of the caller.  
-  
- Assemblies can be loaded into one of three contexts, or can be loaded without context:  
-  
--   The load context contains assemblies found by probing: in the GAC, in a host assembly store if the runtime is hosted, or in the <xref:System.AppDomainSetup.ApplicationBase%2A> and <xref:System.AppDomainSetup.PrivateBinPath%2A> of the application domain. Most overloads of the <xref:System.Reflection.Assembly.Load%2A> method load assemblies into this context.  
-  
--   The load-from context contains assemblies for which the user provided a path not included in the directories searched by probing. <xref:System.Reflection.Assembly.LoadFrom%2A>, <xref:System.AppDomain.CreateInstanceFrom%2A>, and <xref:System.AppDomain.ExecuteAssembly%2A> are examples of methods that load by path.  
-
-    Starting with .NET Framework 4, if the URI of `assemblyFile` specifies a remote location, assembly loading is disabled by default, and the `LoadFrom` method throws a <xref:System.IO.FileLoadException>. To enable execution of code loaded from remote locations, you can use the [`<loadFromRemoteSources>`](~/docs/framework/configure-apps/file-schema/runtime/loadfromremotesources-element.md) configuration element.    
-  
--   The reflection-only context contains assemblies loaded with the <xref:System.Reflection.Assembly.ReflectionOnlyLoad%2A> and <xref:System.Reflection.Assembly.ReflectionOnlyLoadFrom%2A> methods; code in these contexts cannot be executed.  
-  
--   If the user generated or found the assembly, it is not in any context. This applies to assemblies loaded using overloads of the <xref:System.Reflection.Assembly.Load%2A> method that specify a byte array containing an assembly, and to transient dynamic assemblies created with reflection emit and not saved to disk.  
-  
- The load-from context allows an assembly to be loaded from a path not included in probing, and yet allows dependencies on that path to be found and loaded because the path information is maintained by the context.  
-  
- The <xref:System.Reflection.Assembly.LoadFrom%2A> method has the following disadvantages. Consider using <xref:System.Reflection.Assembly.Load%2A> instead.  
-  
--   If an assembly with the same identity is already loaded, <xref:System.Reflection.Assembly.LoadFrom%2A> returns the loaded assembly even if a different path was specified.  
-  
--   If an assembly is loaded with <xref:System.Reflection.Assembly.LoadFrom%2A>, and later an assembly in the load context attempts to load the same assembly by display name, the load attempt fails. This can occur when an assembly is deserialized.  
-  
--   If an assembly is loaded with <xref:System.Reflection.Assembly.LoadFrom%2A>, and the probing path includes an assembly with the same identity but a different location, an <xref:System.InvalidCastException>, <xref:System.MissingMethodException>, or other unexpected behavior can occur.  
-  
--   <xref:System.Reflection.Assembly.LoadFrom%2A> demands <xref:System.Security.Permissions.FileIOPermissionAccess.Read?displayProperty=nameWithType> and <xref:System.Security.Permissions.FileIOPermissionAccess.PathDiscovery?displayProperty=nameWithType>, or <xref:System.Net.WebPermission>, on the specified path.  
-  
--   If a native image exists for `assemblyFile`, it is not used. The assembly cannot be loaded as domain neutral.  
-  
--   In the .NET Framework version 1.0 and 1.1, policy is not applied.  
-  
- Whether certain permissions are granted or not granted to an assembly is based on evidence. The rules for assembly and security evidence merging are as follows:  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with no <xref:System.Security.Policy.Evidence> parameter, the assembly is loaded with the evidence that the loader supplies.  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with an <xref:System.Security.Policy.Evidence> parameter, pieces of evidence are merged. Pieces of evidence supplied as an argument to the <xref:System.Reflection.Assembly.LoadFrom%2A> method supersede pieces of evidence supplied by the loader.  
-  
--   If you call this method more than once on the same assembly but with a different evidence specified, the common language runtime does not throw a <xref:System.IO.FileLoadException> because the equality and integrity of the different evidence specifications cannot be determined. The evidence that first succeeds is the evidence that is used.  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with a `Byte[]` parameter to load a common object file format (COFF) image, evidence is combined. `Zone`, `Url` and `Site` are inherited from the calling assembly, and `Hash` and `StrongName` are taken from the COFF assembly.  
-  
--   When you use a <xref:System.Reflection.Assembly.LoadFrom%2A> method with a `Byte[]` parameter and <xref:System.Security.Policy.Evidence> to load a COFF image, only the supplied evidence is used. Evidence of the calling assembly and evidence of the COFF image is ignored.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="assemblyFile" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.IO.FileNotFoundException">
-          <paramref name="assemblyFile" /> is not found, or the module you are trying to load does not specify a filename extension.</exception>
-        <exception cref="T:System.IO.FileLoadException">A file that was found could not be loaded.  
-  
- -or-  
-  
- The <paramref name="securityEvidence" /> is not ambiguous and is determined to be invalid.
-
--or-
-
-The ability to execute code in remote assemblies is disabled. See <see href="https://docs.microsoft.com/dotnet/framework/configure-apps/file-schema/runtime/loadfromremotesources-element">&lt;loadFromRemoteSources&gt;</see>. </exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="assemblyFile" /> is not a valid assembly; for example, a 32-bit assembly in a 64-bit process. See the exception topic for more information.  
-  
- -or-  
-  
- Version 2.0 or later of the common language runtime is currently loaded and <paramref name="assemblyFile" /> was compiled with a later version.</exception>
-        <exception cref="T:System.Security.SecurityException">A codebase that does not start with "file://" was specified without the required <see cref="T:System.Net.WebPermission" />.</exception>
-        <exception cref="T:System.ArgumentException">The <paramref name="assemblyFile" /> parameter is an empty string ("").</exception>
-        <exception cref="T:System.IO.PathTooLongException">The assembly name exceeds the system-defined maximum length.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
-        <permission cref="T:System.Security.Permissions.FileIOPermission">for reading a URI that begins with "file://". Associated enumeration: <see cref="F:System.Security.Permissions.FileIOPermissionAccess.Read" /></permission>
-        <permission cref="T:System.Net.WebPermission">for reading a URI that does not begin with "file://".</permission>
-      </Docs>
-    </Member>
     <MemberGroup MemberName="LoadModule">
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -4565,15 +3641,12 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
     </MemberGroup>
     <Member MemberName="LoadModule">
       <MemberSignature Language="C#" Value="public System.Reflection.Module LoadModule (string moduleName, byte[] rawModule);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.Module LoadModule(string moduleName, unsigned int8[] rawModule) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Reflection.Module LoadModule(string moduleName, unsigned int8[] rawModule) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.LoadModule(System.String,System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Function LoadModule (moduleName As String, rawModule As Byte()) As Module" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::Module ^ LoadModule(System::String ^ moduleName, cli::array &lt;System::Byte&gt; ^ rawModule);" />
-      <MemberSignature Language="F#" Value="abstract member LoadModule : string * byte[] -&gt; System.Reflection.Module&#xA;override this.LoadModule : string * byte[] -&gt; System.Reflection.Module" Usage="assembly.LoadModule (moduleName, rawModule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Reflection::Module ^ LoadModule(System::String ^ moduleName, cli::array &lt;System::Byte&gt; ^ rawModule);" />
+      <MemberSignature Language="F#" Value="member this.LoadModule : string * byte[] -&gt; System.Reflection.Module" Usage="assembly.LoadModule (moduleName, rawModule)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.LoadModule(System.String,System.Byte[])</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -4624,9 +3697,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::Module ^ LoadModule(System::String ^ moduleName, cli::array &lt;System::Byte&gt; ^ rawModule, cli::array &lt;System::Byte&gt; ^ rawSymbolStore);" />
       <MemberSignature Language="F#" Value="abstract member LoadModule : string * byte[] * byte[] -&gt; System.Reflection.Module&#xA;override this.LoadModule : string * byte[] * byte[] -&gt; System.Reflection.Module" Usage="assembly.LoadModule (moduleName, rawModule, rawSymbolStore)" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.LoadModule(System.String,System.Byte[],System.Byte[])</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -4719,14 +3789,8 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netstandard-2.0;netframework-4.8;netcore-2.2">
-          <AttributeName>System.Obsolete("This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
+        <Attribute>
+          <AttributeName>System.Obsolete("This method has been deprecated. Please use Assembly.Load() instead. https://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4764,82 +3828,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
         <altmember cref="M:System.Reflection.Assembly.LoadFrom(System.String)" />
       </Docs>
     </Member>
-    <Member MemberName="LoadWithPartialName">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Assembly LoadWithPartialName (string partialName, System.Security.Policy.Evidence securityEvidence);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Reflection.Assembly LoadWithPartialName(string partialName, class System.Security.Policy.Evidence securityEvidence) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.LoadWithPartialName(System.String,System.Security.Policy.Evidence)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadWithPartialName (partialName As String, securityEvidence As Evidence) As Assembly" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Reflection::Assembly ^ LoadWithPartialName(System::String ^ partialName, System::Security::Policy::Evidence ^ securityEvidence);" />
-      <MemberSignature Language="F#" Value="static member LoadWithPartialName : string * System.Security.Policy.Evidence -&gt; System.Reflection.Assembly" Usage="System.Reflection.Assembly.LoadWithPartialName (partialName, securityEvidence)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName>System.Obsolete</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Obsolete("This method has been deprecated. Please use Assembly.Load() instead. http://go.microsoft.com/fwlink/?linkid=14202")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Reflection.Assembly</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="partialName" Type="System.String" />
-        <Parameter Name="securityEvidence" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="partialName">The display name of the assembly.</param>
-        <param name="securityEvidence">Evidence for loading the assembly.</param>
-        <summary>Loads an assembly from the application directory or from the global assembly cache using a partial name. The assembly is loaded into the domain of the caller using the supplied evidence.</summary>
-        <returns>The loaded assembly. If <paramref name="partialName" /> is not found, this method returns <see langword="null" />.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
-  
-> [!IMPORTANT]
->  The <xref:System.Reflection.Assembly.LoadWithPartialName%28System.String%2CSystem.Security.Policy.Evidence%29> method is obsolete and has been retained for backward compatibility. The non-obsolete alternative is <xref:System.Reflection.Assembly.Load%28System.String%29?displayProperty=nameWithType>.  
-  
- Evidence is the set of information that constitutes input to security policy decisions, such as what permissions can be granted to code.  
-  
- Applications that load assemblies with this method will be affected by upgrades of those assemblies. Therefore, do not use this method; redesign the application to use the <xref:System.Reflection.Assembly.Load%2A> method or the <xref:System.Reflection.Assembly.LoadFrom%2A> method.  
-  
- This method first calls <xref:System.Reflection.Assembly.Load%2A>. If the assembly is not found, this method returns the assembly from the global assembly cache that has the same simple name, and the highest version number.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.IO.FileLoadException">An assembly or module was loaded twice with two different sets of evidence.</exception>
-        <exception cref="T:System.ArgumentNullException">The <paramref name="partialName" /> parameter is <see langword="null" />.</exception>
-        <exception cref="T:System.BadImageFormatException">
-          <paramref name="assemblyFile" /> is not a valid assembly.  
-  
- -or-  
-  
- Version 2.0 or later of the common language runtime is currently loaded and <paramref name="partialName" /> was compiled with a later version.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for calling unmanaged code and to load an assembly with evidence. Associated enumeration: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" /></permission>
-        <altmember cref="M:System.Reflection.Assembly.Load(System.String)" />
-        <altmember cref="M:System.Reflection.Assembly.LoadFrom(System.String)" />
-      </Docs>
-    </Member>
     <Member MemberName="Location">
       <MemberSignature Language="C#" Value="public virtual string Location { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Location" />
@@ -4848,9 +3836,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Location { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Location : string" Usage="System.Reflection.Assembly.Location" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Runtime.InteropServices._Assembly.Location</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
@@ -4928,11 +3913,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Module</ReturnType>
       </ReturnValue>
@@ -4950,9 +3930,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event System::Reflection::ModuleResolveEventHandler ^ ModuleResolve;" />
       <MemberSignature Language="F#" Value="member this.ModuleResolve : System.Reflection.ModuleResolveEventHandler " Usage="member this.ModuleResolve : System.Reflection.ModuleResolveEventHandler " />
       <MemberType>Event</MemberType>
-      <Implements>
-        <InterfaceMember>E:System.Runtime.InteropServices._Assembly.ModuleResolve</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -4972,14 +3949,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>add: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>remove: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.ModuleResolveEventHandler</ReturnType>
       </ReturnValue>
@@ -5115,49 +4084,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PermissionSet">
-      <MemberSignature Language="C#" Value="public virtual System.Security.PermissionSet PermissionSet { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Security.PermissionSet PermissionSet" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Assembly.PermissionSet" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property PermissionSet As PermissionSet" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Security::PermissionSet ^ PermissionSet { System::Security::PermissionSet ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.PermissionSet : System.Security.PermissionSet" Usage="System.Reflection.Assembly.PermissionSet" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Security.PermissionSet</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets the grant set of the current assembly.</summary>
-        <value>The grant set of the current assembly.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- <xref:System.Security.PermissionSet> objects can contain sensitive information such as paths. Therefore, full trust is required to access these objects.  
-  
- ]]></format>
-        </remarks>
-        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
-      </Docs>
-    </Member>
     <Member MemberName="ReflectionOnly">
       <MemberSignature Language="C#" Value="public virtual bool ReflectionOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool ReflectionOnly" />
@@ -5184,11 +4110,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -5242,11 +4163,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -5305,11 +4221,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -5379,11 +4290,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>
@@ -5475,152 +4381,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
         <related type="Article" href="~/docs/framework/security/security-changes.md">Security Changes in the .NET Framework 4</related>
       </Docs>
     </Member>
-    <Member MemberName="System.Reflection.ICustomAttributeProvider.GetCustomAttributes">
-      <MemberSignature Language="C#" Value="object[] ICustomAttributeProvider.GetCustomAttributes (bool inherit);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object[] System.Reflection.ICustomAttributeProvider.GetCustomAttributes(bool inherit) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.System#Reflection#ICustomAttributeProvider#GetCustomAttributes(System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Function GetCustomAttributes (inherit As Boolean) As Object() Implements ICustomAttributeProvider.GetCustomAttributes" />
-      <MemberSignature Language="C++ CLI" Value=" virtual cli::array &lt;System::Object ^&gt; ^ System.Reflection.ICustomAttributeProvider.GetCustomAttributes(bool inherit) = System::Reflection::ICustomAttributeProvider::GetCustomAttributes;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Reflection.ICustomAttributeProvider.GetCustomAttributes(System.Boolean)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Object[]</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="inherit" Type="System.Boolean" />
-      </Parameters>
-      <Docs>
-        <param name="inherit">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Reflection.ICustomAttributeProvider.GetCustomAttributes">
-      <MemberSignature Language="C#" Value="object[] ICustomAttributeProvider.GetCustomAttributes (Type attributeType, bool inherit);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object[] System.Reflection.ICustomAttributeProvider.GetCustomAttributes(class System.Type attributeType, bool inherit) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.System#Reflection#ICustomAttributeProvider#GetCustomAttributes(System.Type,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Function GetCustomAttributes (attributeType As Type, inherit As Boolean) As Object() Implements ICustomAttributeProvider.GetCustomAttributes" />
-      <MemberSignature Language="C++ CLI" Value=" virtual cli::array &lt;System::Object ^&gt; ^ System.Reflection.ICustomAttributeProvider.GetCustomAttributes(Type ^ attributeType, bool inherit) = System::Reflection::ICustomAttributeProvider::GetCustomAttributes;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Reflection.ICustomAttributeProvider.GetCustomAttributes(System.Type,System.Boolean)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Object[]</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="attributeType" Type="System.Type" />
-        <Parameter Name="inherit" Type="System.Boolean" />
-      </Parameters>
-      <Docs>
-        <param name="attributeType">To be added.</param>
-        <param name="inherit">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Reflection.ICustomAttributeProvider.IsDefined">
-      <MemberSignature Language="C#" Value="bool ICustomAttributeProvider.IsDefined (Type attributeType, bool inherit);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool System.Reflection.ICustomAttributeProvider.IsDefined(class System.Type attributeType, bool inherit) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.System#Reflection#ICustomAttributeProvider#IsDefined(System.Type,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Function IsDefined (attributeType As Type, inherit As Boolean) As Boolean Implements ICustomAttributeProvider.IsDefined" />
-      <MemberSignature Language="C++ CLI" Value=" virtual bool System.Reflection.ICustomAttributeProvider.IsDefined(Type ^ attributeType, bool inherit) = System::Reflection::ICustomAttributeProvider::IsDefined;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Reflection.ICustomAttributeProvider.IsDefined(System.Type,System.Boolean)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="attributeType" Type="System.Type" />
-        <Parameter Name="inherit" Type="System.Boolean" />
-      </Parameters>
-      <Docs>
-        <param name="attributeType">To be added.</param>
-        <param name="inherit">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Runtime.InteropServices._Assembly.GetType">
-      <MemberSignature Language="C#" Value="Type _Assembly.GetType ();" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Type System.Runtime.InteropServices._Assembly.GetType() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Assembly.System#Runtime#InteropServices#_Assembly#GetType" />
-      <MemberSignature Language="VB.NET" Value="Function GetType () As Type Implements _Assembly.GetType" />
-      <MemberSignature Language="C++ CLI" Value=" virtual Type ^ System.Runtime.InteropServices._Assembly.GetType() = System::Runtime::InteropServices::_Assembly::GetType;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.GetType</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Type</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Returns the type of the current instance.</summary>
-        <returns>An object that represents the <see cref="T:System.Reflection.Assembly" /> type.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ToString">
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
@@ -5629,9 +4389,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
       <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="assembly.ToString " />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Runtime.InteropServices._Assembly.ToString</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -5689,11 +4446,6 @@ The ability to execute code in remote assemblies is disabled. See <see href="htt
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.Assembly</ReturnType>
       </ReturnValue>

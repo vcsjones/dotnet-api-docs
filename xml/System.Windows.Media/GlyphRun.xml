@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.GlyphRun" />
   <TypeSignature Language="VB.NET" Value="Public Class GlyphRun&#xA;Implements ISupportInitialize" />
   <TypeSignature Language="C++ CLI" Value="public ref class GlyphRun : System::ComponentModel::ISupportInitialize" />
-  <TypeSignature Language="F#" Value="type GlyphRun = class&#xA;    interface DUCE.IResource&#xA;    interface ISupportInitialize" />
+  <TypeSignature Language="F#" Value="type GlyphRun = class&#xA;    interface ISupportInitialize" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

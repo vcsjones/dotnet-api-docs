@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.TreeViewDataItemAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class TreeViewDataItemAutomationPeer&#xA;Inherits ItemAutomationPeer&#xA;Implements IExpandCollapseProvider, IScrollItemProvider, ISelectionItemProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class TreeViewDataItemAutomationPeer : System::Windows::Automation::Peers::ItemAutomationPeer, System::Windows::Automation::Provider::IExpandCollapseProvider, System::Windows::Automation::Provider::IScrollItemProvider, System::Windows::Automation::Provider::ISelectionItemProvider" />
-  <TypeSignature Language="F#" Value="type TreeViewDataItemAutomationPeer = class&#xA;    inherit ItemAutomationPeer&#xA;    interface ISelectionItemProvider&#xA;    interface IScrollItemProvider&#xA;    interface IExpandCollapseProvider" />
+  <TypeSignature Language="F#" Value="type TreeViewDataItemAutomationPeer = class&#xA;    inherit ItemAutomationPeer&#xA;    interface IExpandCollapseProvider&#xA;    interface IScrollItemProvider&#xA;    interface ISelectionItemProvider" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -148,11 +148,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Automation.Peers.TreeViewDataItemAutomationPeer</ReturnType>
       </ReturnValue>

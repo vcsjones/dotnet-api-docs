@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Transform" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Transform&#xA;Inherits GeneralTransform" />
   <TypeSignature Language="C++ CLI" Value="public ref class Transform abstract : System::Windows::Media::GeneralTransform" />
-  <TypeSignature Language="F#" Value="type Transform = class&#xA;    inherit GeneralTransform&#xA;    interface DUCE.IResource" />
+  <TypeSignature Language="F#" Value="type Transform = class&#xA;    inherit GeneralTransform" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -134,11 +134,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Media.Transform</ReturnType>
       </ReturnValue>

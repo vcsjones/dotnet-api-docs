@@ -32,49 +32,6 @@
     <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
   </Docs>
   <Members>
-    <Member MemberName="CanCreateDataSourceEnumerator">
-      <MemberSignature Language="C#" Value="public override bool CanCreateDataSourceEnumerator { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateDataSourceEnumerator" />
-      <MemberSignature Language="DocId" Value="P:System.Data.SqlClient.SqlClientFactory.CanCreateDataSourceEnumerator" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property CanCreateDataSourceEnumerator As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool CanCreateDataSourceEnumerator { bool get(); };" />
-      <MemberSignature Language="F#" Value="member this.CanCreateDataSourceEnumerator : bool" Usage="System.Data.SqlClient.SqlClientFactory.CanCreateDataSourceEnumerator" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a value that indicates whether a <see cref="T:System.Data.Sql.SqlDataSourceEnumerator" /> can be created.</summary>
-        <value>
-          <see langword="true" /> if a <see cref="T:System.Data.Sql.SqlDataSourceEnumerator" /> can be created; otherwise, <see langword="false" />.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.Data.Common.DbProviderFactory> class provides the <xref:System.Data.Common.DbProviderFactory.CanCreateDataSourceEnumerator%2A> property so that inheritors can indicate whether they can provide a data source enumerator. The <xref:System.Data.SqlClient.SqlClientFactory> displays this property, but its value is always `true`.  
-  
-   
-  
-## Examples  
- The following example displays a list of all available SQL Server data sources, using code that could enumerate data sources for any provider.  
-  
- [!code-csharp[DataWorks SqlClientFactory.DataSourceEnumerator#1](~/samples/snippets/csharp/VS_Snippets_ADO.NET/DataWorks SqlClientFactory.DataSourceEnumerator/CS/source.cs#1)]
- [!code-vb[DataWorks SqlClientFactory.DataSourceEnumerator#1](~/samples/snippets/visualbasic/VS_Snippets_ADO.NET/DataWorks SqlClientFactory.DataSourceEnumerator/VB/source.vb#1)]  
-  
- ]]></format>
-        </remarks>
-        <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
     <Member MemberName="CreateCommand">
       <MemberSignature Language="C#" Value="public override System.Data.Common.DbCommand CreateCommand ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.Common.DbCommand CreateCommand() cil managed" />
@@ -332,44 +289,6 @@ DbDataAdapter cmd = newFactory.CreateDataAdapter();
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
     </Member>
-    <Member MemberName="CreateDataSourceEnumerator">
-      <MemberSignature Language="C#" Value="public override System.Data.Common.DbDataSourceEnumerator CreateDataSourceEnumerator ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.Common.DbDataSourceEnumerator CreateDataSourceEnumerator() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlClientFactory.CreateDataSourceEnumerator" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function CreateDataSourceEnumerator () As DbDataSourceEnumerator" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Data::Common::DbDataSourceEnumerator ^ CreateDataSourceEnumerator();" />
-      <MemberSignature Language="F#" Value="override this.CreateDataSourceEnumerator : unit -&gt; System.Data.Common.DbDataSourceEnumerator" Usage="sqlClientFactory.CreateDataSourceEnumerator " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Data.Common.DbDataSourceEnumerator</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>Returns a new <see cref="T:System.Data.Sql.SqlDataSourceEnumerator" />.</summary>
-        <returns>A new data source enumerator.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Examples  
- The following example displays a list of all available SQL Server data sources, using code that could enumerate data sources for any provider.  
-  
- [!code-csharp[DataWorks SqlClientFactory.DataSourceEnumerator#1](~/samples/snippets/csharp/VS_Snippets_ADO.NET/DataWorks SqlClientFactory.DataSourceEnumerator/CS/source.cs#1)]
- [!code-vb[DataWorks SqlClientFactory.DataSourceEnumerator#1](~/samples/snippets/visualbasic/VS_Snippets_ADO.NET/DataWorks SqlClientFactory.DataSourceEnumerator/VB/source.vb#1)]  
-  
- ]]></format>
-        </remarks>
-        <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
     <Member MemberName="CreateParameter">
       <MemberSignature Language="C#" Value="public override System.Data.Common.DbParameter CreateParameter ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.Common.DbParameter CreateParameter() cil managed" />
@@ -423,37 +342,6 @@ DbParameter cmd = newFactory.CreateParameter();
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
     </Member>
-    <Member MemberName="CreatePermission">
-      <MemberSignature Language="C#" Value="public override System.Security.CodeAccessPermission CreatePermission (System.Security.Permissions.PermissionState state);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Security.CodeAccessPermission CreatePermission(valuetype System.Security.Permissions.PermissionState state) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlClientFactory.CreatePermission(System.Security.Permissions.PermissionState)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function CreatePermission (state As PermissionState) As CodeAccessPermission" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Security::CodeAccessPermission ^ CreatePermission(System::Security::Permissions::PermissionState state);" />
-      <MemberSignature Language="F#" Value="override this.CreatePermission : System.Security.Permissions.PermissionState -&gt; System.Security.CodeAccessPermission" Usage="sqlClientFactory.CreatePermission state" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Security.CodeAccessPermission</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="state" Type="System.Security.Permissions.PermissionState" />
-      </Parameters>
-      <Docs>
-        <param name="state">A member of the <see cref="T:System.Security.Permissions.PermissionState" /> enumeration.</param>
-        <summary>Returns a new <see cref="T:System.Security.CodeAccessPermission" />.</summary>
-        <returns>A strongly typed instance of <see cref="T:System.Security.CodeAccessPermission" />.</returns>
-        <remarks>To be added.</remarks>
-        <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
     <Member MemberName="Instance">
       <MemberSignature Language="C#" Value="public static readonly System.Data.SqlClient.SqlClientFactory Instance;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class System.Data.SqlClient.SqlClientFactory Instance" />
@@ -502,38 +390,6 @@ DbCommand cmd = newFactory.CreateCommand();
   
  ]]></format>
         </remarks>
-        <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
-    <Member MemberName="System.IServiceProvider.GetService">
-      <MemberSignature Language="C#" Value="object IServiceProvider.GetService (Type serviceType);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object System.IServiceProvider.GetService(class System.Type serviceType) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.SqlClient.SqlClientFactory.System#IServiceProvider#GetService(System.Type)" />
-      <MemberSignature Language="VB.NET" Value="Function GetService (serviceType As Type) As Object Implements IServiceProvider.GetService" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ System.IServiceProvider.GetService(Type ^ serviceType) = IServiceProvider::GetService;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IServiceProvider.GetService(System.Type)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.SqlClient</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="serviceType" Type="System.Type" />
-      </Parameters>
-      <Docs>
-        <param name="serviceType">An object that specifies the type of service object to get.</param>
-        <summary>For a description of this member, see <see cref="M:System.IServiceProvider.GetService(System.Type)" />.</summary>
-        <returns>A service object.</returns>
-        <remarks>To be added.</remarks>
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
     </Member>

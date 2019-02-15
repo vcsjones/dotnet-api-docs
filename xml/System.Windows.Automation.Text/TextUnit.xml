@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("A044E5C8-FC20-4747-8CC8-1487F9CBB680")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents pre-defined units of text for the purposes of navigation within a document.</summary>
     <remarks>

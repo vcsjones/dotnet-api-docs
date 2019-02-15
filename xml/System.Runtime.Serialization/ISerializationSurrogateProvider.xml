@@ -21,11 +21,6 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netstandard-2.0">
-      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Provides the methods needed to construct a serialization surrogate that extends the <see cref="T:System.Runtime.Serialization.DataContractSerializer" />. A serialization surrogate is used during serialization and deserialization to substitute one type for another.</summary>
     <remarks>To be added.</remarks>

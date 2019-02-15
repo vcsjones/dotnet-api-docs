@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Annotations.AnnotationResource" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AnnotationResource&#xA;Implements INotifyPropertyChanged, IXmlSerializable" />
   <TypeSignature Language="C++ CLI" Value="public ref class AnnotationResource sealed : System::ComponentModel::INotifyPropertyChanged, System::Xml::Serialization::IXmlSerializable" />
-  <TypeSignature Language="F#" Value="type AnnotationResource = class&#xA;    interface IXmlSerializable&#xA;    interface INotifyPropertyChanged" />
+  <TypeSignature Language="F#" Value="type AnnotationResource = class&#xA;    interface INotifyPropertyChanged&#xA;    interface IXmlSerializable" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -21,11 +21,6 @@
       <InterfaceName>System.Xml.Serialization.IXmlSerializable</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Xml.Serialization.XmlRoot(ElementName="Resource", Namespace="http://schemas.microsoft.com/windows/annotations/2003/11/core")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a content anchor or cargo resource for an <see cref="T:System.Windows.Annotations.Annotation" />.</summary>
     <remarks>
@@ -151,11 +146,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.Collection&lt;System.Windows.Annotations.ContentLocatorBase&gt;</ReturnType>
       </ReturnValue>
@@ -185,11 +175,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.Collection&lt;System.Xml.XmlElement&gt;</ReturnType>
       </ReturnValue>
@@ -245,11 +230,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
@@ -272,11 +252,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>

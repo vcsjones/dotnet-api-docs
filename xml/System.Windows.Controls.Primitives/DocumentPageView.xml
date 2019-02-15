@@ -1,10 +1,10 @@
 ﻿<Type Name="DocumentPageView" FullName="System.Windows.Controls.Primitives.DocumentPageView">
   <TypeSignature Language="C#" Value="public class DocumentPageView : System.Windows.FrameworkElement, IDisposable, IServiceProvider" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi DocumentPageView extends System.Windows.FrameworkElement implements class System.IDisposable, class System.IServiceProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DocumentPageView extends System.Windows.FrameworkElement implements class System.IDisposable, class System.IServiceProvider" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Primitives.DocumentPageView" />
   <TypeSignature Language="VB.NET" Value="Public Class DocumentPageView&#xA;Inherits FrameworkElement&#xA;Implements IDisposable, IServiceProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class DocumentPageView : System::Windows::FrameworkElement, IDisposable, IServiceProvider" />
-  <TypeSignature Language="F#" Value="type DocumentPageView = class&#xA;    inherit FrameworkElement&#xA;    interface IServiceProvider&#xA;    interface IDisposable" />
+  <TypeSignature Language="F#" Value="type DocumentPageView = class&#xA;    inherit FrameworkElement&#xA;    interface IDisposable&#xA;    interface IServiceProvider" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -150,11 +150,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Documents.DocumentPaginator</ReturnType>
       </ReturnValue>
@@ -248,11 +243,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -351,7 +341,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler PageConnected;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler PageConnected" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.Primitives.DocumentPageView.PageConnected" />
-      <MemberSignature Language="VB.NET" Value="Public Event PageConnected As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event PageConnected As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ PageConnected;" />
       <MemberSignature Language="F#" Value="member this.PageConnected : EventHandler " Usage="member this.PageConnected : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -375,7 +365,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler PageDisconnected;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler PageDisconnected" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.Primitives.DocumentPageView.PageDisconnected" />
-      <MemberSignature Language="VB.NET" Value="Public Event PageDisconnected As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event PageDisconnected As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ PageDisconnected;" />
       <MemberSignature Language="F#" Value="member this.PageDisconnected : EventHandler " Usage="member this.PageDisconnected : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -589,11 +579,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -618,11 +603,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>

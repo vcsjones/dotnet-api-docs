@@ -1,6 +1,6 @@
 ﻿<Type Name="Application" FullName="System.Windows.Application">
   <TypeSignature Language="C#" Value="public class Application : System.Windows.Threading.DispatcherObject, System.Windows.Markup.IQueryAmbient" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi Application extends System.Windows.Threading.DispatcherObject implements class System.Windows.Markup.IQueryAmbient" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Application extends System.Windows.Threading.DispatcherObject implements class System.Windows.Markup.IQueryAmbient" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Application" />
   <TypeSignature Language="VB.NET" Value="Public Class Application&#xA;Inherits DispatcherObject&#xA;Implements IQueryAmbient" />
   <TypeSignature Language="C++ CLI" Value="public ref class Application : System::Windows::Threading::DispatcherObject, System::Windows::Markup::IQueryAmbient" />
@@ -78,11 +78,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Application" /> class.</summary>
@@ -103,7 +98,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler Activated;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Activated" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.Activated" />
-      <MemberSignature Language="VB.NET" Value="Public Event Activated As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Activated As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Activated;" />
       <MemberSignature Language="F#" Value="member this.Activated : EventHandler " Usage="member this.Activated : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -166,11 +161,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Application</ReturnType>
       </ReturnValue>
@@ -193,7 +183,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler Deactivated;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Deactivated" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.Deactivated" />
-      <MemberSignature Language="VB.NET" Value="Public Event Deactivated As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Deactivated As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ Deactivated;" />
       <MemberSignature Language="F#" Value="member this.Deactivated : EventHandler " Usage="member this.Deactivated : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -426,7 +416,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Navigation.FragmentNavigationEventHandler FragmentNavigation;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Navigation.FragmentNavigationEventHandler FragmentNavigation" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.FragmentNavigation" />
-      <MemberSignature Language="VB.NET" Value="Public Event FragmentNavigation As FragmentNavigationEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event FragmentNavigation As FragmentNavigationEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Navigation::FragmentNavigationEventHandler ^ FragmentNavigation;" />
       <MemberSignature Language="F#" Value="member this.FragmentNavigation : System.Windows.Navigation.FragmentNavigationEventHandler " Usage="member this.FragmentNavigation : System.Windows.Navigation.FragmentNavigationEventHandler " />
       <MemberType>Event</MemberType>
@@ -471,11 +461,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Resources.StreamResourceInfo</ReturnType>
       </ReturnValue>
@@ -552,11 +537,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Resources.StreamResourceInfo</ReturnType>
       </ReturnValue>
@@ -595,11 +575,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Resources.StreamResourceInfo</ReturnType>
       </ReturnValue>
@@ -630,7 +605,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Navigation.LoadCompletedEventHandler LoadCompleted;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Navigation.LoadCompletedEventHandler LoadCompleted" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.LoadCompleted" />
-      <MemberSignature Language="VB.NET" Value="Public Event LoadCompleted As LoadCompletedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event LoadCompleted As LoadCompletedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Navigation::LoadCompletedEventHandler ^ LoadCompleted;" />
       <MemberSignature Language="F#" Value="member this.LoadCompleted : System.Windows.Navigation.LoadCompletedEventHandler " Usage="member this.LoadCompleted : System.Windows.Navigation.LoadCompletedEventHandler " />
       <MemberType>Event</MemberType>
@@ -746,11 +721,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -853,7 +823,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Navigation.NavigatedEventHandler Navigated;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Navigation.NavigatedEventHandler Navigated" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.Navigated" />
-      <MemberSignature Language="VB.NET" Value="Public Event Navigated As NavigatedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Navigated As NavigatedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Navigation::NavigatedEventHandler ^ Navigated;" />
       <MemberSignature Language="F#" Value="member this.Navigated : System.Windows.Navigation.NavigatedEventHandler " Usage="member this.Navigated : System.Windows.Navigation.NavigatedEventHandler " />
       <MemberType>Event</MemberType>
@@ -889,7 +859,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Navigation.NavigatingCancelEventHandler Navigating;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Navigation.NavigatingCancelEventHandler Navigating" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.Navigating" />
-      <MemberSignature Language="VB.NET" Value="Public Event Navigating As NavigatingCancelEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event Navigating As NavigatingCancelEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Navigation::NavigatingCancelEventHandler ^ Navigating;" />
       <MemberSignature Language="F#" Value="member this.Navigating : System.Windows.Navigation.NavigatingCancelEventHandler " Usage="member this.Navigating : System.Windows.Navigation.NavigatingCancelEventHandler " />
       <MemberType>Event</MemberType>
@@ -925,7 +895,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Navigation.NavigationFailedEventHandler NavigationFailed;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Navigation.NavigationFailedEventHandler NavigationFailed" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.NavigationFailed" />
-      <MemberSignature Language="VB.NET" Value="Public Event NavigationFailed As NavigationFailedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event NavigationFailed As NavigationFailedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Navigation::NavigationFailedEventHandler ^ NavigationFailed;" />
       <MemberSignature Language="F#" Value="member this.NavigationFailed : System.Windows.Navigation.NavigationFailedEventHandler " Usage="member this.NavigationFailed : System.Windows.Navigation.NavigationFailedEventHandler " />
       <MemberType>Event</MemberType>
@@ -961,7 +931,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Navigation.NavigationProgressEventHandler NavigationProgress;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Navigation.NavigationProgressEventHandler NavigationProgress" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.NavigationProgress" />
-      <MemberSignature Language="VB.NET" Value="Public Event NavigationProgress As NavigationProgressEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event NavigationProgress As NavigationProgressEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Navigation::NavigationProgressEventHandler ^ NavigationProgress;" />
       <MemberSignature Language="F#" Value="member this.NavigationProgress : System.Windows.Navigation.NavigationProgressEventHandler " Usage="member this.NavigationProgress : System.Windows.Navigation.NavigationProgressEventHandler " />
       <MemberType>Event</MemberType>
@@ -997,7 +967,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Navigation.NavigationStoppedEventHandler NavigationStopped;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Navigation.NavigationStoppedEventHandler NavigationStopped" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Application.NavigationStopped" />
-      <MemberSignature Language="VB.NET" Value="Public Event NavigationStopped As NavigationStoppedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event NavigationStopped As NavigationStoppedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Navigation::NavigationStoppedEventHandler ^ NavigationStopped;" />
       <MemberSignature Language="F#" Value="member this.NavigationStopped : System.Windows.Navigation.NavigationStoppedEventHandler " Usage="member this.NavigationStopped : System.Windows.Navigation.NavigationStoppedEventHandler " />
       <MemberType>Event</MemberType>
@@ -1607,9 +1577,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::ResourceDictionary ^ Resources { System::Windows::ResourceDictionary ^ get(); void set(System::Windows::ResourceDictionary ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Resources : System.Windows.ResourceDictionary with get, set" Usage="System.Windows.Application.Resources" />
       <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Windows.Markup.IHaveResources.Resources</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -1743,11 +1710,6 @@ This example illustrates how to use XAML together with application-scope resourc
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -1913,11 +1875,6 @@ This example illustrates how to use XAML together with application-scope resourc
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1968,11 +1925,6 @@ This example illustrates how to use XAML together with application-scope resourc
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

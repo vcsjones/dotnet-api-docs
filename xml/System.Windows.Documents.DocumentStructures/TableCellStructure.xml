@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Documents.DocumentStructures.TableCellStructure" />
   <TypeSignature Language="VB.NET" Value="Public Class TableCellStructure&#xA;Inherits SemanticBasicElement&#xA;Implements IAddChild, IEnumerable(Of BlockElement)" />
   <TypeSignature Language="C++ CLI" Value="public ref class TableCellStructure : System::Windows::Documents::DocumentStructures::SemanticBasicElement, System::Collections::Generic::IEnumerable&lt;System::Windows::Documents::DocumentStructures::BlockElement ^&gt;, System::Windows::Markup::IAddChild" />
-  <TypeSignature Language="F#" Value="type TableCellStructure = class&#xA;    inherit SemanticBasicElement&#xA;    interface IAddChild&#xA;    interface seq&lt;BlockElement&gt;&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type TableCellStructure = class&#xA;    inherit SemanticBasicElement&#xA;    interface seq&lt;BlockElement&gt;&#xA;    interface IEnumerable&#xA;    interface IAddChild" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -99,14 +99,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -129,14 +121,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>

@@ -1,6 +1,6 @@
 ﻿<Type Name="OperationCanceledException" FullName="System.OperationCanceledException">
   <TypeSignature Language="C#" Value="public class OperationCanceledException : SystemException" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit OperationCanceledException extends System.SystemException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OperationCanceledException extends System.SystemException" />
   <TypeSignature Language="DocId" Value="T:System.OperationCanceledException" />
   <TypeSignature Language="VB.NET" Value="Public Class OperationCanceledException&#xA;Inherits SystemException" />
   <TypeSignature Language="C++ CLI" Value="public ref class OperationCanceledException : SystemException" />
@@ -27,14 +27,6 @@
     <BaseTypeName FrameworkAlternate="netframework-4.5">System.SystemException</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>The exception that is thrown in a thread upon cancellation of an operation that the thread was executing.</summary>
     <remarks>

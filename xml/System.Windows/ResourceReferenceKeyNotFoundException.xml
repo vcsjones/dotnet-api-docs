@@ -1,6 +1,6 @@
 ﻿<Type Name="ResourceReferenceKeyNotFoundException" FullName="System.Windows.ResourceReferenceKeyNotFoundException">
   <TypeSignature Language="C#" Value="public class ResourceReferenceKeyNotFoundException : InvalidOperationException" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ResourceReferenceKeyNotFoundException extends System.InvalidOperationException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ResourceReferenceKeyNotFoundException extends System.InvalidOperationException" />
   <TypeSignature Language="DocId" Value="T:System.Windows.ResourceReferenceKeyNotFoundException" />
   <TypeSignature Language="VB.NET" Value="Public Class ResourceReferenceKeyNotFoundException&#xA;Inherits InvalidOperationException" />
   <TypeSignature Language="C++ CLI" Value="public ref class ResourceReferenceKeyNotFoundException : InvalidOperationException" />
@@ -14,11 +14,6 @@
     <BaseTypeName>System.InvalidOperationException</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>The exception that is thrown when a resource reference key cannot be found during parsing or serialization of markup extension resources.</summary>
     <remarks>To be added.</remarks>
@@ -88,11 +83,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
         <Parameter Name="resourceKey" Type="System.Object" />
@@ -117,11 +107,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -149,11 +134,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>

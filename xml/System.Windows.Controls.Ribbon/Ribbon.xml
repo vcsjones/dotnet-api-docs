@@ -1,6 +1,6 @@
 ﻿<Type Name="Ribbon" FullName="System.Windows.Controls.Ribbon.Ribbon">
   <TypeSignature Language="C#" Value="public class Ribbon : System.Windows.Controls.Primitives.Selector" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi Ribbon extends System.Windows.Controls.Primitives.Selector" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Ribbon extends System.Windows.Controls.Primitives.Selector" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Ribbon.Ribbon" />
   <TypeSignature Language="VB.NET" Value="Public Class Ribbon&#xA;Inherits Selector" />
   <TypeSignature Language="C++ CLI" Value="public ref class Ribbon : System::Windows::Controls::Primitives::Selector" />
@@ -1105,11 +1105,11 @@ xmlns:ribbon="clr-namespace:System.Windows.Controls.Ribbon;assembly=RibbonContro
       </Docs>
     </Member>
     <Member MemberName="LogicalChildren">
-      <MemberSignature Language="C#" Value="protected internal override System.Collections.IEnumerator LogicalChildren { get; }" />
+      <MemberSignature Language="C#" Value="protected override System.Collections.IEnumerator LogicalChildren { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.IEnumerator LogicalChildren" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Controls.Ribbon.Ribbon.LogicalChildren" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides ReadOnly Property LogicalChildren As IEnumerator" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual property System::Collections::IEnumerator ^ LogicalChildren { System::Collections::IEnumerator ^ get(); };" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property LogicalChildren As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property System::Collections::IEnumerator ^ LogicalChildren { System::Collections::IEnumerator ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.LogicalChildren : System.Collections.IEnumerator" Usage="System.Windows.Controls.Ribbon.Ribbon.LogicalChildren" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>

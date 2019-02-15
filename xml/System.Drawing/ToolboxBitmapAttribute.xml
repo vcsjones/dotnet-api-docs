@@ -1,6 +1,6 @@
 ﻿<Type Name="ToolboxBitmapAttribute" FullName="System.Drawing.ToolboxBitmapAttribute">
   <TypeSignature Language="C#" Value="public class ToolboxBitmapAttribute : Attribute" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi ToolboxBitmapAttribute extends System.Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ToolboxBitmapAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:System.Drawing.ToolboxBitmapAttribute" />
   <TypeSignature Language="VB.NET" Value="Public Class ToolboxBitmapAttribute&#xA;Inherits Attribute" />
   <TypeSignature Language="C++ CLI" Value="public ref class ToolboxBitmapAttribute : Attribute" />
@@ -302,11 +302,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Drawing.Image</ReturnType>
       </ReturnValue>
@@ -354,11 +349,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Drawing.Image</ReturnType>
       </ReturnValue>
@@ -440,11 +430,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.1</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Drawing.Image</ReturnType>
       </ReturnValue>

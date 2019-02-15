@@ -15,17 +15,6 @@
       <InterfaceName>System.Windows.Automation.Provider.IGridItemProvider</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("b9734fa6-771f-4d78-9c90-2517999349cd")</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Exposes methods and properties to support UI Automation client access to child controls of containers that implement <see cref="T:System.Windows.Automation.Provider.ITableProvider" />.</summary>
     <remarks>

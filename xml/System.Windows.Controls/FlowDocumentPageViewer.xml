@@ -1,6 +1,6 @@
 ﻿<Type Name="FlowDocumentPageViewer" FullName="System.Windows.Controls.FlowDocumentPageViewer">
   <TypeSignature Language="C#" Value="public class FlowDocumentPageViewer : System.Windows.Controls.Primitives.DocumentViewerBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi FlowDocumentPageViewer extends System.Windows.Controls.Primitives.DocumentViewerBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FlowDocumentPageViewer extends System.Windows.Controls.Primitives.DocumentViewerBase" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.FlowDocumentPageViewer" />
   <TypeSignature Language="VB.NET" Value="Public Class FlowDocumentPageViewer&#xA;Inherits DocumentViewerBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class FlowDocumentPageViewer : System::Windows::Controls::Primitives::DocumentViewerBase" />
@@ -268,11 +268,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -303,18 +298,13 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.Controls.FlowDocumentPageViewer.Find" />
       <MemberSignature Language="VB.NET" Value="Public Sub Find ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Find();" />
-      <MemberSignature Language="F#" Value="override this.Find : unit -&gt; unit" Usage="flowDocumentPageViewer.Find " />
+      <MemberSignature Language="F#" Value="member this.Find : unit -&gt; unit" Usage="flowDocumentPageViewer.Find " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -358,11 +348,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -962,14 +947,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Security.SecurityTreatAsSafe</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1189,11 +1166,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

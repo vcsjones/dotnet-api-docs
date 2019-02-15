@@ -643,20 +643,12 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="certificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
-        <Parameter Name="verifySignatureOnly" Type="System.Boolean" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+        <Parameter Name="certificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" />
+        <Parameter Name="verifySignatureOnly" Type="System.Boolean" />
       </Parameters>
       <Docs>
         <param name="certificate">The <see cref="T:System.Security.Cryptography.X509Certificates.X509Certificate2" /> object to use to verify the <see cref="P:System.Security.Cryptography.Xml.SignedXml.Signature" /> property.</param>
@@ -904,11 +896,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.Xml.EncryptedXml</ReturnType>
       </ReturnValue>
@@ -1200,11 +1187,6 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Xml.XmlResolver</ReturnType>
       </ReturnValue>
@@ -2171,108 +2153,6 @@
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="XmlDsigRSASHA256Url">
-      <MemberSignature Language="C#" Value="public const string XmlDsigRSASHA256Url;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal string XmlDsigRSASHA256Url" />
-      <MemberSignature Language="DocId" Value="F:System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA256Url" />
-      <MemberSignature Language="VB.NET" Value="Public Const XmlDsigRSASHA256Url As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ XmlDsigRSASHA256Url;" />
-      <MemberSignature Language="F#" Value="val mutable XmlDsigRSASHA256Url : string" Usage="System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA256Url" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Xml</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Represents the Uniform Resource Identifier (URI) for the  <see cref="T:System.Security.Cryptography.RSA" /> SHA-256 signature method variation for XML digital signatures. This field is constant.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the <xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA256Url> field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256".  
-  
- Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.  
-  
- For more information, see the World Wide Web Consortium (W3C) specification at [https://www.w3.org/2001/04/xmldsig-more#rsa-sha256](https://www.w3.org/2001/04/xmldsig-more#rsa-sha256).  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="XmlDsigRSASHA384Url">
-      <MemberSignature Language="C#" Value="public const string XmlDsigRSASHA384Url;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal string XmlDsigRSASHA384Url" />
-      <MemberSignature Language="DocId" Value="F:System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA384Url" />
-      <MemberSignature Language="VB.NET" Value="Public Const XmlDsigRSASHA384Url As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ XmlDsigRSASHA384Url;" />
-      <MemberSignature Language="F#" Value="val mutable XmlDsigRSASHA384Url : string" Usage="System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA384Url" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Xml</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Represents the Uniform Resource Identifier (URI) for the  <see cref="T:System.Security.Cryptography.RSA" /> SHA-384 signature method variation for XML digital signatures. This field is constant.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the <xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA384Url> field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha384".  
-  
- Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.  
-  
- For more information, see the World Wide Web Consortium (W3C) specification at [https://www.w3.org/2001/04/xmldsig-more#rsa-sha384](https://www.w3.org/2001/04/xmldsig-more#rsa-sha384).  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="XmlDsigRSASHA512Url">
-      <MemberSignature Language="C#" Value="public const string XmlDsigRSASHA512Url;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal string XmlDsigRSASHA512Url" />
-      <MemberSignature Language="DocId" Value="F:System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA512Url" />
-      <MemberSignature Language="VB.NET" Value="Public Const XmlDsigRSASHA512Url As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ XmlDsigRSASHA512Url;" />
-      <MemberSignature Language="F#" Value="val mutable XmlDsigRSASHA512Url : string" Usage="System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA512Url" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Xml</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Represents the Uniform Resource Identifier (URI) for the  <see cref="T:System.Security.Cryptography.RSA" /> SHA-512 signature method variation for XML digital signatures. This field is constant.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the <xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigRSASHA512Url> field is "http://www.w3.org/2001/04/xmldsig-more#rsa-sha512".  
-  
- Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.  
-  
- For more information, see the World Wide Web Consortium (W3C) specification at [https://www.w3.org/2001/04/xmldsig-more#rsa-sha512](https://www.w3.org/2001/04/xmldsig-more#rsa-sha512).  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="XmlDsigSHA1Url">
       <MemberSignature Language="C#" Value="public const string XmlDsigSHA1Url;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string XmlDsigSHA1Url" />
@@ -2306,108 +2186,6 @@
  Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.  
   
  For more information, see the World Wide Web Consortium (W3C) specification at http://www.w3.org/2000/09/xmldsig#sha1.  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="XmlDsigSHA256Url">
-      <MemberSignature Language="C#" Value="public const string XmlDsigSHA256Url;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal string XmlDsigSHA256Url" />
-      <MemberSignature Language="DocId" Value="F:System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA256Url" />
-      <MemberSignature Language="VB.NET" Value="Public Const XmlDsigSHA256Url As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ XmlDsigSHA256Url;" />
-      <MemberSignature Language="F#" Value="val mutable XmlDsigSHA256Url : string" Usage="System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA256Url" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Xml</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Represents the Uniform Resource Identifier (URI) for the standard <see cref="T:System.Security.Cryptography.SHA256" /> digest method for XML digital signatures. This field is constant.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the <xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA256Url> field is "http://www.w3.org/2001/04/xmlenc#sha256".  
-  
- Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.  
-  
- For more information, see the World Wide Web Consortium (W3C) specification at [http://www.w3.org/2001/04/xmlenc#sha256](http://www.w3.org/2001/04/xmlenc#sha256).  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="XmlDsigSHA384Url">
-      <MemberSignature Language="C#" Value="public const string XmlDsigSHA384Url;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal string XmlDsigSHA384Url" />
-      <MemberSignature Language="DocId" Value="F:System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA384Url" />
-      <MemberSignature Language="VB.NET" Value="Public Const XmlDsigSHA384Url As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ XmlDsigSHA384Url;" />
-      <MemberSignature Language="F#" Value="val mutable XmlDsigSHA384Url : string" Usage="System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA384Url" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Xml</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Represents the Uniform Resource Identifier (URI) for the standard <see cref="T:System.Security.Cryptography.SHA384" /> digest method for XML digital signatures. This field is constant.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the <xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA384Url> field is "http://www.w3.org/2001/04/xmldsig-more#sha384".  
-  
- Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.  
-  
- For more information, see the World Wide Web Consortium (W3C) specification at [https://www.w3.org/2001/04/xmldsig-more#sha384](https://www.w3.org/2001/04/xmldsig-more#sha384).  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="XmlDsigSHA512Url">
-      <MemberSignature Language="C#" Value="public const string XmlDsigSHA512Url;" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal string XmlDsigSHA512Url" />
-      <MemberSignature Language="DocId" Value="F:System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA512Url" />
-      <MemberSignature Language="VB.NET" Value="Public Const XmlDsigSHA512Url As String " />
-      <MemberSignature Language="C++ CLI" Value="public: System::String ^ XmlDsigSHA512Url;" />
-      <MemberSignature Language="F#" Value="val mutable XmlDsigSHA512Url : string" Usage="System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA512Url" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Xml</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Represents the Uniform Resource Identifier (URI) for the standard <see cref="T:System.Security.Cryptography.SHA512" /> digest method for XML digital signatures. This field is constant.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The value of the <xref:System.Security.Cryptography.Xml.SignedXml.XmlDsigSHA512Url> field is "http://www.w3.org/2001/04/xmlenc#sha512".  
-  
- Use this field to conveniently supply a value to one of the URI attributes of an element used for XMLDSIG.  
-  
- For more information, see the World Wide Web Consortium (W3C) specification at [http://www.w3.org/2001/04/xmlenc#sha512](http://www.w3.org/2001/04/xmlenc#sha512).  
   
  ]]></format>
         </remarks>

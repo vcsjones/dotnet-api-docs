@@ -1,10 +1,10 @@
 ﻿<Type Name="GenericTypeParameterBuilder" FullName="System.Reflection.Emit.GenericTypeParameterBuilder">
-  <TypeSignature Language="C#" Value="public sealed class GenericTypeParameterBuilder : System.Reflection.TypeInfo" />
-  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit GenericTypeParameterBuilder extends System.Reflection.TypeInfo" />
+  <TypeSignature Language="C#" Value="public sealed class GenericTypeParameterBuilder : Type" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GenericTypeParameterBuilder extends System.Type" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.Emit.GenericTypeParameterBuilder" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GenericTypeParameterBuilder&#xA;Inherits TypeInfo" />
-  <TypeSignature Language="C++ CLI" Value="public ref class GenericTypeParameterBuilder sealed : System::Reflection::TypeInfo" />
-  <TypeSignature Language="F#" Value="type GenericTypeParameterBuilder = class&#xA;    inherit TypeInfo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GenericTypeParameterBuilder&#xA;Inherits Type" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GenericTypeParameterBuilder sealed : Type" />
+  <TypeSignature Language="F#" Value="type GenericTypeParameterBuilder = class&#xA;    inherit Type" />
   <AssemblyInfo>
     <AssemblyName>System.Reflection.Emit</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -22,11 +22,6 @@
     <BaseTypeName FrameworkAlternate="netcore-2.0">System.Type</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Defines and creates generic type parameters for dynamically defined generic types and methods. This class cannot be inherited.</summary>
     <remarks>
@@ -58,26 +53,6 @@
     <related type="Article" href="https://msdn.microsoft.com/library/07d5f01a-7b5b-40ea-9b15-f21561098fe4">How to: Define a Generic Type with Reflection Emit</related>
   </Docs>
   <Members>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected GenericTypeParameterBuilder ();" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Emit.GenericTypeParameterBuilder.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; GenericTypeParameterBuilder();" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-      </AssemblyInfo>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Assembly">
       <MemberSignature Language="C#" Value="public override System.Reflection.Assembly Assembly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Reflection.Assembly Assembly" />
@@ -141,30 +116,6 @@
   
  ]]></format>
         </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Attributes">
-      <MemberSignature Language="C#" Value="public override System.Reflection.TypeAttributes Attributes { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Reflection.TypeAttributes Attributes" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.GenericTypeParameterBuilder.Attributes" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Attributes As TypeAttributes" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Reflection::TypeAttributes Attributes { System::Reflection::TypeAttributes get(); };" />
-      <MemberSignature Language="F#" Value="member this.Attributes : System.Reflection.TypeAttributes" Usage="System.Reflection.Emit.GenericTypeParameterBuilder.Attributes" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Reflection.TypeAttributes</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BaseType">
@@ -440,55 +391,6 @@
         <related type="Article" href="https://msdn.microsoft.com/library/07d5f01a-7b5b-40ea-9b15-f21561098fe4">How to: Define a Generic Type with Reflection Emit</related>
       </Docs>
     </Member>
-    <Member MemberName="GenericTypeArguments">
-      <MemberSignature Language="C#" Value="public override Type[] GenericTypeArguments { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Type[] GenericTypeArguments" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.GenericTypeParameterBuilder.GenericTypeArguments" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property GenericTypeArguments As Type()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property cli::array &lt;Type ^&gt; ^ GenericTypeArguments { cli::array &lt;Type ^&gt; ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.GenericTypeArguments : Type[]" Usage="System.Reflection.Emit.GenericTypeParameterBuilder.GenericTypeArguments" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Type[]</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetArrayRank">
-      <MemberSignature Language="C#" Value="public override int GetArrayRank ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetArrayRank() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Emit.GenericTypeParameterBuilder.GetArrayRank" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetArrayRank () As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetArrayRank();" />
-      <MemberSignature Language="F#" Value="override this.GetArrayRank : unit -&gt; int" Usage="genericTypeParameterBuilder.GetArrayRank " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetAttributeFlagsImpl">
       <MemberSignature Language="C#" Value="protected override System.Reflection.TypeAttributes GetAttributeFlagsImpl ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance valuetype System.Reflection.TypeAttributes GetAttributeFlagsImpl() cil managed" />
@@ -576,11 +478,6 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.ConstructorInfo[]</ReturnType>
       </ReturnValue>
@@ -980,33 +877,6 @@
         <exception cref="T:System.InvalidOperationException">In all cases.</exception>
       </Docs>
     </Member>
-    <Member MemberName="GetGenericParameterConstraints">
-      <MemberSignature Language="C#" Value="public override Type[] GetGenericParameterConstraints ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Type[] GetGenericParameterConstraints() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Emit.GenericTypeParameterBuilder.GetGenericParameterConstraints" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetGenericParameterConstraints () As Type()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override cli::array &lt;Type ^&gt; ^ GetGenericParameterConstraints();" />
-      <MemberSignature Language="F#" Value="override this.GetGenericParameterConstraints : unit -&gt; Type[]" Usage="genericTypeParameterBuilder.GetGenericParameterConstraints " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Type[]</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="GetGenericTypeDefinition">
       <MemberSignature Language="C#" Value="public override Type GetGenericTypeDefinition ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Type GetGenericTypeDefinition() cil managed" />
@@ -1137,11 +1007,6 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.InterfaceMapping</ReturnType>
       </ReturnValue>
@@ -1686,43 +1551,6 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="IsAssignableFrom">
-      <MemberSignature Language="C#" Value="public override bool IsAssignableFrom (System.Reflection.TypeInfo typeInfo);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsAssignableFrom(class System.Reflection.TypeInfo typeInfo) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Emit.GenericTypeParameterBuilder.IsAssignableFrom(System.Reflection.TypeInfo)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsAssignableFrom(System::Reflection::TypeInfo ^ typeInfo);" />
-      <MemberSignature Language="F#" Value="override this.IsAssignableFrom : System.Reflection.TypeInfo -&gt; bool" Usage="genericTypeParameterBuilder.IsAssignableFrom typeInfo" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="typeInfo" Type="System.Reflection.TypeInfo" />
-      </Parameters>
-      <Docs>
-        <param name="typeInfo">The object to test.</param>
-        <summary>Throws a <see cref="T:System.NotSupportedException" /> exception in all cases.</summary>
-        <returns>Throws a <see cref="T:System.NotSupportedException" /> exception in all cases.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- This method is not supported for incomplete generic type parameters. Retrieve the type parameter from the completed generic type definition and then use reflection on the retrieved type.  
-  
- ]]></format>
-        </remarks>
-        <exception cref="T:System.NotSupportedException">In all cases.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="IsAssignableFrom">
       <MemberSignature Language="C#" Value="public override bool IsAssignableFrom (Type c);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsAssignableFrom(class System.Type c) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Emit.GenericTypeParameterBuilder.IsAssignableFrom(System.Type)" />
@@ -1913,30 +1741,6 @@
         <exception cref="T:System.NotSupportedException">In all cases.</exception>
       </Docs>
     </Member>
-    <Member MemberName="IsEnum">
-      <MemberSignature Language="C#" Value="public override bool IsEnum { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnum" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.GenericTypeParameterBuilder.IsEnum" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsEnum As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsEnum { bool get(); };" />
-      <MemberSignature Language="F#" Value="member this.IsEnum : bool" Usage="System.Reflection.Emit.GenericTypeParameterBuilder.IsEnum" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="IsGenericParameter">
       <MemberSignature Language="C#" Value="public override bool IsGenericParameter { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsGenericParameter" />
@@ -2041,35 +1845,6 @@
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsInstanceOfType">
-      <MemberSignature Language="C#" Value="public override bool IsInstanceOfType (object o);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsInstanceOfType(object o) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Emit.GenericTypeParameterBuilder.IsInstanceOfType(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function IsInstanceOfType (o As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool IsInstanceOfType(System::Object ^ o);" />
-      <MemberSignature Language="F#" Value="override this.IsInstanceOfType : obj -&gt; bool" Usage="genericTypeParameterBuilder.IsInstanceOfType o" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="o" Type="System.Object" />
-      </Parameters>
-      <Docs>
-        <param name="o">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="IsPointerImpl">
       <MemberSignature Language="C#" Value="protected override bool IsPointerImpl ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool IsPointerImpl() cil managed" />
@@ -2128,30 +1903,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsSerializable">
-      <MemberSignature Language="C#" Value="public override bool IsSerializable { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool IsSerializable" />
-      <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.GenericTypeParameterBuilder.IsSerializable" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsSerializable As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsSerializable { bool get(); };" />
-      <MemberSignature Language="F#" Value="member this.IsSerializable : bool" Usage="System.Reflection.Emit.GenericTypeParameterBuilder.IsSerializable" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Emit</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="IsSubclassOf">
       <MemberSignature Language="C#" Value="public override bool IsSubclassOf (Type c);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsSubclassOf(class System.Type c) cil managed" />
@@ -2172,11 +1923,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -2684,11 +2430,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -2885,14 +2626,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

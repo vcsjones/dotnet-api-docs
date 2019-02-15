@@ -361,40 +361,5 @@
         <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
       </Docs>
     </Member>
-    <Member MemberName="CreatePermission">
-      <MemberSignature Language="C#" Value="public virtual System.Security.CodeAccessPermission CreatePermission (System.Security.Permissions.PermissionState state);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Security.CodeAccessPermission CreatePermission(valuetype System.Security.Permissions.PermissionState state) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.Common.DbProviderFactory.CreatePermission(System.Security.Permissions.PermissionState)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreatePermission (state As PermissionState) As CodeAccessPermission" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Security::CodeAccessPermission ^ CreatePermission(System::Security::Permissions::PermissionState state);" />
-      <MemberSignature Language="F#" Value="abstract member CreatePermission : System.Security.Permissions.PermissionState -&gt; System.Security.CodeAccessPermission&#xA;override this.CreatePermission : System.Security.Permissions.PermissionState -&gt; System.Security.CodeAccessPermission" Usage="dbProviderFactory.CreatePermission state" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Data</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Data.Common</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Security.CodeAccessPermission</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="state" Type="System.Security.Permissions.PermissionState" />
-      </Parameters>
-      <Docs>
-        <param name="state">One of the <see cref="T:System.Security.Permissions.PermissionState" /> values.</param>
-        <summary>Returns a new instance of the provider's class that implements the provider's version of the <see cref="T:System.Security.CodeAccessPermission" /> class.</summary>
-        <returns>A <see cref="T:System.Security.CodeAccessPermission" /> object for the specified <see cref="T:System.Security.Permissions.PermissionState" />.</returns>
-        <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/2a8e2640-3a49-42a1-a3a9-b43026907ae1">DbProviderFactories (ADO.NET)</related>
-        <related type="Article" href="~/docs/framework/data/adonet/ado-net-overview.md">ADO.NET Overview</related>
-      </Docs>
-    </Member>
   </Members>
 </Type>

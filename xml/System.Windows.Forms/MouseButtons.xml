@@ -18,9 +18,6 @@
     <Attribute>
       <AttributeName>System.Flags</AttributeName>
     </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
   </Attributes>
   <Docs>
     <summary>Specifies constants that define which mouse button was pressed.</summary>

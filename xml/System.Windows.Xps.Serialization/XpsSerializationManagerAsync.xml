@@ -126,7 +126,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Xps.Serialization.XpsSerializationCompletedEventHandler XpsSerializationCompleted;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Xps.Serialization.XpsSerializationCompletedEventHandler XpsSerializationCompleted" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Xps.Serialization.XpsSerializationManagerAsync.XpsSerializationCompleted" />
-      <MemberSignature Language="VB.NET" Value="Public Event XpsSerializationCompleted As XpsSerializationCompletedEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event XpsSerializationCompleted As XpsSerializationCompletedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Xps::Serialization::XpsSerializationCompletedEventHandler ^ XpsSerializationCompleted;" />
       <MemberSignature Language="F#" Value="member this.XpsSerializationCompleted : System.Windows.Xps.Serialization.XpsSerializationCompletedEventHandler " Usage="member this.XpsSerializationCompleted : System.Windows.Xps.Serialization.XpsSerializationCompletedEventHandler " />
       <MemberType>Event</MemberType>

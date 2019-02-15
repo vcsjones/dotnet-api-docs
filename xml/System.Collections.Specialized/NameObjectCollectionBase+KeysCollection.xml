@@ -1,6 +1,6 @@
 ﻿<Type Name="NameObjectCollectionBase+KeysCollection" FullName="System.Collections.Specialized.NameObjectCollectionBase+KeysCollection">
   <TypeSignature Language="C#" Value="public class NameObjectCollectionBase.KeysCollection : System.Collections.ICollection" />
-  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi serializable beforefieldinit NameObjectCollectionBase/KeysCollection extends System.Object implements class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit NameObjectCollectionBase/KeysCollection extends System.Object implements class System.Collections.ICollection, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:System.Collections.Specialized.NameObjectCollectionBase.KeysCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class NameObjectCollectionBase.KeysCollection&#xA;Implements ICollection" />
   <TypeSignature Language="C++ CLI" Value="public: ref class NameObjectCollectionBase::KeysCollection : System::Collections::ICollection" />
@@ -34,11 +34,6 @@
       <InterfaceName>System.Collections.IEnumerable</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents a collection of the <see cref="T:System.String" /> keys of a collection.</summary>
     <remarks>To be added.</remarks>
@@ -230,11 +225,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>

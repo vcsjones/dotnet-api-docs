@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.ComponentModel.IBindingListView" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBindingListView&#xA;Implements IBindingList, IList" />
   <TypeSignature Language="C++ CLI" Value="public interface class IBindingListView : System::Collections::IList, System::ComponentModel::IBindingList" />
-  <TypeSignature Language="F#" Value="type IBindingListView = interface&#xA;    interface IBindingList&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type IBindingListView = interface&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList&#xA;    interface IBindingList" />
   <AssemblyInfo>
     <AssemblyName>System</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

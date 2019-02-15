@@ -1,6 +1,6 @@
 ﻿<Type Name="WebRequest" FullName="System.Net.WebRequest">
   <TypeSignature Language="C#" Value="public abstract class WebRequest : MarshalByRefObject, System.Runtime.Serialization.ISerializable" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract serializable beforefieldinit WebRequest extends System.MarshalByRefObject implements class System.Runtime.Serialization.ISerializable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit WebRequest extends System.MarshalByRefObject implements class System.Runtime.Serialization.ISerializable" />
   <TypeSignature Language="DocId" Value="T:System.Net.WebRequest" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class WebRequest&#xA;Inherits MarshalByRefObject&#xA;Implements ISerializable" />
   <TypeSignature Language="C++ CLI" Value="public ref class WebRequest abstract : MarshalByRefObject, System::Runtime::Serialization::ISerializable" />
@@ -34,11 +34,6 @@
       <InterfaceName>System.Runtime.Serialization.ISerializable</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Makes a request to a Uniform Resource Identifier (URI). This is an <see langword="abstract" /> class.</summary>
     <remarks>
@@ -168,11 +163,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Net</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="serializationInfo" Type="System.Runtime.Serialization.SerializationInfo" />
         <Parameter Name="streamingContext" Type="System.Runtime.Serialization.StreamingContext" />
@@ -269,14 +259,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Net</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Net.Security.AuthenticationLevel</ReturnType>
       </ReturnValue>
@@ -462,14 +444,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Net</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Net.Cache.RequestCachePolicy</ReturnType>
       </ReturnValue>
@@ -1031,52 +1005,6 @@
           <paramref name="requestUri" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Security.SecurityException">The caller does not have <see cref="T:System.Net.WebPermissionAttribute" /> permission to connect to the requested URI or a URI that the request is redirected to.</exception>
         <exception cref="T:System.UriFormatException">The URI specified in <paramref name="requestUri" /> is not a valid URI.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="CreatorInstance">
-      <MemberSignature Language="C#" Value="public virtual System.Net.IWebRequestCreate CreatorInstance { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Net.IWebRequestCreate CreatorInstance" />
-      <MemberSignature Language="DocId" Value="P:System.Net.WebRequest.CreatorInstance" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CreatorInstance As IWebRequestCreate" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Net::IWebRequestCreate ^ CreatorInstance { System::Net::IWebRequestCreate ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.CreatorInstance : System.Net.IWebRequestCreate" Usage="System.Net.WebRequest.CreatorInstance" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Requests</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Net</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Net.IWebRequestCreate</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>When overridden in a descendant class, gets the factory object derived from the <see cref="T:System.Net.IWebRequestCreate" /> class used to create the <see cref="T:System.Net.WebRequest" /> instantiated for making the request to the specified URI.</summary>
-        <value>The derived <see cref="T:System.Net.WebRequest" /> type returned by the <see cref="M:System.Net.IWebRequestCreate.Create(System.Uri)" /> method.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
-This property allows an application to determine which <xref:System.Net.IWebRequestCreate> derived factory object was used to create the request. This object may be [System.Net.Browser.WebRequestCreator.BrowserHttp](https://msdn.microsoft.com/library/system.net.browser.webrequestcreator.browserhttp(v=vs.95)) or [System.Net.Browser.WebRequestCreator.ClientHttp](https://msdn.microsoft.com/library/system.net.browser.webrequestcreator.clienthttp(v=vs.95)), but it may also be a custom instance derived from <xref:System.Net.IWebRequestCreate>. This allows an application to determine whether the browser hosting [!INCLUDE[silverlight](~/includes/silverlight-md.md)], the [!INCLUDE[silverlight](~/includes/silverlight-md.md)] client, or some custom object handles HTTP requests and responses for the <xref:System.Net.WebRequest> instance. The <xref:System.Net.WebRequest.RegisterPrefix%2A> method allows an application to configure which derived <xref:System.Net.WebRequest> type will be instantiated when making a request to a specific URI. <xref:System.Net.WebRequest> creators are typically registered to handle a specific protocol, such HTTP or HTTPS, but can be registered to handle a request to a specific server or path on a server. This is useful when more than one derived <xref:System.Net.WebRequest> type can process requests for the same protocol. The [!INCLUDE[sil3_first](~/includes/sil3-first-md.md)] and later runtime supports multiple HTTP handlers each having different capabilities. For example, a web service that uses Representational State Transfer (REST) might require the [System.Net.Browser.WebRequestCreator.ClientHttp](https://msdn.microsoft.com/library/system.net.browser.webrequestcreator.clienthttp(v=vs.95)) handler while a SOAP web service might be able to use the default [System.Net.Browser.WebRequestCreator.BrowserHttp](https://msdn.microsoft.com/library/system.net.browser.webrequestcreator.browserhttp(v=vs.95)) handler.
-  
- ]]></format>
-        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Credentials">
@@ -1773,14 +1701,6 @@ This property allows an application to determine which <xref:System.Net.IWebRequ
       <AssemblyInfo>
         <AssemblyName>System.Net</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Principal.TokenImpersonationLevel</ReturnType>
       </ReturnValue>
@@ -1976,48 +1896,6 @@ This property allows an application to determine which <xref:System.Net.IWebRequ
         <altmember cref="P:System.Net.HttpWebRequest.Proxy" />
       </Docs>
     </Member>
-    <Member MemberName="RegisterPortableWebRequestCreator">
-      <MemberSignature Language="C#" Value="public static void RegisterPortableWebRequestCreator (System.Net.IWebRequestCreate creator);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void RegisterPortableWebRequestCreator(class System.Net.IWebRequestCreate creator) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.WebRequest.RegisterPortableWebRequestCreator(System.Net.IWebRequestCreate)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub RegisterPortableWebRequestCreator (creator As IWebRequestCreate)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void RegisterPortableWebRequestCreator(System::Net::IWebRequestCreate ^ creator);" />
-      <MemberSignature Language="F#" Value="static member RegisterPortableWebRequestCreator : System.Net.IWebRequestCreate -&gt; unit" Usage="System.Net.WebRequest.RegisterPortableWebRequestCreator creator" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Net.Requests</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Net</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Obsolete("This API supports the .NET Framework infrastructure and is not intended to be used directly from your code.", true)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="creator" Type="System.Net.IWebRequestCreate" />
-      </Parameters>
-      <Docs>
-        <param name="creator">The <see cref="T:System.Net.IWebRequestCreate" /> object to register.</param>
-        <summary>Register an <see cref="T:System.Net.IWebRequestCreate" /> object.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="RegisterPrefix">
       <MemberSignature Language="C#" Value="public static bool RegisterPrefix (string prefix, System.Net.IWebRequestCreate creator);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool RegisterPrefix(string prefix, class System.Net.IWebRequestCreate creator) cil managed" />
@@ -2183,11 +2061,6 @@ This property allows an application to determine which <xref:System.Net.IWebRequ
       <AssemblyInfo>
         <AssemblyName>System.Net</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

@@ -1,6 +1,6 @@
 ﻿<Type Name="MethodImplAttributes" FullName="System.Reflection.MethodImplAttributes">
   <TypeSignature Language="C#" Value="public enum MethodImplAttributes" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed MethodImplAttributes extends System.Enum" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MethodImplAttributes extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:System.Reflection.MethodImplAttributes" />
   <TypeSignature Language="VB.NET" Value="Public Enum MethodImplAttributes" />
   <TypeSignature Language="C++ CLI" Value="public enum class MethodImplAttributes" />
@@ -28,17 +28,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1">
-      <AttributeName>System.Flags</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Specifies flags for the attributes of a method implementation.</summary>
     <remarks>
@@ -118,11 +107,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.MethodImplAttributes</ReturnType>
       </ReturnValue>
@@ -130,6 +114,35 @@
       <Docs>
         <summary>Specifies that the method should be inlined wherever possible.</summary>
         <forInternalUseOnly />
+      </Docs>
+    </Member>
+    <Member MemberName="AggressiveOptimization">
+      <MemberSignature Language="C#" Value="AggressiveOptimization" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Reflection.MethodImplAttributes AggressiveOptimization = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:System.Reflection.MethodImplAttributes.AggressiveOptimization" />
+      <MemberSignature Language="VB.NET" Value="AggressiveOptimization" />
+      <MemberSignature Language="C++ CLI" Value="AggressiveOptimization" />
+      <MemberSignature Language="F#" Value="AggressiveOptimization = 512" Usage="System.Reflection.MethodImplAttributes.AggressiveOptimization" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Runtime</AssemblyName>
+        <AssemblyVersion>4.2.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Reflection.Primitives</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Reflection.MethodImplAttributes</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="CodeTypeMask">
@@ -609,35 +622,6 @@
       <Docs>
         <summary>Specifies that the method implementation is provided by the runtime.</summary>
         <forInternalUseOnly />
-      </Docs>
-    </Member>
-    <Member MemberName="SecurityMitigations">
-      <MemberSignature Language="C#" Value="SecurityMitigations" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype System.Reflection.MethodImplAttributes SecurityMitigations = int32(1024)" />
-      <MemberSignature Language="DocId" Value="F:System.Reflection.MethodImplAttributes.SecurityMitigations" />
-      <MemberSignature Language="VB.NET" Value="SecurityMitigations" />
-      <MemberSignature Language="C++ CLI" Value="SecurityMitigations" />
-      <MemberSignature Language="F#" Value="SecurityMitigations = 1024" Usage="System.Reflection.MethodImplAttributes.SecurityMitigations" />
-      <MemberType>Field</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Reflection.Primitives</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Reflection.MethodImplAttributes</ReturnType>
-      </ReturnValue>
-      <MemberValue>1024</MemberValue>
-      <Docs>
-        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Synchronized">

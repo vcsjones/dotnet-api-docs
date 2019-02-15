@@ -1,6 +1,6 @@
 ﻿<Type Name="SecurityException" FullName="System.Security.SecurityException">
   <TypeSignature Language="C#" Value="public class SecurityException : SystemException" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit SecurityException extends System.SystemException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SecurityException extends System.SystemException" />
   <TypeSignature Language="DocId" Value="T:System.Security.SecurityException" />
   <TypeSignature Language="VB.NET" Value="Public Class SecurityException&#xA;Inherits SystemException" />
   <TypeSignature Language="C++ CLI" Value="public ref class SecurityException : SystemException" />
@@ -30,14 +30,6 @@
     <BaseTypeName FrameworkAlternate="netframework-4.5">System.SystemException</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>The exception that is thrown when a security error is detected.</summary>
     <remarks>
@@ -207,11 +199,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
         <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" />
@@ -342,11 +329,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
         <Parameter Name="type" Type="System.Type" />
@@ -398,11 +380,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
         <Parameter Name="type" Type="System.Type" />
@@ -434,203 +411,6 @@
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SecurityException (string message, object deny, object permitOnly, System.Reflection.MethodInfo method, object demanded, System.Security.IPermission permThatFailed);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, object deny, object permitOnly, class System.Reflection.MethodInfo method, object demanded, class System.Security.IPermission permThatFailed) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.SecurityException.#ctor(System.String,System.Object,System.Object,System.Reflection.MethodInfo,System.Object,System.Security.IPermission)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, deny As Object, permitOnly As Object, method As MethodInfo, demanded As Object, permThatFailed As IPermission)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SecurityException(System::String ^ message, System::Object ^ deny, System::Object ^ permitOnly, System::Reflection::MethodInfo ^ method, System::Object ^ demanded, System::Security::IPermission ^ permThatFailed);" />
-      <MemberSignature Language="F#" Value="new System.Security.SecurityException : string * obj * obj * System.Reflection.MethodInfo * obj * System.Security.IPermission -&gt; System.Security.SecurityException" Usage="new System.Security.SecurityException (message, deny, permitOnly, method, demanded, permThatFailed)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="deny" Type="System.Object" />
-        <Parameter Name="permitOnly" Type="System.Object" />
-        <Parameter Name="method" Type="System.Reflection.MethodInfo" />
-        <Parameter Name="demanded" Type="System.Object" />
-        <Parameter Name="permThatFailed" Type="System.Security.IPermission" />
-      </Parameters>
-      <Docs>
-        <param name="message">The error message that explains the reason for the exception.</param>
-        <param name="deny">The denied permission or permission set.</param>
-        <param name="permitOnly">The permit-only permission or permission set.</param>
-        <param name="method">A <see cref="T:System.Reflection.MethodInfo" /> that identifies the method that encountered the exception.</param>
-        <param name="demanded">The demanded permission, permission set, or permission set collection.</param>
-        <param name="permThatFailed">An <see cref="T:System.Security.IPermission" /> that identifies the permission that failed.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Security.SecurityException" /> class for an exception caused by a Deny on the stack.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- Use this constructor if a frame that contains a Deny caused the demand failure. The following table shows the property values set by this constructor.  
-  
-|Property|Value|  
-|--------------|-----------|  
-|<xref:System.Exception.Message%2A>|The localized error message string specified by `message`.|  
-|<xref:System.Security.SecurityException.FirstPermissionThatFailed%2A>|The first permission in the permission set or permission set collection specified by `permThatFailed`.|  
-|<xref:System.Security.SecurityException.GrantedSet%2A>|An empty string.|  
-|<xref:System.Security.SecurityException.Demanded%2A>|The security permission, permission set, or permission set collection specified by `demanded`.|  
-|<xref:System.Security.SecurityException.RefusedSet%2A>|An empty string.|  
-|<xref:System.Security.SecurityException.DenySetInstance%2A>|The denied security permission, permission set, or permission set collection specified by `deny`.|  
-|<xref:System.Security.SecurityException.PermitOnlySetInstance%2A>|The permission, permission set, or permission set collection specified by `permitOnly`.|  
-|<xref:System.Security.SecurityException.FailedAssemblyInfo%2A>|`null`.|  
-|<xref:System.Security.SecurityException.Method%2A>|The <xref:System.Reflection.MethodInfo> specified by `method`.|  
-|<xref:System.Security.SecurityException.Zone%2A>|<xref:System.Security.SecurityZone.NoZone>.|  
-|<xref:System.Security.SecurityException.Url%2A>|An empty string.|  
-  
-   
-  
-## Examples  
- The following code example shows the use of the <xref:System.Security.SecurityException.%23ctor%28System.String%2CSystem.Object%2CSystem.Object%2CSystem.Reflection.MethodInfo%2CSystem.Object%2CSystem.Security.IPermission%29> constructor.  
-  
- [!code-cpp[System.Security.SecurityException#16](~/samples/snippets/cpp/VS_Snippets_CLR_System/system.Security.SecurityException/CPP/form1.cpp#16)]
- [!code-csharp[System.Security.SecurityException#16](~/samples/snippets/csharp/VS_Snippets_CLR_System/system.Security.SecurityException/CS/form1.cs#16)]
- [!code-vb[System.Security.SecurityException#16](~/samples/snippets/visualbasic/VS_Snippets_CLR_System/system.Security.SecurityException/VB/form1.vb#16)]  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SecurityException (string message, System.Reflection.AssemblyName assemblyName, System.Security.PermissionSet grant, System.Security.PermissionSet refused, System.Reflection.MethodInfo method, System.Security.Permissions.SecurityAction action, object demanded, System.Security.IPermission permThatFailed, System.Security.Policy.Evidence evidence);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Reflection.AssemblyName assemblyName, class System.Security.PermissionSet grant, class System.Security.PermissionSet refused, class System.Reflection.MethodInfo method, valuetype System.Security.Permissions.SecurityAction action, object demanded, class System.Security.IPermission permThatFailed, class System.Security.Policy.Evidence evidence) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.SecurityException.#ctor(System.String,System.Reflection.AssemblyName,System.Security.PermissionSet,System.Security.PermissionSet,System.Reflection.MethodInfo,System.Security.Permissions.SecurityAction,System.Object,System.Security.IPermission,System.Security.Policy.Evidence)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; SecurityException(System::String ^ message, System::Reflection::AssemblyName ^ assemblyName, System::Security::PermissionSet ^ grant, System::Security::PermissionSet ^ refused, System::Reflection::MethodInfo ^ method, System::Security::Permissions::SecurityAction action, System::Object ^ demanded, System::Security::IPermission ^ permThatFailed, System::Security::Policy::Evidence ^ evidence);" />
-      <MemberSignature Language="F#" Value="new System.Security.SecurityException : string * System.Reflection.AssemblyName * System.Security.PermissionSet * System.Security.PermissionSet * System.Reflection.MethodInfo * System.Security.Permissions.SecurityAction * obj * System.Security.IPermission * System.Security.Policy.Evidence -&gt; System.Security.SecurityException" Usage="new System.Security.SecurityException (message, assemblyName, grant, refused, method, action, demanded, permThatFailed, evidence)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="assemblyName" Type="System.Reflection.AssemblyName" />
-        <Parameter Name="grant" Type="System.Security.PermissionSet" />
-        <Parameter Name="refused" Type="System.Security.PermissionSet" />
-        <Parameter Name="method" Type="System.Reflection.MethodInfo" />
-        <Parameter Name="action" Type="System.Security.Permissions.SecurityAction" />
-        <Parameter Name="demanded" Type="System.Object" />
-        <Parameter Name="permThatFailed" Type="System.Security.IPermission" />
-        <Parameter Name="evidence" Type="System.Security.Policy.Evidence" />
-      </Parameters>
-      <Docs>
-        <param name="message">The error message that explains the reason for the exception.</param>
-        <param name="assemblyName">An <see cref="T:System.Reflection.AssemblyName" /> that specifies the name of the assembly that caused the exception.</param>
-        <param name="grant">A <see cref="T:System.Security.PermissionSet" /> that represents the permissions granted the assembly.</param>
-        <param name="refused">A <see cref="T:System.Security.PermissionSet" /> that represents the refused permission or permission set.</param>
-        <param name="method">A <see cref="T:System.Reflection.MethodInfo" /> that represents the method that encountered the exception.</param>
-        <param name="action">One of the <see cref="T:System.Security.Permissions.SecurityAction" /> values.</param>
-        <param name="demanded">The demanded permission, permission set, or permission set collection.</param>
-        <param name="permThatFailed">An <see cref="T:System.Security.IPermission" /> that represents the permission that failed.</param>
-        <param name="evidence">The <see cref="T:System.Security.Policy.Evidence" /> for the assembly that caused the exception.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Security.SecurityException" /> class for an exception caused by an insufficient grant set.</summary>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- Use this constructor to throw an exception when the grant set caused the failure of the demand.  
-  
- The following table shows the property values set by this constructor.  
-  
-|Property|Value|  
-|--------------|-----------|  
-|<xref:System.Exception.Message%2A>|The localized error message string specified by `message`.|  
-|<xref:System.Security.SecurityException.FirstPermissionThatFailed%2A>|The first permission in the permission set or permission set collection specified by `permThatFailed`.|  
-|<xref:System.Security.SecurityException.GrantedSet%2A>|The <xref:System.Security.PermissionSet> specified by `grant`.|  
-|<xref:System.Security.SecurityException.Demanded%2A>|The demanded security permission, permission set, or permission set collection that failed, specified by `demanded`.|  
-|<xref:System.Security.SecurityException.RefusedSet%2A>|The <xref:System.Security.PermissionSet> specified by `refused`.|  
-|<xref:System.Security.SecurityException.DenySetInstance%2A>|An empty string.|  
-|<xref:System.Security.SecurityException.PermitOnlySetInstance%2A>|An empty string.|  
-|<xref:System.Security.SecurityException.FailedAssemblyInfo%2A>|The <xref:System.Reflection.AssemblyName> specified by `assemblyName`.|  
-|<xref:System.Security.SecurityException.Method%2A>|The <xref:System.Reflection.MethodInfo> specified by `method`.|  
-|<xref:System.Security.SecurityException.Zone%2A>|The <xref:System.Security.SecurityZone> value  from the <xref:System.Security.Policy.Evidence> specified by `evidence`.|  
-|<xref:System.Security.SecurityException.Url%2A>|The URL from the <xref:System.Security.Policy.Evidence> specified by `evidence`.|  
-  
- ]]></format>
-        </remarks>
-        <altmember cref="P:System.Security.SecurityException.GrantedSet" />
-      </Docs>
-    </Member>
-    <Member MemberName="Action">
-      <MemberSignature Language="C#" Value="public System.Security.Permissions.SecurityAction Action { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Security.Permissions.SecurityAction Action" />
-      <MemberSignature Language="DocId" Value="P:System.Security.SecurityException.Action" />
-      <MemberSignature Language="VB.NET" Value="Public Property Action As SecurityAction" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Permissions::SecurityAction Action { System::Security::Permissions::SecurityAction get(); void set(System::Security::Permissions::SecurityAction value); };" />
-      <MemberSignature Language="F#" Value="member this.Action : System.Security.Permissions.SecurityAction with get, set" Usage="System.Security.SecurityException.Action" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Security.Permissions.SecurityAction</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the security action that caused the exception.</summary>
-        <value>One of the <see cref="T:System.Security.Permissions.SecurityAction" /> values.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.Security.SecurityException.Action%2A> property contains the security action that caused the security check failure. Many of the security actions can cause a security exception to be thrown. For example, a demand on a permission set checks that all callers on the call stack have the necessary permissions in the permission set. If any caller on the call stack lacks a required permission, the security check fails. Alternatively, a method in the call chain can modify the outcome of the stack walk by placing a stack walk modifier, such as <xref:System.Security.Permissions.SecurityAction.Deny> or <xref:System.Security.Permissions.SecurityAction.PermitOnly>, on the stack to limit the allowed permissions. For example, a method on the call stack might deny all of its callers a set of permissions named PSET1, such that any demand for a permission that is part of PSET1 fails for those callers. The <xref:System.Security.SecurityException.Action%2A> property contains the security action that caused the exception to be thrown.  
-  
- <xref:System.Security.Permissions.SecurityAction> is an enumeration in the <xref:System.Security.Permissions.SecurityAction> namespace that provides the security action value for the <xref:System.Security.SecurityException.Action%2A> property. Typically this property contains one of the values shown in the following table.  
-  
-|Security action|Description|  
-|---------------------|-----------------|  
-|<xref:System.Security.Permissions.SecurityAction.Demand>|A full stack walk failed due to a demand made against the assembly identified by the <xref:System.Security.SecurityException.FailedAssemblyInfo%2A> property.|  
-|<xref:System.Security.Permissions.SecurityAction.LinkDemand>|A link demand against the assembly identified by the <xref:System.Security.SecurityException.FailedAssemblyInfo%2A> property failed.|  
-|<xref:System.Security.Permissions.SecurityAction.InheritanceDemand>|An assembly identified by the <xref:System.Security.SecurityException.FailedAssemblyInfo%2A> property failed to meet an inheritance demand.|  
-|<xref:System.Security.Permissions.SecurityAction.PermitOnly>|A demanded permission did not match any permission in the <xref:System.Security.Permissions.SecurityAction.PermitOnly> permission set. The method that placed the <xref:System.Security.Permissions.SecurityAction.PermitOnly> on the call stack is identified by the <xref:System.Security.SecurityException.Method%2A> property.|  
-|<xref:System.Security.Permissions.SecurityAction.Deny>|A demanded permission matched a permission in the deny permission set on the call stack. The method that placed the <xref:System.Security.Permissions.SecurityAction.Deny> on the call stack is identified by the <xref:System.Security.SecurityException.Method%2A> property.|  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Demanded">
       <MemberSignature Language="C#" Value="public object Demanded { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Demanded" />
@@ -654,17 +434,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -714,17 +483,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -765,14 +523,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.AssemblyName</ReturnType>
       </ReturnValue>
@@ -796,51 +546,6 @@
  [!code-cpp[System.Security.SecurityException#12](~/samples/snippets/cpp/VS_Snippets_CLR_System/system.Security.SecurityException/CPP/form1.cpp#12)]
  [!code-csharp[System.Security.SecurityException#12](~/samples/snippets/csharp/VS_Snippets_CLR_System/system.Security.SecurityException/CS/form1.cs#12)]
  [!code-vb[System.Security.SecurityException#12](~/samples/snippets/visualbasic/VS_Snippets_CLR_System/system.Security.SecurityException/VB/form1.vb#12)]  
-  
- ]]></format>
-        </remarks>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to provide evidence and view and modify policy. Associated enumerations: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" />, <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlPolicy" /> Security action: <see cref="F:System.Security.Permissions.SecurityAction.Demand" /></permission>
-      </Docs>
-    </Member>
-    <Member MemberName="FirstPermissionThatFailed">
-      <MemberSignature Language="C#" Value="public System.Security.IPermission FirstPermissionThatFailed { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Security.IPermission FirstPermissionThatFailed" />
-      <MemberSignature Language="DocId" Value="P:System.Security.SecurityException.FirstPermissionThatFailed" />
-      <MemberSignature Language="VB.NET" Value="Public Property FirstPermissionThatFailed As IPermission" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::IPermission ^ FirstPermissionThatFailed { System::Security::IPermission ^ get(); void set(System::Security::IPermission ^ value); };" />
-      <MemberSignature Language="F#" Value="member this.FirstPermissionThatFailed : System.Security.IPermission with get, set" Usage="System.Security.SecurityException.FirstPermissionThatFailed" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Security.IPermission</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the first permission in a permission set or permission set collection that failed the demand.</summary>
-        <value>An <see cref="T:System.Security.IPermission" /> object representing the first permission that failed.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- If the demanded object is a permission set or permission set collection, the <xref:System.Security.SecurityException.FirstPermissionThatFailed%2A> represents only the first permission that caused the exception. Additional permissions in the set or collection can also cause a demand failure.  
   
  ]]></format>
         </remarks>
@@ -871,11 +576,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -934,11 +634,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -979,17 +674,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Reflection.MethodInfo</ReturnType>
       </ReturnValue>
@@ -1042,11 +726,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1081,11 +760,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
@@ -1118,17 +792,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -1172,11 +835,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1222,11 +880,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1267,11 +920,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName>get: System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -1280,35 +928,6 @@
         <value>A URL that identifies the location of the assembly.</value>
         <remarks>To be added.</remarks>
         <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to provide evidence and view and modify policy. Associated enumerations: <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlEvidence" />, <see cref="F:System.Security.Permissions.SecurityPermissionFlag.ControlPolicy" /> Security action: <see cref="F:System.Security.Permissions.SecurityAction.Demand" /></permission>
-      </Docs>
-    </Member>
-    <Member MemberName="Zone">
-      <MemberSignature Language="C#" Value="public System.Security.SecurityZone Zone { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Security.SecurityZone Zone" />
-      <MemberSignature Language="DocId" Value="P:System.Security.SecurityException.Zone" />
-      <MemberSignature Language="VB.NET" Value="Public Property Zone As SecurityZone" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::SecurityZone Zone { System::Security::SecurityZone get(); void set(System::Security::SecurityZone value); };" />
-      <MemberSignature Language="F#" Value="member this.Zone : System.Security.SecurityZone with get, set" Usage="System.Security.SecurityException.Zone" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mscorlib</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Runtime</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Security.SecurityZone</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the zone of the assembly that caused the exception.</summary>
-        <value>One of the <see cref="T:System.Security.SecurityZone" /> values that identifies the zone of the assembly that caused the exception.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

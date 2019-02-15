@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.Viewport3DVisual" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Viewport3DVisual&#xA;Inherits Visual" />
   <TypeSignature Language="C++ CLI" Value="public ref class Viewport3DVisual sealed : System::Windows::Media::Visual" />
-  <TypeSignature Language="F#" Value="type Viewport3DVisual = class&#xA;    inherit Visual&#xA;    interface DUCE.IResource" />
+  <TypeSignature Language="F#" Value="type Viewport3DVisual = class&#xA;    inherit Visual" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -68,9 +68,6 @@
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Obsolete("BitmapEffects are deprecated and no longer function.  Consider using Effects where appropriate instead.")</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5">
-          <AttributeName>System.Obsolete("Avoid using BitmapEffects as they have very poor performance characteristics.  They will be deprecated in a future version.  Consider using the UIElement.Effect property and ShaderEffects where appropriate instead.")</AttributeName>
-        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Media.Effects.BitmapEffect</ReturnType>
@@ -104,9 +101,6 @@
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName>System.Obsolete("BitmapEffects are deprecated and no longer function.  Consider using Effects where appropriate instead.")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5">
-          <AttributeName>System.Obsolete("Avoid using BitmapEffects as they have very poor performance characteristics.  They will be deprecated in a future version.  Consider using the UIElement.Effect property and ShaderEffects where appropriate instead.")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -186,9 +180,6 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Content)</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -283,7 +274,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Windows.Media.HitTestResult HitTest(valuetype System.Windows.Point point) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Viewport3DVisual.HitTest(System.Windows.Point)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Windows::Media::HitTestResult ^ HitTest(System::Windows::Point point);" />
-      <MemberSignature Language="F#" Value="override this.HitTest : System.Windows.Point -&gt; System.Windows.Media.HitTestResult" Usage="viewport3DVisual.HitTest point" />
+      <MemberSignature Language="F#" Value="member this.HitTest : System.Windows.Point -&gt; System.Windows.Media.HitTestResult" Usage="viewport3DVisual.HitTest point" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -308,7 +299,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void HitTest(class System.Windows.Media.HitTestFilterCallback filterCallback, class System.Windows.Media.HitTestResultCallback resultCallback, class System.Windows.Media.HitTestParameters hitTestParameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.Media3D.Viewport3DVisual.HitTest(System.Windows.Media.HitTestFilterCallback,System.Windows.Media.HitTestResultCallback,System.Windows.Media.HitTestParameters)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void HitTest(System::Windows::Media::HitTestFilterCallback ^ filterCallback, System::Windows::Media::HitTestResultCallback ^ resultCallback, System::Windows::Media::HitTestParameters ^ hitTestParameters);" />
-      <MemberSignature Language="F#" Value="override this.HitTest : System.Windows.Media.HitTestFilterCallback * System.Windows.Media.HitTestResultCallback * System.Windows.Media.HitTestParameters -&gt; unit" Usage="viewport3DVisual.HitTest (filterCallback, resultCallback, hitTestParameters)" />
+      <MemberSignature Language="F#" Value="member this.HitTest : System.Windows.Media.HitTestFilterCallback * System.Windows.Media.HitTestResultCallback * System.Windows.Media.HitTestParameters -&gt; unit" Usage="viewport3DVisual.HitTest (filterCallback, resultCallback, hitTestParameters)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

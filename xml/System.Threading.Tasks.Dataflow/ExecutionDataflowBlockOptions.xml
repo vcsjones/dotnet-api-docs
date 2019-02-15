@@ -12,16 +12,12 @@
     <AssemblyVersion>4.6.1.0</AssemblyVersion>
     <AssemblyVersion>4.6.2.0</AssemblyVersion>
     <AssemblyVersion>4.6.3.0</AssemblyVersion>
+    <AssemblyVersion>4.6.4.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Threading.Tasks.Dataflow.DataflowBlockOptions</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1;dotnet-uwp-10.0">
-      <AttributeName>System.Diagnostics.DebuggerDisplay("TaskScheduler = {TaskScheduler}, MaxMessagesPerTask = {MaxMessagesPerTask}, BoundedCapacity = {BoundedCapacity}, MaxDegreeOfParallelism = {MaxDegreeOfParallelism}")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Provides options used to configure the processing performed by dataflow blocks that process each message through the invocation of a user-provided delegate. These are dataflow blocks such as  <see cref="T:System.Threading.Tasks.Dataflow.ActionBlock`1" /> and  <see cref="T:System.Threading.Tasks.Dataflow.TransformBlock`2" />.</summary>
     <remarks>
@@ -63,6 +59,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -85,6 +82,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -110,6 +108,7 @@
         <AssemblyVersion>4.6.1.0</AssemblyVersion>
         <AssemblyVersion>4.6.2.0</AssemblyVersion>
         <AssemblyVersion>4.6.3.0</AssemblyVersion>
+        <AssemblyVersion>4.6.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

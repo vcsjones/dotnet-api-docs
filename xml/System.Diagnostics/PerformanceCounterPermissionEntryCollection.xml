@@ -1,6 +1,6 @@
 ﻿<Type Name="PerformanceCounterPermissionEntryCollection" FullName="System.Diagnostics.PerformanceCounterPermissionEntryCollection">
   <TypeSignature Language="C#" Value="public class PerformanceCounterPermissionEntryCollection : System.Collections.CollectionBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit PerformanceCounterPermissionEntryCollection extends System.Collections.CollectionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PerformanceCounterPermissionEntryCollection extends System.Collections.CollectionBase" />
   <TypeSignature Language="DocId" Value="T:System.Diagnostics.PerformanceCounterPermissionEntryCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class PerformanceCounterPermissionEntryCollection&#xA;Inherits CollectionBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class PerformanceCounterPermissionEntryCollection : System::Collections::CollectionBase" />
@@ -20,11 +20,6 @@
     <BaseTypeName>System.Collections.CollectionBase</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Contains a strongly typed collection of <see cref="T:System.Diagnostics.PerformanceCounterPermissionEntry" /> objects.</summary>
     <remarks>To be added.</remarks>
@@ -310,7 +305,7 @@
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.PerformanceCounterPermissionEntryCollection.OnClear" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnClear ()" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnClear();" />
-      <MemberSignature Language="F#" Value="override this.OnClear : unit -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnClear " />
+      <MemberSignature Language="F#" Value="abstract member OnClear : unit -&gt; unit&#xA;override this.OnClear : unit -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnClear " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -338,7 +333,7 @@
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.PerformanceCounterPermissionEntryCollection.OnInsert(System.Int32,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnInsert (index As Integer, value As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnInsert(int index, System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="override this.OnInsert : int * obj -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnInsert (index, value)" />
+      <MemberSignature Language="F#" Value="abstract member OnInsert : int * obj -&gt; unit&#xA;override this.OnInsert : int * obj -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnInsert (index, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -371,7 +366,7 @@
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.PerformanceCounterPermissionEntryCollection.OnRemove(System.Int32,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnRemove (index As Integer, value As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnRemove(int index, System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="override this.OnRemove : int * obj -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnRemove (index, value)" />
+      <MemberSignature Language="F#" Value="abstract member OnRemove : int * obj -&gt; unit&#xA;override this.OnRemove : int * obj -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnRemove (index, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -404,7 +399,7 @@
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.PerformanceCounterPermissionEntryCollection.OnSet(System.Int32,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub OnSet (index As Integer, oldValue As Object, newValue As Object)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void OnSet(int index, System::Object ^ oldValue, System::Object ^ newValue);" />
-      <MemberSignature Language="F#" Value="override this.OnSet : int * obj * obj -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnSet (index, oldValue, newValue)" />
+      <MemberSignature Language="F#" Value="abstract member OnSet : int * obj * obj -&gt; unit&#xA;override this.OnSet : int * obj * obj -&gt; unit" Usage="performanceCounterPermissionEntryCollection.OnSet (index, oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

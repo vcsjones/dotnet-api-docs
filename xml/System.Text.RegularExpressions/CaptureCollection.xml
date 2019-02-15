@@ -1,10 +1,10 @@
 ﻿<Type Name="CaptureCollection" FullName="System.Text.RegularExpressions.CaptureCollection">
-  <TypeSignature Language="C#" Value="public class CaptureCollection : System.Collections.ICollection" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CaptureCollection extends System.Object implements class System.Collections.ICollection, class System.Collections.IEnumerable" />
+  <TypeSignature Language="C#" Value="public class CaptureCollection : System.Collections.Generic.ICollection&lt;System.Text.RegularExpressions.Capture&gt;, System.Collections.Generic.IEnumerable&lt;System.Text.RegularExpressions.Capture&gt;, System.Collections.Generic.IList&lt;System.Text.RegularExpressions.Capture&gt;, System.Collections.Generic.IReadOnlyCollection&lt;System.Text.RegularExpressions.Capture&gt;, System.Collections.Generic.IReadOnlyList&lt;System.Text.RegularExpressions.Capture&gt;, System.Collections.IList" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CaptureCollection extends System.Object implements class System.Collections.Generic.ICollection`1&lt;class System.Text.RegularExpressions.Capture&gt;, class System.Collections.Generic.IEnumerable`1&lt;class System.Text.RegularExpressions.Capture&gt;, class System.Collections.Generic.IList`1&lt;class System.Text.RegularExpressions.Capture&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;class System.Text.RegularExpressions.Capture&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;class System.Text.RegularExpressions.Capture&gt;, class System.Collections.ICollection, class System.Collections.IEnumerable, class System.Collections.IList" />
   <TypeSignature Language="DocId" Value="T:System.Text.RegularExpressions.CaptureCollection" />
-  <TypeSignature Language="VB.NET" Value="Public Class CaptureCollection&#xA;Implements ICollection" />
-  <TypeSignature Language="C++ CLI" Value="public ref class CaptureCollection : System::Collections::ICollection" />
-  <TypeSignature Language="F#" Value="type CaptureCollection = class&#xA;    interface ICollection&#xA;    interface IEnumerable" />
+  <TypeSignature Language="VB.NET" Value="Public Class CaptureCollection&#xA;Implements ICollection(Of Capture), IEnumerable(Of Capture), IList, IList(Of Capture), IReadOnlyCollection(Of Capture), IReadOnlyList(Of Capture)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CaptureCollection : System::Collections::Generic::ICollection&lt;System::Text::RegularExpressions::Capture ^&gt;, System::Collections::Generic::IEnumerable&lt;System::Text::RegularExpressions::Capture ^&gt;, System::Collections::Generic::IList&lt;System::Text::RegularExpressions::Capture ^&gt;, System::Collections::Generic::IReadOnlyCollection&lt;System::Text::RegularExpressions::Capture ^&gt;, System::Collections::Generic::IReadOnlyList&lt;System::Text::RegularExpressions::Capture ^&gt;, System::Collections::IList" />
+  <TypeSignature Language="F#" Value="type CaptureCollection = class&#xA;    interface ICollection&lt;Capture&gt;&#xA;    interface seq&lt;Capture&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;Capture&gt;&#xA;    interface IReadOnlyCollection&lt;Capture&gt;&#xA;    interface IReadOnlyList&lt;Capture&gt;&#xA;    interface ICollection&#xA;    interface IList" />
   <AssemblyInfo>
     <AssemblyName>System.Text.RegularExpressions</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -30,17 +30,39 @@
   </Base>
   <Interfaces>
     <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Text.RegularExpressions.Capture&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Text.RegularExpressions.Capture&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IList&lt;System.Text.RegularExpressions.Capture&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Text.RegularExpressions.Capture&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;System.Text.RegularExpressions.Capture&gt;</InterfaceName>
+    </Interface>
+    <Interface>
       <InterfaceName>System.Collections.ICollection</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.IEnumerable</InterfaceName>
     </Interface>
+    <Interface>
+      <InterfaceName>System.Collections.IList</InterfaceName>
+    </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents the set of captures made by a single capturing group.</summary>
     <remarks>
@@ -179,6 +201,8 @@
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Text.RegularExpressions.CaptureCollection.Count" />
       <MemberType>Property</MemberType>
       <Implements>
+        <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyCollection`1.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
@@ -201,11 +225,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -271,6 +290,10 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReadOnly : bool" Usage="System.Text.RegularExpressions.CaptureCollection.IsReadOnly" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.ICollection`1.IsReadOnly</InterfaceMember>
+        <InterfaceMember>P:System.Collections.IList.IsReadOnly</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -352,6 +375,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::RegularExpressions::Capture ^ default[int] { System::Text::RegularExpressions::Capture ^ get(int i); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : System.Text.RegularExpressions.Capture" Usage="System.Text.RegularExpressions.CaptureCollection.Item" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.Generic.IReadOnlyList`1.Item(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Text.RegularExpressions</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -372,11 +398,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Text.RegularExpressions.Capture</ReturnType>
       </ReturnValue>
@@ -419,11 +440,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -739,112 +755,6 @@
       <Docs>
         <param name="index">To be added.</param>
         <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Collections.ICollection.CopyTo">
-      <MemberSignature Language="C#" Value="void ICollection.CopyTo (Array array, int arrayIndex);" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Collections.ICollection.CopyTo(class System.Array array, int32 arrayIndex) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.RegularExpressions.CaptureCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
-      <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.ICollection.CopyTo(Array ^ array, int arrayIndex) = System::Collections::ICollection::CopyTo;" />
-      <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Collections.ICollection.CopyTo(System.Array,System.Int32)</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.10.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyVersion>4.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="array" Type="System.Array" />
-        <Parameter Name="arrayIndex" Type="System.Int32" />
-      </Parameters>
-      <Docs>
-        <param name="array">The one-dimensional array the collection is to be copied into.</param>
-        <param name="arrayIndex">The zero-based index in the destination array where copying is to begin.</param>
-        <summary>Copies all the elements of the collection to the given array beginning at the given index.</summary>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="array" /> is null.</exception>
-        <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="arrayIndex" /> is outside the bounds of <paramref name="array" />.-or-<paramref name="arrayIndex" /> plus <see cref="P:System.Text.RegularExpressions.CaptureCollection.Count" /> is outside the bounds of <paramref name="array" />.</exception>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Collections.ICollection.IsSynchronized">
-      <MemberSignature Language="C#" Value="bool System.Collections.ICollection.IsSynchronized { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool System.Collections.ICollection.IsSynchronized" />
-      <MemberSignature Language="DocId" Value="P:System.Text.RegularExpressions.CaptureCollection.System#Collections#ICollection#IsSynchronized" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsSynchronized As Boolean Implements ICollection.IsSynchronized" />
-      <MemberSignature Language="C++ CLI" Value="property bool System::Collections::ICollection::IsSynchronized { bool get(); };" />
-      <MemberSignature Language="F#" Usage="System.Collections.ICollection.IsSynchronized" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.IsSynchronized</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.10.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyVersion>4.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a value that indicates whether access to the collection is synchronized (thread-safe).</summary>
-        <value>false in all cases.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="System.Collections.ICollection.SyncRoot">
-      <MemberSignature Language="C#" Value="object System.Collections.ICollection.SyncRoot { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance object System.Collections.ICollection.SyncRoot" />
-      <MemberSignature Language="DocId" Value="P:System.Text.RegularExpressions.CaptureCollection.System#Collections#ICollection#SyncRoot" />
-      <MemberSignature Language="VB.NET" Value=" ReadOnly Property SyncRoot As Object Implements ICollection.SyncRoot" />
-      <MemberSignature Language="C++ CLI" Value="property System::Object ^ System::Collections::ICollection::SyncRoot { System::Object ^ get(); };" />
-      <MemberSignature Language="F#" Usage="System.Collections.ICollection.SyncRoot" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.SyncRoot</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Text.RegularExpressions</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.10.0</AssemblyVersion>
-        <AssemblyVersion>4.1.0.0</AssemblyVersion>
-        <AssemblyVersion>4.1.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets an object that can be used to synchronize access to the collection.</summary>
-        <value>A object that can be used to synchronize access to the collection.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

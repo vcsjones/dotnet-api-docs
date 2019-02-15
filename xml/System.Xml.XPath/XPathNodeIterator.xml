@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Xml.XPath.XPathNodeIterator" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class XPathNodeIterator&#xA;Implements ICloneable, IEnumerable" />
   <TypeSignature Language="C++ CLI" Value="public ref class XPathNodeIterator abstract : ICloneable, System::Collections::IEnumerable" />
-  <TypeSignature Language="F#" Value="type XPathNodeIterator = class&#xA;    interface ICloneable&#xA;    interface IEnumerable" />
+  <TypeSignature Language="F#" Value="type XPathNodeIterator = class&#xA;    interface IEnumerable&#xA;    interface ICloneable" />
   <AssemblyInfo>
     <AssemblyName>System.Xml.XPath</AssemblyName>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
@@ -594,11 +594,6 @@
       <AssemblyInfo>
         <AssemblyName>System.Xml.XPath</AssemblyName>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>

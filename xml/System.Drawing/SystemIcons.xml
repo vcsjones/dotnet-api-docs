@@ -1,9 +1,9 @@
 ﻿<Type Name="SystemIcons" FullName="System.Drawing.SystemIcons">
-  <TypeSignature Language="C#" Value="public sealed class SystemIcons" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SystemIcons extends System.Object" />
+  <TypeSignature Language="C#" Value="public static class SystemIcons" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit SystemIcons extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Drawing.SystemIcons" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SystemIcons" />
-  <TypeSignature Language="C++ CLI" Value="public ref class SystemIcons sealed" />
+  <TypeSignature Language="VB.NET" Value="Public Class SystemIcons" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SystemIcons abstract sealed" />
   <TypeSignature Language="F#" Value="type SystemIcons = class" />
   <AssemblyInfo>
     <AssemblyName>System.Drawing</AssemblyName>

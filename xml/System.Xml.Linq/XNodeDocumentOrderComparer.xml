@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Xml.Linq.XNodeDocumentOrderComparer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class XNodeDocumentOrderComparer&#xA;Implements IComparer, IComparer(Of XNode)" />
   <TypeSignature Language="C++ CLI" Value="public ref class XNodeDocumentOrderComparer sealed : System::Collections::Generic::IComparer&lt;System::Xml::Linq::XNode ^&gt;, System::Collections::IComparer" />
-  <TypeSignature Language="F#" Value="type XNodeDocumentOrderComparer = class&#xA;    interface IComparer&#xA;    interface IComparer&lt;XNode&gt;" />
+  <TypeSignature Language="F#" Value="type XNodeDocumentOrderComparer = class&#xA;    interface IComparer&lt;XNode&gt;&#xA;    interface IComparer" />
   <AssemblyInfo>
     <AssemblyName>System.Xml.XDocument</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -72,11 +72,6 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Xml.Linq.XNodeDocumentOrderComparer" /> class.</summary>

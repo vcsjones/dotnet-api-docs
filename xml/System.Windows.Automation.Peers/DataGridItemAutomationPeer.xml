@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.DataGridItemAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DataGridItemAutomationPeer&#xA;Inherits ItemAutomationPeer&#xA;Implements IInvokeProvider, IItemContainerProvider, IScrollItemProvider, ISelectionItemProvider, ISelectionProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class DataGridItemAutomationPeer sealed : System::Windows::Automation::Peers::ItemAutomationPeer, System::Windows::Automation::Provider::IInvokeProvider, System::Windows::Automation::Provider::IItemContainerProvider, System::Windows::Automation::Provider::IScrollItemProvider, System::Windows::Automation::Provider::ISelectionItemProvider, System::Windows::Automation::Provider::ISelectionProvider" />
-  <TypeSignature Language="F#" Value="type DataGridItemAutomationPeer = class&#xA;    inherit ItemAutomationPeer&#xA;    interface IInvokeProvider&#xA;    interface IScrollItemProvider&#xA;    interface ISelectionItemProvider&#xA;    interface ISelectionProvider&#xA;    interface IItemContainerProvider" />
+  <TypeSignature Language="F#" Value="type DataGridItemAutomationPeer = class&#xA;    inherit ItemAutomationPeer&#xA;    interface IInvokeProvider&#xA;    interface IItemContainerProvider&#xA;    interface IScrollItemProvider&#xA;    interface ISelectionItemProvider&#xA;    interface ISelectionProvider" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

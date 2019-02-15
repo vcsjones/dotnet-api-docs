@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.FreezableCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public Class FreezableCollection(Of T)&#xA;Inherits Animatable&#xA;Implements ICollection(Of T), IEnumerable(Of T), IList, IList(Of T), INotifyCollectionChanged, INotifyPropertyChanged" />
   <TypeSignature Language="C++ CLI" Value="generic &lt;typename T&gt;&#xA; where T : DependencyObjectpublic ref class FreezableCollection : System::Windows::Media::Animation::Animatable, System::Collections::Generic::ICollection&lt;T&gt;, System::Collections::Generic::IEnumerable&lt;T&gt;, System::Collections::Generic::IList&lt;T&gt;, System::Collections::IList, System::Collections::Specialized::INotifyCollectionChanged, System::ComponentModel::INotifyPropertyChanged" />
-  <TypeSignature Language="F#" Value="type FreezableCollection&lt;'T (requires 'T :&gt; DependencyObject)&gt; = class&#xA;    inherit Animatable&#xA;    interface IList&#xA;    interface ICollection&#xA;    interface IEnumerable&#xA;    interface IList&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface ICollection&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface seq&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface INotifyCollectionChanged&#xA;    interface INotifyPropertyChanged" />
+  <TypeSignature Language="F#" Value="type FreezableCollection&lt;'T (requires 'T :&gt; DependencyObject)&gt; = class&#xA;    inherit Animatable&#xA;    interface ICollection&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface seq&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface IEnumerable&#xA;    interface IList&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface ICollection&#xA;    interface IList&#xA;    interface INotifyCollectionChanged&#xA;    interface INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -204,8 +204,8 @@
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="freezableCollection.Clear " />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.ICollection`1.Clear</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -258,7 +258,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.FreezableCollection`1.CloneCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CloneCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void CloneCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.CloneCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.CloneCore source" />
+      <MemberSignature Language="F#" Value="abstract member CloneCore : System.Windows.Freezable -&gt; unit&#xA;override this.CloneCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.CloneCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -294,7 +294,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.FreezableCollection`1.CloneCurrentValue" />
       <MemberSignature Language="VB.NET" Value="Public Function CloneCurrentValue () As FreezableCollection(Of T)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Windows::FreezableCollection&lt;T&gt; ^ CloneCurrentValue();" />
-      <MemberSignature Language="F#" Value="override this.CloneCurrentValue : unit -&gt; System.Windows.FreezableCollection&lt;'T (requires 'T :&gt; System.Windows.DependencyObject)&gt;" Usage="freezableCollection.CloneCurrentValue " />
+      <MemberSignature Language="F#" Value="member this.CloneCurrentValue : unit -&gt; System.Windows.FreezableCollection&lt;'T (requires 'T :&gt; System.Windows.DependencyObject)&gt;" Usage="freezableCollection.CloneCurrentValue " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -325,7 +325,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.FreezableCollection`1.CloneCurrentValueCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub CloneCurrentValueCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void CloneCurrentValueCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.CloneCurrentValueCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.CloneCurrentValueCore source" />
+      <MemberSignature Language="F#" Value="abstract member CloneCurrentValueCore : System.Windows.Freezable -&gt; unit&#xA;override this.CloneCurrentValueCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.CloneCurrentValueCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -436,8 +436,8 @@
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Windows.FreezableCollection&lt;'T (requires 'T :&gt; System.Windows.DependencyObject)&gt;.Count" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
         <InterfaceMember>P:System.Collections.Generic.ICollection`1.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -459,7 +459,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.FreezableCollection`1.CreateInstanceCore" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function CreateInstanceCore () As Freezable" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::Windows::Freezable ^ CreateInstanceCore();" />
-      <MemberSignature Language="F#" Value="override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="freezableCollection.CreateInstanceCore " />
+      <MemberSignature Language="F#" Value="abstract member CreateInstanceCore : unit -&gt; System.Windows.Freezable&#xA;override this.CreateInstanceCore : unit -&gt; System.Windows.Freezable" Usage="freezableCollection.CreateInstanceCore " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -541,7 +541,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.FreezableCollection`1.GetAsFrozenCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub GetAsFrozenCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void GetAsFrozenCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.GetAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.GetAsFrozenCore source" />
+      <MemberSignature Language="F#" Value="abstract member GetAsFrozenCore : System.Windows.Freezable -&gt; unit&#xA;override this.GetAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.GetAsFrozenCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -577,7 +577,7 @@
       <MemberSignature Language="DocId" Value="M:System.Windows.FreezableCollection`1.GetCurrentValueAsFrozenCore(System.Windows.Freezable)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub GetCurrentValueAsFrozenCore (source As Freezable)" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void GetCurrentValueAsFrozenCore(System::Windows::Freezable ^ source);" />
-      <MemberSignature Language="F#" Value="override this.GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.GetCurrentValueAsFrozenCore source" />
+      <MemberSignature Language="F#" Value="abstract member GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit&#xA;override this.GetCurrentValueAsFrozenCore : System.Windows.Freezable -&gt; unit" Usage="freezableCollection.GetCurrentValueAsFrozenCore source" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
@@ -775,8 +775,8 @@
       <MemberSignature Language="F#" Value="abstract member RemoveAt : int -&gt; unit&#xA;override this.RemoveAt : int -&gt; unit" Usage="freezableCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
         <InterfaceMember>M:System.Collections.Generic.IList`1.RemoveAt(System.Int32)</InterfaceMember>
+        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>

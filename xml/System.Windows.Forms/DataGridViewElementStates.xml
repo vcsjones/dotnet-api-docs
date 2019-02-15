@@ -17,9 +17,6 @@
     <Attribute>
       <AttributeName>System.Flags</AttributeName>
     </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
   </Attributes>
   <Docs>
     <summary>Specifies the user interface (UI) state of a element within a <see cref="T:System.Windows.Forms.DataGridView" /> control.</summary>

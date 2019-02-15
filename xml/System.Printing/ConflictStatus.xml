@@ -13,11 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Specifies whether any changes were made to a merged <see cref="T:System.Printing.PrintTicket" /> to ensure a viable <see cref="T:System.Printing.PrintTicket" />.</summary>
     <remarks>

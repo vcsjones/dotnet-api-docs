@@ -1,6 +1,6 @@
 ﻿<Type Name="IndexOutOfRangeException" FullName="System.IndexOutOfRangeException">
   <TypeSignature Language="C#" Value="public sealed class IndexOutOfRangeException : SystemException" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit IndexOutOfRangeException extends System.SystemException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit IndexOutOfRangeException extends System.SystemException" />
   <TypeSignature Language="DocId" Value="T:System.IndexOutOfRangeException" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class IndexOutOfRangeException&#xA;Inherits SystemException" />
   <TypeSignature Language="C++ CLI" Value="public ref class IndexOutOfRangeException sealed : SystemException" />
@@ -30,14 +30,6 @@
     <BaseTypeName FrameworkAlternate="netframework-4.5">System.SystemException</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netframework-4.8">
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>The exception that is thrown when an attempt is made to access an element of an array or collection with an index that is outside its bounds.</summary>
     <remarks>

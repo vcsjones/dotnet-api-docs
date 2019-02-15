@@ -1,6 +1,6 @@
 ﻿<Type Name="ContextMenuService" FullName="System.Windows.Controls.ContextMenuService">
   <TypeSignature Language="C#" Value="public static class ContextMenuService" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed ContextMenuService extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ContextMenuService extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.ContextMenuService" />
   <TypeSignature Language="VB.NET" Value="Public Class ContextMenuService" />
   <TypeSignature Language="C++ CLI" Value="public ref class ContextMenuService abstract sealed" />

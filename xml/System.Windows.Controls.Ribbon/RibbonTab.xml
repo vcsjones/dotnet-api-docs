@@ -1,6 +1,6 @@
 ﻿<Type Name="RibbonTab" FullName="System.Windows.Controls.Ribbon.RibbonTab">
   <TypeSignature Language="C#" Value="public class RibbonTab : System.Windows.Controls.HeaderedItemsControl" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi RibbonTab extends System.Windows.Controls.HeaderedItemsControl" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RibbonTab extends System.Windows.Controls.HeaderedItemsControl" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Ribbon.RibbonTab" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonTab&#xA;Inherits HeaderedItemsControl" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonTab : System::Windows::Controls::HeaderedItemsControl" />
@@ -340,11 +340,11 @@
       </Docs>
     </Member>
     <Member MemberName="HandlesScrolling">
-      <MemberSignature Language="C#" Value="protected internal override bool HandlesScrolling { get; }" />
+      <MemberSignature Language="C#" Value="protected override bool HandlesScrolling { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HandlesScrolling" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Controls.Ribbon.RibbonTab.HandlesScrolling" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides ReadOnly Property HandlesScrolling As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual property bool HandlesScrolling { bool get(); };" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property HandlesScrolling As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property bool HandlesScrolling { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.HandlesScrolling : bool" Usage="System.Windows.Controls.Ribbon.RibbonTab.HandlesScrolling" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>

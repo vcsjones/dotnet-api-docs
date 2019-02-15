@@ -1,6 +1,6 @@
 ﻿<Type Name="EventLogPermission" FullName="System.Diagnostics.EventLogPermission">
   <TypeSignature Language="C#" Value="public sealed class EventLogPermission : System.Security.Permissions.ResourcePermissionBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit EventLogPermission extends System.Security.Permissions.ResourcePermissionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EventLogPermission extends System.Security.Permissions.ResourcePermissionBase" />
   <TypeSignature Language="DocId" Value="T:System.Diagnostics.EventLogPermission" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EventLogPermission&#xA;Inherits ResourcePermissionBase" />
   <TypeSignature Language="C++ CLI" Value="public ref class EventLogPermission sealed : System::Security::Permissions::ResourcePermissionBase" />
@@ -20,11 +20,6 @@
     <BaseTypeName>System.Security.Permissions.ResourcePermissionBase</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
-      <AttributeName>System.Serializable</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Controls code access permissions for event logging.</summary>
     <remarks>

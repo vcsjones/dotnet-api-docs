@@ -1,6 +1,6 @@
 ﻿<Type Name="BulletChrome" FullName="Microsoft.Windows.Themes.BulletChrome">
   <TypeSignature Language="C#" Value="public sealed class BulletChrome : System.Windows.FrameworkElement" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BulletChrome extends System.Windows.FrameworkElement" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit BulletChrome extends System.Windows.FrameworkElement" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Windows.Themes.BulletChrome" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class BulletChrome&#xA;Inherits FrameworkElement" />
   <TypeSignature Language="C++ CLI" Value="public ref class BulletChrome sealed : System::Windows::FrameworkElement" />
@@ -80,11 +80,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:Microsoft.Windows.Themes.BulletChrome" /> class.</summary>
@@ -271,36 +266,19 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Luna</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Royale</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Thickness</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets the thickness used to draw the outer border of the <see cref="P:System.Windows.Controls.Primitives.BulletDecorator.Bullet" />.</summary>
-        <value>The thickness used to draw the border of the <see cref="P:System.Windows.Controls.Primitives.BulletDecorator.Bullet" />.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- This property is not available in the [!INCLUDE[TLA#tla_aero](~/includes/tlasharptla-aero-md.md)] theme.  
-  
-<a name="dependencyPropertyInfo_BorderThickness"></a>   
-## Dependency Property Information  
-  
-|||  
-|-|-|  
-|Identifier field|<xref:Microsoft.Windows.Themes.BulletChrome.BorderThicknessProperty>|  
-|Metadata properties set to `true`|<xref:System.Windows.FrameworkPropertyMetadata.AffectsMeasure%2A>, <xref:System.Windows.FrameworkPropertyMetadata.AffectsRender%2A>|  
-  
- ]]></format>
-        </remarks>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BorderThicknessProperty">
@@ -313,19 +291,17 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Luna</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework.Royale</AssemblyName>
-        <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.DependencyProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the <see cref="P:Microsoft.Windows.Themes.BulletChrome.BorderThickness" /> dependency property.</summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

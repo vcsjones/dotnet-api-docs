@@ -1,6 +1,6 @@
 ﻿<Type Name="XslCompiledTransform" FullName="System.Xml.Xsl.XslCompiledTransform">
   <TypeSignature Language="C#" Value="public sealed class XslCompiledTransform" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XslCompiledTransform extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit XslCompiledTransform extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Xml.Xsl.XslCompiledTransform" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class XslCompiledTransform" />
   <TypeSignature Language="C++ CLI" Value="public ref class XslCompiledTransform sealed" />
@@ -119,11 +119,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Xml.Xsl.XslCompiledTransform" /> class.</summary>
@@ -154,11 +149,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="enableDebug" Type="System.Boolean" />
       </Parameters>
@@ -193,54 +183,6 @@
  ]]></format>
         </remarks>
         <related type="Article" href="https://msdn.microsoft.com/library/f9b074f6-d6f4-49dd-a093-df510bf0cf7b">Using the XslCompiledTransform Class</related>
-      </Docs>
-    </Member>
-    <Member MemberName="CompileToType">
-      <MemberSignature Language="C#" Value="public static System.CodeDom.Compiler.CompilerErrorCollection CompileToType (System.Xml.XmlReader stylesheet, System.Xml.Xsl.XsltSettings settings, System.Xml.XmlResolver stylesheetResolver, bool debug, System.Reflection.Emit.TypeBuilder typeBuilder, string scriptAssemblyPath);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.CodeDom.Compiler.CompilerErrorCollection CompileToType(class System.Xml.XmlReader stylesheet, class System.Xml.Xsl.XsltSettings settings, class System.Xml.XmlResolver stylesheetResolver, bool debug, class System.Reflection.Emit.TypeBuilder typeBuilder, string scriptAssemblyPath) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Xsl.XslCompiledTransform.CompileToType(System.Xml.XmlReader,System.Xml.Xsl.XsltSettings,System.Xml.XmlResolver,System.Boolean,System.Reflection.Emit.TypeBuilder,System.String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::CodeDom::Compiler::CompilerErrorCollection ^ CompileToType(System::Xml::XmlReader ^ stylesheet, System::Xml::Xsl::XsltSettings ^ settings, System::Xml::XmlResolver ^ stylesheetResolver, bool debug, System::Reflection::Emit::TypeBuilder ^ typeBuilder, System::String ^ scriptAssemblyPath);" />
-      <MemberSignature Language="F#" Value="static member CompileToType : System.Xml.XmlReader * System.Xml.Xsl.XsltSettings * System.Xml.XmlResolver * bool * System.Reflection.Emit.TypeBuilder * string -&gt; System.CodeDom.Compiler.CompilerErrorCollection" Usage="System.Xml.Xsl.XslCompiledTransform.CompileToType (stylesheet, settings, stylesheetResolver, debug, typeBuilder, scriptAssemblyPath)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.ReaderWriter</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.CodeDom.Compiler.CompilerErrorCollection</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="stylesheet" Type="System.Xml.XmlReader" />
-        <Parameter Name="settings" Type="System.Xml.Xsl.XsltSettings" />
-        <Parameter Name="stylesheetResolver" Type="System.Xml.XmlResolver" />
-        <Parameter Name="debug" Type="System.Boolean" />
-        <Parameter Name="typeBuilder" Type="System.Reflection.Emit.TypeBuilder" />
-        <Parameter Name="scriptAssemblyPath" Type="System.String" />
-      </Parameters>
-      <Docs>
-        <param name="stylesheet">An <see cref="T:System.Xml.XmlReader" /> positioned at the beginning of the style sheet to be compiled.</param>
-        <param name="settings">The <see cref="T:System.Xml.Xsl.XsltSettings" /> to be applied to the style sheet. If this is <see langword="null" />, the <see cref="P:System.Xml.Xsl.XsltSettings.Default" /> will be applied.</param>
-        <param name="stylesheetResolver">The <see cref="T:System.Xml.XmlResolver" /> use to resolve style sheet modules referenced in <see langword="xsl:import" /> and <see langword="xsl:include" /> elements. If this is <see langword="null" />, external resources will not be resolved.</param>
-        <param name="debug">Setting this to <see langword="true" /> enables debugging the style sheet with a debugger.</param>
-        <param name="typeBuilder">The <see cref="T:System.Reflection.Emit.TypeBuilder" /> used for the style sheet compilation. The provided TypeBuilder is used to generate the resulting type.</param>
-        <param name="scriptAssemblyPath">The base path for the assemblies generated for <see langword="msxsl:script" /> elements. If only one script assembly is generated, this parameter specifies the path for that assembly. In case of multiple script assemblies, a distinctive suffix will be appended to the file name to ensure uniqueness of assembly names.</param>
-        <summary>Compiles an XSLT style sheet to a specified type.</summary>
-        <returns>A <see cref="T:System.CodeDom.Compiler.CompilerErrorCollection" /> object containing compiler errors and warnings that indicate the results of the compilation.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The `xsltc.exe` tool is a wrapper around the <xref:System.Xml.Xsl.XslCompiledTransform.CompileToType%2A> method. Compiling style sheets with the `xsltc.exe` will meet the demands of most applications that leverage the use of compiled style sheets. The <xref:System.Xml.Xsl.XslCompiledTransform.CompileToType%2A> method should be used when building custom compilation tools.  
-  
- ]]></format>
-        </remarks>
       </Docs>
     </Member>
     <MemberGroup MemberName="Load">
@@ -818,11 +760,6 @@ xslt.Load(typeof(bookOrders));
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Xml.XmlWriterSettings</ReturnType>
       </ReturnValue>
@@ -852,53 +789,6 @@ xslt.Load(typeof(bookOrders));
  `outputConsole.xsl`  
   
  [!code-xml[XslCompiledTransform.OutputSettings#3](~/samples/snippets/xml/VS_Snippets_Data/XslCompiledTransform.OutputSettings/XML/outputConsole.xsl#3)]  
-  
- ]]></format>
-        </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/f9b074f6-d6f4-49dd-a093-df510bf0cf7b">Using the XslCompiledTransform Class</related>
-      </Docs>
-    </Member>
-    <Member MemberName="TemporaryFiles">
-      <MemberSignature Language="C#" Value="public System.CodeDom.Compiler.TempFileCollection TemporaryFiles { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.CodeDom.Compiler.TempFileCollection TemporaryFiles" />
-      <MemberSignature Language="DocId" Value="P:System.Xml.Xsl.XslCompiledTransform.TemporaryFiles" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TemporaryFiles As TempFileCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::CodeDom::Compiler::TempFileCollection ^ TemporaryFiles { System::CodeDom::Compiler::TempFileCollection ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.TemporaryFiles : System.CodeDom.Compiler.TempFileCollection" Usage="System.Xml.Xsl.XslCompiledTransform.TemporaryFiles" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Xml.ReaderWriter</AssemblyName>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.CodeDom.Compiler.TempFileCollection</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets the <see cref="T:System.CodeDom.Compiler.TempFileCollection" /> that contains the temporary files generated on disk after a successful call to the <see cref="Overload:System.Xml.Xsl.XslCompiledTransform.Load" /> method.</summary>
-        <value>The <see cref="T:System.CodeDom.Compiler.TempFileCollection" /> that contains the temporary files generated on disk. This value is <see langword="null" /> if the <see cref="Overload:System.Xml.Xsl.XslCompiledTransform.Load" /> method has not been successfully called, or if debugging has not been enabled.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- This property identifies the files that were generated during XSLT processing. The files are placed in your Temp directory (specified by the %TEMP% environment variable) You can delete these files after the XSLT processing has completed.  
-  
-   
-  
-## Examples  
- The following example writes the names of temporary files to the console.  
-  
-> [!NOTE]
->  Temporary files are created only when loading style sheets with \<msxsl:script> blocks.  
-  
- [!code-csharp[XslCompiledTransform.Transform#8](~/samples/snippets/csharp/VS_Snippets_Data/XslCompiledTransform.Transform/CS/Xslt_Transform_v2.cs#8)]
- [!code-vb[XslCompiledTransform.Transform#8](~/samples/snippets/visualbasic/VS_Snippets_Data/XslCompiledTransform.Transform/VB/Xslt_Transform_v2.vb#8)]  
   
  ]]></format>
         </remarks>

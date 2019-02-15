@@ -1,9 +1,9 @@
 ﻿<Type Name="WindowsFormsHost" FullName="System.Windows.Forms.Integration.WindowsFormsHost">
-  <TypeSignature Language="C#" Value="public class WindowsFormsHost : System.Windows.Interop.HwndHost, System.Windows.Interop.IKeyboardInputSink" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi WindowsFormsHost extends System.Windows.Interop.HwndHost implements class System.Windows.Interop.IKeyboardInputSink" />
+  <TypeSignature Language="C#" Value="public class WindowsFormsHost : System.Windows.Interop.HwndHost" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WindowsFormsHost extends System.Windows.Interop.HwndHost implements class System.Windows.Interop.IKeyboardInputSink" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.Integration.WindowsFormsHost" />
-  <TypeSignature Language="VB.NET" Value="Public Class WindowsFormsHost&#xA;Inherits HwndHost&#xA;Implements IKeyboardInputSink" />
-  <TypeSignature Language="C++ CLI" Value="public ref class WindowsFormsHost : System::Windows::Interop::HwndHost, System::Windows::Interop::IKeyboardInputSink" />
+  <TypeSignature Language="VB.NET" Value="Public Class WindowsFormsHost&#xA;Inherits HwndHost" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WindowsFormsHost : System::Windows::Interop::HwndHost" />
   <TypeSignature Language="F#" Value="type WindowsFormsHost = class&#xA;    inherit HwndHost&#xA;    interface IKeyboardInputSink" />
   <AssemblyInfo>
     <AssemblyName>WindowsFormsIntegration</AssemblyName>
@@ -277,7 +277,7 @@
       <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Windows.Forms.Integration.ChildChangedEventArgs&gt; ChildChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Windows.Forms.Integration.ChildChangedEventArgs&gt; ChildChanged" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Forms.Integration.WindowsFormsHost.ChildChanged" />
-      <MemberSignature Language="VB.NET" Value="Public Event ChildChanged As EventHandler(Of ChildChangedEventArgs) " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ChildChanged As EventHandler(Of ChildChangedEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Windows::Forms::Integration::ChildChangedEventArgs ^&gt; ^ ChildChanged;" />
       <MemberSignature Language="F#" Value="member this.ChildChanged : EventHandler&lt;System.Windows.Forms.Integration.ChildChangedEventArgs&gt; " Usage="member this.ChildChanged : System.EventHandler&lt;System.Windows.Forms.Integration.ChildChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
@@ -779,14 +779,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>add: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>remove: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;System.Windows.Forms.Integration.LayoutExceptionEventArgs&gt;</ReturnType>
       </ReturnValue>
@@ -990,11 +982,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.Integration.PropertyMap</ReturnType>
       </ReturnValue>
@@ -1140,9 +1127,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool TabInto(System::Windows::Input::TraversalRequest ^ request);" />
       <MemberSignature Language="F#" Value="abstract member TabInto : System.Windows.Input.TraversalRequest -&gt; bool&#xA;override this.TabInto : System.Windows.Input.TraversalRequest -&gt; bool" Usage="windowsFormsHost.TabInto request" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.Windows.Interop.IKeyboardInputSink.TabInto(System.Windows.Input.TraversalRequest)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>WindowsFormsIntegration</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>

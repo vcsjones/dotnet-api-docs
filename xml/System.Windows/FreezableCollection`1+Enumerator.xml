@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.FreezableCollection`1.Enumerator" />
   <TypeSignature Language="VB.NET" Value="Public Structure FreezableCollection(Of T).Enumerator&#xA;Implements IEnumerator(Of T)" />
   <TypeSignature Language="C++ CLI" Value="public:  where T : DependencyObjectvalue class FreezableCollection&lt;T&gt;::Enumerator : System::Collections::Generic::IEnumerator&lt;T&gt;" />
-  <TypeSignature Language="F#" Value="type FreezableCollection&lt;'T (requires 'T :&gt; DependencyObject)&gt;.Enumerator = struct&#xA;    interface IEnumerator&#xA;    interface IEnumerator&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface IDisposable" />
+  <TypeSignature Language="F#" Value="type FreezableCollection&lt;'T (requires 'T :&gt; DependencyObject)&gt;.Enumerator = struct&#xA;    interface IEnumerator&lt;'T (requires 'T :&gt; DependencyObject)&gt;&#xA;    interface IEnumerator&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

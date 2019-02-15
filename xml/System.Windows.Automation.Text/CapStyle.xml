@@ -13,14 +13,6 @@
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.Guid("4E33C74B-7848-4f1e-B819-A0D866C2EA1F")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents values for <see cref="F:System.Windows.Automation.TextPattern.CapStyleAttribute" />.</summary>
     <remarks>To be added.</remarks>

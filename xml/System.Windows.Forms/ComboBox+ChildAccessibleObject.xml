@@ -15,11 +15,6 @@
     <BaseTypeName>System.Windows.Forms.AccessibleObject</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Runtime.InteropServices.ComVisible(true)</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Provides information about the <see cref="T:System.Windows.Forms.ComboBox" /> control to accessibility client applications.</summary>
     <remarks>

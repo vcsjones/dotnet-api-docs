@@ -18,11 +18,6 @@
       <InterfaceName>System.Xml.Serialization.IXmlSerializable</InterfaceName>
     </Interface>
   </Interfaces>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.Xml.Serialization.XmlRoot(ElementName="ContentLocatorGroup", Namespace="http://schemas.microsoft.com/windows/annotations/2003/11/core")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>Represents an ordered set of <see cref="T:System.Windows.Annotations.ContentLocator" /> elements that identify an item of content.</summary>
     <remarks>
@@ -133,11 +128,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.Collection&lt;System.Windows.Annotations.ContentLocator&gt;</ReturnType>
       </ReturnValue>

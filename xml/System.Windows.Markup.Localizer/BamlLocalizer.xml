@@ -57,11 +57,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="source" Type="System.IO.Stream" />
       </Parameters>
@@ -86,11 +81,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="source" Type="System.IO.Stream" />
         <Parameter Name="resolver" Type="System.Windows.Markup.Localizer.BamlLocalizabilityResolver" />
@@ -138,7 +128,7 @@
       <MemberSignature Language="C#" Value="public event System.Windows.Markup.Localizer.BamlLocalizerErrorNotifyEventHandler ErrorNotify;" />
       <MemberSignature Language="ILAsm" Value=".event class System.Windows.Markup.Localizer.BamlLocalizerErrorNotifyEventHandler ErrorNotify" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Markup.Localizer.BamlLocalizer.ErrorNotify" />
-      <MemberSignature Language="VB.NET" Value="Public Event ErrorNotify As BamlLocalizerErrorNotifyEventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event ErrorNotify As BamlLocalizerErrorNotifyEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Windows::Markup::Localizer::BamlLocalizerErrorNotifyEventHandler ^ ErrorNotify;" />
       <MemberSignature Language="F#" Value="member this.ErrorNotify : System.Windows.Markup.Localizer.BamlLocalizerErrorNotifyEventHandler " Usage="member this.ErrorNotify : System.Windows.Markup.Localizer.BamlLocalizerErrorNotifyEventHandler " />
       <MemberType>Event</MemberType>

@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.RibbonSplitButtonAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonSplitButtonAutomationPeer&#xA;Inherits RibbonMenuButtonAutomationPeer&#xA;Implements IInvokeProvider, IToggleProvider" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonSplitButtonAutomationPeer : System::Windows::Automation::Peers::RibbonMenuButtonAutomationPeer, System::Windows::Automation::Provider::IInvokeProvider, System::Windows::Automation::Provider::IToggleProvider" />
-  <TypeSignature Language="F#" Value="type RibbonSplitButtonAutomationPeer = class&#xA;    inherit RibbonMenuButtonAutomationPeer&#xA;    interface IToggleProvider&#xA;    interface IInvokeProvider" />
+  <TypeSignature Language="F#" Value="type RibbonSplitButtonAutomationPeer = class&#xA;    inherit RibbonMenuButtonAutomationPeer&#xA;    interface IInvokeProvider&#xA;    interface IToggleProvider" />
   <AssemblyInfo>
     <AssemblyName>System.Windows.Controls.Ribbon</AssemblyName>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>

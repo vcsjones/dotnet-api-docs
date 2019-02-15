@@ -1,6 +1,6 @@
 ﻿<Type Name="VBFixedArrayAttribute" FullName="Microsoft.VisualBasic.VBFixedArrayAttribute">
   <TypeSignature Language="C#" Value="public sealed class VBFixedArrayAttribute : Attribute" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed VBFixedArrayAttribute extends System.Attribute" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit VBFixedArrayAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.VBFixedArrayAttribute" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class VBFixedArrayAttribute&#xA;Inherits Attribute" />
   <TypeSignature Language="C++ CLI" Value="public ref class VBFixedArrayAttribute sealed : Attribute" />
@@ -10,6 +10,10 @@
     <AssemblyVersion>7.0.5000.0</AssemblyVersion>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <AssemblyVersion>10.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+    <AssemblyVersion>10.0.4.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -56,7 +60,7 @@
     </MemberGroup>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public VBFixedArrayAttribute (int UpperBound1);" />
-      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor(int32 UpperBound1) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 UpperBound1) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.VBFixedArrayAttribute.#ctor(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (UpperBound1 As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; VBFixedArrayAttribute(int UpperBound1);" />
@@ -67,6 +71,10 @@
         <AssemblyVersion>7.0.5000.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="UpperBound1" Type="System.Int32" />
@@ -89,7 +97,7 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public VBFixedArrayAttribute (int UpperBound1, int UpperBound2);" />
-      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor(int32 UpperBound1, int32 UpperBound2) cil managed" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 UpperBound1, int32 UpperBound2) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.VBFixedArrayAttribute.#ctor(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (UpperBound1 As Integer, UpperBound2 As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; VBFixedArrayAttribute(int UpperBound1, int UpperBound2);" />
@@ -100,6 +108,10 @@
         <AssemblyVersion>7.0.5000.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="UpperBound1" Type="System.Int32" />
@@ -136,6 +148,10 @@
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32[]</ReturnType>
       </ReturnValue>
@@ -167,6 +183,10 @@
         <AssemblyVersion>7.0.5000.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>10.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
+        <AssemblyVersion>10.0.4.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

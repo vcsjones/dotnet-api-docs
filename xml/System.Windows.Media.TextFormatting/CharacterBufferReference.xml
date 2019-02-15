@@ -49,9 +49,6 @@
         <Attribute>
           <AttributeName>System.CLSCompliant(false)</AttributeName>
         </Attribute>
-        <Attribute>
-          <AttributeName>System.Security.SecurityCritical</AttributeName>
-        </Attribute>
       </Attributes>
       <Parameters>
         <Parameter Name="unsafeCharacterString" Type="System.Char*" />

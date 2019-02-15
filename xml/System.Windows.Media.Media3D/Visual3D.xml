@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.Media3D.Visual3D" />
   <TypeSignature Language="VB.NET" Value="Public MustInherit Class Visual3D&#xA;Inherits DependencyObject&#xA;Implements IAnimatable" />
   <TypeSignature Language="C++ CLI" Value="public ref class Visual3D abstract : System::Windows::DependencyObject, System::Windows::Media::Animation::IAnimatable" />
-  <TypeSignature Language="F#" Value="type Visual3D = class&#xA;    inherit DependencyObject&#xA;    interface DUCE.IResource&#xA;    interface IAnimatable" />
+  <TypeSignature Language="F#" Value="type Visual3D = class&#xA;    inherit DependencyObject&#xA;    interface IAnimatable" />
   <AssemblyInfo>
     <AssemblyName>PresentationCore</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -95,11 +95,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -170,11 +165,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>

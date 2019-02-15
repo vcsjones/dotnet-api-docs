@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:System.Windows.Automation.Peers.GridViewAutomationPeer" />
   <TypeSignature Language="VB.NET" Value="Public Class GridViewAutomationPeer&#xA;Implements ITableProvider, IViewAutomationPeer" />
   <TypeSignature Language="C++ CLI" Value="public ref class GridViewAutomationPeer : System::Windows::Automation::Peers::IViewAutomationPeer, System::Windows::Automation::Provider::ITableProvider" />
-  <TypeSignature Language="F#" Value="type GridViewAutomationPeer = class&#xA;    interface IViewAutomationPeer&#xA;    interface ITableProvider&#xA;    interface IGridProvider" />
+  <TypeSignature Language="F#" Value="type GridViewAutomationPeer = class&#xA;    interface IViewAutomationPeer&#xA;    interface IGridProvider&#xA;    interface ITableProvider" />
   <AssemblyInfo>
     <AssemblyName>PresentationFramework</AssemblyName>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>

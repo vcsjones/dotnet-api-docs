@@ -308,43 +308,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="IsSynchronized">
-      <MemberSignature Language="C#" Value="public bool IsSynchronized { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool IsSynchronized" />
-      <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.CryptographicAttributeObjectCollection.IsSynchronized" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSynchronized As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSynchronized { bool get(); };" />
-      <MemberSignature Language="F#" Value="member this.IsSynchronized : bool" Usage="System.Security.Cryptography.CryptographicAttributeObjectCollection.IsSynchronized" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.IsSynchronized</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets a value that indicates whether access to the collection is synchronized, or thread safe.</summary>
-        <value>
-          <see langword="true" /> if access to the collection is thread safe; otherwise <see langword="false" />.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- This property always returns `false`, which means that the collection is not thread safe.  
-  
- ]]></format>
-        </remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Item">
       <MemberSignature Language="C#" Value="public System.Security.Cryptography.CryptographicAttributeObject this[int index] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Cryptography.CryptographicAttributeObject Item(int32)" />
@@ -414,36 +377,6 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="attribute" /> is <see langword="null" />.</exception>
         <altmember cref="T:System.Security.Cryptography.CryptographicAttributeObject" />
-      </Docs>
-    </Member>
-    <Member MemberName="SyncRoot">
-      <MemberSignature Language="C#" Value="public object SyncRoot { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance object SyncRoot" />
-      <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.CryptographicAttributeObjectCollection.SyncRoot" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SyncRoot As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SyncRoot { System::Object ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.SyncRoot : obj" Usage="System.Security.Cryptography.CryptographicAttributeObjectCollection.SyncRoot" />
-      <MemberType>Property</MemberType>
-      <Implements>
-        <InterfaceMember>P:System.Collections.ICollection.SyncRoot</InterfaceMember>
-      </Implements>
-      <AssemblyInfo>
-        <AssemblyName>System.Security</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets an <see cref="T:System.Object" /> object used to synchronize access to the collection.</summary>
-        <value>An <see cref="T:System.Object" /> object used to synchronize access to the <see cref="T:System.Security.Cryptography.CryptographicAttributeObjectCollection" /> collection.</value>
-        <remarks>To be added.</remarks>
-        <altmember cref="T:System.Security.Cryptography.CryptographicAttributeObjectCollection" />
       </Docs>
     </Member>
     <Member MemberName="System.Collections.ICollection.CopyTo">

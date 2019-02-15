@@ -1,6 +1,6 @@
 ﻿<Type Name="CalendarDayButton" FullName="System.Windows.Controls.Primitives.CalendarDayButton">
   <TypeSignature Language="C#" Value="public sealed class CalendarDayButton : System.Windows.Controls.Button" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CalendarDayButton extends System.Windows.Controls.Button" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarDayButton extends System.Windows.Controls.Button" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Primitives.CalendarDayButton" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarDayButton&#xA;Inherits Button" />
   <TypeSignature Language="C++ CLI" Value="public ref class CalendarDayButton sealed : System::Windows::Controls::Button" />
@@ -29,11 +29,6 @@
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.Primitives.CalendarDayButton" /> class.</summary>

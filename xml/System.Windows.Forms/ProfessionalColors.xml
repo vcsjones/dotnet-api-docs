@@ -1,6 +1,6 @@
 ﻿<Type Name="ProfessionalColors" FullName="System.Windows.Forms.ProfessionalColors">
   <TypeSignature Language="C#" Value="public sealed class ProfessionalColors" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ProfessionalColors extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ProfessionalColors extends System.Object" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.ProfessionalColors" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ProfessionalColors" />
   <TypeSignature Language="C++ CLI" Value="public ref class ProfessionalColors sealed" />

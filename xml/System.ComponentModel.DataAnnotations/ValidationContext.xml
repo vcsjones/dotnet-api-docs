@@ -195,9 +195,6 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetService(Type ^ serviceType);" />
       <MemberSignature Language="F#" Value="abstract member GetService : Type -&gt; obj&#xA;override this.GetService : Type -&gt; obj" Usage="validationContext.GetService serviceType" />
       <MemberType>Method</MemberType>
-      <Implements>
-        <InterfaceMember>M:System.IServiceProvider.GetService(System.Type)</InterfaceMember>
-      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Annotations</AssemblyName>
         <AssemblyVersion>4.0.10.0</AssemblyVersion>
@@ -282,11 +279,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -322,14 +314,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -365,11 +349,6 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
@@ -412,41 +391,6 @@
         <summary>Gets the type of the object to validate.</summary>
         <value>The type of the object to validate.</value>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ServiceContainer">
-      <MemberSignature Language="C#" Value="public System.ComponentModel.Design.IServiceContainer ServiceContainer { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.ComponentModel.Design.IServiceContainer ServiceContainer" />
-      <MemberSignature Language="DocId" Value="P:System.ComponentModel.DataAnnotations.ValidationContext.ServiceContainer" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceContainer As IServiceContainer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ComponentModel::Design::IServiceContainer ^ ServiceContainer { System::ComponentModel::Design::IServiceContainer ^ get(); };" />
-      <MemberSignature Language="F#" Value="member this.ServiceContainer : System.ComponentModel.Design.IServiceContainer" Usage="System.ComponentModel.DataAnnotations.ValidationContext.ServiceContainer" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.ComponentModel.DataAnnotations</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.ComponentModel.Annotations</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.ComponentModel.Design.IServiceContainer</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets the validation services container.</summary>
-        <value>The validation services container.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Remarks  
- The <xref:System.ComponentModel.DataAnnotations.ValidationContext.ServiceContainer%2A> property is used for getting services during validation.  
-  
- If the <xref:System.IServiceProvider> provider that is specified in the constructor implements the <xref:System.ComponentModel.Design.IServiceContainer> interface, the provider is used to initialize the <xref:System.ComponentModel.DataAnnotations.ValidationContext.ServiceContainer%2A> property. Otherwise the <xref:System.ComponentModel.DataAnnotations.ValidationContext.ServiceContainer%2A> property is initialized to an empty container.  
-  
- ]]></format>
-        </remarks>
-        <altmember cref="M:System.ComponentModel.DataAnnotations.ValidationContext.GetService(System.Type)" />
       </Docs>
     </Member>
   </Members>

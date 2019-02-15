@@ -75,7 +75,7 @@
         <Parameter Name="typeConfigHost" Type="System.Type" />
         <Parameter Name="hostInitParams" Type="System.Object[]">
           <Attributes>
-            <Attribute FrameworkAlternate="dotnet-plat-ext-2.1">
+            <Attribute>
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>

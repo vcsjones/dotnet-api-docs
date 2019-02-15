@@ -1,6 +1,6 @@
 ﻿<Type Name="RibbonMenuButton" FullName="System.Windows.Controls.Ribbon.RibbonMenuButton">
   <TypeSignature Language="C#" Value="public class RibbonMenuButton : System.Windows.Controls.Menu" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi RibbonMenuButton extends System.Windows.Controls.Menu" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RibbonMenuButton extends System.Windows.Controls.Menu" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.Ribbon.RibbonMenuButton" />
   <TypeSignature Language="VB.NET" Value="Public Class RibbonMenuButton&#xA;Inherits Menu" />
   <TypeSignature Language="C++ CLI" Value="public ref class RibbonMenuButton : System::Windows::Controls::Menu" />
@@ -339,7 +339,7 @@ Ribbon menu button control with drop-down open
       <MemberSignature Language="C#" Value="public event EventHandler DropDownClosed;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DropDownClosed" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.Ribbon.RibbonMenuButton.DropDownClosed" />
-      <MemberSignature Language="VB.NET" Value="Public Event DropDownClosed As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DropDownClosed As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DropDownClosed;" />
       <MemberSignature Language="F#" Value="member this.DropDownClosed : EventHandler " Usage="member this.DropDownClosed : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -414,7 +414,7 @@ Ribbon menu button control with drop-down open
       <MemberSignature Language="C#" Value="public event EventHandler DropDownOpened;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler DropDownOpened" />
       <MemberSignature Language="DocId" Value="E:System.Windows.Controls.Ribbon.RibbonMenuButton.DropDownOpened" />
-      <MemberSignature Language="VB.NET" Value="Public Event DropDownOpened As EventHandler " />
+      <MemberSignature Language="VB.NET" Value="Public Custom Event DropDownOpened As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler ^ DropDownOpened;" />
       <MemberSignature Language="F#" Value="member this.DropDownOpened : EventHandler " Usage="member this.DropDownOpened : System.EventHandler " />
       <MemberType>Event</MemberType>
@@ -594,11 +594,11 @@ Ribbon menu button control with drop-down open
       </Docs>
     </Member>
     <Member MemberName="HandlesScrolling">
-      <MemberSignature Language="C#" Value="protected internal override bool HandlesScrolling { get; }" />
+      <MemberSignature Language="C#" Value="protected override bool HandlesScrolling { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HandlesScrolling" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Controls.Ribbon.RibbonMenuButton.HandlesScrolling" />
-      <MemberSignature Language="VB.NET" Value="Protected Friend Overrides ReadOnly Property HandlesScrolling As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual property bool HandlesScrolling { bool get(); };" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property HandlesScrolling As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property bool HandlesScrolling { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.HandlesScrolling : bool" Usage="System.Windows.Controls.Ribbon.RibbonMenuButton.HandlesScrolling" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>

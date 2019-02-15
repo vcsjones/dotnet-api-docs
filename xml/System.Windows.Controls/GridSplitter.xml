@@ -1,6 +1,6 @@
 ﻿<Type Name="GridSplitter" FullName="System.Windows.Controls.GridSplitter">
   <TypeSignature Language="C#" Value="public class GridSplitter : System.Windows.Controls.Primitives.Thumb" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi GridSplitter extends System.Windows.Controls.Primitives.Thumb" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GridSplitter extends System.Windows.Controls.Primitives.Thumb" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Controls.GridSplitter" />
   <TypeSignature Language="VB.NET" Value="Public Class GridSplitter&#xA;Inherits Thumb" />
   <TypeSignature Language="C++ CLI" Value="public ref class GridSplitter : System::Windows::Controls::Primitives::Thumb" />
@@ -78,11 +78,6 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters />
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Windows.Controls.GridSplitter" /> class.</summary>
