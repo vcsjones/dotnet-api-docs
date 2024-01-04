@@ -1141,6 +1141,7 @@ The algorithm-specific key import failed.
 
 <paramref name="input" /> contains an encrypted PEM-encoded key.
         </exception>
+        <exception cref="T:System.Security.Cryptography.CryptographicException"><paramref name="input" /> contains an unsupported key or key parameter, or could not be decoded successfully.</exception>
       </Docs>
     </Member>
     <Member MemberName="ImportParameters">

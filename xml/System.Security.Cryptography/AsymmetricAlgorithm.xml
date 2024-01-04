@@ -1388,6 +1388,7 @@ Because each algorithm may have algorithm-specific PEM labels, the default behav
 
 <paramref name="input" /> contains an encrypted PEM-encoded key.
             </exception>
+            <exception cref="T:System.Security.Cryptography.CryptographicException"><paramref name="input" /> contains an unsupported key or key parameter, or could not be decoded successfully.</exception>
       </Docs>
     </Member>
     <Member MemberName="ImportPkcs8PrivateKey">
